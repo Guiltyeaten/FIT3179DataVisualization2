@@ -1,0 +1,27 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Male vs female median salary by field, 2024 → 2025",
+  "data": {"url": "data/salary_by_area.csv"},
+  "transform": [
+    {"filter": "study_area_level == 'broad' && gender != 'Total' && (year == 2024 || year == 2025)"}
+  ],
+  "mark": {"type": "line", "strokeWidth": 2.2},
+  "encoding": {
+    "x": {"field": "year", "type": "ordinal", "title": null,
+          "axis": {"labelAngle": 0}},
+    "y": {"field": "median_salary", "type": "quantitative",
+          "title": "Median salary (AUD)", "axis": {"format": "$,.0f"}},
+    "color": {"field": "gender", "type": "nominal",
+              "scale": {"range": ["#4C78A8", "#E45756"]},
+              "title": "Gender"},
+    "detail": {"field": "study_area", "type": "nominal"},
+    "opacity": {"value": 0.75},
+    "tooltip": [
+      {"field": "study_area", "type": "nominal"},
+      {"field": "gender", "type": "nominal"},
+      {"field": "year", "type": "ordinal"},
+      {"field": "median_salary", "type": "quantitative", "format": "$,.0f"}
+    ]
+  },
+  "width": 260, "height": 440
+}

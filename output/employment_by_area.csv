@@ -1,0 +1,751 @@
+year,course_level,study_area,measure,value,unit
+2025,UG,Agriculture and environmental studies,FTE,80.3,percent
+2024,UG,Agriculture and environmental studies,FTE,77.8,percent
+2023,UG,Agriculture and environmental studies,FTE,82.1,percent
+2022,UG,Agriculture and environmental studies,FTE,83.3,percent
+2021,UG,Agriculture and environmental studies,FTE,69.5,percent
+2020,UG,Agriculture and environmental studies,FTE,67.4,percent
+2025,UG,Agriculture and environmental studies,OE,92.0,percent
+2024,UG,Agriculture and environmental studies,OE,88.5,percent
+2023,UG,Agriculture and environmental studies,OE,91.2,percent
+2022,UG,Agriculture and environmental studies,OE,90.8,percent
+2021,UG,Agriculture and environmental studies,OE,85.9,percent
+2020,UG,Agriculture and environmental studies,OE,84.4,percent
+2025,UG,Agriculture and environmental studies,LF,88.4,percent
+2024,UG,Agriculture and environmental studies,LF,93.1,percent
+2023,UG,Agriculture and environmental studies,LF,91.6,percent
+2022,UG,Agriculture and environmental studies,LF,89.8,percent
+2021,UG,Agriculture and environmental studies,LF,92.3,percent
+2020,UG,Agriculture and environmental studies,LF,93.6,percent
+2025,UG,Architecture and built environment,FTE,72.7,percent
+2024,UG,Architecture and built environment,FTE,66.6,percent
+2023,UG,Architecture and built environment,FTE,78.7,percent
+2022,UG,Architecture and built environment,FTE,78.8,percent
+2021,UG,Architecture and built environment,FTE,65.2,percent
+2020,UG,Architecture and built environment,FTE,67.7,percent
+2025,UG,Architecture and built environment,OE,86.8,percent
+2024,UG,Architecture and built environment,OE,80.4,percent
+2023,UG,Architecture and built environment,OE,87.3,percent
+2022,UG,Architecture and built environment,OE,87.6,percent
+2021,UG,Architecture and built environment,OE,82.4,percent
+2020,UG,Architecture and built environment,OE,82.3,percent
+2025,UG,Architecture and built environment,LF,88.5,percent
+2024,UG,Architecture and built environment,LF,94.4,percent
+2023,UG,Architecture and built environment,LF,95.6,percent
+2022,UG,Architecture and built environment,LF,93.4,percent
+2021,UG,Architecture and built environment,LF,95.0,percent
+2020,UG,Architecture and built environment,LF,93.5,percent
+2025,UG,Business and management,FTE,79.2,percent
+2024,UG,Business and management,FTE,78.5,percent
+2023,UG,Business and management,FTE,84.5,percent
+2022,UG,Business and management,FTE,84.2,percent
+2021,UG,Business and management,FTE,72.8,percent
+2020,UG,Business and management,FTE,74.3,percent
+2025,UG,Business and management,OE,89.5,percent
+2024,UG,Business and management,OE,88.7,percent
+2023,UG,Business and management,OE,89.9,percent
+2022,UG,Business and management,OE,90.1,percent
+2021,UG,Business and management,OE,86.3,percent
+2020,UG,Business and management,OE,86.4,percent
+2025,UG,Business and management,LF,92.1,percent
+2024,UG,Business and management,LF,95.9,percent
+2023,UG,Business and management,LF,96.0,percent
+2022,UG,Business and management,LF,95.9,percent
+2021,UG,Business and management,LF,95.9,percent
+2020,UG,Business and management,LF,95.3,percent
+2025,UG,Communications,FTE,59.2,percent
+2024,UG,Communications,FTE,58.3,percent
+2023,UG,Communications,FTE,64.9,percent
+2022,UG,Communications,FTE,68.4,percent
+2021,UG,Communications,FTE,55.2,percent
+2020,UG,Communications,FTE,52.8,percent
+2025,UG,Communications,OE,83.6,percent
+2024,UG,Communications,OE,80.9,percent
+2023,UG,Communications,OE,85.1,percent
+2022,UG,Communications,OE,86.5,percent
+2021,UG,Communications,OE,81.5,percent
+2020,UG,Communications,OE,79.2,percent
+2025,UG,Communications,LF,84.0,percent
+2024,UG,Communications,LF,91.3,percent
+2023,UG,Communications,LF,89.4,percent
+2022,UG,Communications,LF,89.9,percent
+2021,UG,Communications,LF,89.0,percent
+2020,UG,Communications,LF,87.3,percent
+2025,UG,Computing and information systems,FTE,65.3,percent
+2024,UG,Computing and information systems,FTE,67.8,percent
+2023,UG,Computing and information systems,FTE,74.4,percent
+2022,UG,Computing and information systems,FTE,76.6,percent
+2021,UG,Computing and information systems,FTE,67.9,percent
+2020,UG,Computing and information systems,FTE,72.1,percent
+2025,UG,Computing and information systems,OE,79.2,percent
+2024,UG,Computing and information systems,OE,80.4,percent
+2023,UG,Computing and information systems,OE,83.1,percent
+2022,UG,Computing and information systems,OE,83.1,percent
+2021,UG,Computing and information systems,OE,77.5,percent
+2020,UG,Computing and information systems,OE,81.3,percent
+2025,UG,Computing and information systems,LF,88.7,percent
+2024,UG,Computing and information systems,LF,93.7,percent
+2023,UG,Computing and information systems,LF,94.8,percent
+2022,UG,Computing and information systems,LF,94.2,percent
+2021,UG,Computing and information systems,LF,94.5,percent
+2020,UG,Computing and information systems,LF,93.8,percent
+2025,UG,Creative arts,FTE,53.0,percent
+2024,UG,Creative arts,FTE,48.4,percent
+2023,UG,Creative arts,FTE,53.5,percent
+2022,UG,Creative arts,FTE,57.3,percent
+2021,UG,Creative arts,FTE,49.2,percent
+2020,UG,Creative arts,FTE,45.8,percent
+2025,UG,Creative arts,OE,82.4,percent
+2024,UG,Creative arts,OE,79.3,percent
+2023,UG,Creative arts,OE,81.1,percent
+2022,UG,Creative arts,OE,81.2,percent
+2021,UG,Creative arts,OE,78.2,percent
+2020,UG,Creative arts,OE,78.7,percent
+2025,UG,Creative arts,LF,83.7,percent
+2024,UG,Creative arts,LF,91.1,percent
+2023,UG,Creative arts,LF,90.4,percent
+2022,UG,Creative arts,LF,90.2,percent
+2021,UG,Creative arts,LF,90.6,percent
+2020,UG,Creative arts,LF,87.7,percent
+2025,UG,Dentistry,FTE,84.6,percent
+2024,UG,Dentistry,FTE,85.6,percent
+2023,UG,Dentistry,FTE,83.2,percent
+2022,UG,Dentistry,FTE,86.6,percent
+2021,UG,Dentistry,FTE,84.5,percent
+2020,UG,Dentistry,FTE,80.0,percent
+2025,UG,Dentistry,OE,94.0,percent
+2024,UG,Dentistry,OE,91.0,percent
+2023,UG,Dentistry,OE,91.9,percent
+2022,UG,Dentistry,OE,91.2,percent
+2021,UG,Dentistry,OE,94.5,percent
+2020,UG,Dentistry,OE,90.6,percent
+2025,UG,Dentistry,LF,90.1,percent
+2024,UG,Dentistry,LF,94.7,percent
+2023,UG,Dentistry,LF,93.9,percent
+2022,UG,Dentistry,LF,94.0,percent
+2021,UG,Dentistry,LF,91.7,percent
+2020,UG,Dentistry,LF,90.4,percent
+2025,UG,Engineering,FTE,83.4,percent
+2024,UG,Engineering,FTE,85.5,percent
+2023,UG,Engineering,FTE,89.2,percent
+2022,UG,Engineering,FTE,87.5,percent
+2021,UG,Engineering,FTE,80.3,percent
+2020,UG,Engineering,FTE,83.0,percent
+2025,UG,Engineering,OE,90.1,percent
+2024,UG,Engineering,OE,89.5,percent
+2023,UG,Engineering,OE,91.7,percent
+2022,UG,Engineering,OE,90.8,percent
+2021,UG,Engineering,OE,86.6,percent
+2020,UG,Engineering,OE,87.6,percent
+2025,UG,Engineering,LF,92.8,percent
+2024,UG,Engineering,LF,94.5,percent
+2023,UG,Engineering,LF,95.5,percent
+2022,UG,Engineering,LF,95.5,percent
+2021,UG,Engineering,LF,95.0,percent
+2020,UG,Engineering,LF,95.3,percent
+2025,UG,Health services and support,FTE,78.3,percent
+2024,UG,Health services and support,FTE,75.4,percent
+2023,UG,Health services and support,FTE,78.0,percent
+2022,UG,Health services and support,FTE,78.5,percent
+2021,UG,Health services and support,FTE,72.5,percent
+2020,UG,Health services and support,FTE,67.2,percent
+2025,UG,Health services and support,OE,92.4,percent
+2024,UG,Health services and support,OE,89.6,percent
+2023,UG,Health services and support,OE,90.9,percent
+2022,UG,Health services and support,OE,90.1,percent
+2021,UG,Health services and support,OE,88.4,percent
+2020,UG,Health services and support,OE,87.6,percent
+2025,UG,Health services and support,LF,87.9,percent
+2024,UG,Health services and support,LF,93.3,percent
+2023,UG,Health services and support,LF,92.6,percent
+2022,UG,Health services and support,LF,92.5,percent
+2021,UG,Health services and support,LF,93.1,percent
+2020,UG,Health services and support,LF,92.9,percent
+2025,UG,"Humanities, culture and social sciences",FTE,68.0,percent
+2024,UG,"Humanities, culture and social sciences",FTE,66.7,percent
+2023,UG,"Humanities, culture and social sciences",FTE,71.8,percent
+2022,UG,"Humanities, culture and social sciences",FTE,72.9,percent
+2021,UG,"Humanities, culture and social sciences",FTE,57.9,percent
+2020,UG,"Humanities, culture and social sciences",FTE,60.9,percent
+2025,UG,"Humanities, culture and social sciences",OE,86.8,percent
+2024,UG,"Humanities, culture and social sciences",OE,84.5,percent
+2023,UG,"Humanities, culture and social sciences",OE,86.8,percent
+2022,UG,"Humanities, culture and social sciences",OE,86.6,percent
+2021,UG,"Humanities, culture and social sciences",OE,81.7,percent
+2020,UG,"Humanities, culture and social sciences",OE,83.4,percent
+2025,UG,"Humanities, culture and social sciences",LF,85.4,percent
+2024,UG,"Humanities, culture and social sciences",LF,90.9,percent
+2023,UG,"Humanities, culture and social sciences",LF,90.3,percent
+2022,UG,"Humanities, culture and social sciences",LF,91.1,percent
+2021,UG,"Humanities, culture and social sciences",LF,89.9,percent
+2020,UG,"Humanities, culture and social sciences",LF,88.6,percent
+2025,UG,Law and paralegal studies,FTE,82.5,percent
+2024,UG,Law and paralegal studies,FTE,79.3,percent
+2023,UG,Law and paralegal studies,FTE,84.5,percent
+2022,UG,Law and paralegal studies,FTE,80.2,percent
+2021,UG,Law and paralegal studies,FTE,72.5,percent
+2020,UG,Law and paralegal studies,FTE,75.7,percent
+2025,UG,Law and paralegal studies,OE,89.7,percent
+2024,UG,Law and paralegal studies,OE,88.5,percent
+2023,UG,Law and paralegal studies,OE,89.6,percent
+2022,UG,Law and paralegal studies,OE,87.4,percent
+2021,UG,Law and paralegal studies,OE,84.3,percent
+2020,UG,Law and paralegal studies,OE,85.7,percent
+2025,UG,Law and paralegal studies,LF,90.8,percent
+2024,UG,Law and paralegal studies,LF,94.4,percent
+2023,UG,Law and paralegal studies,LF,94.8,percent
+2022,UG,Law and paralegal studies,LF,94.3,percent
+2021,UG,Law and paralegal studies,LF,94.9,percent
+2020,UG,Law and paralegal studies,LF,94.4,percent
+2025,UG,Medicine,FTE,93.2,percent
+2024,UG,Medicine,FTE,90.4,percent
+2023,UG,Medicine,FTE,95.6,percent
+2022,UG,Medicine,FTE,93.0,percent
+2021,UG,Medicine,FTE,90.2,percent
+2020,UG,Medicine,FTE,86.7,percent
+2025,UG,Medicine,OE,96.4,percent
+2024,UG,Medicine,OE,93.4,percent
+2023,UG,Medicine,OE,97.0,percent
+2022,UG,Medicine,OE,93.0,percent
+2021,UG,Medicine,OE,92.9,percent
+2020,UG,Medicine,OE,90.8,percent
+2025,UG,Medicine,LF,89.2,percent
+2024,UG,Medicine,LF,91.3,percent
+2023,UG,Medicine,LF,95.1,percent
+2022,UG,Medicine,LF,91.8,percent
+2021,UG,Medicine,LF,92.5,percent
+2020,UG,Medicine,LF,88.9,percent
+2025,UG,Nursing,FTE,80.8,percent
+2024,UG,Nursing,FTE,85.5,percent
+2023,UG,Nursing,FTE,86.8,percent
+2022,UG,Nursing,FTE,82.6,percent
+2021,UG,Nursing,FTE,74.2,percent
+2020,UG,Nursing,FTE,72.7,percent
+2025,UG,Nursing,OE,92.7,percent
+2024,UG,Nursing,OE,91.7,percent
+2023,UG,Nursing,OE,91.9,percent
+2022,UG,Nursing,OE,90.9,percent
+2021,UG,Nursing,OE,88.8,percent
+2020,UG,Nursing,OE,89.2,percent
+2025,UG,Nursing,LF,92.6,percent
+2024,UG,Nursing,LF,95.8,percent
+2023,UG,Nursing,LF,95.6,percent
+2022,UG,Nursing,LF,95.5,percent
+2021,UG,Nursing,LF,95.8,percent
+2020,UG,Nursing,LF,96.2,percent
+2025,UG,Pharmacy,FTE,96.4,percent
+2024,UG,Pharmacy,FTE,91.4,percent
+2023,UG,Pharmacy,FTE,98.4,percent
+2022,UG,Pharmacy,FTE,96.2,percent
+2021,UG,Pharmacy,FTE,95.0,percent
+2020,UG,Pharmacy,FTE,96.4,percent
+2025,UG,Pharmacy,OE,96.3,percent
+2024,UG,Pharmacy,OE,91.6,percent
+2023,UG,Pharmacy,OE,97.9,percent
+2022,UG,Pharmacy,OE,96.9,percent
+2021,UG,Pharmacy,OE,93.6,percent
+2020,UG,Pharmacy,OE,95.8,percent
+2025,UG,Pharmacy,LF,93.0,percent
+2024,UG,Pharmacy,LF,95.8,percent
+2023,UG,Pharmacy,LF,95.2,percent
+2022,UG,Pharmacy,LF,94.2,percent
+2021,UG,Pharmacy,LF,94.7,percent
+2020,UG,Pharmacy,LF,96.3,percent
+2025,UG,Psychology,FTE,69.9,percent
+2024,UG,Psychology,FTE,65.5,percent
+2023,UG,Psychology,FTE,72.7,percent
+2022,UG,Psychology,FTE,72.0,percent
+2021,UG,Psychology,FTE,60.2,percent
+2020,UG,Psychology,FTE,61.4,percent
+2025,UG,Psychology,OE,90.2,percent
+2024,UG,Psychology,OE,86.9,percent
+2023,UG,Psychology,OE,88.1,percent
+2022,UG,Psychology,OE,87.3,percent
+2021,UG,Psychology,OE,83.5,percent
+2020,UG,Psychology,OE,84.4,percent
+2025,UG,Psychology,LF,84.9,percent
+2024,UG,Psychology,LF,89.4,percent
+2023,UG,Psychology,LF,90.2,percent
+2022,UG,Psychology,LF,90.0,percent
+2021,UG,Psychology,LF,87.1,percent
+2020,UG,Psychology,LF,88.1,percent
+2025,UG,Rehabilitation,FTE,94.0,percent
+2024,UG,Rehabilitation,FTE,94.9,percent
+2023,UG,Rehabilitation,FTE,95.6,percent
+2022,UG,Rehabilitation,FTE,96.5,percent
+2021,UG,Rehabilitation,FTE,94.4,percent
+2020,UG,Rehabilitation,FTE,87.3,percent
+2025,UG,Rehabilitation,OE,97.2,percent
+2024,UG,Rehabilitation,OE,95.9,percent
+2023,UG,Rehabilitation,OE,96.7,percent
+2022,UG,Rehabilitation,OE,96.7,percent
+2021,UG,Rehabilitation,OE,96.0,percent
+2020,UG,Rehabilitation,OE,94.4,percent
+2025,UG,Rehabilitation,LF,94.7,percent
+2024,UG,Rehabilitation,LF,97.2,percent
+2023,UG,Rehabilitation,LF,96.1,percent
+2022,UG,Rehabilitation,LF,97.6,percent
+2021,UG,Rehabilitation,LF,97.8,percent
+2020,UG,Rehabilitation,LF,97.9,percent
+2025,UG,Science and mathematics,FTE,65.4,percent
+2024,UG,Science and mathematics,FTE,63.6,percent
+2023,UG,Science and mathematics,FTE,69.8,percent
+2022,UG,Science and mathematics,FTE,72.5,percent
+2021,UG,Science and mathematics,FTE,61.1,percent
+2020,UG,Science and mathematics,FTE,59.1,percent
+2025,UG,Science and mathematics,OE,86.7,percent
+2024,UG,Science and mathematics,OE,82.5,percent
+2023,UG,Science and mathematics,OE,86.2,percent
+2022,UG,Science and mathematics,OE,86.1,percent
+2021,UG,Science and mathematics,OE,81.5,percent
+2020,UG,Science and mathematics,OE,81.7,percent
+2025,UG,Science and mathematics,LF,82.4,percent
+2024,UG,Science and mathematics,LF,87.2,percent
+2023,UG,Science and mathematics,LF,86.9,percent
+2022,UG,Science and mathematics,LF,87.5,percent
+2021,UG,Science and mathematics,LF,84.8,percent
+2020,UG,Science and mathematics,LF,84.3,percent
+2025,UG,Social work,FTE,79.6,percent
+2024,UG,Social work,FTE,77.3,percent
+2023,UG,Social work,FTE,80.7,percent
+2022,UG,Social work,FTE,77.4,percent
+2021,UG,Social work,FTE,70.7,percent
+2020,UG,Social work,FTE,67.2,percent
+2025,UG,Social work,OE,89.8,percent
+2024,UG,Social work,OE,88.6,percent
+2023,UG,Social work,OE,89.8,percent
+2022,UG,Social work,OE,87.3,percent
+2021,UG,Social work,OE,84.7,percent
+2020,UG,Social work,OE,85.0,percent
+2025,UG,Social work,LF,91.0,percent
+2024,UG,Social work,LF,94.7,percent
+2023,UG,Social work,LF,93.9,percent
+2022,UG,Social work,LF,94.7,percent
+2021,UG,Social work,LF,94.2,percent
+2020,UG,Social work,LF,94.3,percent
+2025,UG,Teacher education,FTE,86.2,percent
+2024,UG,Teacher education,FTE,86.8,percent
+2023,UG,Teacher education,FTE,89.6,percent
+2022,UG,Teacher education,FTE,86.7,percent
+2021,UG,Teacher education,FTE,79.1,percent
+2020,UG,Teacher education,FTE,80.6,percent
+2025,UG,Teacher education,OE,94.8,percent
+2024,UG,Teacher education,OE,92.5,percent
+2023,UG,Teacher education,OE,94.1,percent
+2022,UG,Teacher education,OE,93.0,percent
+2021,UG,Teacher education,OE,91.1,percent
+2020,UG,Teacher education,OE,90.9,percent
+2025,UG,Teacher education,LF,90.1,percent
+2024,UG,Teacher education,LF,94.4,percent
+2023,UG,Teacher education,LF,94.0,percent
+2022,UG,Teacher education,LF,94.1,percent
+2021,UG,Teacher education,LF,94.8,percent
+2020,UG,Teacher education,LF,94.4,percent
+2025,UG,"Tourism, hospitality, personal services, sport and recreation",FTE,78.6,percent
+2024,UG,"Tourism, hospitality, personal services, sport and recreation",FTE,69.8,percent
+2023,UG,"Tourism, hospitality, personal services, sport and recreation",FTE,73.0,percent
+2022,UG,"Tourism, hospitality, personal services, sport and recreation",FTE,65.1,percent
+2021,UG,"Tourism, hospitality, personal services, sport and recreation",FTE,58.7,percent
+2020,UG,"Tourism, hospitality, personal services, sport and recreation",FTE,52.4,percent
+2025,UG,"Tourism, hospitality, personal services, sport and recreation",OE,90.1,percent
+2024,UG,"Tourism, hospitality, personal services, sport and recreation",OE,88.4,percent
+2023,UG,"Tourism, hospitality, personal services, sport and recreation",OE,88.2,percent
+2022,UG,"Tourism, hospitality, personal services, sport and recreation",OE,89.4,percent
+2021,UG,"Tourism, hospitality, personal services, sport and recreation",OE,82.1,percent
+2020,UG,"Tourism, hospitality, personal services, sport and recreation",OE,82.4,percent
+2025,UG,"Tourism, hospitality, personal services, sport and recreation",LF,90.5,percent
+2024,UG,"Tourism, hospitality, personal services, sport and recreation",LF,95.0,percent
+2023,UG,"Tourism, hospitality, personal services, sport and recreation",LF,97.1,percent
+2022,UG,"Tourism, hospitality, personal services, sport and recreation",LF,96.2,percent
+2021,UG,"Tourism, hospitality, personal services, sport and recreation",LF,91.2,percent
+2020,UG,"Tourism, hospitality, personal services, sport and recreation",LF,91.3,percent
+2025,UG,Veterinary science,FTE,85.6,percent
+2024,UG,Veterinary science,FTE,84.7,percent
+2023,UG,Veterinary science,FTE,92.1,percent
+2022,UG,Veterinary science,FTE,89.9,percent
+2021,UG,Veterinary science,FTE,87.0,percent
+2020,UG,Veterinary science,FTE,78.2,percent
+2025,UG,Veterinary science,OE,90.8,percent
+2024,UG,Veterinary science,OE,89.2,percent
+2023,UG,Veterinary science,OE,92.3,percent
+2022,UG,Veterinary science,OE,94.7,percent
+2021,UG,Veterinary science,OE,90.6,percent
+2020,UG,Veterinary science,OE,89.9,percent
+2025,UG,Veterinary science,LF,92.2,percent
+2024,UG,Veterinary science,LF,92.7,percent
+2023,UG,Veterinary science,LF,94.0,percent
+2022,UG,Veterinary science,LF,93.5,percent
+2021,UG,Veterinary science,LF,87.5,percent
+2020,UG,Veterinary science,LF,88.1,percent
+2025,PGC,Agriculture and environmental studies,FTE,78.6,percent
+2024,PGC,Agriculture and environmental studies,FTE,80.3,percent
+2023,PGC,Agriculture and environmental studies,FTE,82.1,percent
+2022,PGC,Agriculture and environmental studies,FTE,83.3,percent
+2021,PGC,Agriculture and environmental studies,FTE,75.2,percent
+2020,PGC,Agriculture and environmental studies,FTE,76.0,percent
+2025,PGC,Agriculture and environmental studies,OE,91.4,percent
+2024,PGC,Agriculture and environmental studies,OE,90.6,percent
+2023,PGC,Agriculture and environmental studies,OE,91.2,percent
+2022,PGC,Agriculture and environmental studies,OE,90.8,percent
+2021,PGC,Agriculture and environmental studies,OE,88.0,percent
+2020,PGC,Agriculture and environmental studies,OE,86.9,percent
+2025,PGC,Agriculture and environmental studies,LF,89.7,percent
+2024,PGC,Agriculture and environmental studies,LF,94.2,percent
+2023,PGC,Agriculture and environmental studies,LF,91.6,percent
+2022,PGC,Agriculture and environmental studies,LF,89.8,percent
+2021,PGC,Agriculture and environmental studies,LF,92.3,percent
+2020,PGC,Agriculture and environmental studies,LF,96.6,percent
+2025,PGC,Architecture and built environment,FTE,75.4,percent
+2024,PGC,Architecture and built environment,FTE,74.8,percent
+2023,PGC,Architecture and built environment,FTE,78.7,percent
+2022,PGC,Architecture and built environment,FTE,78.8,percent
+2021,PGC,Architecture and built environment,FTE,79.5,percent
+2020,PGC,Architecture and built environment,FTE,76.7,percent
+2025,PGC,Architecture and built environment,OE,85.2,percent
+2024,PGC,Architecture and built environment,OE,83.1,percent
+2023,PGC,Architecture and built environment,OE,87.3,percent
+2022,PGC,Architecture and built environment,OE,87.6,percent
+2021,PGC,Architecture and built environment,OE,86.0,percent
+2020,PGC,Architecture and built environment,OE,86.5,percent
+2025,PGC,Architecture and built environment,LF,93.4,percent
+2024,PGC,Architecture and built environment,LF,95.9,percent
+2023,PGC,Architecture and built environment,LF,95.6,percent
+2022,PGC,Architecture and built environment,LF,93.4,percent
+2021,PGC,Architecture and built environment,LF,96.5,percent
+2020,PGC,Architecture and built environment,LF,96.7,percent
+2025,PGC,Business and management,FTE,92.2,percent
+2024,PGC,Business and management,FTE,92.3,percent
+2023,PGC,Business and management,FTE,84.5,percent
+2022,PGC,Business and management,FTE,84.2,percent
+2021,PGC,Business and management,FTE,88.5,percent
+2020,PGC,Business and management,FTE,89.9,percent
+2025,PGC,Business and management,OE,94.2,percent
+2024,PGC,Business and management,OE,94.0,percent
+2023,PGC,Business and management,OE,89.9,percent
+2022,PGC,Business and management,OE,90.1,percent
+2021,PGC,Business and management,OE,91.6,percent
+2020,PGC,Business and management,OE,92.7,percent
+2025,PGC,Business and management,LF,95.1,percent
+2024,PGC,Business and management,LF,97.3,percent
+2023,PGC,Business and management,LF,96.0,percent
+2022,PGC,Business and management,LF,95.9,percent
+2021,PGC,Business and management,LF,96.8,percent
+2020,PGC,Business and management,LF,96.8,percent
+2025,PGC,Communications,FTE,69.1,percent
+2024,PGC,Communications,FTE,68.2,percent
+2023,PGC,Communications,FTE,64.9,percent
+2022,PGC,Communications,FTE,68.4,percent
+2021,PGC,Communications,FTE,69.1,percent
+2020,PGC,Communications,FTE,65.5,percent
+2025,PGC,Communications,OE,84.1,percent
+2024,PGC,Communications,OE,85.2,percent
+2023,PGC,Communications,OE,85.1,percent
+2022,PGC,Communications,OE,86.5,percent
+2021,PGC,Communications,OE,83.4,percent
+2020,PGC,Communications,OE,84.4,percent
+2025,PGC,Communications,LF,86.3,percent
+2024,PGC,Communications,LF,92.6,percent
+2023,PGC,Communications,LF,89.4,percent
+2022,PGC,Communications,LF,89.9,percent
+2021,PGC,Communications,LF,93.3,percent
+2020,PGC,Communications,LF,91.4,percent
+2025,PGC,Computing and information systems,FTE,81.5,percent
+2024,PGC,Computing and information systems,FTE,81.2,percent
+2023,PGC,Computing and information systems,FTE,74.4,percent
+2022,PGC,Computing and information systems,FTE,76.6,percent
+2021,PGC,Computing and information systems,FTE,78.5,percent
+2020,PGC,Computing and information systems,FTE,84.4,percent
+2025,PGC,Computing and information systems,OE,86.8,percent
+2024,PGC,Computing and information systems,OE,85.9,percent
+2023,PGC,Computing and information systems,OE,83.1,percent
+2022,PGC,Computing and information systems,OE,83.1,percent
+2021,PGC,Computing and information systems,OE,84.8,percent
+2020,PGC,Computing and information systems,OE,88.5,percent
+2025,PGC,Computing and information systems,LF,93.5,percent
+2024,PGC,Computing and information systems,LF,96.5,percent
+2023,PGC,Computing and information systems,LF,94.8,percent
+2022,PGC,Computing and information systems,LF,94.2,percent
+2021,PGC,Computing and information systems,LF,95.3,percent
+2020,PGC,Computing and information systems,LF,95.5,percent
+2025,PGC,Creative arts,FTE,61.4,percent
+2024,PGC,Creative arts,FTE,66.9,percent
+2023,PGC,Creative arts,FTE,53.5,percent
+2022,PGC,Creative arts,FTE,57.3,percent
+2021,PGC,Creative arts,FTE,60.4,percent
+2020,PGC,Creative arts,FTE,59.0,percent
+2025,PGC,Creative arts,OE,82.3,percent
+2024,PGC,Creative arts,OE,82.5,percent
+2023,PGC,Creative arts,OE,81.1,percent
+2022,PGC,Creative arts,OE,81.2,percent
+2021,PGC,Creative arts,OE,81.3,percent
+2020,PGC,Creative arts,OE,85.5,percent
+2025,PGC,Creative arts,LF,88.3,percent
+2024,PGC,Creative arts,LF,91.7,percent
+2023,PGC,Creative arts,LF,90.4,percent
+2022,PGC,Creative arts,LF,90.2,percent
+2021,PGC,Creative arts,LF,95.0,percent
+2020,PGC,Creative arts,LF,91.7,percent
+2025,PGC,Dentistry,FTE,93.9,percent
+2024,PGC,Dentistry,FTE,93.1,percent
+2023,PGC,Dentistry,FTE,83.2,percent
+2022,PGC,Dentistry,FTE,86.6,percent
+2021,PGC,Dentistry,FTE,91.3,percent
+2020,PGC,Dentistry,FTE,91.7,percent
+2025,PGC,Dentistry,OE,98.2,percent
+2024,PGC,Dentistry,OE,94.4,percent
+2023,PGC,Dentistry,OE,91.9,percent
+2022,PGC,Dentistry,OE,91.2,percent
+2021,PGC,Dentistry,OE,95.1,percent
+2020,PGC,Dentistry,OE,93.9,percent
+2025,PGC,Dentistry,LF,95.0,percent
+2024,PGC,Dentistry,LF,96.8,percent
+2023,PGC,Dentistry,LF,93.9,percent
+2022,PGC,Dentistry,LF,94.0,percent
+2021,PGC,Dentistry,LF,97.1,percent
+2020,PGC,Dentistry,LF,96.1,percent
+2025,PGC,Engineering,FTE,88.2,percent
+2024,PGC,Engineering,FTE,88.3,percent
+2023,PGC,Engineering,FTE,89.2,percent
+2022,PGC,Engineering,FTE,87.5,percent
+2021,PGC,Engineering,FTE,86.6,percent
+2020,PGC,Engineering,FTE,86.0,percent
+2025,PGC,Engineering,OE,92.0,percent
+2024,PGC,Engineering,OE,90.7,percent
+2023,PGC,Engineering,OE,91.7,percent
+2022,PGC,Engineering,OE,90.8,percent
+2021,PGC,Engineering,OE,88.6,percent
+2020,PGC,Engineering,OE,89.3,percent
+2025,PGC,Engineering,LF,93.0,percent
+2024,PGC,Engineering,LF,96.9,percent
+2023,PGC,Engineering,LF,95.5,percent
+2022,PGC,Engineering,LF,95.5,percent
+2021,PGC,Engineering,LF,95.3,percent
+2020,PGC,Engineering,LF,97.6,percent
+2025,PGC,Health services and support,FTE,86.2,percent
+2024,PGC,Health services and support,FTE,87.1,percent
+2023,PGC,Health services and support,FTE,78.0,percent
+2022,PGC,Health services and support,FTE,78.5,percent
+2021,PGC,Health services and support,FTE,84.4,percent
+2020,PGC,Health services and support,FTE,82.9,percent
+2025,PGC,Health services and support,OE,94.2,percent
+2024,PGC,Health services and support,OE,93.5,percent
+2023,PGC,Health services and support,OE,90.9,percent
+2022,PGC,Health services and support,OE,90.1,percent
+2021,PGC,Health services and support,OE,92.0,percent
+2020,PGC,Health services and support,OE,91.4,percent
+2025,PGC,Health services and support,LF,94.0,percent
+2024,PGC,Health services and support,LF,95.4,percent
+2023,PGC,Health services and support,LF,92.6,percent
+2022,PGC,Health services and support,LF,92.5,percent
+2021,PGC,Health services and support,LF,96.1,percent
+2020,PGC,Health services and support,LF,95.7,percent
+2025,PGC,"Humanities, culture and social sciences",FTE,86.8,percent
+2024,PGC,"Humanities, culture and social sciences",FTE,82.1,percent
+2023,PGC,"Humanities, culture and social sciences",FTE,71.8,percent
+2022,PGC,"Humanities, culture and social sciences",FTE,72.9,percent
+2021,PGC,"Humanities, culture and social sciences",FTE,77.6,percent
+2020,PGC,"Humanities, culture and social sciences",FTE,81.1,percent
+2025,PGC,"Humanities, culture and social sciences",OE,93.0,percent
+2024,PGC,"Humanities, culture and social sciences",OE,89.9,percent
+2023,PGC,"Humanities, culture and social sciences",OE,86.8,percent
+2022,PGC,"Humanities, culture and social sciences",OE,86.6,percent
+2021,PGC,"Humanities, culture and social sciences",OE,87.0,percent
+2020,PGC,"Humanities, culture and social sciences",OE,88.9,percent
+2025,PGC,"Humanities, culture and social sciences",LF,88.3,percent
+2024,PGC,"Humanities, culture and social sciences",LF,89.5,percent
+2023,PGC,"Humanities, culture and social sciences",LF,90.3,percent
+2022,PGC,"Humanities, culture and social sciences",LF,91.1,percent
+2021,PGC,"Humanities, culture and social sciences",LF,90.7,percent
+2020,PGC,"Humanities, culture and social sciences",LF,91.1,percent
+2025,PGC,Law and paralegal studies,FTE,87.5,percent
+2024,PGC,Law and paralegal studies,FTE,89.4,percent
+2023,PGC,Law and paralegal studies,FTE,84.5,percent
+2022,PGC,Law and paralegal studies,FTE,80.2,percent
+2021,PGC,Law and paralegal studies,FTE,83.0,percent
+2020,PGC,Law and paralegal studies,FTE,87.2,percent
+2025,PGC,Law and paralegal studies,OE,90.7,percent
+2024,PGC,Law and paralegal studies,OE,91.5,percent
+2023,PGC,Law and paralegal studies,OE,89.6,percent
+2022,PGC,Law and paralegal studies,OE,87.4,percent
+2021,PGC,Law and paralegal studies,OE,88.2,percent
+2020,PGC,Law and paralegal studies,OE,90.0,percent
+2025,PGC,Law and paralegal studies,LF,91.7,percent
+2024,PGC,Law and paralegal studies,LF,96.2,percent
+2023,PGC,Law and paralegal studies,LF,94.8,percent
+2022,PGC,Law and paralegal studies,LF,94.3,percent
+2021,PGC,Law and paralegal studies,LF,96.8,percent
+2020,PGC,Law and paralegal studies,LF,96.5,percent
+2025,PGC,Medicine,FTE,96.1,percent
+2024,PGC,Medicine,FTE,96.7,percent
+2023,PGC,Medicine,FTE,95.6,percent
+2022,PGC,Medicine,FTE,93.0,percent
+2021,PGC,Medicine,FTE,97.1,percent
+2020,PGC,Medicine,FTE,97.6,percent
+2025,PGC,Medicine,OE,96.7,percent
+2024,PGC,Medicine,OE,96.4,percent
+2023,PGC,Medicine,OE,97.0,percent
+2022,PGC,Medicine,OE,93.0,percent
+2021,PGC,Medicine,OE,96.3,percent
+2020,PGC,Medicine,OE,97.4,percent
+2025,PGC,Medicine,LF,95.3,percent
+2024,PGC,Medicine,LF,95.6,percent
+2023,PGC,Medicine,LF,95.1,percent
+2022,PGC,Medicine,LF,91.8,percent
+2021,PGC,Medicine,LF,96.8,percent
+2020,PGC,Medicine,LF,97.6,percent
+2025,PGC,Nursing,FTE,94.5,percent
+2024,PGC,Nursing,FTE,94.3,percent
+2023,PGC,Nursing,FTE,86.8,percent
+2022,PGC,Nursing,FTE,82.6,percent
+2021,PGC,Nursing,FTE,91.7,percent
+2020,PGC,Nursing,FTE,92.0,percent
+2025,PGC,Nursing,OE,97.8,percent
+2024,PGC,Nursing,OE,96.0,percent
+2023,PGC,Nursing,OE,91.9,percent
+2022,PGC,Nursing,OE,90.9,percent
+2021,PGC,Nursing,OE,94.8,percent
+2020,PGC,Nursing,OE,95.8,percent
+2025,PGC,Nursing,LF,95.2,percent
+2024,PGC,Nursing,LF,96.2,percent
+2023,PGC,Nursing,LF,95.6,percent
+2022,PGC,Nursing,LF,95.5,percent
+2021,PGC,Nursing,LF,96.3,percent
+2020,PGC,Nursing,LF,95.9,percent
+2025,PGC,Pharmacy,FTE,97.1,percent
+2024,PGC,Pharmacy,FTE,93.8,percent
+2023,PGC,Pharmacy,FTE,98.4,percent
+2022,PGC,Pharmacy,FTE,96.2,percent
+2021,PGC,Pharmacy,FTE,97.8,percent
+2020,PGC,Pharmacy,FTE,96.5,percent
+2025,PGC,Pharmacy,OE,97.5,percent
+2024,PGC,Pharmacy,OE,95.1,percent
+2023,PGC,Pharmacy,OE,97.9,percent
+2022,PGC,Pharmacy,OE,96.9,percent
+2021,PGC,Pharmacy,OE,97.3,percent
+2020,PGC,Pharmacy,OE,97.5,percent
+2025,PGC,Pharmacy,LF,93.8,percent
+2024,PGC,Pharmacy,LF,95.9,percent
+2023,PGC,Pharmacy,LF,95.2,percent
+2022,PGC,Pharmacy,LF,94.2,percent
+2021,PGC,Pharmacy,LF,93.3,percent
+2020,PGC,Pharmacy,LF,97.0,percent
+2025,PGC,Psychology,FTE,84.0,percent
+2024,PGC,Psychology,FTE,85.2,percent
+2023,PGC,Psychology,FTE,72.7,percent
+2022,PGC,Psychology,FTE,72.0,percent
+2021,PGC,Psychology,FTE,83.0,percent
+2020,PGC,Psychology,FTE,78.8,percent
+2025,PGC,Psychology,OE,93.3,percent
+2024,PGC,Psychology,OE,92.2,percent
+2023,PGC,Psychology,OE,88.1,percent
+2022,PGC,Psychology,OE,87.3,percent
+2021,PGC,Psychology,OE,89.8,percent
+2020,PGC,Psychology,OE,90.4,percent
+2025,PGC,Psychology,LF,89.0,percent
+2024,PGC,Psychology,LF,92.7,percent
+2023,PGC,Psychology,LF,90.2,percent
+2022,PGC,Psychology,LF,90.0,percent
+2021,PGC,Psychology,LF,90.4,percent
+2020,PGC,Psychology,LF,91.8,percent
+2025,PGC,Rehabilitation,FTE,85.8,percent
+2024,PGC,Rehabilitation,FTE,90.9,percent
+2023,PGC,Rehabilitation,FTE,95.6,percent
+2022,PGC,Rehabilitation,FTE,96.5,percent
+2021,PGC,Rehabilitation,FTE,95.1,percent
+2020,PGC,Rehabilitation,FTE,89.8,percent
+2025,PGC,Rehabilitation,OE,94.2,percent
+2024,PGC,Rehabilitation,OE,93.1,percent
+2023,PGC,Rehabilitation,OE,96.7,percent
+2022,PGC,Rehabilitation,OE,96.7,percent
+2021,PGC,Rehabilitation,OE,97.1,percent
+2020,PGC,Rehabilitation,OE,94.6,percent
+2025,PGC,Rehabilitation,LF,96.5,percent
+2024,PGC,Rehabilitation,LF,96.5,percent
+2023,PGC,Rehabilitation,LF,96.1,percent
+2022,PGC,Rehabilitation,LF,97.6,percent
+2021,PGC,Rehabilitation,LF,97.8,percent
+2020,PGC,Rehabilitation,LF,96.7,percent
+2025,PGC,Science and mathematics,FTE,77.8,percent
+2024,PGC,Science and mathematics,FTE,79.3,percent
+2023,PGC,Science and mathematics,FTE,69.8,percent
+2022,PGC,Science and mathematics,FTE,72.5,percent
+2021,PGC,Science and mathematics,FTE,76.0,percent
+2020,PGC,Science and mathematics,FTE,72.0,percent
+2025,PGC,Science and mathematics,OE,87.2,percent
+2024,PGC,Science and mathematics,OE,88.5,percent
+2023,PGC,Science and mathematics,OE,86.2,percent
+2022,PGC,Science and mathematics,OE,86.1,percent
+2021,PGC,Science and mathematics,OE,85.3,percent
+2020,PGC,Science and mathematics,OE,84.5,percent
+2025,PGC,Science and mathematics,LF,89.3,percent
+2024,PGC,Science and mathematics,LF,94.6,percent
+2023,PGC,Science and mathematics,LF,86.9,percent
+2022,PGC,Science and mathematics,LF,87.5,percent
+2021,PGC,Science and mathematics,LF,92.9,percent
+2020,PGC,Science and mathematics,LF,92.5,percent
+2025,PGC,Social work,FTE,81.8,percent
+2024,PGC,Social work,FTE,78.6,percent
+2023,PGC,Social work,FTE,80.7,percent
+2022,PGC,Social work,FTE,77.4,percent
+2021,PGC,Social work,FTE,79.3,percent
+2020,PGC,Social work,FTE,74.8,percent
+2025,PGC,Social work,OE,91.8,percent
+2024,PGC,Social work,OE,90.0,percent
+2023,PGC,Social work,OE,89.8,percent
+2022,PGC,Social work,OE,87.3,percent
+2021,PGC,Social work,OE,88.7,percent
+2020,PGC,Social work,OE,87.7,percent
+2025,PGC,Social work,LF,90.9,percent
+2024,PGC,Social work,LF,93.5,percent
+2023,PGC,Social work,LF,93.9,percent
+2022,PGC,Social work,LF,94.7,percent
+2021,PGC,Social work,LF,95.6,percent
+2020,PGC,Social work,LF,95.2,percent
+2025,PGC,Teacher education,FTE,90.2,percent
+2024,PGC,Teacher education,FTE,89.9,percent
+2023,PGC,Teacher education,FTE,89.6,percent
+2022,PGC,Teacher education,FTE,86.7,percent
+2021,PGC,Teacher education,FTE,85.4,percent
+2020,PGC,Teacher education,FTE,85.9,percent
+2025,PGC,Teacher education,OE,95.2,percent
+2024,PGC,Teacher education,OE,94.7,percent
+2023,PGC,Teacher education,OE,94.1,percent
+2022,PGC,Teacher education,OE,93.0,percent
+2021,PGC,Teacher education,OE,93.6,percent
+2020,PGC,Teacher education,OE,93.3,percent
+2025,PGC,Teacher education,LF,93.1,percent
+2024,PGC,Teacher education,LF,95.7,percent
+2023,PGC,Teacher education,LF,94.0,percent
+2022,PGC,Teacher education,LF,94.1,percent
+2021,PGC,Teacher education,LF,95.4,percent
+2020,PGC,Teacher education,LF,96.0,percent
+2023,PGC,"Tourism, hospitality, personal services, sport and recreation",FTE,73.0,percent
+2022,PGC,"Tourism, hospitality, personal services, sport and recreation",FTE,65.1,percent
+2021,PGC,"Tourism, hospitality, personal services, sport and recreation",FTE,72.4,percent
+2020,PGC,"Tourism, hospitality, personal services, sport and recreation",FTE,75.5,percent
+2023,PGC,"Tourism, hospitality, personal services, sport and recreation",OE,88.2,percent
+2022,PGC,"Tourism, hospitality, personal services, sport and recreation",OE,89.4,percent
+2021,PGC,"Tourism, hospitality, personal services, sport and recreation",OE,90.0,percent
+2020,PGC,"Tourism, hospitality, personal services, sport and recreation",OE,90.9,percent
+2023,PGC,"Tourism, hospitality, personal services, sport and recreation",LF,97.1,percent
+2022,PGC,"Tourism, hospitality, personal services, sport and recreation",LF,96.2,percent
+2021,PGC,"Tourism, hospitality, personal services, sport and recreation",LF,96.8,percent
+2020,PGC,"Tourism, hospitality, personal services, sport and recreation",LF,98.2,percent
+2025,PGC,Veterinary science,FTE,98.4,percent
+2024,PGC,Veterinary science,FTE,94.9,percent
+2023,PGC,Veterinary science,FTE,92.1,percent
+2022,PGC,Veterinary science,FTE,89.9,percent
+2021,PGC,Veterinary science,FTE,95.3,percent
+2020,PGC,Veterinary science,FTE,89.3,percent
+2025,PGC,Veterinary science,OE,98.6,percent
+2024,PGC,Veterinary science,OE,95.6,percent
+2023,PGC,Veterinary science,OE,92.3,percent
+2022,PGC,Veterinary science,OE,94.7,percent
+2021,PGC,Veterinary science,OE,96.7,percent
+2020,PGC,Veterinary science,OE,91.5,percent
+2025,PGC,Veterinary science,LF,97.2,percent
+2024,PGC,Veterinary science,LF,100.0,percent
+2023,PGC,Veterinary science,LF,94.0,percent
+2022,PGC,Veterinary science,LF,93.5,percent
+2021,PGC,Veterinary science,LF,97.8,percent
+2020,PGC,Veterinary science,LF,98.8,percent

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Field trade-offs across four graduate outcomes, 2025",
+  "data": {"url": "data/parallel_combined.csv"},
+  "transform": [
+    {"filter": "study_area != 'Total' && study_area != 'All'"}
+  ],
+  "mark": {"type": "line", "strokeWidth": 1.5, "opacity": 0.55},
+  "encoding": {
+    "x": {"field": "measure", "type": "nominal", "title": null,
+          "sort": ["Salary", "FTE", "FurtherStudy", "Overqualified"],
+          "axis": {"labelAngle": 0}},
+    "y": {"field": "norm", "type": "quantitative",
+          "title": "Normalised value (0–1)"},
+    "detail": {"field": "study_area", "type": "nominal"},
+    "color": {"value": "#4C78A8"},
+    "tooltip": [
+      {"field": "study_area", "type": "nominal"},
+      {"field": "measure", "type": "nominal"},
+      {"field": "raw", "type": "quantitative"}
+    ]
+  },
+  "width": 560, "height": 340
+}

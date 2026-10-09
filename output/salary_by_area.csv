@@ -1,0 +1,2267 @@
+year,course_level,study_area,study_area_level,gender,median_salary
+2025,UG,Agriculture and environmental studies,broad,Male,75000.0
+2024,UG,Agriculture and environmental studies,broad,Male,73200.0
+2023,UG,Agriculture and environmental studies,broad,Male,73300.0
+2022,UG,Agriculture and environmental studies,broad,Male,68700.0
+2021,UG,Agriculture and environmental studies,broad,Male,64700.0
+2020,UG,Agriculture and environmental studies,broad,Male,62300.0
+2025,UG,Agriculture and environmental studies,broad,Female,75000.0
+2024,UG,Agriculture and environmental studies,broad,Female,70800.0
+2023,UG,Agriculture and environmental studies,broad,Female,70000.0
+2022,UG,Agriculture and environmental studies,broad,Total,70000.0
+2021,UG,Agriculture and environmental studies,broad,Female,60000.0
+2020,UG,Agriculture and environmental studies,broad,Female,60100.0
+2025,UG,Agriculture and environmental studies,broad,Total,75000.0
+2024,UG,Agriculture and environmental studies,broad,Total,71500.0
+2023,UG,Agriculture and environmental studies,broad,Total,71100.0
+2022,UG,Agriculture and environmental studies,broad,Total,70000.0
+2021,UG,Agriculture and environmental studies,broad,Total,60500.0
+2020,UG,Agriculture and environmental studies,broad,Total,61500.0
+2025,UG,Architecture and built environment,broad,Male,79300.0
+2024,UG,Architecture and built environment,broad,Male,78700.0
+2023,UG,Architecture and built environment,broad,Male,72000.0
+2022,UG,Architecture and built environment,broad,Male,68000.0
+2021,UG,Architecture and built environment,broad,Male,65200.0
+2020,UG,Architecture and built environment,broad,Male,65000.0
+2025,UG,Architecture and built environment,broad,Female,72500.0
+2024,UG,Architecture and built environment,broad,Female,69400.0
+2023,UG,Architecture and built environment,broad,Female,63400.0
+2022,UG,Architecture and built environment,broad,Total,64700.0
+2021,UG,Architecture and built environment,broad,Female,60000.0
+2020,UG,Architecture and built environment,broad,Female,62600.0
+2025,UG,Architecture and built environment,broad,Total,75100.0
+2024,UG,Architecture and built environment,broad,Total,75000.0
+2023,UG,Architecture and built environment,broad,Total,66000.0
+2022,UG,Architecture and built environment,broad,Total,64700.0
+2021,UG,Architecture and built environment,broad,Total,62600.0
+2020,UG,Architecture and built environment,broad,Total,64700.0
+2025,UG,Business and management,broad,Male,75000.0
+2024,UG,Business and management,broad,Male,72000.0
+2023,UG,Business and management,broad,Male,70000.0
+2022,UG,Business and management,broad,Male,65000.0
+2021,UG,Business and management,broad,Male,63000.0
+2020,UG,Business and management,broad,Male,62500.0
+2025,UG,Business and management,broad,Female,72500.0
+2024,UG,Business and management,broad,Female,72000.0
+2023,UG,Business and management,broad,Female,67800.0
+2022,UG,Business and management,broad,Total,65000.0
+2021,UG,Business and management,broad,Female,60000.0
+2020,UG,Business and management,broad,Female,59100.0
+2025,UG,Business and management,broad,Total,74000.0
+2024,UG,Business and management,broad,Total,72000.0
+2023,UG,Business and management,broad,Total,69200.0
+2022,UG,Business and management,broad,Total,65000.0
+2021,UG,Business and management,broad,Total,60700.0
+2020,UG,Business and management,broad,Total,60000.0
+2025,UG,Communications,broad,Male,65300.0
+2024,UG,Communications,broad,Male,63400.0
+2023,UG,Communications,broad,Male,67000.0
+2022,UG,Communications,broad,Male,60300.0
+2021,UG,Communications,broad,Male,58400.0
+2020,UG,Communications,broad,Male,57400.0
+2025,UG,Communications,broad,Female,66500.0
+2024,UG,Communications,broad,Female,66500.0
+2023,UG,Communications,broad,Female,65000.0
+2022,UG,Communications,broad,Total,60000.0
+2021,UG,Communications,broad,Female,55200.0
+2020,UG,Communications,broad,Female,55300.0
+2025,UG,Communications,broad,Total,66000.0
+2024,UG,Communications,broad,Total,65200.0
+2023,UG,Communications,broad,Total,65000.0
+2022,UG,Communications,broad,Total,60000.0
+2021,UG,Communications,broad,Total,56200.0
+2020,UG,Communications,broad,Total,55600.0
+2025,UG,Computing and information systems,broad,Male,80000.0
+2024,UG,Computing and information systems,broad,Male,76000.0
+2023,UG,Computing and information systems,broad,Male,75000.0
+2022,UG,Computing and information systems,broad,Male,69000.0
+2021,UG,Computing and information systems,broad,Male,66000.0
+2020,UG,Computing and information systems,broad,Male,65200.0
+2025,UG,Computing and information systems,broad,Female,79200.0
+2024,UG,Computing and information systems,broad,Female,75000.0
+2023,UG,Computing and information systems,broad,Female,73000.0
+2022,UG,Computing and information systems,broad,Total,69000.0
+2021,UG,Computing and information systems,broad,Female,65000.0
+2020,UG,Computing and information systems,broad,Female,65000.0
+2025,UG,Computing and information systems,broad,Total,80000.0
+2024,UG,Computing and information systems,broad,Total,75300.0
+2023,UG,Computing and information systems,broad,Total,74400.0
+2022,UG,Computing and information systems,broad,Total,69000.0
+2021,UG,Computing and information systems,broad,Total,65500.0
+2020,UG,Computing and information systems,broad,Total,65000.0
+2025,UG,Creative arts,broad,Male,62500.0
+2024,UG,Creative arts,broad,Male,65500.0
+2023,UG,Creative arts,broad,Male,60800.0
+2022,UG,Creative arts,broad,Male,60000.0
+2021,UG,Creative arts,broad,Male,55000.0
+2020,UG,Creative arts,broad,Male,52200.0
+2025,UG,Creative arts,broad,Female,64200.0
+2024,UG,Creative arts,broad,Female,62000.0
+2023,UG,Creative arts,broad,Female,57400.0
+2022,UG,Creative arts,broad,Total,56800.0
+2021,UG,Creative arts,broad,Female,52200.0
+2020,UG,Creative arts,broad,Female,51600.0
+2025,UG,Creative arts,broad,Total,63200.0
+2024,UG,Creative arts,broad,Total,62600.0
+2023,UG,Creative arts,broad,Total,59500.0
+2022,UG,Creative arts,broad,Total,56800.0
+2021,UG,Creative arts,broad,Total,53000.0
+2020,UG,Creative arts,broad,Total,52000.0
+2020,UG,Dentistry,broad,Male,90000.0
+2025,UG,Dentistry,broad,Female,100400.0
+2024,UG,Dentistry,broad,Female,97300.0
+2023,UG,Dentistry,broad,Female,93900.0
+2022,UG,Dentistry,broad,Total,100000.0
+2021,UG,Dentistry,broad,Female,92400.0
+2020,UG,Dentistry,broad,Female,79300.0
+2025,UG,Dentistry,broad,Total,103100.0
+2024,UG,Dentistry,broad,Total,103300.0
+2023,UG,Dentistry,broad,Total,94400.0
+2022,UG,Dentistry,broad,Total,100000.0
+2021,UG,Dentistry,broad,Total,100000.0
+2020,UG,Dentistry,broad,Total,84000.0
+2025,UG,Engineering,broad,Male,83000.0
+2024,UG,Engineering,broad,Male,80000.0
+2023,UG,Engineering,broad,Male,75300.0
+2022,UG,Engineering,broad,Male,71900.0
+2021,UG,Engineering,broad,Male,70000.0
+2020,UG,Engineering,broad,Male,69400.0
+2025,UG,Engineering,broad,Female,80400.0
+2024,UG,Engineering,broad,Female,78300.0
+2023,UG,Engineering,broad,Female,75000.0
+2022,UG,Engineering,broad,Total,71500.0
+2021,UG,Engineering,broad,Female,70000.0
+2020,UG,Engineering,broad,Female,70000.0
+2025,UG,Engineering,broad,Total,82500.0
+2024,UG,Engineering,broad,Total,80000.0
+2023,UG,Engineering,broad,Total,75000.0
+2022,UG,Engineering,broad,Total,71500.0
+2021,UG,Engineering,broad,Total,70000.0
+2020,UG,Engineering,broad,Total,69500.0
+2025,UG,Health services and support,broad,Male,80000.0
+2024,UG,Health services and support,broad,Male,75800.0
+2023,UG,Health services and support,broad,Male,73000.0
+2022,UG,Health services and support,broad,Male,72000.0
+2021,UG,Health services and support,broad,Male,70000.0
+2020,UG,Health services and support,broad,Male,66000.0
+2025,UG,Health services and support,broad,Female,76200.0
+2024,UG,Health services and support,broad,Female,73600.0
+2023,UG,Health services and support,broad,Female,70100.0
+2022,UG,Health services and support,broad,Total,69400.0
+2021,UG,Health services and support,broad,Female,65200.0
+2020,UG,Health services and support,broad,Female,65000.0
+2025,UG,Health services and support,broad,Total,77400.0
+2024,UG,Health services and support,broad,Total,74900.0
+2023,UG,Health services and support,broad,Total,70800.0
+2022,UG,Health services and support,broad,Total,69400.0
+2021,UG,Health services and support,broad,Total,66500.0
+2020,UG,Health services and support,broad,Total,65100.0
+2025,UG,"Humanities, culture and social sciences",broad,Male,78300.0
+2024,UG,"Humanities, culture and social sciences",broad,Male,74000.0
+2023,UG,"Humanities, culture and social sciences",broad,Male,71000.0
+2022,UG,"Humanities, culture and social sciences",broad,Male,68200.0
+2021,UG,"Humanities, culture and social sciences",broad,Male,65000.0
+2020,UG,"Humanities, culture and social sciences",broad,Male,65000.0
+2025,UG,"Humanities, culture and social sciences",broad,Female,75000.0
+2024,UG,"Humanities, culture and social sciences",broad,Female,72400.0
+2023,UG,"Humanities, culture and social sciences",broad,Female,68000.0
+2022,UG,"Humanities, culture and social sciences",broad,Total,66700.0
+2021,UG,"Humanities, culture and social sciences",broad,Female,62000.0
+2020,UG,"Humanities, culture and social sciences",broad,Female,61900.0
+2025,UG,"Humanities, culture and social sciences",broad,Total,75100.0
+2024,UG,"Humanities, culture and social sciences",broad,Total,73100.0
+2023,UG,"Humanities, culture and social sciences",broad,Total,69400.0
+2022,UG,"Humanities, culture and social sciences",broad,Total,66700.0
+2021,UG,"Humanities, culture and social sciences",broad,Total,62600.0
+2020,UG,"Humanities, culture and social sciences",broad,Total,62600.0
+2025,UG,Law and paralegal studies,broad,Male,83000.0
+2024,UG,Law and paralegal studies,broad,Male,80000.0
+2023,UG,Law and paralegal studies,broad,Male,76000.0
+2022,UG,Law and paralegal studies,broad,Male,72800.0
+2021,UG,Law and paralegal studies,broad,Male,70000.0
+2020,UG,Law and paralegal studies,broad,Male,68900.0
+2025,UG,Law and paralegal studies,broad,Female,77000.0
+2024,UG,Law and paralegal studies,broad,Female,75000.0
+2023,UG,Law and paralegal studies,broad,Female,71000.0
+2022,UG,Law and paralegal studies,broad,Total,70000.0
+2021,UG,Law and paralegal studies,broad,Female,65100.0
+2020,UG,Law and paralegal studies,broad,Female,64000.0
+2025,UG,Law and paralegal studies,broad,Total,80000.0
+2024,UG,Law and paralegal studies,broad,Total,76000.0
+2023,UG,Law and paralegal studies,broad,Total,73000.0
+2022,UG,Law and paralegal studies,broad,Total,70000.0
+2021,UG,Law and paralegal studies,broad,Total,66800.0
+2020,UG,Law and paralegal studies,broad,Total,65000.0
+2025,UG,Medicine,broad,Male,86700.0
+2024,UG,Medicine,broad,Male,87700.0
+2023,UG,Medicine,broad,Male,90000.0
+2022,UG,Medicine,broad,Male,80000.0
+2021,UG,Medicine,broad,Male,76000.0
+2020,UG,Medicine,broad,Male,75300.0
+2025,UG,Medicine,broad,Female,85800.0
+2024,UG,Medicine,broad,Female,84000.0
+2023,UG,Medicine,broad,Female,83300.0
+2022,UG,Medicine,broad,Total,79800.0
+2021,UG,Medicine,broad,Female,76500.0
+2020,UG,Medicine,broad,Female,74000.0
+2025,UG,Medicine,broad,Total,85900.0
+2024,UG,Medicine,broad,Total,86800.0
+2023,UG,Medicine,broad,Total,85000.0
+2022,UG,Medicine,broad,Total,79800.0
+2021,UG,Medicine,broad,Total,76000.0
+2020,UG,Medicine,broad,Total,75000.0
+2025,UG,Nursing,broad,Male,77100.0
+2024,UG,Nursing,broad,Male,74000.0
+2023,UG,Nursing,broad,Male,71000.0
+2022,UG,Nursing,broad,Male,68900.0
+2021,UG,Nursing,broad,Male,66800.0
+2020,UG,Nursing,broad,Male,65400.0
+2025,UG,Nursing,broad,Female,75100.0
+2024,UG,Nursing,broad,Female,71400.0
+2023,UG,Nursing,broad,Female,69000.0
+2022,UG,Nursing,broad,Total,68500.0
+2021,UG,Nursing,broad,Female,65200.0
+2020,UG,Nursing,broad,Female,64200.0
+2025,UG,Nursing,broad,Total,75100.0
+2024,UG,Nursing,broad,Total,72000.0
+2023,UG,Nursing,broad,Total,69400.0
+2022,UG,Nursing,broad,Total,68500.0
+2021,UG,Nursing,broad,Total,65200.0
+2020,UG,Nursing,broad,Total,64200.0
+2025,UG,Pharmacy,broad,Male,63400.0
+2024,UG,Pharmacy,broad,Male,58900.0
+2023,UG,Pharmacy,broad,Male,55500.0
+2022,UG,Pharmacy,broad,Male,54300.0
+2021,UG,Pharmacy,broad,Male,49600.0
+2020,UG,Pharmacy,broad,Male,49600.0
+2025,UG,Pharmacy,broad,Female,62600.0
+2024,UG,Pharmacy,broad,Female,59500.0
+2023,UG,Pharmacy,broad,Female,55500.0
+2022,UG,Pharmacy,broad,Total,52200.0
+2021,UG,Pharmacy,broad,Female,50000.0
+2020,UG,Pharmacy,broad,Female,49600.0
+2025,UG,Pharmacy,broad,Total,62600.0
+2024,UG,Pharmacy,broad,Total,59500.0
+2023,UG,Pharmacy,broad,Total,55500.0
+2022,UG,Pharmacy,broad,Total,52200.0
+2021,UG,Pharmacy,broad,Total,50000.0
+2020,UG,Pharmacy,broad,Total,49600.0
+2025,UG,Psychology,broad,Male,72000.0
+2024,UG,Psychology,broad,Male,77800.0
+2023,UG,Psychology,broad,Male,73100.0
+2022,UG,Psychology,broad,Male,70000.0
+2021,UG,Psychology,broad,Male,70000.0
+2020,UG,Psychology,broad,Male,65000.0
+2025,UG,Psychology,broad,Female,77000.0
+2024,UG,Psychology,broad,Female,75000.0
+2023,UG,Psychology,broad,Female,70000.0
+2022,UG,Psychology,broad,Total,67800.0
+2021,UG,Psychology,broad,Female,63100.0
+2020,UG,Psychology,broad,Female,62800.0
+2025,UG,Psychology,broad,Total,75300.0
+2024,UG,Psychology,broad,Total,75100.0
+2023,UG,Psychology,broad,Total,71000.0
+2022,UG,Psychology,broad,Total,67800.0
+2021,UG,Psychology,broad,Total,65000.0
+2020,UG,Psychology,broad,Total,63000.0
+2025,UG,Rehabilitation,broad,Male,76200.0
+2024,UG,Rehabilitation,broad,Male,75000.0
+2023,UG,Rehabilitation,broad,Male,71000.0
+2022,UG,Rehabilitation,broad,Male,70000.0
+2021,UG,Rehabilitation,broad,Male,66500.0
+2020,UG,Rehabilitation,broad,Male,65000.0
+2025,UG,Rehabilitation,broad,Female,75100.0
+2024,UG,Rehabilitation,broad,Female,75000.0
+2023,UG,Rehabilitation,broad,Female,71000.0
+2022,UG,Rehabilitation,broad,Total,69500.0
+2021,UG,Rehabilitation,broad,Female,67000.0
+2020,UG,Rehabilitation,broad,Female,65000.0
+2025,UG,Rehabilitation,broad,Total,75300.0
+2024,UG,Rehabilitation,broad,Total,75000.0
+2023,UG,Rehabilitation,broad,Total,71000.0
+2022,UG,Rehabilitation,broad,Total,69500.0
+2021,UG,Rehabilitation,broad,Total,67000.0
+2020,UG,Rehabilitation,broad,Total,65000.0
+2025,UG,Science and mathematics,broad,Male,77000.0
+2024,UG,Science and mathematics,broad,Male,75000.0
+2023,UG,Science and mathematics,broad,Male,70500.0
+2022,UG,Science and mathematics,broad,Male,67100.0
+2021,UG,Science and mathematics,broad,Male,65000.0
+2020,UG,Science and mathematics,broad,Male,65400.0
+2025,UG,Science and mathematics,broad,Female,71800.0
+2024,UG,Science and mathematics,broad,Female,70000.0
+2023,UG,Science and mathematics,broad,Female,67500.0
+2022,UG,Science and mathematics,broad,Total,66000.0
+2021,UG,Science and mathematics,broad,Female,61500.0
+2020,UG,Science and mathematics,broad,Female,62600.0
+2025,UG,Science and mathematics,broad,Total,73100.0
+2024,UG,Science and mathematics,broad,Total,72400.0
+2023,UG,Science and mathematics,broad,Total,69000.0
+2022,UG,Science and mathematics,broad,Total,66000.0
+2021,UG,Science and mathematics,broad,Total,63000.0
+2020,UG,Science and mathematics,broad,Total,64000.0
+2025,UG,Social work,broad,Male,85100.0
+2024,UG,Social work,broad,Male,82300.0
+2023,UG,Social work,broad,Male,77300.0
+2022,UG,Social work,broad,Male,74000.0
+2021,UG,Social work,broad,Male,74900.0
+2020,UG,Social work,broad,Male,68000.0
+2025,UG,Social work,broad,Female,85300.0
+2024,UG,Social work,broad,Female,81500.0
+2023,UG,Social work,broad,Female,77300.0
+2022,UG,Social work,broad,Total,75000.0
+2021,UG,Social work,broad,Female,72300.0
+2020,UG,Social work,broad,Female,70000.0
+2025,UG,Social work,broad,Total,85300.0
+2024,UG,Social work,broad,Total,82000.0
+2023,UG,Social work,broad,Total,77300.0
+2022,UG,Social work,broad,Total,75000.0
+2021,UG,Social work,broad,Total,72600.0
+2020,UG,Social work,broad,Total,70000.0
+2025,UG,Teacher education,broad,Male,84100.0
+2024,UG,Teacher education,broad,Male,81000.0
+2023,UG,Teacher education,broad,Male,75900.0
+2022,UG,Teacher education,broad,Male,73100.0
+2021,UG,Teacher education,broad,Male,72000.0
+2020,UG,Teacher education,broad,Male,70000.0
+2025,UG,Teacher education,broad,Female,81000.0
+2024,UG,Teacher education,broad,Female,78300.0
+2023,UG,Teacher education,broad,Female,75000.0
+2022,UG,Teacher education,broad,Total,72200.0
+2021,UG,Teacher education,broad,Female,71800.0
+2020,UG,Teacher education,broad,Female,69900.0
+2025,UG,Teacher education,broad,Total,82100.0
+2024,UG,Teacher education,broad,Total,78800.0
+2023,UG,Teacher education,broad,Total,75000.0
+2022,UG,Teacher education,broad,Total,72200.0
+2021,UG,Teacher education,broad,Total,72000.0
+2020,UG,Teacher education,broad,Total,70000.0
+2025,UG,"Tourism, hospitality, personal services, sport and recreation",broad,Male,70000.0
+2024,UG,"Tourism, hospitality, personal services, sport and recreation",broad,Male,70200.0
+2023,UG,"Tourism, hospitality, personal services, sport and recreation",broad,Male,71400.0
+2022,UG,"Tourism, hospitality, personal services, sport and recreation",broad,Male,61000.0
+2024,UG,"Tourism, hospitality, personal services, sport and recreation",broad,Female,60000.0
+2023,UG,"Tourism, hospitality, personal services, sport and recreation",broad,Female,60000.0
+2022,UG,"Tourism, hospitality, personal services, sport and recreation",broad,Total,54800.0
+2021,UG,"Tourism, hospitality, personal services, sport and recreation",broad,Female,54900.0
+2025,UG,"Tourism, hospitality, personal services, sport and recreation",broad,Total,70000.0
+2024,UG,"Tourism, hospitality, personal services, sport and recreation",broad,Total,63900.0
+2023,UG,"Tourism, hospitality, personal services, sport and recreation",broad,Total,65000.0
+2022,UG,"Tourism, hospitality, personal services, sport and recreation",broad,Total,54800.0
+2021,UG,"Tourism, hospitality, personal services, sport and recreation",broad,Total,54900.0
+2020,UG,"Tourism, hospitality, personal services, sport and recreation",broad,Total,53500.0
+2025,UG,Veterinary science,broad,Male,77800.0
+2025,UG,Veterinary science,broad,Female,75000.0
+2024,UG,Veterinary science,broad,Female,70000.0
+2023,UG,Veterinary science,broad,Female,66800.0
+2022,UG,Veterinary science,broad,Total,62600.0
+2021,UG,Veterinary science,broad,Female,60000.0
+2020,UG,Veterinary science,broad,Female,57500.0
+2025,UG,Veterinary science,broad,Total,75000.0
+2024,UG,Veterinary science,broad,Total,70000.0
+2023,UG,Veterinary science,broad,Total,67400.0
+2022,UG,Veterinary science,broad,Total,62600.0
+2021,UG,Veterinary science,broad,Total,60000.0
+2020,UG,Veterinary science,broad,Total,57800.0
+2025,UG,Accounting,detail45,Male,70000.0
+2024,UG,Accounting,detail45,Male,67000.0
+2023,UG,Accounting,detail45,Male,65200.0
+2022,UG,Accounting,detail45,Male,62000.0
+2021,UG,Accounting,detail45,Male,57200.0
+2020,UG,Accounting,detail45,Male,57000.0
+2025,UG,Accounting,detail45,Female,74900.0
+2024,UG,Accounting,detail45,Female,72000.0
+2023,UG,Accounting,detail45,Female,65200.0
+2022,UG,Accounting,detail45,Female,63000.0
+2021,UG,Accounting,detail45,Female,59000.0
+2020,UG,Accounting,detail45,Female,57000.0
+2025,UG,Accounting,detail45,Total,71000.0
+2024,UG,Accounting,detail45,Total,70000.0
+2023,UG,Accounting,detail45,Total,65200.0
+2022,UG,Accounting,detail45,Total,63000.0
+2021,UG,Accounting,detail45,Total,58000.0
+2020,UG,Accounting,detail45,Total,57000.0
+2025,UG,Agriculture and forestry,detail45,Male,78300.0
+2024,UG,Agriculture and forestry,detail45,Male,76800.0
+2023,UG,Agriculture and forestry,detail45,Male,75200.0
+2022,UG,Agriculture and forestry,detail45,Male,70000.0
+2021,UG,Agriculture and forestry,detail45,Male,65000.0
+2020,UG,Agriculture and forestry,detail45,Male,63000.0
+2025,UG,Agriculture and forestry,detail45,Female,75000.0
+2024,UG,Agriculture and forestry,detail45,Female,71000.0
+2023,UG,Agriculture and forestry,detail45,Female,70000.0
+2022,UG,Agriculture and forestry,detail45,Female,72000.0
+2021,UG,Agriculture and forestry,detail45,Female,59800.0
+2020,UG,Agriculture and forestry,detail45,Female,58000.0
+2025,UG,Agriculture and forestry,detail45,Total,75200.0
+2024,UG,Agriculture and forestry,detail45,Total,72000.0
+2023,UG,Agriculture and forestry,detail45,Total,70800.0
+2022,UG,Agriculture and forestry,detail45,Total,70100.0
+2021,UG,Agriculture and forestry,detail45,Total,60000.0
+2020,UG,Agriculture and forestry,detail45,Total,60000.0
+2025,UG,Architecture and urban environments,detail45,Male,75000.0
+2024,UG,Architecture and urban environments,detail45,Male,70700.0
+2023,UG,Architecture and urban environments,detail45,Male,65000.0
+2022,UG,Architecture and urban environments,detail45,Male,62600.0
+2021,UG,Architecture and urban environments,detail45,Male,63300.0
+2020,UG,Architecture and urban environments,detail45,Male,62000.0
+2025,UG,Architecture and urban environments,detail45,Female,67900.0
+2024,UG,Architecture and urban environments,detail45,Female,65000.0
+2023,UG,Architecture and urban environments,detail45,Female,61000.0
+2022,UG,Architecture and urban environments,detail45,Female,58100.0
+2021,UG,Architecture and urban environments,detail45,Female,57000.0
+2020,UG,Architecture and urban environments,detail45,Female,60000.0
+2025,UG,Architecture and urban environments,detail45,Total,70000.0
+2024,UG,Architecture and urban environments,detail45,Total,66800.0
+2023,UG,Architecture and urban environments,detail45,Total,62600.0
+2022,UG,Architecture and urban environments,detail45,Total,59900.0
+2021,UG,Architecture and urban environments,detail45,Total,60000.0
+2020,UG,Architecture and urban environments,detail45,Total,60000.0
+2025,UG,Art and design,detail45,Male,60000.0
+2024,UG,Art and design,detail45,Male,64900.0
+2023,UG,Art and design,detail45,Male,61500.0
+2022,UG,Art and design,detail45,Male,58400.0
+2021,UG,Art and design,detail45,Male,54400.0
+2020,UG,Art and design,detail45,Male,52400.0
+2025,UG,Art and design,detail45,Female,63900.0
+2024,UG,Art and design,detail45,Female,62000.0
+2023,UG,Art and design,detail45,Female,57000.0
+2022,UG,Art and design,detail45,Female,55000.0
+2021,UG,Art and design,detail45,Female,52200.0
+2020,UG,Art and design,detail45,Female,51600.0
+2025,UG,Art and design,detail45,Total,62700.0
+2024,UG,Art and design,detail45,Total,62600.0
+2023,UG,Art and design,detail45,Total,59500.0
+2022,UG,Art and design,detail45,Total,56400.0
+2021,UG,Art and design,detail45,Total,52200.0
+2020,UG,Art and design,detail45,Total,51800.0
+2025,UG,Banking and finance,detail45,Male,76000.0
+2024,UG,Banking and finance,detail45,Male,74000.0
+2023,UG,Banking and finance,detail45,Male,72000.0
+2022,UG,Banking and finance,detail45,Male,70000.0
+2021,UG,Banking and finance,detail45,Male,65000.0
+2020,UG,Banking and finance,detail45,Male,64600.0
+2025,UG,Banking and finance,detail45,Female,76000.0
+2024,UG,Banking and finance,detail45,Female,76000.0
+2023,UG,Banking and finance,detail45,Female,71000.0
+2022,UG,Banking and finance,detail45,Female,68000.0
+2021,UG,Banking and finance,detail45,Female,64000.0
+2020,UG,Banking and finance,detail45,Female,61900.0
+2025,UG,Banking and finance,detail45,Total,76000.0
+2024,UG,Banking and finance,detail45,Total,75000.0
+2023,UG,Banking and finance,detail45,Total,71500.0
+2022,UG,Banking and finance,detail45,Total,70000.0
+2021,UG,Banking and finance,detail45,Total,65000.0
+2020,UG,Banking and finance,detail45,Total,63000.0
+2025,UG,Biological sciences,detail45,Male,68200.0
+2024,UG,Biological sciences,detail45,Male,67800.0
+2023,UG,Biological sciences,detail45,Male,68700.0
+2022,UG,Biological sciences,detail45,Male,62600.0
+2021,UG,Biological sciences,detail45,Male,58700.0
+2020,UG,Biological sciences,detail45,Male,62600.0
+2025,UG,Biological sciences,detail45,Female,67800.0
+2024,UG,Biological sciences,detail45,Female,65200.0
+2023,UG,Biological sciences,detail45,Female,64000.0
+2022,UG,Biological sciences,detail45,Female,62300.0
+2021,UG,Biological sciences,detail45,Female,56500.0
+2020,UG,Biological sciences,detail45,Female,58000.0
+2025,UG,Biological sciences,detail45,Total,67800.0
+2024,UG,Biological sciences,detail45,Total,65400.0
+2023,UG,Biological sciences,detail45,Total,65400.0
+2022,UG,Biological sciences,detail45,Total,62600.0
+2021,UG,Biological sciences,detail45,Total,57400.0
+2020,UG,Biological sciences,detail45,Total,60000.0
+2025,UG,Building and construction,detail45,Male,82000.0
+2024,UG,Building and construction,detail45,Male,83500.0
+2023,UG,Building and construction,detail45,Male,80000.0
+2022,UG,Building and construction,detail45,Male,70000.0
+2021,UG,Building and construction,detail45,Male,70000.0
+2020,UG,Building and construction,detail45,Male,65200.0
+2025,UG,Building and construction,detail45,Female,85300.0
+2024,UG,Building and construction,detail45,Female,80000.0
+2023,UG,Building and construction,detail45,Female,75000.0
+2022,UG,Building and construction,detail45,Female,70000.0
+2021,UG,Building and construction,detail45,Female,71400.0
+2020,UG,Building and construction,detail45,Female,72800.0
+2025,UG,Building and construction,detail45,Total,83500.0
+2024,UG,Building and construction,detail45,Total,81600.0
+2023,UG,Building and construction,detail45,Total,78000.0
+2022,UG,Building and construction,detail45,Total,70000.0
+2021,UG,Building and construction,detail45,Total,70000.0
+2020,UG,Building and construction,detail45,Total,70000.0
+2025,UG,Business management,detail45,Male,77000.0
+2024,UG,Business management,detail45,Male,73900.0
+2023,UG,Business management,detail45,Male,71500.0
+2022,UG,Business management,detail45,Male,65000.0
+2021,UG,Business management,detail45,Male,63800.0
+2020,UG,Business management,detail45,Male,63800.0
+2025,UG,Business management,detail45,Female,71900.0
+2024,UG,Business management,detail45,Female,71200.0
+2023,UG,Business management,detail45,Female,67000.0
+2022,UG,Business management,detail45,Female,65000.0
+2021,UG,Business management,detail45,Female,60000.0
+2020,UG,Business management,detail45,Female,59500.0
+2025,UG,Business management,detail45,Total,73400.0
+2024,UG,Business management,detail45,Total,72000.0
+2023,UG,Business management,detail45,Total,69400.0
+2022,UG,Business management,detail45,Total,65000.0
+2021,UG,Business management,detail45,Total,60700.0
+2020,UG,Business management,detail45,Total,60000.0
+2025,UG,"Communication, media and journalism",detail45,Male,65100.0
+2024,UG,"Communication, media and journalism",detail45,Male,63400.0
+2023,UG,"Communication, media and journalism",detail45,Male,67000.0
+2022,UG,"Communication, media and journalism",detail45,Male,60300.0
+2021,UG,"Communication, media and journalism",detail45,Male,59200.0
+2020,UG,"Communication, media and journalism",detail45,Male,57400.0
+2025,UG,"Communication, media and journalism",detail45,Female,66300.0
+2024,UG,"Communication, media and journalism",detail45,Female,66800.0
+2023,UG,"Communication, media and journalism",detail45,Female,65000.0
+2022,UG,"Communication, media and journalism",detail45,Female,60000.0
+2021,UG,"Communication, media and journalism",detail45,Female,55500.0
+2020,UG,"Communication, media and journalism",detail45,Female,55500.0
+2025,UG,"Communication, media and journalism",detail45,Total,65700.0
+2024,UG,"Communication, media and journalism",detail45,Total,65500.0
+2023,UG,"Communication, media and journalism",detail45,Total,65100.0
+2022,UG,"Communication, media and journalism",detail45,Total,60000.0
+2021,UG,"Communication, media and journalism",detail45,Total,56400.0
+2020,UG,"Communication, media and journalism",detail45,Total,56000.0
+2025,UG,Computing and information systems,detail45,Male,80000.0
+2024,UG,Computing and information systems,detail45,Male,75300.0
+2023,UG,Computing and information systems,detail45,Male,75000.0
+2022,UG,Computing and information systems,detail45,Male,69000.0
+2021,UG,Computing and information systems,detail45,Male,66000.0
+2020,UG,Computing and information systems,detail45,Male,65000.0
+2025,UG,Computing and information systems,detail45,Female,79200.0
+2024,UG,Computing and information systems,detail45,Female,75000.0
+2023,UG,Computing and information systems,detail45,Female,73000.0
+2022,UG,Computing and information systems,detail45,Female,69200.0
+2021,UG,Computing and information systems,detail45,Female,65000.0
+2020,UG,Computing and information systems,detail45,Female,65000.0
+2025,UG,Computing and information systems,detail45,Total,80000.0
+2024,UG,Computing and information systems,detail45,Total,75100.0
+2023,UG,Computing and information systems,detail45,Total,74400.0
+2022,UG,Computing and information systems,detail45,Total,69000.0
+2021,UG,Computing and information systems,detail45,Total,65500.0
+2020,UG,Computing and information systems,detail45,Total,65000.0
+2020,UG,Dentistry,detail45,Male,90000.0
+2025,UG,Dentistry,detail45,Female,100400.0
+2024,UG,Dentistry,detail45,Female,97300.0
+2023,UG,Dentistry,detail45,Female,93900.0
+2022,UG,Dentistry,detail45,Female,99100.0
+2021,UG,Dentistry,detail45,Female,92400.0
+2020,UG,Dentistry,detail45,Female,79300.0
+2025,UG,Dentistry,detail45,Total,103100.0
+2024,UG,Dentistry,detail45,Total,103300.0
+2023,UG,Dentistry,detail45,Total,94400.0
+2022,UG,Dentistry,detail45,Total,100000.0
+2021,UG,Dentistry,detail45,Total,100000.0
+2020,UG,Dentistry,detail45,Total,84000.0
+2025,UG,Economics,detail45,Male,78000.0
+2024,UG,Economics,detail45,Male,76000.0
+2023,UG,Economics,detail45,Male,73000.0
+2022,UG,Economics,detail45,Male,66400.0
+2021,UG,Economics,detail45,Male,65000.0
+2020,UG,Economics,detail45,Male,65000.0
+2025,UG,Economics,detail45,Female,78400.0
+2024,UG,Economics,detail45,Female,73100.0
+2023,UG,Economics,detail45,Female,71000.0
+2022,UG,Economics,detail45,Female,65400.0
+2021,UG,Economics,detail45,Female,64100.0
+2020,UG,Economics,detail45,Female,62000.0
+2025,UG,Economics,detail45,Total,78000.0
+2024,UG,Economics,detail45,Total,75000.0
+2023,UG,Economics,detail45,Total,72000.0
+2022,UG,Economics,detail45,Total,66000.0
+2021,UG,Economics,detail45,Total,65000.0
+2020,UG,Economics,detail45,Total,63000.0
+2025,UG,Engineering - aerospace,detail45,Male,78300.0
+2024,UG,Engineering - aerospace,detail45,Male,77200.0
+2023,UG,Engineering - aerospace,detail45,Male,75000.0
+2022,UG,Engineering - aerospace,detail45,Male,65200.0
+2021,UG,Engineering - aerospace,detail45,Male,68300.0
+2020,UG,Engineering - aerospace,detail45,Male,62800.0
+2025,UG,Engineering - aerospace,detail45,Total,78300.0
+2024,UG,Engineering - aerospace,detail45,Total,76500.0
+2023,UG,Engineering - aerospace,detail45,Total,74000.0
+2022,UG,Engineering - aerospace,detail45,Total,68000.0
+2021,UG,Engineering - aerospace,detail45,Total,68000.0
+2020,UG,Engineering - aerospace,detail45,Total,64500.0
+2025,UG,Engineering - civil,detail45,Male,80900.0
+2024,UG,Engineering - civil,detail45,Male,78800.0
+2023,UG,Engineering - civil,detail45,Male,74200.0
+2022,UG,Engineering - civil,detail45,Male,70500.0
+2021,UG,Engineering - civil,detail45,Male,68000.0
+2020,UG,Engineering - civil,detail45,Male,67800.0
+2025,UG,Engineering - civil,detail45,Female,81000.0
+2024,UG,Engineering - civil,detail45,Female,75100.0
+2023,UG,Engineering - civil,detail45,Female,72000.0
+2022,UG,Engineering - civil,detail45,Female,71000.0
+2021,UG,Engineering - civil,detail45,Female,70000.0
+2020,UG,Engineering - civil,detail45,Female,69000.0
+2025,UG,Engineering - civil,detail45,Total,81000.0
+2024,UG,Engineering - civil,detail45,Total,77500.0
+2023,UG,Engineering - civil,detail45,Total,74000.0
+2022,UG,Engineering - civil,detail45,Total,71000.0
+2021,UG,Engineering - civil,detail45,Total,69000.0
+2020,UG,Engineering - civil,detail45,Total,68000.0
+2025,UG,Engineering - electrical and electronic,detail45,Male,83500.0
+2024,UG,Engineering - electrical and electronic,detail45,Male,80500.0
+2023,UG,Engineering - electrical and electronic,detail45,Male,76900.0
+2022,UG,Engineering - electrical and electronic,detail45,Male,70000.0
+2021,UG,Engineering - electrical and electronic,detail45,Male,71000.0
+2020,UG,Engineering - electrical and electronic,detail45,Male,70000.0
+2025,UG,Engineering - electrical and electronic,detail45,Female,82500.0
+2024,UG,Engineering - electrical and electronic,detail45,Female,84000.0
+2023,UG,Engineering - electrical and electronic,detail45,Female,80000.0
+2022,UG,Engineering - electrical and electronic,detail45,Female,73100.0
+2021,UG,Engineering - electrical and electronic,detail45,Female,67000.0
+2020,UG,Engineering - electrical and electronic,detail45,Female,71500.0
+2025,UG,Engineering - electrical and electronic,detail45,Total,83500.0
+2024,UG,Engineering - electrical and electronic,detail45,Total,80500.0
+2023,UG,Engineering - electrical and electronic,detail45,Total,77600.0
+2022,UG,Engineering - electrical and electronic,detail45,Total,70000.0
+2021,UG,Engineering - electrical and electronic,detail45,Total,70000.0
+2020,UG,Engineering - electrical and electronic,detail45,Total,70000.0
+2025,UG,Engineering - mechanical,detail45,Male,83300.0
+2024,UG,Engineering - mechanical,detail45,Male,77800.0
+2023,UG,Engineering - mechanical,detail45,Male,75400.0
+2022,UG,Engineering - mechanical,detail45,Male,73000.0
+2021,UG,Engineering - mechanical,detail45,Male,70000.0
+2020,UG,Engineering - mechanical,detail45,Male,66900.0
+2025,UG,Engineering - mechanical,detail45,Female,84000.0
+2024,UG,Engineering - mechanical,detail45,Female,77500.0
+2023,UG,Engineering - mechanical,detail45,Female,75900.0
+2022,UG,Engineering - mechanical,detail45,Female,70300.0
+2021,UG,Engineering - mechanical,detail45,Female,72800.0
+2020,UG,Engineering - mechanical,detail45,Female,70000.0
+2025,UG,Engineering - mechanical,detail45,Total,83500.0
+2024,UG,Engineering - mechanical,detail45,Total,77800.0
+2023,UG,Engineering - mechanical,detail45,Total,75400.0
+2022,UG,Engineering - mechanical,detail45,Total,72000.0
+2021,UG,Engineering - mechanical,detail45,Total,70000.0
+2020,UG,Engineering - mechanical,detail45,Total,68000.0
+2025,UG,Engineering - other,detail45,Male,83500.0
+2024,UG,Engineering - other,detail45,Male,80000.0
+2023,UG,Engineering - other,detail45,Male,76700.0
+2022,UG,Engineering - other,detail45,Male,73300.0
+2021,UG,Engineering - other,detail45,Male,70200.0
+2020,UG,Engineering - other,detail45,Male,70000.0
+2025,UG,Engineering - other,detail45,Female,80000.0
+2024,UG,Engineering - other,detail45,Female,79300.0
+2023,UG,Engineering - other,detail45,Female,74000.0
+2022,UG,Engineering - other,detail45,Female,70000.0
+2021,UG,Engineering - other,detail45,Female,69500.0
+2020,UG,Engineering - other,detail45,Female,68900.0
+2025,UG,Engineering - other,detail45,Total,83000.0
+2024,UG,Engineering - other,detail45,Total,80000.0
+2023,UG,Engineering - other,detail45,Total,75200.0
+2022,UG,Engineering - other,detail45,Total,72500.0
+2021,UG,Engineering - other,detail45,Total,70000.0
+2020,UG,Engineering - other,detail45,Total,70000.0
+2025,UG,Engineering - process and resources,detail45,Male,90000.0
+2024,UG,Engineering - process and resources,detail45,Male,86300.0
+2023,UG,Engineering - process and resources,detail45,Male,82000.0
+2022,UG,Engineering - process and resources,detail45,Male,75000.0
+2021,UG,Engineering - process and resources,detail45,Male,70500.0
+2020,UG,Engineering - process and resources,detail45,Male,70000.0
+2025,UG,Engineering - process and resources,detail45,Female,90800.0
+2024,UG,Engineering - process and resources,detail45,Female,80000.0
+2023,UG,Engineering - process and resources,detail45,Female,84100.0
+2022,UG,Engineering - process and resources,detail45,Female,74700.0
+2021,UG,Engineering - process and resources,detail45,Female,73600.0
+2020,UG,Engineering - process and resources,detail45,Female,72000.0
+2025,UG,Engineering - process and resources,detail45,Total,90000.0
+2024,UG,Engineering - process and resources,detail45,Total,84500.0
+2023,UG,Engineering - process and resources,detail45,Total,82000.0
+2022,UG,Engineering - process and resources,detail45,Total,75000.0
+2021,UG,Engineering - process and resources,detail45,Total,71900.0
+2020,UG,Engineering - process and resources,detail45,Total,72000.0
+2025,UG,Environmental studies,detail45,Male,72000.0
+2024,UG,Environmental studies,detail45,Male,70000.0
+2023,UG,Environmental studies,detail45,Male,72000.0
+2022,UG,Environmental studies,detail45,Male,65100.0
+2021,UG,Environmental studies,detail45,Male,62600.0
+2020,UG,Environmental studies,detail45,Male,62000.0
+2025,UG,Environmental studies,detail45,Female,76800.0
+2024,UG,Environmental studies,detail45,Female,70000.0
+2023,UG,Environmental studies,detail45,Female,71300.0
+2022,UG,Environmental studies,detail45,Female,67300.0
+2021,UG,Environmental studies,detail45,Female,60200.0
+2020,UG,Environmental studies,detail45,Female,63700.0
+2025,UG,Environmental studies,detail45,Total,75000.0
+2024,UG,Environmental studies,detail45,Total,70000.0
+2023,UG,Environmental studies,detail45,Total,71600.0
+2022,UG,Environmental studies,detail45,Total,66600.0
+2021,UG,Environmental studies,detail45,Total,60600.0
+2020,UG,Environmental studies,detail45,Total,62800.0
+2025,UG,Health services and support,detail45,Male,80000.0
+2024,UG,Health services and support,detail45,Male,75400.0
+2023,UG,Health services and support,detail45,Male,72000.0
+2022,UG,Health services and support,detail45,Male,72000.0
+2021,UG,Health services and support,detail45,Male,70000.0
+2020,UG,Health services and support,detail45,Male,65600.0
+2025,UG,Health services and support,detail45,Female,76000.0
+2024,UG,Health services and support,detail45,Female,73400.0
+2023,UG,Health services and support,detail45,Female,70000.0
+2022,UG,Health services and support,detail45,Female,68600.0
+2021,UG,Health services and support,detail45,Female,65200.0
+2020,UG,Health services and support,detail45,Female,65000.0
+2025,UG,Health services and support,detail45,Total,77000.0
+2024,UG,Health services and support,detail45,Total,73800.0
+2023,UG,Health services and support,detail45,Total,70400.0
+2022,UG,Health services and support,detail45,Total,69400.0
+2021,UG,Health services and support,detail45,Total,65700.0
+2020,UG,Health services and support,detail45,Total,65000.0
+2025,UG,"Humanities, history and geography",detail45,Male,78800.0
+2024,UG,"Humanities, history and geography",detail45,Male,74000.0
+2023,UG,"Humanities, history and geography",detail45,Male,72000.0
+2022,UG,"Humanities, history and geography",detail45,Male,69000.0
+2021,UG,"Humanities, history and geography",detail45,Male,65000.0
+2020,UG,"Humanities, history and geography",detail45,Male,65000.0
+2025,UG,"Humanities, history and geography",detail45,Female,74000.0
+2024,UG,"Humanities, history and geography",detail45,Female,73000.0
+2023,UG,"Humanities, history and geography",detail45,Female,67800.0
+2022,UG,"Humanities, history and geography",detail45,Female,65900.0
+2021,UG,"Humanities, history and geography",detail45,Female,62100.0
+2020,UG,"Humanities, history and geography",detail45,Female,62000.0
+2025,UG,"Humanities, history and geography",detail45,Total,75000.0
+2024,UG,"Humanities, history and geography",detail45,Total,73100.0
+2023,UG,"Humanities, history and geography",detail45,Total,70000.0
+2022,UG,"Humanities, history and geography",detail45,Total,67000.0
+2021,UG,"Humanities, history and geography",detail45,Total,62600.0
+2020,UG,"Humanities, history and geography",detail45,Total,62600.0
+2025,UG,Justice studies and policing,detail45,Male,85000.0
+2024,UG,Justice studies and policing,detail45,Male,85000.0
+2023,UG,Justice studies and policing,detail45,Male,80000.0
+2022,UG,Justice studies and policing,detail45,Male,78000.0
+2021,UG,Justice studies and policing,detail45,Male,78100.0
+2020,UG,Justice studies and policing,detail45,Male,78000.0
+2025,UG,Justice studies and policing,detail45,Female,74000.0
+2024,UG,Justice studies and policing,detail45,Female,76800.0
+2023,UG,Justice studies and policing,detail45,Female,65300.0
+2022,UG,Justice studies and policing,detail45,Female,66700.0
+2021,UG,Justice studies and policing,detail45,Female,66800.0
+2020,UG,Justice studies and policing,detail45,Female,65300.0
+2025,UG,Justice studies and policing,detail45,Total,80000.0
+2024,UG,Justice studies and policing,detail45,Total,82500.0
+2023,UG,Justice studies and policing,detail45,Total,76800.0
+2022,UG,Justice studies and policing,detail45,Total,72300.0
+2021,UG,Justice studies and policing,detail45,Total,73000.0
+2020,UG,Justice studies and policing,detail45,Total,72000.0
+2025,UG,Language and literature,detail45,Male,89200.0
+2024,UG,Language and literature,detail45,Male,86500.0
+2022,UG,Language and literature,detail45,Male,66800.0
+2021,UG,Language and literature,detail45,Male,72000.0
+2020,UG,Language and literature,detail45,Male,60500.0
+2025,UG,Language and literature,detail45,Female,74000.0
+2024,UG,Language and literature,detail45,Female,71000.0
+2023,UG,Language and literature,detail45,Female,67300.0
+2022,UG,Language and literature,detail45,Female,65700.0
+2021,UG,Language and literature,detail45,Female,61200.0
+2020,UG,Language and literature,detail45,Female,62100.0
+2025,UG,Language and literature,detail45,Total,80000.0
+2024,UG,Language and literature,detail45,Total,75000.0
+2023,UG,Language and literature,detail45,Total,67300.0
+2022,UG,Language and literature,detail45,Total,66000.0
+2021,UG,Language and literature,detail45,Total,64200.0
+2020,UG,Language and literature,detail45,Total,61300.0
+2025,UG,Law,detail45,Male,82500.0
+2024,UG,Law,detail45,Male,78300.0
+2023,UG,Law,detail45,Male,73300.0
+2022,UG,Law,detail45,Male,70000.0
+2021,UG,Law,detail45,Male,68800.0
+2020,UG,Law,detail45,Male,67800.0
+2025,UG,Law,detail45,Female,78000.0
+2024,UG,Law,detail45,Female,75000.0
+2023,UG,Law,detail45,Female,71800.0
+2022,UG,Law,detail45,Female,68500.0
+2021,UG,Law,detail45,Female,65000.0
+2020,UG,Law,detail45,Female,63800.0
+2025,UG,Law,detail45,Total,80000.0
+2024,UG,Law,detail45,Total,75300.0
+2023,UG,Law,detail45,Total,72000.0
+2022,UG,Law,detail45,Total,70000.0
+2021,UG,Law,detail45,Total,66000.0
+2020,UG,Law,detail45,Total,65000.0
+2025,UG,Management and commerce - other,detail45,Male,75100.0
+2024,UG,Management and commerce - other,detail45,Male,72000.0
+2023,UG,Management and commerce - other,detail45,Male,70000.0
+2022,UG,Management and commerce - other,detail45,Male,66400.0
+2021,UG,Management and commerce - other,detail45,Male,64000.0
+2020,UG,Management and commerce - other,detail45,Male,65000.0
+2025,UG,Management and commerce - other,detail45,Female,73500.0
+2024,UG,Management and commerce - other,detail45,Female,73000.0
+2023,UG,Management and commerce - other,detail45,Female,70000.0
+2022,UG,Management and commerce - other,detail45,Female,66800.0
+2021,UG,Management and commerce - other,detail45,Female,61000.0
+2020,UG,Management and commerce - other,detail45,Female,60000.0
+2025,UG,Management and commerce - other,detail45,Total,75000.0
+2024,UG,Management and commerce - other,detail45,Total,73000.0
+2023,UG,Management and commerce - other,detail45,Total,70000.0
+2022,UG,Management and commerce - other,detail45,Total,66700.0
+2021,UG,Management and commerce - other,detail45,Total,63000.0
+2020,UG,Management and commerce - other,detail45,Total,62600.0
+2025,UG,Mathematics,detail45,Male,82000.0
+2024,UG,Mathematics,detail45,Male,76500.0
+2023,UG,Mathematics,detail45,Male,75000.0
+2022,UG,Mathematics,detail45,Male,70000.0
+2021,UG,Mathematics,detail45,Male,69000.0
+2020,UG,Mathematics,detail45,Male,68000.0
+2025,UG,Mathematics,detail45,Female,82000.0
+2024,UG,Mathematics,detail45,Female,78900.0
+2023,UG,Mathematics,detail45,Female,73000.0
+2022,UG,Mathematics,detail45,Female,68000.0
+2021,UG,Mathematics,detail45,Female,66500.0
+2020,UG,Mathematics,detail45,Female,70000.0
+2025,UG,Mathematics,detail45,Total,82000.0
+2024,UG,Mathematics,detail45,Total,77000.0
+2023,UG,Mathematics,detail45,Total,73100.0
+2022,UG,Mathematics,detail45,Total,69000.0
+2021,UG,Mathematics,detail45,Total,68900.0
+2020,UG,Mathematics,detail45,Total,68900.0
+2025,UG,Medical sciences and technology,detail45,Male,71000.0
+2024,UG,Medical sciences and technology,detail45,Male,75000.0
+2023,UG,Medical sciences and technology,detail45,Male,68000.0
+2022,UG,Medical sciences and technology,detail45,Male,70000.0
+2021,UG,Medical sciences and technology,detail45,Male,65000.0
+2020,UG,Medical sciences and technology,detail45,Male,56800.0
+2025,UG,Medical sciences and technology,detail45,Female,68600.0
+2024,UG,Medical sciences and technology,detail45,Female,67100.0
+2023,UG,Medical sciences and technology,detail45,Female,65700.0
+2022,UG,Medical sciences and technology,detail45,Female,65200.0
+2021,UG,Medical sciences and technology,detail45,Female,62600.0
+2020,UG,Medical sciences and technology,detail45,Female,60000.0
+2025,UG,Medical sciences and technology,detail45,Total,70000.0
+2024,UG,Medical sciences and technology,detail45,Total,69100.0
+2023,UG,Medical sciences and technology,detail45,Total,66800.0
+2022,UG,Medical sciences and technology,detail45,Total,67000.0
+2021,UG,Medical sciences and technology,detail45,Total,63600.0
+2020,UG,Medical sciences and technology,detail45,Total,59000.0
+2025,UG,Medicine,detail45,Male,86700.0
+2024,UG,Medicine,detail45,Male,87700.0
+2023,UG,Medicine,detail45,Male,90000.0
+2022,UG,Medicine,detail45,Male,80000.0
+2021,UG,Medicine,detail45,Male,76000.0
+2020,UG,Medicine,detail45,Male,75500.0
+2025,UG,Medicine,detail45,Female,86100.0
+2024,UG,Medicine,detail45,Female,85000.0
+2023,UG,Medicine,detail45,Female,83300.0
+2022,UG,Medicine,detail45,Female,79300.0
+2021,UG,Medicine,detail45,Female,77000.0
+2020,UG,Medicine,detail45,Female,75000.0
+2025,UG,Medicine,detail45,Total,86100.0
+2024,UG,Medicine,detail45,Total,87000.0
+2023,UG,Medicine,detail45,Total,85000.0
+2022,UG,Medicine,detail45,Total,80000.0
+2021,UG,Medicine,detail45,Total,76600.0
+2020,UG,Medicine,detail45,Total,75100.0
+2025,UG,Music and performing arts,detail45,Male,65000.0
+2024,UG,Music and performing arts,detail45,Male,66600.0
+2023,UG,Music and performing arts,detail45,Male,60000.0
+2022,UG,Music and performing arts,detail45,Male,60000.0
+2021,UG,Music and performing arts,detail45,Male,56700.0
+2020,UG,Music and performing arts,detail45,Male,52100.0
+2025,UG,Music and performing arts,detail45,Female,65000.0
+2024,UG,Music and performing arts,detail45,Female,61000.0
+2023,UG,Music and performing arts,detail45,Female,59500.0
+2022,UG,Music and performing arts,detail45,Female,55800.0
+2021,UG,Music and performing arts,detail45,Female,54500.0
+2020,UG,Music and performing arts,detail45,Female,53400.0
+2025,UG,Music and performing arts,detail45,Total,65000.0
+2024,UG,Music and performing arts,detail45,Total,63000.0
+2023,UG,Music and performing arts,detail45,Total,60000.0
+2022,UG,Music and performing arts,detail45,Total,57400.0
+2021,UG,Music and performing arts,detail45,Total,55400.0
+2020,UG,Music and performing arts,detail45,Total,52200.0
+2025,UG,Natural and physical sciences,detail45,Male,78300.0
+2024,UG,Natural and physical sciences,detail45,Male,76000.0
+2023,UG,Natural and physical sciences,detail45,Male,71000.0
+2022,UG,Natural and physical sciences,detail45,Male,67000.0
+2021,UG,Natural and physical sciences,detail45,Male,65000.0
+2020,UG,Natural and physical sciences,detail45,Male,68000.0
+2025,UG,Natural and physical sciences,detail45,Female,74100.0
+2024,UG,Natural and physical sciences,detail45,Female,73000.0
+2023,UG,Natural and physical sciences,detail45,Female,69400.0
+2022,UG,Natural and physical sciences,detail45,Female,65200.0
+2021,UG,Natural and physical sciences,detail45,Female,63400.0
+2020,UG,Natural and physical sciences,detail45,Female,65800.0
+2025,UG,Natural and physical sciences,detail45,Total,76000.0
+2024,UG,Natural and physical sciences,detail45,Total,75000.0
+2023,UG,Natural and physical sciences,detail45,Total,70000.0
+2022,UG,Natural and physical sciences,detail45,Total,66000.0
+2021,UG,Natural and physical sciences,detail45,Total,65000.0
+2020,UG,Natural and physical sciences,detail45,Total,67200.0
+2025,UG,Nursing,detail45,Male,77100.0
+2024,UG,Nursing,detail45,Male,74000.0
+2023,UG,Nursing,detail45,Male,71000.0
+2022,UG,Nursing,detail45,Male,68900.0
+2021,UG,Nursing,detail45,Male,66800.0
+2020,UG,Nursing,detail45,Male,65400.0
+2025,UG,Nursing,detail45,Female,75100.0
+2024,UG,Nursing,detail45,Female,71400.0
+2023,UG,Nursing,detail45,Female,69000.0
+2022,UG,Nursing,detail45,Female,67800.0
+2021,UG,Nursing,detail45,Female,65200.0
+2020,UG,Nursing,detail45,Female,64200.0
+2025,UG,Nursing,detail45,Total,75100.0
+2024,UG,Nursing,detail45,Total,72000.0
+2023,UG,Nursing,detail45,Total,69400.0
+2022,UG,Nursing,detail45,Total,68500.0
+2021,UG,Nursing,detail45,Total,65200.0
+2020,UG,Nursing,detail45,Total,64200.0
+2025,UG,Occupational therapy,detail45,Male,80000.0
+2024,UG,Occupational therapy,detail45,Male,75000.0
+2023,UG,Occupational therapy,detail45,Male,73400.0
+2022,UG,Occupational therapy,detail45,Male,75000.0
+2020,UG,Occupational therapy,detail45,Male,65200.0
+2025,UG,Occupational therapy,detail45,Female,76100.0
+2024,UG,Occupational therapy,detail45,Female,75000.0
+2023,UG,Occupational therapy,detail45,Female,71400.0
+2022,UG,Occupational therapy,detail45,Female,69400.0
+2021,UG,Occupational therapy,detail45,Female,67500.0
+2020,UG,Occupational therapy,detail45,Female,65000.0
+2025,UG,Occupational therapy,detail45,Total,76500.0
+2024,UG,Occupational therapy,detail45,Total,75000.0
+2023,UG,Occupational therapy,detail45,Total,72000.0
+2022,UG,Occupational therapy,detail45,Total,70000.0
+2021,UG,Occupational therapy,detail45,Total,67500.0
+2020,UG,Occupational therapy,detail45,Total,65000.0
+2025,UG,Pharmacy,detail45,Male,63400.0
+2024,UG,Pharmacy,detail45,Male,58900.0
+2023,UG,Pharmacy,detail45,Male,55500.0
+2022,UG,Pharmacy,detail45,Male,54300.0
+2021,UG,Pharmacy,detail45,Male,49600.0
+2020,UG,Pharmacy,detail45,Male,49600.0
+2025,UG,Pharmacy,detail45,Female,62600.0
+2024,UG,Pharmacy,detail45,Female,59500.0
+2023,UG,Pharmacy,detail45,Female,55500.0
+2022,UG,Pharmacy,detail45,Female,52200.0
+2021,UG,Pharmacy,detail45,Female,50000.0
+2020,UG,Pharmacy,detail45,Female,49600.0
+2025,UG,Pharmacy,detail45,Total,62600.0
+2024,UG,Pharmacy,detail45,Total,59500.0
+2023,UG,Pharmacy,detail45,Total,55500.0
+2022,UG,Pharmacy,detail45,Total,52200.0
+2021,UG,Pharmacy,detail45,Total,50000.0
+2020,UG,Pharmacy,detail45,Total,49600.0
+2025,UG,Physiotherapy,detail45,Male,75300.0
+2024,UG,Physiotherapy,detail45,Male,73100.0
+2023,UG,Physiotherapy,detail45,Male,70000.0
+2022,UG,Physiotherapy,detail45,Male,68900.0
+2021,UG,Physiotherapy,detail45,Male,66600.0
+2020,UG,Physiotherapy,detail45,Male,65000.0
+2025,UG,Physiotherapy,detail45,Female,73000.0
+2024,UG,Physiotherapy,detail45,Female,73400.0
+2023,UG,Physiotherapy,detail45,Female,70400.0
+2022,UG,Physiotherapy,detail45,Female,69000.0
+2021,UG,Physiotherapy,detail45,Female,66800.0
+2020,UG,Physiotherapy,detail45,Female,65000.0
+2025,UG,Physiotherapy,detail45,Total,73800.0
+2024,UG,Physiotherapy,detail45,Total,73400.0
+2023,UG,Physiotherapy,detail45,Total,70000.0
+2022,UG,Physiotherapy,detail45,Total,69000.0
+2021,UG,Physiotherapy,detail45,Total,66800.0
+2020,UG,Physiotherapy,detail45,Total,65000.0
+2025,UG,Political science,detail45,Male,75800.0
+2024,UG,Political science,detail45,Male,74800.0
+2023,UG,Political science,detail45,Male,70000.0
+2022,UG,Political science,detail45,Male,68000.0
+2021,UG,Political science,detail45,Male,60300.0
+2020,UG,Political science,detail45,Male,63200.0
+2025,UG,Political science,detail45,Female,75000.0
+2024,UG,Political science,detail45,Female,70000.0
+2023,UG,Political science,detail45,Female,68600.0
+2022,UG,Political science,detail45,Female,65800.0
+2021,UG,Political science,detail45,Female,60000.0
+2020,UG,Political science,detail45,Female,61400.0
+2025,UG,Political science,detail45,Total,75000.0
+2024,UG,Political science,detail45,Total,73000.0
+2023,UG,Political science,detail45,Total,68900.0
+2022,UG,Political science,detail45,Total,66500.0
+2021,UG,Political science,detail45,Total,60000.0
+2020,UG,Political science,detail45,Total,62600.0
+2025,UG,Psychology,detail45,Male,72000.0
+2024,UG,Psychology,detail45,Male,78000.0
+2023,UG,Psychology,detail45,Male,73100.0
+2022,UG,Psychology,detail45,Male,70000.0
+2021,UG,Psychology,detail45,Male,70000.0
+2020,UG,Psychology,detail45,Male,65200.0
+2025,UG,Psychology,detail45,Female,77000.0
+2024,UG,Psychology,detail45,Female,75000.0
+2023,UG,Psychology,detail45,Female,70000.0
+2022,UG,Psychology,detail45,Female,67600.0
+2021,UG,Psychology,detail45,Female,63200.0
+2020,UG,Psychology,detail45,Female,63000.0
+2025,UG,Psychology,detail45,Total,75500.0
+2024,UG,Psychology,detail45,Total,75300.0
+2023,UG,Psychology,detail45,Total,71000.0
+2022,UG,Psychology,detail45,Total,68000.0
+2021,UG,Psychology,detail45,Total,65000.0
+2020,UG,Psychology,detail45,Total,63000.0
+2025,UG,Public health,detail45,Male,82400.0
+2024,UG,Public health,detail45,Male,80000.0
+2023,UG,Public health,detail45,Male,75000.0
+2022,UG,Public health,detail45,Male,73000.0
+2021,UG,Public health,detail45,Male,77000.0
+2020,UG,Public health,detail45,Male,70000.0
+2025,UG,Public health,detail45,Female,80000.0
+2024,UG,Public health,detail45,Female,77000.0
+2023,UG,Public health,detail45,Female,71000.0
+2022,UG,Public health,detail45,Female,68500.0
+2021,UG,Public health,detail45,Female,67300.0
+2020,UG,Public health,detail45,Female,67000.0
+2025,UG,Public health,detail45,Total,80000.0
+2024,UG,Public health,detail45,Total,77800.0
+2023,UG,Public health,detail45,Total,72000.0
+2022,UG,Public health,detail45,Total,70000.0
+2021,UG,Public health,detail45,Total,69500.0
+2020,UG,Public health,detail45,Total,67600.0
+2025,UG,Sales and marketing,detail45,Male,69300.0
+2024,UG,Sales and marketing,detail45,Male,68000.0
+2023,UG,Sales and marketing,detail45,Male,65000.0
+2022,UG,Sales and marketing,detail45,Male,60000.0
+2021,UG,Sales and marketing,detail45,Male,60000.0
+2020,UG,Sales and marketing,detail45,Male,58400.0
+2025,UG,Sales and marketing,detail45,Female,70000.0
+2024,UG,Sales and marketing,detail45,Female,68000.0
+2023,UG,Sales and marketing,detail45,Female,65000.0
+2022,UG,Sales and marketing,detail45,Female,60000.0
+2021,UG,Sales and marketing,detail45,Female,56700.0
+2020,UG,Sales and marketing,detail45,Female,55000.0
+2025,UG,Sales and marketing,detail45,Total,70000.0
+2024,UG,Sales and marketing,detail45,Total,68000.0
+2023,UG,Sales and marketing,detail45,Total,65000.0
+2022,UG,Sales and marketing,detail45,Total,60000.0
+2021,UG,Sales and marketing,detail45,Total,58000.0
+2020,UG,Sales and marketing,detail45,Total,55000.0
+2025,UG,Social work,detail45,Male,85100.0
+2024,UG,Social work,detail45,Male,82200.0
+2023,UG,Social work,detail45,Male,77300.0
+2022,UG,Social work,detail45,Male,74000.0
+2021,UG,Social work,detail45,Male,74900.0
+2020,UG,Social work,detail45,Male,68000.0
+2025,UG,Social work,detail45,Female,85300.0
+2024,UG,Social work,detail45,Female,81500.0
+2023,UG,Social work,detail45,Female,77300.0
+2022,UG,Social work,detail45,Female,75000.0
+2021,UG,Social work,detail45,Female,72400.0
+2020,UG,Social work,detail45,Female,70000.0
+2025,UG,Social work,detail45,Total,85300.0
+2024,UG,Social work,detail45,Total,82000.0
+2023,UG,Social work,detail45,Total,77300.0
+2022,UG,Social work,detail45,Total,75000.0
+2021,UG,Social work,detail45,Total,72600.0
+2020,UG,Social work,detail45,Total,70000.0
+2025,UG,Sport and recreation,detail45,Total,65100.0
+2024,UG,Sport and recreation,detail45,Total,62600.0
+2023,UG,Sport and recreation,detail45,Total,58100.0
+2022,UG,Sport and recreation,detail45,Total,54800.0
+2020,UG,Sport and recreation,detail45,Total,55700.0
+2025,UG,Teacher education - early childhood,detail45,Female,78300.0
+2024,UG,Teacher education - early childhood,detail45,Female,77000.0
+2023,UG,Teacher education - early childhood,detail45,Female,73400.0
+2022,UG,Teacher education - early childhood,detail45,Female,70000.0
+2021,UG,Teacher education - early childhood,detail45,Female,67400.0
+2020,UG,Teacher education - early childhood,detail45,Female,66800.0
+2025,UG,Teacher education - early childhood,detail45,Total,78300.0
+2024,UG,Teacher education - early childhood,detail45,Total,77000.0
+2023,UG,Teacher education - early childhood,detail45,Total,73400.0
+2022,UG,Teacher education - early childhood,detail45,Total,70000.0
+2021,UG,Teacher education - early childhood,detail45,Total,67400.0
+2020,UG,Teacher education - early childhood,detail45,Total,67200.0
+2025,UG,Teacher education - other,detail45,Male,84100.0
+2024,UG,Teacher education - other,detail45,Male,84600.0
+2023,UG,Teacher education - other,detail45,Male,78000.0
+2022,UG,Teacher education - other,detail45,Male,75300.0
+2021,UG,Teacher education - other,detail45,Male,72100.0
+2020,UG,Teacher education - other,detail45,Male,70000.0
+2025,UG,Teacher education - other,detail45,Female,83500.0
+2024,UG,Teacher education - other,detail45,Female,78400.0
+2023,UG,Teacher education - other,detail45,Female,75000.0
+2022,UG,Teacher education - other,detail45,Female,73000.0
+2021,UG,Teacher education - other,detail45,Female,72000.0
+2020,UG,Teacher education - other,detail45,Female,69800.0
+2025,UG,Teacher education - other,detail45,Total,83800.0
+2024,UG,Teacher education - other,detail45,Total,80000.0
+2023,UG,Teacher education - other,detail45,Total,75600.0
+2022,UG,Teacher education - other,detail45,Total,73100.0
+2021,UG,Teacher education - other,detail45,Total,72000.0
+2020,UG,Teacher education - other,detail45,Total,70000.0
+2025,UG,Teacher education - primary and secondary,detail45,Male,84100.0
+2024,UG,Teacher education - primary and secondary,detail45,Male,80000.0
+2023,UG,Teacher education - primary and secondary,detail45,Male,75800.0
+2022,UG,Teacher education - primary and secondary,detail45,Male,73000.0
+2021,UG,Teacher education - primary and secondary,detail45,Male,72000.0
+2020,UG,Teacher education - primary and secondary,detail45,Male,70000.0
+2025,UG,Teacher education - primary and secondary,detail45,Female,83000.0
+2024,UG,Teacher education - primary and secondary,detail45,Female,79700.0
+2023,UG,Teacher education - primary and secondary,detail45,Female,75000.0
+2022,UG,Teacher education - primary and secondary,detail45,Female,72200.0
+2021,UG,Teacher education - primary and secondary,detail45,Female,72000.0
+2020,UG,Teacher education - primary and secondary,detail45,Female,70000.0
+2025,UG,Teacher education - primary and secondary,detail45,Total,83500.0
+2024,UG,Teacher education - primary and secondary,detail45,Total,80000.0
+2023,UG,Teacher education - primary and secondary,detail45,Total,75000.0
+2022,UG,Teacher education - primary and secondary,detail45,Total,72600.0
+2021,UG,Teacher education - primary and secondary,detail45,Total,72000.0
+2020,UG,Teacher education - primary and secondary,detail45,Total,70000.0
+2025,UG,"Tourism, hospitality and personal services",detail45,Male,80000.0
+2025,UG,"Tourism, hospitality and personal services",detail45,Total,72500.0
+2024,UG,"Tourism, hospitality and personal services",detail45,Total,65100.0
+2023,UG,"Tourism, hospitality and personal services",detail45,Total,70500.0
+2025,UG,Veterinary science,detail45,Male,77800.0
+2025,UG,Veterinary science,detail45,Female,75000.0
+2024,UG,Veterinary science,detail45,Female,70000.0
+2023,UG,Veterinary science,detail45,Female,66800.0
+2022,UG,Veterinary science,detail45,Female,62600.0
+2021,UG,Veterinary science,detail45,Female,60000.0
+2020,UG,Veterinary science,detail45,Female,57500.0
+2025,UG,Veterinary science,detail45,Total,75000.0
+2024,UG,Veterinary science,detail45,Total,70000.0
+2023,UG,Veterinary science,detail45,Total,67400.0
+2022,UG,Veterinary science,detail45,Total,62600.0
+2021,UG,Veterinary science,detail45,Total,60000.0
+2020,UG,Veterinary science,detail45,Total,57800.0
+2025,PGC,Agriculture and environmental studies,broad,Male,99000.0
+2024,PGC,Agriculture and environmental studies,broad,Male,94500.0
+2023,PGC,Agriculture and environmental studies,broad,Male,80000.0
+2022,PGC,Agriculture and environmental studies,broad,Male,81000.0
+2021,PGC,Agriculture and environmental studies,broad,Male,80000.0
+2020,PGC,Agriculture and environmental studies,broad,Male,93000.0
+2025,PGC,Agriculture and environmental studies,broad,Female,100000.0
+2024,PGC,Agriculture and environmental studies,broad,Female,93000.0
+2023,PGC,Agriculture and environmental studies,broad,Female,87000.0
+2022,PGC,Agriculture and environmental studies,broad,Female,80000.0
+2021,PGC,Agriculture and environmental studies,broad,Female,81300.0
+2020,PGC,Agriculture and environmental studies,broad,Female,70000.0
+2025,PGC,Agriculture and environmental studies,broad,Total,99000.0
+2024,PGC,Agriculture and environmental studies,broad,Total,94000.0
+2023,PGC,Agriculture and environmental studies,broad,Total,85000.0
+2022,PGC,Agriculture and environmental studies,broad,Total,80000.0
+2021,PGC,Agriculture and environmental studies,broad,Total,80000.0
+2020,PGC,Agriculture and environmental studies,broad,Total,79000.0
+2025,PGC,Architecture and built environment,broad,Male,85200.0
+2024,PGC,Architecture and built environment,broad,Male,88500.0
+2023,PGC,Architecture and built environment,broad,Male,80000.0
+2022,PGC,Architecture and built environment,broad,Male,77200.0
+2021,PGC,Architecture and built environment,broad,Male,70000.0
+2020,PGC,Architecture and built environment,broad,Male,77000.0
+2025,PGC,Architecture and built environment,broad,Female,77300.0
+2024,PGC,Architecture and built environment,broad,Female,80000.0
+2023,PGC,Architecture and built environment,broad,Female,73000.0
+2022,PGC,Architecture and built environment,broad,Female,69300.0
+2021,PGC,Architecture and built environment,broad,Female,66800.0
+2020,PGC,Architecture and built environment,broad,Female,62300.0
+2025,PGC,Architecture and built environment,broad,Total,80000.0
+2024,PGC,Architecture and built environment,broad,Total,84500.0
+2023,PGC,Architecture and built environment,broad,Total,75000.0
+2022,PGC,Architecture and built environment,broad,Total,72900.0
+2021,PGC,Architecture and built environment,broad,Total,68000.0
+2020,PGC,Architecture and built environment,broad,Total,68500.0
+2025,PGC,Business and management,broad,Male,138800.0
+2024,PGC,Business and management,broad,Male,130000.0
+2023,PGC,Business and management,broad,Male,129400.0
+2022,PGC,Business and management,broad,Male,120000.0
+2021,PGC,Business and management,broad,Male,120000.0
+2020,PGC,Business and management,broad,Male,120000.0
+2025,PGC,Business and management,broad,Female,126000.0
+2024,PGC,Business and management,broad,Female,117000.0
+2023,PGC,Business and management,broad,Female,114800.0
+2022,PGC,Business and management,broad,Female,109000.0
+2021,PGC,Business and management,broad,Female,104400.0
+2020,PGC,Business and management,broad,Female,104000.0
+2025,PGC,Business and management,broad,Total,130000.0
+2024,PGC,Business and management,broad,Total,124000.0
+2023,PGC,Business and management,broad,Total,120000.0
+2022,PGC,Business and management,broad,Total,115000.0
+2021,PGC,Business and management,broad,Total,110000.0
+2020,PGC,Business and management,broad,Total,110200.0
+2024,PGC,Communications,broad,Male,70000.0
+2023,PGC,Communications,broad,Male,72500.0
+2022,PGC,Communications,broad,Male,78400.0
+2021,PGC,Communications,broad,Male,74900.0
+2020,PGC,Communications,broad,Male,72000.0
+2025,PGC,Communications,broad,Female,85100.0
+2024,PGC,Communications,broad,Female,80000.0
+2023,PGC,Communications,broad,Female,71400.0
+2022,PGC,Communications,broad,Female,75000.0
+2021,PGC,Communications,broad,Female,67300.0
+2020,PGC,Communications,broad,Female,70000.0
+2025,PGC,Communications,broad,Total,85100.0
+2024,PGC,Communications,broad,Total,78000.0
+2023,PGC,Communications,broad,Total,72000.0
+2022,PGC,Communications,broad,Total,75000.0
+2021,PGC,Communications,broad,Total,70000.0
+2020,PGC,Communications,broad,Total,70000.0
+2025,PGC,Computing and information systems,broad,Male,120000.0
+2024,PGC,Computing and information systems,broad,Male,115000.0
+2023,PGC,Computing and information systems,broad,Male,110000.0
+2022,PGC,Computing and information systems,broad,Male,104400.0
+2021,PGC,Computing and information systems,broad,Male,100000.0
+2020,PGC,Computing and information systems,broad,Male,100500.0
+2025,PGC,Computing and information systems,broad,Female,113000.0
+2024,PGC,Computing and information systems,broad,Female,100000.0
+2023,PGC,Computing and information systems,broad,Female,90100.0
+2022,PGC,Computing and information systems,broad,Female,95200.0
+2021,PGC,Computing and information systems,broad,Female,88000.0
+2020,PGC,Computing and information systems,broad,Female,81900.0
+2025,PGC,Computing and information systems,broad,Total,120000.0
+2024,PGC,Computing and information systems,broad,Total,110000.0
+2023,PGC,Computing and information systems,broad,Total,105000.0
+2022,PGC,Computing and information systems,broad,Total,100000.0
+2021,PGC,Computing and information systems,broad,Total,96000.0
+2020,PGC,Computing and information systems,broad,Total,96000.0
+2022,PGC,Creative arts,broad,Male,70000.0
+2025,PGC,Creative arts,broad,Female,80000.0
+2024,PGC,Creative arts,broad,Female,80000.0
+2023,PGC,Creative arts,broad,Female,78300.0
+2022,PGC,Creative arts,broad,Female,69000.0
+2021,PGC,Creative arts,broad,Female,80000.0
+2020,PGC,Creative arts,broad,Female,65000.0
+2025,PGC,Creative arts,broad,Total,86700.0
+2024,PGC,Creative arts,broad,Total,81000.0
+2023,PGC,Creative arts,broad,Total,78300.0
+2022,PGC,Creative arts,broad,Total,69500.0
+2021,PGC,Creative arts,broad,Total,78300.0
+2020,PGC,Creative arts,broad,Total,65400.0
+2020,PGC,Dentistry,broad,Male,114800.0
+2022,PGC,Dentistry,broad,Female,120000.0
+2021,PGC,Dentistry,broad,Female,109000.0
+2025,PGC,Dentistry,broad,Total,140900.0
+2024,PGC,Dentistry,broad,Total,130000.0
+2023,PGC,Dentistry,broad,Total,127400.0
+2022,PGC,Dentistry,broad,Total,123700.0
+2021,PGC,Dentistry,broad,Total,114000.0
+2020,PGC,Dentistry,broad,Total,104400.0
+2025,PGC,Engineering,broad,Male,135000.0
+2024,PGC,Engineering,broad,Male,114000.0
+2023,PGC,Engineering,broad,Male,114700.0
+2022,PGC,Engineering,broad,Male,104400.0
+2021,PGC,Engineering,broad,Male,100000.0
+2020,PGC,Engineering,broad,Male,100000.0
+2025,PGC,Engineering,broad,Female,96300.0
+2024,PGC,Engineering,broad,Female,100000.0
+2023,PGC,Engineering,broad,Female,98500.0
+2022,PGC,Engineering,broad,Female,88000.0
+2021,PGC,Engineering,broad,Female,78000.0
+2020,PGC,Engineering,broad,Female,93000.0
+2025,PGC,Engineering,broad,Total,125000.0
+2024,PGC,Engineering,broad,Total,111000.0
+2023,PGC,Engineering,broad,Total,109800.0
+2022,PGC,Engineering,broad,Total,100000.0
+2021,PGC,Engineering,broad,Total,93000.0
+2020,PGC,Engineering,broad,Total,97000.0
+2025,PGC,Health services and support,broad,Male,122500.0
+2024,PGC,Health services and support,broad,Male,119400.0
+2023,PGC,Health services and support,broad,Male,105100.0
+2022,PGC,Health services and support,broad,Male,105000.0
+2021,PGC,Health services and support,broad,Male,100000.0
+2020,PGC,Health services and support,broad,Male,100000.0
+2025,PGC,Health services and support,broad,Female,105100.0
+2024,PGC,Health services and support,broad,Female,100000.0
+2023,PGC,Health services and support,broad,Female,98000.0
+2022,PGC,Health services and support,broad,Female,90000.0
+2021,PGC,Health services and support,broad,Female,90000.0
+2020,PGC,Health services and support,broad,Female,83500.0
+2025,PGC,Health services and support,broad,Total,109200.0
+2024,PGC,Health services and support,broad,Total,103000.0
+2023,PGC,Health services and support,broad,Total,100000.0
+2022,PGC,Health services and support,broad,Total,93900.0
+2021,PGC,Health services and support,broad,Total,91300.0
+2020,PGC,Health services and support,broad,Total,89000.0
+2025,PGC,"Humanities, culture and social sciences",broad,Male,108700.0
+2024,PGC,"Humanities, culture and social sciences",broad,Male,104000.0
+2023,PGC,"Humanities, culture and social sciences",broad,Male,90700.0
+2022,PGC,"Humanities, culture and social sciences",broad,Male,90000.0
+2021,PGC,"Humanities, culture and social sciences",broad,Male,91400.0
+2020,PGC,"Humanities, culture and social sciences",broad,Male,84000.0
+2025,PGC,"Humanities, culture and social sciences",broad,Female,98500.0
+2024,PGC,"Humanities, culture and social sciences",broad,Female,95000.0
+2023,PGC,"Humanities, culture and social sciences",broad,Female,85300.0
+2022,PGC,"Humanities, culture and social sciences",broad,Female,84000.0
+2021,PGC,"Humanities, culture and social sciences",broad,Female,84000.0
+2020,PGC,"Humanities, culture and social sciences",broad,Female,80300.0
+2025,PGC,"Humanities, culture and social sciences",broad,Total,100000.0
+2024,PGC,"Humanities, culture and social sciences",broad,Total,99000.0
+2023,PGC,"Humanities, culture and social sciences",broad,Total,88300.0
+2022,PGC,"Humanities, culture and social sciences",broad,Total,87000.0
+2021,PGC,"Humanities, culture and social sciences",broad,Total,85300.0
+2020,PGC,"Humanities, culture and social sciences",broad,Total,82000.0
+2025,PGC,Law and paralegal studies,broad,Male,100000.0
+2024,PGC,Law and paralegal studies,broad,Male,96000.0
+2023,PGC,Law and paralegal studies,broad,Male,90000.0
+2022,PGC,Law and paralegal studies,broad,Male,86000.0
+2021,PGC,Law and paralegal studies,broad,Male,80000.0
+2020,PGC,Law and paralegal studies,broad,Male,80000.0
+2025,PGC,Law and paralegal studies,broad,Female,90000.0
+2024,PGC,Law and paralegal studies,broad,Female,86000.0
+2023,PGC,Law and paralegal studies,broad,Female,83000.0
+2022,PGC,Law and paralegal studies,broad,Female,78300.0
+2021,PGC,Law and paralegal studies,broad,Female,73100.0
+2020,PGC,Law and paralegal studies,broad,Female,72000.0
+2025,PGC,Law and paralegal studies,broad,Total,93900.0
+2024,PGC,Law and paralegal studies,broad,Total,90000.0
+2023,PGC,Law and paralegal studies,broad,Total,85000.0
+2022,PGC,Law and paralegal studies,broad,Total,80300.0
+2021,PGC,Law and paralegal studies,broad,Total,76000.0
+2020,PGC,Law and paralegal studies,broad,Total,75000.0
+2025,PGC,Medicine,broad,Male,91600.0
+2024,PGC,Medicine,broad,Male,90000.0
+2023,PGC,Medicine,broad,Male,85200.0
+2022,PGC,Medicine,broad,Male,85600.0
+2021,PGC,Medicine,broad,Male,86900.0
+2020,PGC,Medicine,broad,Male,78500.0
+2025,PGC,Medicine,broad,Female,91000.0
+2024,PGC,Medicine,broad,Female,90000.0
+2023,PGC,Medicine,broad,Female,87700.0
+2022,PGC,Medicine,broad,Female,83500.0
+2021,PGC,Medicine,broad,Female,80000.0
+2020,PGC,Medicine,broad,Female,78300.0
+2025,PGC,Medicine,broad,Total,91200.0
+2024,PGC,Medicine,broad,Total,90000.0
+2023,PGC,Medicine,broad,Total,85900.0
+2022,PGC,Medicine,broad,Total,83500.0
+2021,PGC,Medicine,broad,Total,81400.0
+2020,PGC,Medicine,broad,Total,78300.0
+2025,PGC,Nursing,broad,Male,105000.0
+2024,PGC,Nursing,broad,Male,102900.0
+2023,PGC,Nursing,broad,Male,100200.0
+2022,PGC,Nursing,broad,Male,98100.0
+2021,PGC,Nursing,broad,Male,91000.0
+2020,PGC,Nursing,broad,Male,93200.0
+2025,PGC,Nursing,broad,Female,101400.0
+2024,PGC,Nursing,broad,Female,99100.0
+2023,PGC,Nursing,broad,Female,95000.0
+2022,PGC,Nursing,broad,Female,90500.0
+2021,PGC,Nursing,broad,Female,89200.0
+2020,PGC,Nursing,broad,Female,86400.0
+2025,PGC,Nursing,broad,Total,103100.0
+2024,PGC,Nursing,broad,Total,99900.0
+2023,PGC,Nursing,broad,Total,95800.0
+2022,PGC,Nursing,broad,Total,91300.0
+2021,PGC,Nursing,broad,Total,89700.0
+2020,PGC,Nursing,broad,Total,87700.0
+2023,PGC,Pharmacy,broad,Male,92000.0
+2022,PGC,Pharmacy,broad,Male,90800.0
+2025,PGC,Pharmacy,broad,Female,104400.0
+2024,PGC,Pharmacy,broad,Female,87000.0
+2023,PGC,Pharmacy,broad,Female,82300.0
+2022,PGC,Pharmacy,broad,Female,82300.0
+2021,PGC,Pharmacy,broad,Female,73400.0
+2020,PGC,Pharmacy,broad,Female,83500.0
+2025,PGC,Pharmacy,broad,Total,95700.0
+2024,PGC,Pharmacy,broad,Total,87000.0
+2023,PGC,Pharmacy,broad,Total,83500.0
+2022,PGC,Pharmacy,broad,Total,83300.0
+2021,PGC,Pharmacy,broad,Total,77700.0
+2020,PGC,Pharmacy,broad,Total,82500.0
+2025,PGC,Psychology,broad,Male,100000.0
+2024,PGC,Psychology,broad,Male,105600.0
+2023,PGC,Psychology,broad,Male,101100.0
+2022,PGC,Psychology,broad,Male,92600.0
+2021,PGC,Psychology,broad,Male,92000.0
+2020,PGC,Psychology,broad,Male,85000.0
+2025,PGC,Psychology,broad,Female,100000.0
+2024,PGC,Psychology,broad,Female,96200.0
+2023,PGC,Psychology,broad,Female,92000.0
+2022,PGC,Psychology,broad,Female,86700.0
+2021,PGC,Psychology,broad,Female,85000.0
+2020,PGC,Psychology,broad,Female,83000.0
+2025,PGC,Psychology,broad,Total,100000.0
+2024,PGC,Psychology,broad,Total,97700.0
+2023,PGC,Psychology,broad,Total,94000.0
+2022,PGC,Psychology,broad,Total,88000.0
+2021,PGC,Psychology,broad,Total,86000.0
+2020,PGC,Psychology,broad,Total,83500.0
+2025,PGC,Rehabilitation,broad,Male,80000.0
+2024,PGC,Rehabilitation,broad,Male,78800.0
+2023,PGC,Rehabilitation,broad,Male,75300.0
+2022,PGC,Rehabilitation,broad,Male,70000.0
+2021,PGC,Rehabilitation,broad,Male,70000.0
+2020,PGC,Rehabilitation,broad,Male,68500.0
+2025,PGC,Rehabilitation,broad,Female,82600.0
+2024,PGC,Rehabilitation,broad,Female,80000.0
+2023,PGC,Rehabilitation,broad,Female,75200.0
+2022,PGC,Rehabilitation,broad,Female,71400.0
+2021,PGC,Rehabilitation,broad,Female,69000.0
+2020,PGC,Rehabilitation,broad,Female,68900.0
+2025,PGC,Rehabilitation,broad,Total,82000.0
+2024,PGC,Rehabilitation,broad,Total,79600.0
+2023,PGC,Rehabilitation,broad,Total,75200.0
+2022,PGC,Rehabilitation,broad,Total,71000.0
+2021,PGC,Rehabilitation,broad,Total,69700.0
+2020,PGC,Rehabilitation,broad,Total,68800.0
+2025,PGC,Science and mathematics,broad,Male,109100.0
+2024,PGC,Science and mathematics,broad,Male,107000.0
+2023,PGC,Science and mathematics,broad,Male,109500.0
+2022,PGC,Science and mathematics,broad,Male,98000.0
+2021,PGC,Science and mathematics,broad,Male,95100.0
+2020,PGC,Science and mathematics,broad,Male,97000.0
+2025,PGC,Science and mathematics,broad,Female,96000.0
+2024,PGC,Science and mathematics,broad,Female,94000.0
+2023,PGC,Science and mathematics,broad,Female,87300.0
+2022,PGC,Science and mathematics,broad,Female,89500.0
+2021,PGC,Science and mathematics,broad,Female,84000.0
+2020,PGC,Science and mathematics,broad,Female,83300.0
+2025,PGC,Science and mathematics,broad,Total,100500.0
+2024,PGC,Science and mathematics,broad,Total,100000.0
+2023,PGC,Science and mathematics,broad,Total,96000.0
+2022,PGC,Science and mathematics,broad,Total,93700.0
+2021,PGC,Science and mathematics,broad,Total,89700.0
+2020,PGC,Science and mathematics,broad,Total,90000.0
+2025,PGC,Social work,broad,Male,93000.0
+2024,PGC,Social work,broad,Male,95500.0
+2023,PGC,Social work,broad,Male,85000.0
+2022,PGC,Social work,broad,Male,82200.0
+2021,PGC,Social work,broad,Male,86300.0
+2020,PGC,Social work,broad,Male,81800.0
+2025,PGC,Social work,broad,Female,97400.0
+2024,PGC,Social work,broad,Female,94000.0
+2023,PGC,Social work,broad,Female,83400.0
+2022,PGC,Social work,broad,Female,81300.0
+2021,PGC,Social work,broad,Female,79300.0
+2020,PGC,Social work,broad,Female,77000.0
+2025,PGC,Social work,broad,Total,97200.0
+2024,PGC,Social work,broad,Total,94100.0
+2023,PGC,Social work,broad,Total,84100.0
+2022,PGC,Social work,broad,Total,81300.0
+2021,PGC,Social work,broad,Total,80000.0
+2020,PGC,Social work,broad,Total,78300.0
+2025,PGC,Teacher education,broad,Male,98000.0
+2024,PGC,Teacher education,broad,Male,95300.0
+2023,PGC,Teacher education,broad,Male,93100.0
+2022,PGC,Teacher education,broad,Male,90000.0
+2021,PGC,Teacher education,broad,Male,92000.0
+2020,PGC,Teacher education,broad,Male,90000.0
+2025,PGC,Teacher education,broad,Female,100000.0
+2024,PGC,Teacher education,broad,Female,96000.0
+2023,PGC,Teacher education,broad,Female,91000.0
+2022,PGC,Teacher education,broad,Female,89000.0
+2021,PGC,Teacher education,broad,Female,86000.0
+2020,PGC,Teacher education,broad,Female,85200.0
+2025,PGC,Teacher education,broad,Total,100000.0
+2024,PGC,Teacher education,broad,Total,96000.0
+2023,PGC,Teacher education,broad,Total,91300.0
+2022,PGC,Teacher education,broad,Total,89000.0
+2021,PGC,Teacher education,broad,Total,87600.0
+2020,PGC,Teacher education,broad,Total,86500.0
+2020,PGC,"Tourism, hospitality, personal services, sport and recreation",broad,Total,70000.0
+2025,PGC,Veterinary science,broad,Female,78000.0
+2024,PGC,Veterinary science,broad,Female,77200.0
+2023,PGC,Veterinary science,broad,Female,76100.0
+2022,PGC,Veterinary science,broad,Female,70000.0
+2021,PGC,Veterinary science,broad,Female,62600.0
+2020,PGC,Veterinary science,broad,Female,59700.0
+2025,PGC,Veterinary science,broad,Total,80000.0
+2024,PGC,Veterinary science,broad,Total,76500.0
+2023,PGC,Veterinary science,broad,Total,76800.0
+2022,PGC,Veterinary science,broad,Total,70000.0
+2021,PGC,Veterinary science,broad,Total,62300.0
+2020,PGC,Veterinary science,broad,Total,59500.0
+2025,PGC,Accounting,detail45,Male,95000.0
+2024,PGC,Accounting,detail45,Male,90000.0
+2023,PGC,Accounting,detail45,Male,81600.0
+2022,PGC,Accounting,detail45,Male,76000.0
+2021,PGC,Accounting,detail45,Male,75000.0
+2020,PGC,Accounting,detail45,Male,80000.0
+2025,PGC,Accounting,detail45,Female,98000.0
+2024,PGC,Accounting,detail45,Female,86100.0
+2023,PGC,Accounting,detail45,Female,90000.0
+2022,PGC,Accounting,detail45,Female,72000.0
+2021,PGC,Accounting,detail45,Female,78300.0
+2020,PGC,Accounting,detail45,Female,64200.0
+2025,PGC,Accounting,detail45,Total,95500.0
+2024,PGC,Accounting,detail45,Total,89500.0
+2023,PGC,Accounting,detail45,Total,85000.0
+2022,PGC,Accounting,detail45,Total,72000.0
+2021,PGC,Accounting,detail45,Total,76100.0
+2020,PGC,Accounting,detail45,Total,71000.0
+2022,PGC,Agriculture and forestry,detail45,Male,80000.0
+2021,PGC,Agriculture and forestry,detail45,Male,80000.0
+2020,PGC,Agriculture and forestry,detail45,Male,87400.0
+2024,PGC,Agriculture and forestry,detail45,Female,81000.0
+2023,PGC,Agriculture and forestry,detail45,Female,77000.0
+2022,PGC,Agriculture and forestry,detail45,Female,82500.0
+2020,PGC,Agriculture and forestry,detail45,Female,69500.0
+2025,PGC,Agriculture and forestry,detail45,Total,96000.0
+2024,PGC,Agriculture and forestry,detail45,Total,81500.0
+2023,PGC,Agriculture and forestry,detail45,Total,80000.0
+2022,PGC,Agriculture and forestry,detail45,Total,80000.0
+2021,PGC,Agriculture and forestry,detail45,Total,80000.0
+2020,PGC,Agriculture and forestry,detail45,Total,78200.0
+2025,PGC,Architecture and urban environments,detail45,Male,77800.0
+2024,PGC,Architecture and urban environments,detail45,Male,81500.0
+2023,PGC,Architecture and urban environments,detail45,Male,75000.0
+2022,PGC,Architecture and urban environments,detail45,Male,70000.0
+2021,PGC,Architecture and urban environments,detail45,Male,65100.0
+2020,PGC,Architecture and urban environments,detail45,Male,68000.0
+2025,PGC,Architecture and urban environments,detail45,Female,75000.0
+2024,PGC,Architecture and urban environments,detail45,Female,78500.0
+2023,PGC,Architecture and urban environments,detail45,Female,72000.0
+2022,PGC,Architecture and urban environments,detail45,Female,65200.0
+2021,PGC,Architecture and urban environments,detail45,Female,65600.0
+2020,PGC,Architecture and urban environments,detail45,Female,62000.0
+2025,PGC,Architecture and urban environments,detail45,Total,77600.0
+2024,PGC,Architecture and urban environments,detail45,Total,79700.0
+2023,PGC,Architecture and urban environments,detail45,Total,73000.0
+2022,PGC,Architecture and urban environments,detail45,Total,67900.0
+2021,PGC,Architecture and urban environments,detail45,Total,65300.0
+2020,PGC,Architecture and urban environments,detail45,Total,65000.0
+2022,PGC,Art and design,detail45,Male,70000.0
+2025,PGC,Art and design,detail45,Female,80000.0
+2024,PGC,Art and design,detail45,Female,84500.0
+2023,PGC,Art and design,detail45,Female,78300.0
+2022,PGC,Art and design,detail45,Female,70000.0
+2021,PGC,Art and design,detail45,Female,80000.0
+2020,PGC,Art and design,detail45,Female,63300.0
+2025,PGC,Art and design,detail45,Total,89300.0
+2024,PGC,Art and design,detail45,Total,87600.0
+2023,PGC,Art and design,detail45,Total,78400.0
+2022,PGC,Art and design,detail45,Total,70000.0
+2021,PGC,Art and design,detail45,Total,79100.0
+2020,PGC,Art and design,detail45,Total,65400.0
+2025,PGC,Banking and finance,detail45,Male,110000.0
+2024,PGC,Banking and finance,detail45,Male,120000.0
+2023,PGC,Banking and finance,detail45,Male,110000.0
+2022,PGC,Banking and finance,detail45,Male,110000.0
+2021,PGC,Banking and finance,detail45,Male,100000.0
+2020,PGC,Banking and finance,detail45,Male,105000.0
+2025,PGC,Banking and finance,detail45,Female,105700.0
+2024,PGC,Banking and finance,detail45,Female,94000.0
+2023,PGC,Banking and finance,detail45,Female,100000.0
+2022,PGC,Banking and finance,detail45,Female,100000.0
+2021,PGC,Banking and finance,detail45,Female,87000.0
+2020,PGC,Banking and finance,detail45,Female,100000.0
+2025,PGC,Banking and finance,detail45,Total,110000.0
+2024,PGC,Banking and finance,detail45,Total,107000.0
+2023,PGC,Banking and finance,detail45,Total,107000.0
+2022,PGC,Banking and finance,detail45,Total,102000.0
+2021,PGC,Banking and finance,detail45,Total,93000.0
+2020,PGC,Banking and finance,detail45,Total,100100.0
+2022,PGC,Biological sciences,detail45,Male,80500.0
+2020,PGC,Biological sciences,detail45,Male,93900.0
+2025,PGC,Biological sciences,detail45,Female,86000.0
+2024,PGC,Biological sciences,detail45,Female,84600.0
+2023,PGC,Biological sciences,detail45,Female,74400.0
+2022,PGC,Biological sciences,detail45,Female,75000.0
+2021,PGC,Biological sciences,detail45,Female,72000.0
+2020,PGC,Biological sciences,detail45,Female,75300.0
+2025,PGC,Biological sciences,detail45,Total,90000.0
+2024,PGC,Biological sciences,detail45,Total,85000.0
+2023,PGC,Biological sciences,detail45,Total,74400.0
+2022,PGC,Biological sciences,detail45,Total,75700.0
+2021,PGC,Biological sciences,detail45,Total,72000.0
+2020,PGC,Biological sciences,detail45,Total,79000.0
+2025,PGC,Building and construction,detail45,Male,119000.0
+2024,PGC,Building and construction,detail45,Male,121000.0
+2023,PGC,Building and construction,detail45,Male,105000.0
+2022,PGC,Building and construction,detail45,Male,111300.0
+2020,PGC,Building and construction,detail45,Male,99600.0
+2025,PGC,Building and construction,detail45,Total,119000.0
+2024,PGC,Building and construction,detail45,Total,117000.0
+2023,PGC,Building and construction,detail45,Total,100000.0
+2022,PGC,Building and construction,detail45,Total,110000.0
+2021,PGC,Building and construction,detail45,Total,86100.0
+2020,PGC,Building and construction,detail45,Total,96000.0
+2025,PGC,Business management,detail45,Male,150000.0
+2024,PGC,Business management,detail45,Male,145000.0
+2023,PGC,Business management,detail45,Male,136400.0
+2022,PGC,Business management,detail45,Male,130000.0
+2021,PGC,Business management,detail45,Male,123000.0
+2020,PGC,Business management,detail45,Male,125000.0
+2025,PGC,Business management,detail45,Female,131300.0
+2024,PGC,Business management,detail45,Female,126100.0
+2023,PGC,Business management,detail45,Female,120000.0
+2022,PGC,Business management,detail45,Female,112000.0
+2021,PGC,Business management,detail45,Female,110000.0
+2020,PGC,Business management,detail45,Female,108800.0
+2025,PGC,Business management,detail45,Total,140000.0
+2024,PGC,Business management,detail45,Total,132000.0
+2023,PGC,Business management,detail45,Total,125200.0
+2022,PGC,Business management,detail45,Total,120000.0
+2021,PGC,Business management,detail45,Total,116100.0
+2020,PGC,Business management,detail45,Total,118000.0
+2024,PGC,"Communication, media and journalism",detail45,Male,70000.0
+2023,PGC,"Communication, media and journalism",detail45,Male,72500.0
+2022,PGC,"Communication, media and journalism",detail45,Male,78400.0
+2021,PGC,"Communication, media and journalism",detail45,Male,74900.0
+2020,PGC,"Communication, media and journalism",detail45,Male,72000.0
+2025,PGC,"Communication, media and journalism",detail45,Female,85100.0
+2024,PGC,"Communication, media and journalism",detail45,Female,80000.0
+2023,PGC,"Communication, media and journalism",detail45,Female,71400.0
+2022,PGC,"Communication, media and journalism",detail45,Female,75000.0
+2021,PGC,"Communication, media and journalism",detail45,Female,67300.0
+2020,PGC,"Communication, media and journalism",detail45,Female,70000.0
+2025,PGC,"Communication, media and journalism",detail45,Total,85100.0
+2024,PGC,"Communication, media and journalism",detail45,Total,78000.0
+2023,PGC,"Communication, media and journalism",detail45,Total,72000.0
+2022,PGC,"Communication, media and journalism",detail45,Total,75000.0
+2021,PGC,"Communication, media and journalism",detail45,Total,70000.0
+2020,PGC,"Communication, media and journalism",detail45,Total,70000.0
+2025,PGC,Computing and information systems,detail45,Male,120000.0
+2024,PGC,Computing and information systems,detail45,Male,115000.0
+2023,PGC,Computing and information systems,detail45,Male,110000.0
+2022,PGC,Computing and information systems,detail45,Male,104400.0
+2021,PGC,Computing and information systems,detail45,Male,100000.0
+2020,PGC,Computing and information systems,detail45,Male,101000.0
+2025,PGC,Computing and information systems,detail45,Female,113000.0
+2024,PGC,Computing and information systems,detail45,Female,100000.0
+2023,PGC,Computing and information systems,detail45,Female,90100.0
+2022,PGC,Computing and information systems,detail45,Female,95200.0
+2021,PGC,Computing and information systems,detail45,Female,88000.0
+2020,PGC,Computing and information systems,detail45,Female,80900.0
+2025,PGC,Computing and information systems,detail45,Total,120000.0
+2024,PGC,Computing and information systems,detail45,Total,110000.0
+2023,PGC,Computing and information systems,detail45,Total,105000.0
+2022,PGC,Computing and information systems,detail45,Total,100000.0
+2021,PGC,Computing and information systems,detail45,Total,96000.0
+2020,PGC,Computing and information systems,detail45,Total,96800.0
+2020,PGC,Dentistry,detail45,Male,114800.0
+2022,PGC,Dentistry,detail45,Female,120000.0
+2021,PGC,Dentistry,detail45,Female,109000.0
+2025,PGC,Dentistry,detail45,Total,140900.0
+2024,PGC,Dentistry,detail45,Total,130000.0
+2023,PGC,Dentistry,detail45,Total,127400.0
+2022,PGC,Dentistry,detail45,Total,123700.0
+2021,PGC,Dentistry,detail45,Total,114000.0
+2020,PGC,Dentistry,detail45,Total,104400.0
+2025,PGC,Economics,detail45,Male,134500.0
+2024,PGC,Economics,detail45,Male,117000.0
+2023,PGC,Economics,detail45,Male,120000.0
+2022,PGC,Economics,detail45,Male,102000.0
+2021,PGC,Economics,detail45,Male,100000.0
+2020,PGC,Economics,detail45,Male,107000.0
+2024,PGC,Economics,detail45,Female,124000.0
+2022,PGC,Economics,detail45,Female,110000.0
+2025,PGC,Economics,detail45,Total,134500.0
+2024,PGC,Economics,detail45,Total,120000.0
+2023,PGC,Economics,detail45,Total,106000.0
+2022,PGC,Economics,detail45,Total,108500.0
+2021,PGC,Economics,detail45,Total,100000.0
+2020,PGC,Economics,detail45,Total,97200.0
+2025,PGC,Engineering - aerospace,detail45,Male,139000.0
+2022,PGC,Engineering - aerospace,detail45,Male,119000.0
+2021,PGC,Engineering - aerospace,detail45,Male,110000.0
+2020,PGC,Engineering - aerospace,detail45,Male,110200.0
+2025,PGC,Engineering - aerospace,detail45,Total,135000.0
+2024,PGC,Engineering - aerospace,detail45,Total,103300.0
+2023,PGC,Engineering - aerospace,detail45,Total,108500.0
+2022,PGC,Engineering - aerospace,detail45,Total,112500.0
+2021,PGC,Engineering - aerospace,detail45,Total,111000.0
+2020,PGC,Engineering - aerospace,detail45,Total,110200.0
+2025,PGC,Engineering - civil,detail45,Male,95000.0
+2024,PGC,Engineering - civil,detail45,Male,89000.0
+2023,PGC,Engineering - civil,detail45,Male,84700.0
+2022,PGC,Engineering - civil,detail45,Male,75000.0
+2021,PGC,Engineering - civil,detail45,Male,78300.0
+2020,PGC,Engineering - civil,detail45,Male,79300.0
+2025,PGC,Engineering - civil,detail45,Total,93000.0
+2024,PGC,Engineering - civil,detail45,Total,90500.0
+2023,PGC,Engineering - civil,detail45,Total,87100.0
+2022,PGC,Engineering - civil,detail45,Total,74000.0
+2021,PGC,Engineering - civil,detail45,Total,75000.0
+2020,PGC,Engineering - civil,detail45,Total,78000.0
+2024,PGC,Engineering - electrical and electronic,detail45,Male,106200.0
+2023,PGC,Engineering - electrical and electronic,detail45,Male,100000.0
+2022,PGC,Engineering - electrical and electronic,detail45,Male,99100.0
+2021,PGC,Engineering - electrical and electronic,detail45,Male,84000.0
+2020,PGC,Engineering - electrical and electronic,detail45,Male,75500.0
+2025,PGC,Engineering - electrical and electronic,detail45,Total,106000.0
+2024,PGC,Engineering - electrical and electronic,detail45,Total,104400.0
+2023,PGC,Engineering - electrical and electronic,detail45,Total,99200.0
+2022,PGC,Engineering - electrical and electronic,detail45,Total,98400.0
+2021,PGC,Engineering - electrical and electronic,detail45,Total,85000.0
+2020,PGC,Engineering - electrical and electronic,detail45,Total,75500.0
+2025,PGC,Engineering - mechanical,detail45,Male,115500.0
+2024,PGC,Engineering - mechanical,detail45,Male,113500.0
+2023,PGC,Engineering - mechanical,detail45,Male,90000.0
+2022,PGC,Engineering - mechanical,detail45,Male,87900.0
+2021,PGC,Engineering - mechanical,detail45,Male,84000.0
+2020,PGC,Engineering - mechanical,detail45,Male,89000.0
+2025,PGC,Engineering - mechanical,detail45,Total,111700.0
+2024,PGC,Engineering - mechanical,detail45,Total,120000.0
+2023,PGC,Engineering - mechanical,detail45,Total,91000.0
+2022,PGC,Engineering - mechanical,detail45,Total,83500.0
+2021,PGC,Engineering - mechanical,detail45,Total,81800.0
+2020,PGC,Engineering - mechanical,detail45,Total,86500.0
+2025,PGC,Engineering - other,detail45,Male,140000.0
+2024,PGC,Engineering - other,detail45,Male,118000.0
+2023,PGC,Engineering - other,detail45,Male,126000.0
+2022,PGC,Engineering - other,detail45,Male,110000.0
+2021,PGC,Engineering - other,detail45,Male,107500.0
+2020,PGC,Engineering - other,detail45,Male,105000.0
+2025,PGC,Engineering - other,detail45,Female,93700.0
+2024,PGC,Engineering - other,detail45,Female,94000.0
+2023,PGC,Engineering - other,detail45,Female,98100.0
+2022,PGC,Engineering - other,detail45,Female,91300.0
+2021,PGC,Engineering - other,detail45,Female,85800.0
+2020,PGC,Engineering - other,detail45,Female,93000.0
+2025,PGC,Engineering - other,detail45,Total,130700.0
+2024,PGC,Engineering - other,detail45,Total,112000.0
+2023,PGC,Engineering - other,detail45,Total,120000.0
+2022,PGC,Engineering - other,detail45,Total,105000.0
+2021,PGC,Engineering - other,detail45,Total,104200.0
+2020,PGC,Engineering - other,detail45,Total,103000.0
+2025,PGC,Engineering - process and resources,detail45,Male,162500.0
+2024,PGC,Engineering - process and resources,detail45,Male,162500.0
+2023,PGC,Engineering - process and resources,detail45,Male,137200.0
+2022,PGC,Engineering - process and resources,detail45,Male,134000.0
+2021,PGC,Engineering - process and resources,detail45,Male,100100.0
+2020,PGC,Engineering - process and resources,detail45,Male,94000.0
+2025,PGC,Engineering - process and resources,detail45,Total,155800.0
+2024,PGC,Engineering - process and resources,detail45,Total,140500.0
+2023,PGC,Engineering - process and resources,detail45,Total,121000.0
+2022,PGC,Engineering - process and resources,detail45,Total,105000.0
+2021,PGC,Engineering - process and resources,detail45,Total,87500.0
+2020,PGC,Engineering - process and resources,detail45,Total,98500.0
+2025,PGC,Environmental studies,detail45,Male,99000.0
+2024,PGC,Environmental studies,detail45,Male,100000.0
+2023,PGC,Environmental studies,detail45,Male,80000.0
+2022,PGC,Environmental studies,detail45,Male,85000.0
+2021,PGC,Environmental studies,detail45,Male,80000.0
+2020,PGC,Environmental studies,detail45,Male,103200.0
+2025,PGC,Environmental studies,detail45,Female,105000.0
+2024,PGC,Environmental studies,detail45,Female,95000.0
+2023,PGC,Environmental studies,detail45,Female,88000.0
+2022,PGC,Environmental studies,detail45,Female,80000.0
+2021,PGC,Environmental studies,detail45,Female,81000.0
+2020,PGC,Environmental studies,detail45,Female,70000.0
+2025,PGC,Environmental studies,detail45,Total,100000.0
+2024,PGC,Environmental studies,detail45,Total,96600.0
+2023,PGC,Environmental studies,detail45,Total,85600.0
+2022,PGC,Environmental studies,detail45,Total,80000.0
+2021,PGC,Environmental studies,detail45,Total,80000.0
+2020,PGC,Environmental studies,detail45,Total,80000.0
+2025,PGC,Health services and support,detail45,Male,111100.0
+2024,PGC,Health services and support,detail45,Male,110300.0
+2023,PGC,Health services and support,detail45,Male,103100.0
+2022,PGC,Health services and support,detail45,Male,100000.0
+2021,PGC,Health services and support,detail45,Male,89900.0
+2020,PGC,Health services and support,detail45,Male,90000.0
+2025,PGC,Health services and support,detail45,Female,96300.0
+2024,PGC,Health services and support,detail45,Female,90000.0
+2023,PGC,Health services and support,detail45,Female,90000.0
+2022,PGC,Health services and support,detail45,Female,80000.0
+2021,PGC,Health services and support,detail45,Female,83900.0
+2020,PGC,Health services and support,detail45,Female,75000.0
+2025,PGC,Health services and support,detail45,Total,100000.0
+2024,PGC,Health services and support,detail45,Total,96000.0
+2023,PGC,Health services and support,detail45,Total,95000.0
+2022,PGC,Health services and support,detail45,Total,85300.0
+2021,PGC,Health services and support,detail45,Total,85000.0
+2020,PGC,Health services and support,detail45,Total,78300.0
+2025,PGC,"Humanities, history and geography",detail45,Male,100000.0
+2024,PGC,"Humanities, history and geography",detail45,Male,99100.0
+2023,PGC,"Humanities, history and geography",detail45,Male,87800.0
+2022,PGC,"Humanities, history and geography",detail45,Male,85500.0
+2021,PGC,"Humanities, history and geography",detail45,Male,86000.0
+2020,PGC,"Humanities, history and geography",detail45,Male,78300.0
+2025,PGC,"Humanities, history and geography",detail45,Female,91100.0
+2024,PGC,"Humanities, history and geography",detail45,Female,88900.0
+2023,PGC,"Humanities, history and geography",detail45,Female,83500.0
+2022,PGC,"Humanities, history and geography",detail45,Female,80000.0
+2021,PGC,"Humanities, history and geography",detail45,Female,82400.0
+2020,PGC,"Humanities, history and geography",detail45,Female,79000.0
+2025,PGC,"Humanities, history and geography",detail45,Total,93000.0
+2024,PGC,"Humanities, history and geography",detail45,Total,90000.0
+2023,PGC,"Humanities, history and geography",detail45,Total,85000.0
+2022,PGC,"Humanities, history and geography",detail45,Total,80000.0
+2021,PGC,"Humanities, history and geography",detail45,Total,83700.0
+2020,PGC,"Humanities, history and geography",detail45,Total,79000.0
+2025,PGC,Justice studies and policing,detail45,Male,130000.0
+2024,PGC,Justice studies and policing,detail45,Male,114000.0
+2023,PGC,Justice studies and policing,detail45,Male,111300.0
+2022,PGC,Justice studies and policing,detail45,Male,112800.0
+2021,PGC,Justice studies and policing,detail45,Male,103000.0
+2020,PGC,Justice studies and policing,detail45,Male,100000.0
+2025,PGC,Justice studies and policing,detail45,Female,104000.0
+2024,PGC,Justice studies and policing,detail45,Female,105000.0
+2023,PGC,Justice studies and policing,detail45,Female,95500.0
+2022,PGC,Justice studies and policing,detail45,Female,89700.0
+2021,PGC,Justice studies and policing,detail45,Female,80000.0
+2020,PGC,Justice studies and policing,detail45,Female,84000.0
+2025,PGC,Justice studies and policing,detail45,Total,110000.0
+2024,PGC,Justice studies and policing,detail45,Total,110000.0
+2023,PGC,Justice studies and policing,detail45,Total,104400.0
+2022,PGC,Justice studies and policing,detail45,Total,106300.0
+2021,PGC,Justice studies and policing,detail45,Total,97600.0
+2020,PGC,Justice studies and policing,detail45,Total,90000.0
+2025,PGC,Language and literature,detail45,Female,89500.0
+2024,PGC,Language and literature,detail45,Female,98100.0
+2023,PGC,Language and literature,detail45,Female,75000.0
+2022,PGC,Language and literature,detail45,Female,72000.0
+2021,PGC,Language and literature,detail45,Female,67000.0
+2020,PGC,Language and literature,detail45,Female,75000.0
+2025,PGC,Language and literature,detail45,Total,91900.0
+2024,PGC,Language and literature,detail45,Total,96000.0
+2023,PGC,Language and literature,detail45,Total,85000.0
+2022,PGC,Language and literature,detail45,Total,79700.0
+2021,PGC,Language and literature,detail45,Total,74800.0
+2020,PGC,Language and literature,detail45,Total,78000.0
+2025,PGC,Law,detail45,Male,100000.0
+2024,PGC,Law,detail45,Male,95000.0
+2023,PGC,Law,detail45,Male,89100.0
+2022,PGC,Law,detail45,Male,85000.0
+2021,PGC,Law,detail45,Male,80000.0
+2020,PGC,Law,detail45,Male,80000.0
+2025,PGC,Law,detail45,Female,89000.0
+2024,PGC,Law,detail45,Female,85000.0
+2023,PGC,Law,detail45,Female,82500.0
+2022,PGC,Law,detail45,Female,78000.0
+2021,PGC,Law,detail45,Female,73000.0
+2020,PGC,Law,detail45,Female,72000.0
+2025,PGC,Law,detail45,Total,92000.0
+2024,PGC,Law,detail45,Total,90000.0
+2023,PGC,Law,detail45,Total,84900.0
+2022,PGC,Law,detail45,Total,80000.0
+2021,PGC,Law,detail45,Total,75000.0
+2020,PGC,Law,detail45,Total,74000.0
+2025,PGC,Management and commerce - other,detail45,Male,116600.0
+2024,PGC,Management and commerce - other,detail45,Male,110000.0
+2023,PGC,Management and commerce - other,detail45,Male,100000.0
+2022,PGC,Management and commerce - other,detail45,Male,109300.0
+2021,PGC,Management and commerce - other,detail45,Male,101700.0
+2020,PGC,Management and commerce - other,detail45,Male,100000.0
+2025,PGC,Management and commerce - other,detail45,Female,110700.0
+2024,PGC,Management and commerce - other,detail45,Female,101900.0
+2023,PGC,Management and commerce - other,detail45,Female,89700.0
+2022,PGC,Management and commerce - other,detail45,Female,90000.0
+2021,PGC,Management and commerce - other,detail45,Female,88000.0
+2020,PGC,Management and commerce - other,detail45,Female,96800.0
+2025,PGC,Management and commerce - other,detail45,Total,111800.0
+2024,PGC,Management and commerce - other,detail45,Total,110000.0
+2023,PGC,Management and commerce - other,detail45,Total,95000.0
+2022,PGC,Management and commerce - other,detail45,Total,99500.0
+2021,PGC,Management and commerce - other,detail45,Total,99500.0
+2020,PGC,Management and commerce - other,detail45,Total,97500.0
+2025,PGC,Mathematics,detail45,Male,115000.0
+2024,PGC,Mathematics,detail45,Male,114300.0
+2023,PGC,Mathematics,detail45,Male,120200.0
+2022,PGC,Mathematics,detail45,Male,103000.0
+2021,PGC,Mathematics,detail45,Male,110000.0
+2020,PGC,Mathematics,detail45,Male,117000.0
+2025,PGC,Mathematics,detail45,Female,112500.0
+2024,PGC,Mathematics,detail45,Female,111000.0
+2023,PGC,Mathematics,detail45,Female,96000.0
+2022,PGC,Mathematics,detail45,Female,97500.0
+2021,PGC,Mathematics,detail45,Female,95900.0
+2020,PGC,Mathematics,detail45,Female,90000.0
+2025,PGC,Mathematics,detail45,Total,114900.0
+2024,PGC,Mathematics,detail45,Total,112600.0
+2023,PGC,Mathematics,detail45,Total,110000.0
+2022,PGC,Mathematics,detail45,Total,100000.0
+2021,PGC,Mathematics,detail45,Total,104200.0
+2020,PGC,Mathematics,detail45,Total,108600.0
+2023,PGC,Medical sciences and technology,detail45,Male,94800.0
+2022,PGC,Medical sciences and technology,detail45,Male,77600.0
+2020,PGC,Medical sciences and technology,detail45,Male,89200.0
+2025,PGC,Medical sciences and technology,detail45,Female,92800.0
+2024,PGC,Medical sciences and technology,detail45,Female,85600.0
+2023,PGC,Medical sciences and technology,detail45,Female,79200.0
+2022,PGC,Medical sciences and technology,detail45,Female,95000.0
+2021,PGC,Medical sciences and technology,detail45,Female,79200.0
+2020,PGC,Medical sciences and technology,detail45,Female,82200.0
+2025,PGC,Medical sciences and technology,detail45,Total,93900.0
+2024,PGC,Medical sciences and technology,detail45,Total,89900.0
+2023,PGC,Medical sciences and technology,detail45,Total,86500.0
+2022,PGC,Medical sciences and technology,detail45,Total,88500.0
+2021,PGC,Medical sciences and technology,detail45,Total,79300.0
+2020,PGC,Medical sciences and technology,detail45,Total,85300.0
+2025,PGC,Medicine,detail45,Male,91600.0
+2024,PGC,Medicine,detail45,Male,90000.0
+2023,PGC,Medicine,detail45,Male,85200.0
+2022,PGC,Medicine,detail45,Male,85600.0
+2021,PGC,Medicine,detail45,Male,86900.0
+2020,PGC,Medicine,detail45,Male,78500.0
+2025,PGC,Medicine,detail45,Female,91000.0
+2024,PGC,Medicine,detail45,Female,90000.0
+2023,PGC,Medicine,detail45,Female,87700.0
+2022,PGC,Medicine,detail45,Female,83500.0
+2021,PGC,Medicine,detail45,Female,80000.0
+2020,PGC,Medicine,detail45,Female,78300.0
+2025,PGC,Medicine,detail45,Total,91200.0
+2024,PGC,Medicine,detail45,Total,90000.0
+2023,PGC,Medicine,detail45,Total,85900.0
+2022,PGC,Medicine,detail45,Total,83500.0
+2021,PGC,Medicine,detail45,Total,81400.0
+2020,PGC,Medicine,detail45,Total,78300.0
+2025,PGC,Natural and physical sciences,detail45,Male,109300.0
+2024,PGC,Natural and physical sciences,detail45,Male,100000.0
+2023,PGC,Natural and physical sciences,detail45,Male,110000.0
+2022,PGC,Natural and physical sciences,detail45,Male,96500.0
+2021,PGC,Natural and physical sciences,detail45,Male,85300.0
+2020,PGC,Natural and physical sciences,detail45,Male,85000.0
+2025,PGC,Natural and physical sciences,detail45,Female,107100.0
+2024,PGC,Natural and physical sciences,detail45,Female,94000.0
+2023,PGC,Natural and physical sciences,detail45,Female,93500.0
+2022,PGC,Natural and physical sciences,detail45,Female,86000.0
+2021,PGC,Natural and physical sciences,detail45,Female,81800.0
+2020,PGC,Natural and physical sciences,detail45,Female,84200.0
+2025,PGC,Natural and physical sciences,detail45,Total,109100.0
+2024,PGC,Natural and physical sciences,detail45,Total,95500.0
+2023,PGC,Natural and physical sciences,detail45,Total,99500.0
+2022,PGC,Natural and physical sciences,detail45,Total,92000.0
+2021,PGC,Natural and physical sciences,detail45,Total,82600.0
+2020,PGC,Natural and physical sciences,detail45,Total,85000.0
+2025,PGC,Nursing,detail45,Male,105000.0
+2024,PGC,Nursing,detail45,Male,102900.0
+2023,PGC,Nursing,detail45,Male,100200.0
+2022,PGC,Nursing,detail45,Male,98100.0
+2021,PGC,Nursing,detail45,Male,91000.0
+2020,PGC,Nursing,detail45,Male,93200.0
+2025,PGC,Nursing,detail45,Female,101400.0
+2024,PGC,Nursing,detail45,Female,99100.0
+2023,PGC,Nursing,detail45,Female,95000.0
+2022,PGC,Nursing,detail45,Female,90500.0
+2021,PGC,Nursing,detail45,Female,89200.0
+2020,PGC,Nursing,detail45,Female,86400.0
+2025,PGC,Nursing,detail45,Total,103100.0
+2024,PGC,Nursing,detail45,Total,99900.0
+2023,PGC,Nursing,detail45,Total,95800.0
+2022,PGC,Nursing,detail45,Total,91300.0
+2021,PGC,Nursing,detail45,Total,89700.0
+2020,PGC,Nursing,detail45,Total,87700.0
+2025,PGC,Occupational therapy,detail45,Female,80000.0
+2024,PGC,Occupational therapy,detail45,Female,77000.0
+2023,PGC,Occupational therapy,detail45,Female,74000.0
+2022,PGC,Occupational therapy,detail45,Female,70000.0
+2021,PGC,Occupational therapy,detail45,Female,67400.0
+2020,PGC,Occupational therapy,detail45,Female,65200.0
+2025,PGC,Occupational therapy,detail45,Total,80000.0
+2024,PGC,Occupational therapy,detail45,Total,76800.0
+2023,PGC,Occupational therapy,detail45,Total,72000.0
+2022,PGC,Occupational therapy,detail45,Total,70000.0
+2021,PGC,Occupational therapy,detail45,Total,67400.0
+2020,PGC,Occupational therapy,detail45,Total,66000.0
+2023,PGC,Pharmacy,detail45,Male,92000.0
+2022,PGC,Pharmacy,detail45,Male,90800.0
+2025,PGC,Pharmacy,detail45,Female,104400.0
+2024,PGC,Pharmacy,detail45,Female,87000.0
+2023,PGC,Pharmacy,detail45,Female,82300.0
+2022,PGC,Pharmacy,detail45,Female,82300.0
+2021,PGC,Pharmacy,detail45,Female,73400.0
+2020,PGC,Pharmacy,detail45,Female,83500.0
+2025,PGC,Pharmacy,detail45,Total,95700.0
+2024,PGC,Pharmacy,detail45,Total,87000.0
+2023,PGC,Pharmacy,detail45,Total,83500.0
+2022,PGC,Pharmacy,detail45,Total,83300.0
+2021,PGC,Pharmacy,detail45,Total,77700.0
+2020,PGC,Pharmacy,detail45,Total,82500.0
+2025,PGC,Physiotherapy,detail45,Male,80000.0
+2024,PGC,Physiotherapy,detail45,Male,78800.0
+2023,PGC,Physiotherapy,detail45,Male,78800.0
+2022,PGC,Physiotherapy,detail45,Male,70000.0
+2021,PGC,Physiotherapy,detail45,Male,70000.0
+2020,PGC,Physiotherapy,detail45,Male,68200.0
+2025,PGC,Physiotherapy,detail45,Female,87200.0
+2024,PGC,Physiotherapy,detail45,Female,84200.0
+2023,PGC,Physiotherapy,detail45,Female,79100.0
+2022,PGC,Physiotherapy,detail45,Female,72700.0
+2021,PGC,Physiotherapy,detail45,Female,70000.0
+2020,PGC,Physiotherapy,detail45,Female,70000.0
+2025,PGC,Physiotherapy,detail45,Total,84000.0
+2024,PGC,Physiotherapy,detail45,Total,83500.0
+2023,PGC,Physiotherapy,detail45,Total,79100.0
+2022,PGC,Physiotherapy,detail45,Total,72000.0
+2021,PGC,Physiotherapy,detail45,Total,70000.0
+2020,PGC,Physiotherapy,detail45,Total,69400.0
+2025,PGC,Political science,detail45,Male,122000.0
+2024,PGC,Political science,detail45,Male,120000.0
+2023,PGC,Political science,detail45,Male,102200.0
+2022,PGC,Political science,detail45,Male,105000.0
+2021,PGC,Political science,detail45,Male,103000.0
+2020,PGC,Political science,detail45,Male,100000.0
+2025,PGC,Political science,detail45,Female,111000.0
+2024,PGC,Political science,detail45,Female,116200.0
+2023,PGC,Political science,detail45,Female,94500.0
+2022,PGC,Political science,detail45,Female,97800.0
+2021,PGC,Political science,detail45,Female,91200.0
+2020,PGC,Political science,detail45,Female,91300.0
+2025,PGC,Political science,detail45,Total,116000.0
+2024,PGC,Political science,detail45,Total,117400.0
+2023,PGC,Political science,detail45,Total,96500.0
+2022,PGC,Political science,detail45,Total,100000.0
+2021,PGC,Political science,detail45,Total,94400.0
+2020,PGC,Political science,detail45,Total,95000.0
+2025,PGC,Psychology,detail45,Male,100000.0
+2024,PGC,Psychology,detail45,Male,105600.0
+2023,PGC,Psychology,detail45,Male,101100.0
+2022,PGC,Psychology,detail45,Male,92600.0
+2021,PGC,Psychology,detail45,Male,92000.0
+2020,PGC,Psychology,detail45,Male,85000.0
+2025,PGC,Psychology,detail45,Female,100000.0
+2024,PGC,Psychology,detail45,Female,96200.0
+2023,PGC,Psychology,detail45,Female,92000.0
+2022,PGC,Psychology,detail45,Female,86700.0
+2021,PGC,Psychology,detail45,Female,85000.0
+2020,PGC,Psychology,detail45,Female,83000.0
+2025,PGC,Psychology,detail45,Total,100000.0
+2024,PGC,Psychology,detail45,Total,97700.0
+2023,PGC,Psychology,detail45,Total,94000.0
+2022,PGC,Psychology,detail45,Total,88000.0
+2021,PGC,Psychology,detail45,Total,86000.0
+2020,PGC,Psychology,detail45,Total,83500.0
+2025,PGC,Public health,detail45,Male,130700.0
+2024,PGC,Public health,detail45,Male,125200.0
+2023,PGC,Public health,detail45,Male,110000.0
+2022,PGC,Public health,detail45,Male,110000.0
+2021,PGC,Public health,detail45,Male,110300.0
+2020,PGC,Public health,detail45,Male,110000.0
+2025,PGC,Public health,detail45,Female,112900.0
+2024,PGC,Public health,detail45,Female,105000.0
+2023,PGC,Public health,detail45,Female,102000.0
+2022,PGC,Public health,detail45,Female,99000.0
+2021,PGC,Public health,detail45,Female,93700.0
+2020,PGC,Public health,detail45,Female,90900.0
+2025,PGC,Public health,detail45,Total,117000.0
+2024,PGC,Public health,detail45,Total,108000.0
+2023,PGC,Public health,detail45,Total,104400.0
+2022,PGC,Public health,detail45,Total,100200.0
+2021,PGC,Public health,detail45,Total,97200.0
+2020,PGC,Public health,detail45,Total,96300.0
+2025,PGC,Sales and marketing,detail45,Male,114500.0
+2024,PGC,Sales and marketing,detail45,Male,98900.0
+2023,PGC,Sales and marketing,detail45,Male,89300.0
+2022,PGC,Sales and marketing,detail45,Male,80000.0
+2021,PGC,Sales and marketing,detail45,Male,93300.0
+2020,PGC,Sales and marketing,detail45,Male,88700.0
+2025,PGC,Sales and marketing,detail45,Female,98000.0
+2024,PGC,Sales and marketing,detail45,Female,90000.0
+2023,PGC,Sales and marketing,detail45,Female,87300.0
+2022,PGC,Sales and marketing,detail45,Female,85000.0
+2021,PGC,Sales and marketing,detail45,Female,80000.0
+2020,PGC,Sales and marketing,detail45,Female,86000.0
+2025,PGC,Sales and marketing,detail45,Total,100000.0
+2024,PGC,Sales and marketing,detail45,Total,91200.0
+2023,PGC,Sales and marketing,detail45,Total,88400.0
+2022,PGC,Sales and marketing,detail45,Total,85000.0
+2021,PGC,Sales and marketing,detail45,Total,82000.0
+2020,PGC,Sales and marketing,detail45,Total,87000.0
+2025,PGC,Social work,detail45,Male,93000.0
+2024,PGC,Social work,detail45,Male,95500.0
+2023,PGC,Social work,detail45,Male,85000.0
+2022,PGC,Social work,detail45,Male,82200.0
+2021,PGC,Social work,detail45,Male,86300.0
+2020,PGC,Social work,detail45,Male,81800.0
+2025,PGC,Social work,detail45,Female,97400.0
+2024,PGC,Social work,detail45,Female,94000.0
+2023,PGC,Social work,detail45,Female,83400.0
+2022,PGC,Social work,detail45,Female,81300.0
+2021,PGC,Social work,detail45,Female,79300.0
+2020,PGC,Social work,detail45,Female,77000.0
+2025,PGC,Social work,detail45,Total,97200.0
+2024,PGC,Social work,detail45,Total,94100.0
+2023,PGC,Social work,detail45,Total,84100.0
+2022,PGC,Social work,detail45,Total,81300.0
+2021,PGC,Social work,detail45,Total,80000.0
+2020,PGC,Social work,detail45,Total,78300.0
+2025,PGC,Teacher education - early childhood,detail45,Female,82700.0
+2024,PGC,Teacher education - early childhood,detail45,Female,78300.0
+2023,PGC,Teacher education - early childhood,detail45,Female,75000.0
+2022,PGC,Teacher education - early childhood,detail45,Female,70900.0
+2021,PGC,Teacher education - early childhood,detail45,Female,65000.0
+2020,PGC,Teacher education - early childhood,detail45,Female,65200.0
+2025,PGC,Teacher education - early childhood,detail45,Total,83000.0
+2024,PGC,Teacher education - early childhood,detail45,Total,78300.0
+2023,PGC,Teacher education - early childhood,detail45,Total,73700.0
+2022,PGC,Teacher education - early childhood,detail45,Total,71400.0
+2021,PGC,Teacher education - early childhood,detail45,Total,65000.0
+2020,PGC,Teacher education - early childhood,detail45,Total,65400.0
+2025,PGC,Teacher education - other,detail45,Male,114000.0
+2024,PGC,Teacher education - other,detail45,Male,115000.0
+2023,PGC,Teacher education - other,detail45,Male,110000.0
+2022,PGC,Teacher education - other,detail45,Male,105900.0
+2021,PGC,Teacher education - other,detail45,Male,105000.0
+2020,PGC,Teacher education - other,detail45,Male,106500.0
+2025,PGC,Teacher education - other,detail45,Female,110700.0
+2024,PGC,Teacher education - other,detail45,Female,110000.0
+2023,PGC,Teacher education - other,detail45,Female,104400.0
+2022,PGC,Teacher education - other,detail45,Female,100000.0
+2021,PGC,Teacher education - other,detail45,Female,98000.0
+2020,PGC,Teacher education - other,detail45,Female,98200.0
+2025,PGC,Teacher education - other,detail45,Total,112000.0
+2024,PGC,Teacher education - other,detail45,Total,110000.0
+2023,PGC,Teacher education - other,detail45,Total,106000.0
+2022,PGC,Teacher education - other,detail45,Total,100000.0
+2021,PGC,Teacher education - other,detail45,Total,100000.0
+2020,PGC,Teacher education - other,detail45,Total,100000.0
+2025,PGC,Teacher education - primary and secondary,detail45,Male,87000.0
+2024,PGC,Teacher education - primary and secondary,detail45,Male,82000.0
+2023,PGC,Teacher education - primary and secondary,detail45,Male,76600.0
+2022,PGC,Teacher education - primary and secondary,detail45,Male,75000.0
+2021,PGC,Teacher education - primary and secondary,detail45,Male,72500.0
+2020,PGC,Teacher education - primary and secondary,detail45,Male,70800.0
+2025,PGC,Teacher education - primary and secondary,detail45,Female,85000.0
+2024,PGC,Teacher education - primary and secondary,detail45,Female,79300.0
+2023,PGC,Teacher education - primary and secondary,detail45,Female,75700.0
+2022,PGC,Teacher education - primary and secondary,detail45,Female,73100.0
+2021,PGC,Teacher education - primary and secondary,detail45,Female,72000.0
+2020,PGC,Teacher education - primary and secondary,detail45,Female,70000.0
+2025,PGC,Teacher education - primary and secondary,detail45,Total,86000.0
+2024,PGC,Teacher education - primary and secondary,detail45,Total,80800.0
+2023,PGC,Teacher education - primary and secondary,detail45,Total,76000.0
+2022,PGC,Teacher education - primary and secondary,detail45,Total,73700.0
+2021,PGC,Teacher education - primary and secondary,detail45,Total,72100.0
+2020,PGC,Teacher education - primary and secondary,detail45,Total,70400.0
+2025,PGC,Veterinary science,detail45,Female,78000.0
+2024,PGC,Veterinary science,detail45,Female,77200.0
+2023,PGC,Veterinary science,detail45,Female,76100.0
+2022,PGC,Veterinary science,detail45,Female,70000.0
+2021,PGC,Veterinary science,detail45,Female,62600.0
+2020,PGC,Veterinary science,detail45,Female,59700.0
+2025,PGC,Veterinary science,detail45,Total,80000.0
+2024,PGC,Veterinary science,detail45,Total,76500.0
+2023,PGC,Veterinary science,detail45,Total,76800.0
+2022,PGC,Veterinary science,detail45,Total,70000.0
+2021,PGC,Veterinary science,detail45,Total,62300.0
+2020,PGC,Veterinary science,detail45,Total,59500.0
+2023,PGR,Agriculture and environmental studies,broad,Male,103000.0
+2021,PGR,Agriculture and environmental studies,broad,Male,91800.0
+2023,PGR,Agriculture and environmental studies,broad,Female,91700.0
+2022,PGR,Agriculture and environmental studies,broad,Female,89600.0
+2021,PGR,Agriculture and environmental studies,broad,Female,86500.0
+2020,PGR,Agriculture and environmental studies,broad,Female,84900.0
+2023,PGR,Agriculture and environmental studies,broad,Total,96600.0
+2022,PGR,Agriculture and environmental studies,broad,Total,91400.0
+2021,PGR,Agriculture and environmental studies,broad,Total,88300.0
+2020,PGR,Agriculture and environmental studies,broad,Total,85500.0
+2022,PGR,Architecture and built environment,broad,Total,103000.0
+2021,PGR,Architecture and built environment,broad,Total,100000.0
+2023,PGR,Business and management,broad,Male,125000.0
+2022,PGR,Business and management,broad,Male,119400.0
+2021,PGR,Business and management,broad,Male,105000.0
+2020,PGR,Business and management,broad,Male,105000.0
+2023,PGR,Business and management,broad,Female,105000.0
+2022,PGR,Business and management,broad,Female,96000.0
+2021,PGR,Business and management,broad,Female,109100.0
+2020,PGR,Business and management,broad,Female,97600.0
+2023,PGR,Business and management,broad,Total,114000.0
+2022,PGR,Business and management,broad,Total,107000.0
+2021,PGR,Business and management,broad,Total,105600.0
+2020,PGR,Business and management,broad,Total,100000.0
+2023,PGR,Computing and Information Systems,broad,Male,102000.0
+2022,PGR,Computing and Information Systems,broad,Male,93000.0
+2021,PGR,Computing and Information Systems,broad,Male,99000.0
+2020,PGR,Computing and Information Systems,broad,Male,92000.0
+2023,PGR,Computing and Information Systems,broad,Total,102000.0
+2022,PGR,Computing and Information Systems,broad,Total,94000.0
+2021,PGR,Computing and Information Systems,broad,Total,97500.0
+2020,PGR,Computing and Information Systems,broad,Total,92000.0
+2023,PGR,Creative arts,broad,Male,92000.0
+2022,PGR,Creative arts,broad,Male,90500.0
+2021,PGR,Creative arts,broad,Male,96000.0
+2020,PGR,Creative arts,broad,Male,93000.0
+2023,PGR,Creative arts,broad,Female,85000.0
+2022,PGR,Creative arts,broad,Female,99100.0
+2021,PGR,Creative arts,broad,Female,83500.0
+2020,PGR,Creative arts,broad,Female,70000.0
+2023,PGR,Creative arts,broad,Total,87500.0
+2022,PGR,Creative arts,broad,Total,98500.0
+2021,PGR,Creative arts,broad,Total,86000.0
+2020,PGR,Creative arts,broad,Total,78300.0
+2023,PGR,Engineering,broad,Male,100000.0
+2022,PGR,Engineering,broad,Male,91600.0
+2021,PGR,Engineering,broad,Male,89600.0
+2020,PGR,Engineering,broad,Male,93900.0
+2023,PGR,Engineering,broad,Female,92300.0
+2022,PGR,Engineering,broad,Female,95000.0
+2021,PGR,Engineering,broad,Female,90000.0
+2020,PGR,Engineering,broad,Female,90800.0
+2023,PGR,Engineering,broad,Total,98700.0
+2022,PGR,Engineering,broad,Total,92000.0
+2021,PGR,Engineering,broad,Total,90000.0
+2020,PGR,Engineering,broad,Total,92900.0
+2023,PGR,Health services and support,broad,Male,104100.0
+2022,PGR,Health services and support,broad,Male,103700.0
+2021,PGR,Health services and support,broad,Male,103000.0
+2020,PGR,Health services and support,broad,Male,98600.0
+2023,PGR,Health services and support,broad,Female,108000.0
+2022,PGR,Health services and support,broad,Female,101800.0
+2021,PGR,Health services and support,broad,Female,106000.0
+2020,PGR,Health services and support,broad,Female,93500.0
+2023,PGR,Health services and support,broad,Total,107000.0
+2022,PGR,Health services and support,broad,Total,102000.0
+2021,PGR,Health services and support,broad,Total,106000.0
+2020,PGR,Health services and support,broad,Total,95000.0
+2023,PGR,"Humanities, culture and social sciences",broad,Male,98400.0
+2022,PGR,"Humanities, culture and social sciences",broad,Male,100000.0
+2021,PGR,"Humanities, culture and social sciences",broad,Male,95000.0
+2020,PGR,"Humanities, culture and social sciences",broad,Male,90000.0
+2023,PGR,"Humanities, culture and social sciences",broad,Female,98000.0
+2022,PGR,"Humanities, culture and social sciences",broad,Female,99000.0
+2021,PGR,"Humanities, culture and social sciences",broad,Female,91700.0
+2020,PGR,"Humanities, culture and social sciences",broad,Female,90000.0
+2023,PGR,"Humanities, culture and social sciences",broad,Total,98300.0
+2022,PGR,"Humanities, culture and social sciences",broad,Total,100000.0
+2021,PGR,"Humanities, culture and social sciences",broad,Total,93000.0
+2020,PGR,"Humanities, culture and social sciences",broad,Total,90000.0
+2023,PGR,Law and paralegal studies,broad,Total,109300.0
+2022,PGR,Law and paralegal studies,broad,Total,130000.0
+2021,PGR,Law and paralegal studies,broad,Total,102300.0
+2023,PGR,Medicine,broad,Male,119500.0
+2022,PGR,Medicine,broad,Male,120000.0
+2021,PGR,Medicine,broad,Male,106000.0
+2020,PGR,Medicine,broad,Male,122500.0
+2023,PGR,Medicine,broad,Female,102100.0
+2022,PGR,Medicine,broad,Female,100000.0
+2021,PGR,Medicine,broad,Female,95500.0
+2020,PGR,Medicine,broad,Female,96300.0
+2023,PGR,Medicine,broad,Total,106100.0
+2022,PGR,Medicine,broad,Total,104400.0
+2021,PGR,Medicine,broad,Total,99900.0
+2020,PGR,Medicine,broad,Total,100000.0
+2023,PGR,Nursing,broad,Female,116500.0
+2022,PGR,Nursing,broad,Female,118500.0
+2021,PGR,Nursing,broad,Female,117500.0
+2020,PGR,Nursing,broad,Female,109000.0
+2023,PGR,Nursing,broad,Total,119000.0
+2022,PGR,Nursing,broad,Total,119500.0
+2021,PGR,Nursing,broad,Total,114000.0
+2020,PGR,Nursing,broad,Total,106000.0
+2023,PGR,Psychology,broad,Male,95500.0
+2022,PGR,Psychology,broad,Male,100000.0
+2020,PGR,Psychology,broad,Male,99300.0
+2023,PGR,Psychology,broad,Female,94000.0
+2022,PGR,Psychology,broad,Female,94500.0
+2021,PGR,Psychology,broad,Female,93800.0
+2020,PGR,Psychology,broad,Female,94000.0
+2023,PGR,Psychology,broad,Total,95000.0
+2022,PGR,Psychology,broad,Total,95400.0
+2021,PGR,Psychology,broad,Total,93900.0
+2020,PGR,Psychology,broad,Total,95000.0
+2023,PGR,Science and mathematics,broad,Male,95000.0
+2022,PGR,Science and mathematics,broad,Male,91100.0
+2021,PGR,Science and mathematics,broad,Male,92700.0
+2020,PGR,Science and mathematics,broad,Male,87700.0
+2023,PGR,Science and mathematics,broad,Female,92000.0
+2022,PGR,Science and mathematics,broad,Female,91000.0
+2021,PGR,Science and mathematics,broad,Female,87000.0
+2020,PGR,Science and mathematics,broad,Female,85200.0
+2023,PGR,Science and mathematics,broad,Total,93500.0
+2022,PGR,Science and mathematics,broad,Total,91000.0
+2021,PGR,Science and mathematics,broad,Total,89800.0
+2020,PGR,Science and mathematics,broad,Total,86300.0
+2023,PGR,Teacher education,broad,Male,111000.0
+2022,PGR,Teacher education,broad,Male,115500.0
+2021,PGR,Teacher education,broad,Male,130000.0
+2020,PGR,Teacher education,broad,Male,120000.0
+2023,PGR,Teacher education,broad,Female,110200.0
+2022,PGR,Teacher education,broad,Female,110000.0
+2021,PGR,Teacher education,broad,Female,106000.0
+2020,PGR,Teacher education,broad,Female,110000.0
+2023,PGR,Teacher education,broad,Total,110200.0
+2022,PGR,Teacher education,broad,Total,110000.0
+2021,PGR,Teacher education,broad,Total,117000.0
+2020,PGR,Teacher education,broad,Total,112500.0
+2023,PGR,All,broad,Male,100000.0
+2022,PGR,All,broad,Male,97000.0
+2021,PGR,All,broad,Male,96000.0
+2020,PGR,All,broad,Male,95000.0
+2023,PGR,All,broad,Female,98000.0
+2022,PGR,All,broad,Female,96000.0
+2021,PGR,All,broad,Female,93900.0
+2020,PGR,All,broad,Female,91900.0
+2023,PGR,All,broad,Total,100000.0
+2022,PGR,All,broad,Total,96000.0
+2021,PGR,All,broad,Total,95000.0
+2020,PGR,All,broad,Total,93000.0

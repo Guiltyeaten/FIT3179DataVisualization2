@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Fields vs the national median, 2025",
+  "data": {"url": "data/salary_by_area.csv"},
+  "transform": [
+    {"filter": "year == 2025 && course_level == 'UG' && study_area_level == 'broad' && gender == 'Total'"},
+    {"calculate": "77000", "as": "national"}
+  ],
+  "layer": [
+    {"mark": {"type": "rule", "color": "#ccc", "strokeWidth": 2},
+     "encoding": {
+       "y": {"field": "study_area", "type": "nominal", "sort": "-x"},
+       "x": {"field": "median_salary", "type": "quantitative"},
+       "x2": {"field": "national"}
+     }},
+    {"mark": {"type": "point", "filled": true, "size": 110, "color": "#4C78A8"},
+     "encoding": {
+       "y": {"field": "study_area", "type": "nominal", "sort": "-x", "title": null},
+       "x": {"field": "median_salary", "type": "quantitative",
+             "title": "Median salary (AUD)", "axis": {"format": "$,.0f"}}
+     }},
+    {"mark": {"type": "point", "filled": true, "size": 110, "color": "#E45756"},
+     "encoding": {
+       "y": {"field": "study_area", "type": "nominal", "sort": "-x"},
+       "x": {"field": "national", "type": "quantitative"}
+     }}
+  ],
+  "width": 520, "height": 420
+}

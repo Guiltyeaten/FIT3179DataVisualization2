@@ -1,0 +1,19 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Median annual full-time salary by field, 2025",
+  "data": {"url": "data/salary_by_area.csv"},
+  "transform": [
+    {"filter": "year == 2025 && course_level == 'UG' && study_area_level == 'broad' && gender == 'Total'"}
+  ],
+  "mark": {"type": "bar", "color": "#4C78A8"},
+  "encoding": {
+    "y": {"field": "study_area", "type": "nominal", "sort": "-x", "title": null},
+    "x": {"field": "median_salary", "type": "quantitative",
+          "title": "Median salary (AUD)", "axis": {"format": "$,.0f"}},
+    "tooltip": [
+      {"field": "study_area", "type": "nominal", "title": "Field"},
+      {"field": "median_salary", "type": "quantitative", "format": "$,.0f", "title": "Salary"}
+    ]
+  },
+  "width": 520, "height": 420
+}

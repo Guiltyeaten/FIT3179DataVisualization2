@@ -1,0 +1,25 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Median personal income by SA4",
+  "width": 520, "height": 420,
+  "projection": {"type": "mercator"},
+  "data": {
+    "url": "data/SA4_2026_AUST_GDA2020.json",
+    "format": {"type": "topojson", "feature": "SA4_2021_AUST_GDA2020"}
+  },
+  "transform": [
+    {"lookup": "properties.SA4_CODE21",
+     "from": {"data": {"url": "data/sa4_context.csv"},
+              "key": "sa4_code", "fields": ["median_personal_income"]}}
+  ],
+  "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.3},
+  "encoding": {
+    "color": {"field": "median_personal_income", "type": "quantitative",
+              "scale": {"scheme": "blues"},
+              "title": "Median personal income (AUD)"},
+    "tooltip": [
+      {"field": "properties.SA4_NAME21", "type": "nominal", "title": "SA4"},
+      {"field": "median_personal_income", "type": "quantitative", "format": "$,.0f"}
+    ]
+  }
+}

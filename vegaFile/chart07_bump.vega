@@ -1,0 +1,25 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Rank change by detailed field, 2024 → 2025",
+  "data": {"url": "data/salary_by_area.csv"},
+  "transform": [
+    {"filter": "course_level == 'UG' && study_area_level == 'detail45' && gender == 'Total' && (year == 2024 || year == 2025)"},
+    {"window": [{"op": "rank", "as": "rank"}],
+     "groupby": ["year"], "sort": [{"field": "median_salary", "order": "descending"}]}
+  ],
+  "mark": {"type": "line", "strokeWidth": 2, "opacity": 0.6},
+  "encoding": {
+    "x": {"field": "year", "type": "ordinal", "title": null,
+          "axis": {"labelAngle": 0}},
+    "y": {"field": "rank", "type": "quantitative",
+          "title": "Rank (1 = highest)", "scale": {"reverse": true}},
+    "detail": {"field": "study_area", "type": "nominal"},
+    "color": {"value": "#4C78A8"},
+    "tooltip": [
+      {"field": "study_area", "type": "nominal"},
+      {"field": "year", "type": "ordinal"},
+      {"field": "rank", "type": "quantitative"}
+    ]
+  },
+  "width": 220, "height": 620
+}
