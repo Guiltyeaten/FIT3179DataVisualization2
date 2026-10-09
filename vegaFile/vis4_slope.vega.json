@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container", "height": 520,
   "title": {"text": "Top 10 fields by starting salary — 2020 vs 2025", "subtitle": "Undergraduate, broad fields · AUD"},
-  "data": {"url": "Data/salary_by_area.csv"},
+  "data": {"url": "processedData/salary_by_area.csv"},
   "transform": [
     {"filter": "datum.course_level == 'UG' && datum.study_area_level == 'broad' && datum.gender == 'Total' && (datum.year == 2020 || datum.year == 2025)"},
     {"calculate": "datum.year == 2020 ? '2020' : '2025'", "as": "Year"},

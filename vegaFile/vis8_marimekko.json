@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container", "height": 480,
   "title": {"text": "Employment composition by field", "subtitle": "Undergraduate 2025 · widths proportional to full-time employment rate"},
-  "data": {"url": "Data/employment_by_area.csv"},
+  "data": {"url": "processedData/employment_by_area.csv"},
   "transform": [
     {"filter": "datum.year == 2025 && datum.course_level == 'UG' && datum.measure == 'FTE'"},
     {"calculate": "datum.value", "as": "fte"},

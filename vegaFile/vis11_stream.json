@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container", "height": 380,
   "title": {"text": "Salary by citizenship status over time", "subtitle": "Undergraduate · domestic vs international · 2016–2024"},
-  "data": {"url": "Data/international_trend.csv"},
+  "data": {"url": "processedData/international_trend.csv"},
   "transform": [
     {"filter": "datum.course_level == 'UG'"},
     {"calculate": "toNumber(datum.year)", "as": "Year"}

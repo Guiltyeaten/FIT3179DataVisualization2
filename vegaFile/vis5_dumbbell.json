@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container", "height": 520,
   "title": {"text": "Gender pay gap by field", "subtitle": "Undergraduate, 2025 · red line = female, blue dot = male"},
-  "data": {"url": "Data/salary_by_area.csv"},
+  "data": {"url": "processedData/salary_by_area.csv"},
   "transform": [
     {"filter": "datum.year == 2025 && datum.course_level == 'UG' && datum.study_area_level == 'broad' && (datum.gender == 'Male' || datum.gender == 'Female')"},
     {"pivot": "gender", "value": "median_salary", "groupby": ["study_area"]},
