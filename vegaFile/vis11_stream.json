@@ -1,0 +1,22 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container", "height": 380,
+  "title": {"text": "Salary by citizenship status over time", "subtitle": "Undergraduate · domestic vs international · 2016–2024"},
+  "data": {"url": "Data/international_trend.csv"},
+  "transform": [
+    {"filter": "datum.course_level == 'UG'"},
+    {"calculate": "toNumber(datum.year)", "as": "Year"}
+  ],
+  "mark": {"type": "area", "opacity": 0.75, "line": {"strokeWidth": 2.5}},
+  "encoding": {
+    "x": {"field": "Year", "type": "ordinal", "axis": {"labelAngle": 0}},
+    "y": {"field": "median_salary", "type": "quantitative", "title": "Median salary (AUD)",
+          "stack": null, "axis": {"format": "$,.0f"}},
+    "color": {"field": "citizenship", "type": "nominal",
+              "scale": {"domain": ["Domestic", "International"], "range": ["#0b6e99", "#e45756"]}},
+    "tooltip": [
+      {"field": "year", "type": "ordinal"}, {"field": "citizenship"},
+      {"field": "median_salary", "type": "quantitative", "format": "$,.0f"}
+    ]
+  }
+}

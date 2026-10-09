@@ -1,89 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Australian Graduate Starting Salaries</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://unpkg.com/purecss@3.0.0/build/pure-min.css">
-<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-<style>
-  body { font-family: Georgia, serif; max-width: 1000px; margin: 0 auto; padding: 24px; color: #222; }
-  h1 { font-size: 2.1rem; margin-bottom: 0.2em; }
-  h2 { font-size: 1.4rem; margin-top: 2.4em; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
-  p  { line-height: 1.55; }
-  .chart { margin: 1em 0 2em 0; }
-  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-  @media (max-width: 720px) { .grid2 { grid-template-columns: 1fr; } }
-  footer { margin-top: 4em; font-size: 0.85rem; color: #555; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graduate Starting Salaries in Australia</title>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <style>
+    :root { --ink:#1b1d23; --muted:#5b6472; --accent:#0b6e99; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--ink); background: #fafafa;
+      max-width: 1180px; margin: 0 auto; padding: 40px 28px;
+      line-height: 1.55;
+    }
+    header { margin-bottom: 40px; }
+    h1 { font-size: 2.6rem; line-height: 1.1; margin: 0 0 8px; letter-spacing: -0.02em; }
+    .lede { font-size: 1.15rem; color: var(--muted); max-width: 70ch; }
+    h2 { font-size: 1.6rem; margin: 56px 0 8px; letter-spacing: -0.01em; }
+    h2 .n { color: var(--accent); font-weight: 500; margin-right: 10px; }
+    h3 { font-size: 1.1rem; margin: 0 0 4px; }
+    section p { max-width: 72ch; color: #333; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; }
+    .chart { background: #fff; border: 1px solid #ececec; border-radius: 12px; padding: 14px; }
+    .chart.full { grid-column: 1 / -1; }
+    figure { margin: 0; }
+    figcaption { font-size: 0.86rem; color: var(--muted); padding: 8px 4px 2px; }
+    @media (max-width: 900px) { .grid2, .grid3 { grid-template-columns: 1fr; } }
+    footer { margin-top: 64px; border-top: 1px solid #e5e5e5; padding-top: 18px; font-size: 0.85rem; color: var(--muted); }
+    code { background: #f1f1f1; padding: 1px 5px; border-radius: 3px; font-size: 0.9em; }
+  </style>
 </head>
 <body>
 
-<h1>What do Australian graduates earn?</h1>
-<p>Starting salaries by field, gender and time — a 12-chart story from QILT GOS, the ATO and the ABS.</p>
+<header>
+  <h1>Graduate starting salaries in Australia</h1>
+  <p class="lede">
+    Which degrees pay best, where in the country are graduates earning most, and how has the picture
+    changed over the last five years? This visualisation explores salaries, employment and further
+    study outcomes for Australian university graduates using the QILT Graduate Outcomes Survey and
+    ABS regional income data.
+  </p>
+</header>
 
-<h2>1. The big picture: median salary by field</h2>
-<div id="chart01" class="chart"></div>
+<section>
+  <h2><span class="n">1</span>Where are graduates earning the most?</h2>
+  <p>
+    Median personal income varies sharply across Australia. The choropleth below maps income by
+    SA4 region; the proportional symbol map shows the size and starting salary of each university;
+    the tile grid gives a quick state-by-state ranking.
+  </p>
+  <figure class="chart full"><div id="vis1"></div>
+    <figcaption>Choropleth · ABS median personal income by SA4 region.</figcaption></figure>
+  <div class="grid2">
+    <figure class="chart"><div id="vis2"></div>
+      <figcaption>Proportional symbol map · Each university sized by median starting salary.</figcaption></figure>
+    <figure class="chart"><div id="vis3"></div>
+      <figcaption>Tile grid cartogram · States coloured by mean graduate starting salary.</figcaption></figure>
+  </div>
+</section>
 
-<h2>2. Which fields sit above the national median?</h2>
-<div id="chart02" class="chart"></div>
+<section>
+  <h2><span class="n">2</span>Which fields pay best — and who wins?</h2>
+  <p>
+    Dentistry, medicine and engineering top the rankings, but rankings shift over time. The slope
+    chart shows how the top ten fields moved between 2020 and 2025. The dumbbell chart exposes the
+    gender gap, and the heatmap shows every field × year combination at a glance.
+  </p>
+  <div class="grid2">
+    <figure class="chart"><div id="vis4"></div>
+      <figcaption>Slope chart · Top 10 fields ranked by salary, 2020 vs 2025.</figcaption></figure>
+    <figure class="chart"><div id="vis5"></div>
+      <figcaption>Dumbbell · Male vs female starting salary by field, 2025.</figcaption></figure>
+  </div>
+  <figure class="chart full"><div id="vis6"></div>
+    <figcaption>Heatmap · Median starting salary by field and year, undergraduate.</figcaption></figure>
+  <figure class="chart full"><div id="vis7"></div>
+    <figcaption>Parallel coordinates · Salary, full-time employment, further study and overqualification
+    — normalised, one line per field.</figcaption></figure>
+</section>
 
-<h2>3. The gender gap</h2>
-<div id="chart03" class="chart"></div>
+<section>
+  <h2><span class="n">3</span>Employment, further study and overqualification</h2>
+  <p>
+    Salary alone doesn't tell the whole story. The Marimekko chart shows how each field's graduates
+    divide between full-time work, further study and other outcomes. The connected scatterplot
+    tracks salary vs full-time employment over the last five years.
+  </p>
+  <div class="grid2">
+    <figure class="chart"><div id="vis8"></div>
+      <figcaption>Marimekko · Composition of graduate outcomes by field.</figcaption></figure>
+    <figure class="chart"><div id="vis9"></div>
+      <figcaption>Connected scatter · Salary vs full-time employment rate, 2020–2025.</figcaption></figure>
+  </div>
+  <figure class="chart full"><div id="vis10"></div>
+    <figcaption>Beeswarm · Median starting salary of every university, undergraduate and postgraduate.</figcaption></figure>
+</section>
 
-<h2>4. 45 fields × gender — the fine detail</h2>
-<div id="chart04" class="chart"></div>
-
-<h2>5. Salary vs full-time employment</h2>
-<div id="chart05" class="chart"></div>
-
-<h2>6. Four outcomes at once</h2>
-<div id="chart06" class="chart"></div>
-
-<h2>7. Who moved up, who moved down</h2>
-<div id="chart07" class="chart"></div>
-
-<h2>8. A decade of change</h2>
-<div id="chart08" class="chart"></div>
-
-<h2>9. The long view: 2008–2016 completions</h2>
-<div id="chart09" class="chart"></div>
-
-<h2>10. Where income is concentrated</h2>
-<div id="chart10" class="chart"></div>
-
-<h2>11. Universities — salary and employment</h2>
-<div id="chart11" class="chart"></div>
-
-<h2>12. Full-time employment by institution</h2>
-<div id="chart12" class="chart"></div>
+<section>
+  <h2><span class="n">4</span>How have salaries changed over time?</h2>
+  <p>
+    Domestic graduates earn consistently more than international graduates, but the gap narrows
+    for postgraduate research degrees. The area chart shows the trajectory by citizenship, and the
+    small multiples break down individual fields.
+  </p>
+  <figure class="chart full"><div id="vis11"></div>
+    <figcaption>Area chart · Median starting salary by citizenship status, 2016–2024.</figcaption></figure>
+  <figure class="chart full"><div id="vis12"></div>
+    <figcaption>Small multiples · Salary trends by field, 2020–2025.</figcaption></figure>
+</section>
 
 <footer>
-  Data: QILT Graduate Outcomes Survey 2020–2025; ATO graduate incomes 2017–18; ABS ASGS 2021 SA4.
-  Built with Vega-Lite. Author: &lt;your name&gt;, 2026.
+  <p>
+    <strong>Data sources:</strong>
+    QILT Graduate Outcomes Survey (2020–2025) via <code>qilt.edu.au</code>;
+    ABS Data by Region (SA4) via <code>abs.gov.au</code>.
+    <br>
+    <strong>Author:</strong> [Your name] · <strong>Date:</strong> October 2026 ·
+    Built with Vega-Lite v5 · Domain assigned: Graduate outcomes.
+  </p>
 </footer>
 
 <script>
-  const specs = [
-    "specs/chart01_bar_salary.json",
-    "specs/chart02_dumbbell.json",
-    "specs/chart03_slope_gender.json",
-    "specs/chart04_heatmap.json",
-    "specs/chart05_scatter.json",
-    "specs/chart06_parallel.json",
-    "specs/chart07_bump.json",
-    "specs/chart08_trend.json",
-    "specs/chart09_range_ato.json",
-    "specs/chart10_choropleth.json",
-    "specs/chart11_symbol_map.json",
-    "specs/chart12_point_map.json"
+  const opts = { actions: false, renderer: "canvas" };
+  const charts = [
+    ["#vis1","vegaFile/vis1_choropleth.vega.json"],
+    ["#vis2","vegaFile/vis2_proportionalSymbols.vega"],
+    ["#vis3","vegaFile/vis3_tile_grid.json"],
+    ["#vis4","vegaFile/vis4_slope.json"],
+    ["#vis5","vegaFile/vis5_dumbbell.json"],
+    ["#vis6","vegaFile/vis6_heatmap.json"],
+    ["#vis7","vegaFile/vis7_parallel.json"],
+    ["#vis8","vegaFile/vis8_marimekko.json"],
+    ["#vis9","vegaFile/vis9_connected_scatter.json"],
+    ["#vis10","vegaFile/vis10_beeswarm.json"],
+    ["#vis11","vegaFile/vis11_stream.json"],
+    ["#vis12","vegaFile/vis12_small_multiples.json"]
   ];
-  specs.forEach((url, i) => {
-    const id = "#chart" + String(i + 1).padStart(2, "0");
-    vegaEmbed(id, url, { actions: false, renderer: "svg" }).catch(console.error);
-  });
+  charts.forEach(([sel,url]) => vegaEmbed(sel, url, opts).catch(e => console.error(url, e)));
 </script>
 </body>
 </html>

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container", "height": 420,
+  "title": {"text": "Multi-indicator view of fields", "subtitle": "Normalised 0–1 · hover a line to highlight"},
+  "data": {"url": "Data/parallel_combined.csv"},
+  "transform": [
+    {"calculate": "indexof(['Salary','FTE','FurtherStudy','Overqualified'], datum.measure)", "as": "m"}
+  ],
+  "params": [{"name": "hover", "select": {"type": "point", "on": "pointerover", "clear": "pointerout", "fields": ["study_area"]}}],
+  "mark": {"type": "line", "strokeWidth": 2},
+  "encoding": {
+    "x": {"field": "m", "type": "ordinal", "title": null,
+          "axis": {"labelExpr": "['Salary','FTE','Further study','Overqualified'][datum.value]", "labelAngle": 0, "labelPadding": 8}},
+    "y": {"field": "norm", "type": "quantitative", "title": "Normalised value", "scale": {"domain": [0, 1]}},
+    "detail": {"field": "study_area"},
+    "color": {"condition": {"param": "hover", "field": "study_area", "type": "nominal"}, "value": "#ccc"},
+    "opacity": {"condition": {"param": "hover", "value": 1}, "value": 0.25},
+    "tooltip": [
+      {"field": "study_area"}, {"field": "measure"}, {"field": "raw", "type": "quantitative", "format": ",.1f"}
+    ]
+  }
+}

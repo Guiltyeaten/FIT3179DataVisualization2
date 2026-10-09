@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container", "height": 480,
+  "title": {"text": "Universities sized by graduate starting salary", "subtitle": "Bubble area = median salary, undergraduate 2025"},
+  "layer": [
+    {
+      "data": {"url": "Data/SA4_2026_AUST_GDA2020.json",
+               "format": {"type": "topojson", "feature": "SA4_2026_AUST_GDA2020"}},
+      "projection": {"type": "mercator", "center": [134, -28], "scale": 700},
+      "mark": {"type": "geoshape", "fill": "#eef1f5", "stroke": "#c8cdd6", "strokeWidth": 0.4}
+    },
+    {
+      "data": {
+        "url": "Data/institution_outcomes.csv",
+        "format": {"parse": {"year": "number", "value": "number"}}
+      },
+      "transform": [
+        {"filter": "datum.year == 2025 && datum.course_level == 'UG' && datum.metric == 'salary'"},
+        {"lookup": "institution",
+         "from": {"data": {"url": "Data/university_coords.csv"}, "key": "institution",
+                  "fields": ["lat", "lon"]}}
+      ],
+      "projection": {"type": "mercator", "center": [134, -28], "scale": 700},
+      "mark": {"type": "circle", "opacity": 0.75, "color": "#0b6e99", "stroke": "white", "strokeWidth": 1},
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "size": {"field": "value", "type": "quantitative",
+                 "scale": {"range": [30, 1400]}, "legend": {"format": "$,.0f", "title": "Median salary"}},
+        "tooltip": [
+          {"field": "institution", "type": "nominal"},
+          {"field": "value", "type": "quantitative", "format": "$,.0f", "title": "Salary"}
+        ]
+      }
+    }
+  ]
+}

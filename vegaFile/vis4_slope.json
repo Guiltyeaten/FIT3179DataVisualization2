@@ -1,0 +1,26 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container", "height": 520,
+  "title": {"text": "Top 10 fields by starting salary — 2020 vs 2025", "subtitle": "Undergraduate, broad fields · AUD"},
+  "data": {"url": "Data/salary_by_area.csv"},
+  "transform": [
+    {"filter": "datum.course_level == 'UG' && datum.study_area_level == 'broad' && datum.gender == 'Total' && (datum.year == 2020 || datum.year == 2025)"},
+    {"calculate": "datum.year == 2020 ? '2020' : '2025'", "as": "Year"},
+    {"joinaggregate": [{"op": "max", "field": "median_salary", "as": "max2025"}],
+     "groupby": []}
+  ],
+  "mark": {"type": "line", "strokeWidth": 3, "point": {"filled": true, "size": 90}},
+  "encoding": {
+    "x": {"field": "Year", "type": "ordinal", "axis": {"labelAngle": 0, "title": null, "labelFontSize": 14}},
+    "y": {"field": "median_salary", "type": "quantitative",
+          "title": "Median starting salary (AUD)", "scale": {"zero": false},
+          "axis": {"format": "$,.0f"}},
+    "color": {"field": "study_area", "type": "nominal", "legend": {"title": "Field", "orient": "right", "labelLimit": 260}},
+    "detail": {"field": "study_area"},
+    "tooltip": [
+      {"field": "study_area", "type": "nominal", "title": "Field"},
+      {"field": "Year", "type": "ordinal"},
+      {"field": "median_salary", "type": "quantitative", "format": "$,.0f"}
+    ]
+  }
+}

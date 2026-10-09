@@ -1,0 +1,22 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container", "height": 420,
+  "title": {"text": "Salary vs full-time employment", "subtitle": "Undergraduate · each line traces one field over 2020–2025"},
+  "data": {"url": "Data/salary_vs_fte.csv"},
+  "transform": [
+    {"lookup": "study_area",
+     "from": {"data": {"url": "Data/salary_by_area.csv"}, "key": "study_area",
+              "fields": ["median_salary"]}}
+  ],
+  "mark": {"type": "point", "filled": true, "size": 80, "opacity": 0.8},
+  "encoding": {
+    "x": {"field": "fte", "type": "quantitative", "title": "Full-time employment rate (%)", "scale": {"zero": false}},
+    "y": {"field": "median_salary", "type": "quantitative", "title": "Median starting salary (AUD)",
+          "scale": {"zero": false}, "axis": {"format": "$,.0f"}},
+    "color": {"field": "study_area", "type": "nominal", "legend": {"labelLimit": 260}},
+    "tooltip": [
+      {"field": "study_area"}, {"field": "fte", "type": "quantitative", "format": ".1f"},
+      {"field": "median_salary", "type": "quantitative", "format": "$,.0f"}
+    ]
+  }
+}

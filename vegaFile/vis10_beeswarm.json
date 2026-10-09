@@ -1,0 +1,21 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container", "height": 380,
+  "title": {"text": "Salary distribution across universities", "subtitle": "Undergraduate 2025 · each dot is one university"},
+  "data": {"url": "Data/institution_outcomes.csv"},
+  "transform": [
+    {"filter": "datum.year == 2025 && datum.metric == 'salary'"}
+  ],
+  "mark": {"type": "circle", "size": 90, "opacity": 0.7, "filled": true},
+  "encoding": {
+    "x": {"field": "value", "type": "quantitative", "title": "Median starting salary (AUD)",
+          "axis": {"format": "$,.0f"}},
+    "y": {"field": "course_level", "type": "nominal", "title": null, "axis": {"labelAngle": 0, "labelPadding": 12}},
+    "color": {"field": "course_level", "type": "nominal", "legend": null,
+              "scale": {"range": ["#0b6e99", "#f2a54a"]}},
+    "tooltip": [
+      {"field": "institution"}, {"field": "course_level"},
+      {"field": "value", "type": "quantitative", "format": "$,.0f", "title": "Salary"}
+    ]
+  }
+}
