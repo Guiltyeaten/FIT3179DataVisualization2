@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container", "height": 380,
+  "title": {"text": "Graduate salary by state — tile grid cartogram",
+            "subtitle": "Each tile is a state or territory, sized equally; colour = mean UG starting salary 2025"},
+  "data": {
+    "values": [
+      {"state":"WA","col":0,"row":3},{"state":"NT","col":1,"row":1},
+      {"state":"SA","col":1,"row":3},{"state":"QLD","col":2,"row":2},
+      {"state":"NSW","col":2,"row":3},{"state":"ACT","col":2,"row":4},
+      {"state":"VIC","col":3,"row":4},{"state":"TAS","col":3,"row":5}
+    ]
+  },
+  "transform": [
+    {"lookup": "state",
+     "from": {"data": {"url": "Data/state_salary.csv"}, "key": "state", "fields": ["mean_salary"]}}
+  ],
+  "mark": {"type": "rect", "stroke": "white", "strokeWidth": 2, "cornerRadius": 6},
+  "encoding": {
+    "x": {"field": "col", "type": "ordinal", "axis": null},
+    "y": {"field": "row", "type": "ordinal", "axis": null, "sort": "descending"},
+    "color": {"field": "mean_salary", "type": "quantitative",
+              "title": "Mean UG salary (AUD)",
+              "scale": {"scheme": "blues"}, "legend": {"format": "$,.0f"}},
+    "tooltip": [
+      {"field": "state", "type": "nominal"},
+      {"field": "mean_salary", "type": "quantitative", "format": "$,.0f"}
+    ]
+  },
+  "layer": [
+    {"mark": {"type": "rect", "stroke": "white", "strokeWidth": 2, "cornerRadius": 6},
+     "encoding": {
+       "x": {"field": "col", "type": "ordinal", "axis": null},
+       "y": {"field": "row", "type": "ordinal", "axis": null, "sort": "descending"},
+       "color": {"field": "mean_salary", "type": "quantitative", "scale": {"scheme": "blues"}, "legend": null},
+       "tooltip": [{"field": "state"}, {"field": "mean_salary", "type": "quantitative", "format": "$,.0f"}]
+     }},
+    {"mark": {"type": "text", "fontSize": 18, "fontWeight": "bold", "color": "white"},
+     "encoding": {
+       "x": {"field": "col", "type": "ordinal"},
+       "y": {"field": "row", "type": "ordinal", "sort": "descending"},
+       "text": {"field": "state"}
+     }}
+  ]
+}

@@ -2,10 +2,10 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container", "height": 420,
   "title": {"text": "Salary vs full-time employment", "subtitle": "Undergraduate · each line traces one field over 2020–2025"},
-  "data": {"url": "processedData/salary_vs_fte.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/refs/heads/main/processedData/salary_vs_fte.csv"},
   "transform": [
     {"lookup": "study_area",
-     "from": {"data": {"url": "Data/salary_by_area.csv"}, "key": "study_area",
+     "from": {"data": {"url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/refs/heads/main/processedData/salary_by_area.csv"}, "key": "study_area",
               "fields": ["median_salary"]}}
   ],
   "mark": {"type": "point", "filled": true, "size": 80, "opacity": 0.8},

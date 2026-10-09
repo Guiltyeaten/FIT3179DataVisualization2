@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container", "height": 380,
   "title": {"text": "Salary distribution across universities", "subtitle": "Undergraduate 2025 · each dot is one university"},
-  "data": {"url": "processedData/institution_outcomes.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/refs/heads/main/processedData/institution_outcomes.csv"},
   "transform": [
     {"filter": "datum.year == 2025 && datum.metric == 'salary'"}
   ],
