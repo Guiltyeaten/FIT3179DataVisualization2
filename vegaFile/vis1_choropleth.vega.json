@@ -3,7 +3,7 @@
   "width": "container", "height": 480,
   "title": {"text": "Median personal income by SA4 region", "subtitle": "AUD per year · ABS Data by Region"},
   "data": {
-    "url": "Data/SA4_2026_AUST_GDA2020.json",
+    "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/refs/heads/main/Data/SA4_2026_AUST_GDA2020.json",
     "format": {"type": "topojson", "feature": "SA4_2026_AUST_GDA2020"}
   },
   "transform": [

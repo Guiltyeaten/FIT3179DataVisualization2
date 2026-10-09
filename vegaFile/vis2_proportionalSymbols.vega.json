@@ -4,7 +4,7 @@
   "title": {"text": "Universities sized by graduate starting salary", "subtitle": "Bubble area = median salary, undergraduate 2025"},
   "layer": [
     {
-      "data": {"url": "FIT3179DataVisualization2/processedData/SA4_2026_AUST_GDA2020.json",
+      "data": {"url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/refs/heads/main/Data/SA4_2026_AUST_GDA2020.json",
                "format": {"type": "topojson", "feature": "SA4_2026_AUST_GDA2020"}},
       "projection": {"type": "mercator", "center": [134, -28], "scale": 700},
       "mark": {"type": "geoshape", "fill": "#eef1f5", "stroke": "#c8cdd6", "strokeWidth": 0.4}
