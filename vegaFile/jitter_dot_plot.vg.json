@@ -1,0 +1,106 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Undergraduate salaries are consistent; postgraduate salaries are not",
+    "subtitle": [
+      "Median starting salary by university · 2025 · each dot = one university",
+      "Within each row, horizontal position = salary · vertical jitter is for readability only"
+    ],
+    "fontSize": 15,
+    "subtitleFontSize": 12,
+    "subtitleColor": "#546e7a",
+    "anchor": "start",
+    "offset": 12
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/institution_outcomes.csv",
+    "format": {"type": "csv", "parse": {"year": "number", "value": "number"}}
+  },
+  "transform": [
+    {
+      "filter": "datum.year == 2025 && datum.metric == 'salary' && (datum.course_level == 'UG' || datum.course_level == 'PGC')"
+    },
+    {
+      "calculate": "((length(datum.institution) + indexof('abcdefghijklmnopqrstuvwxyz', lower(substring(datum.institution, 0, 1)))) % 9 - 4) / 22",
+      "as": "yJitter"
+    }
+  ],
+  "facet": {
+    "row": {
+      "field": "course_level",
+      "type": "nominal",
+      "title": null,
+      "sort": ["PGC", "UG"],
+      "header": {
+        "labelFontSize": 13,
+        "labelFontWeight": 700,
+        "labelOrient": "left",
+        "labelAnchor": "start",
+        "labelPadding": 12,
+        "labelColor": "#37474f",
+        "labelExpr": "datum.label === 'UG' ? 'Undergraduate' : 'Postgraduate coursework'"
+      }
+    }
+  },
+  "spec": {
+    "width": 620,
+    "height": 130,
+    "mark": {
+      "type": "circle",
+      "size": 110,
+      "opacity": 0.8,
+      "filled": true,
+      "stroke": "white",
+      "strokeWidth": 0.8
+    },
+    "encoding": {
+      "x": {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Median starting salary (AUD)",
+        "scale": {"domain": [65000, 145000]},
+        "axis": {
+          "format": "$,.0f",
+          "titleFontSize": 12,
+          "titleFontWeight": "normal",
+          "titleColor": "#546e7a",
+          "titlePadding": 10,
+          "labelFontSize": 11,
+          "labelColor": "#546e7a",
+          "tickCount": 6,
+          "tickSize": 4,
+          "grid": true,
+          "gridColor": "#eceff1",
+          "gridDash": [2, 2],
+          "domain": false
+        }
+      },
+      "y": {
+        "field": "yJitter",
+        "type": "quantitative",
+        "axis": null,
+        "scale": {"domain": [-0.5, 0.5]}
+      },
+      "color": {
+        "field": "course_level",
+        "type": "nominal",
+        "scale": {
+          "domain": ["UG", "PGC"],
+          "range": ["#1e88e5", "#f57c00"]
+        },
+        "legend": null
+      },
+      "tooltip": [
+        {"field": "institution", "type": "nominal", "title": "University"},
+        {"field": "course_level", "type": "nominal", "title": "Level"},
+        {"field": "value", "type": "quantitative", "format": "$,.0f", "title": "Median salary"},
+        {"field": "ci_low", "type": "quantitative", "format": "$,.0f", "title": "CI low"},
+        {"field": "ci_high", "type": "quantitative", "format": "$,.0f", "title": "CI high"}
+      ]
+    }
+  },
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"domainColor": "#b0bec5"}
+  }
+}

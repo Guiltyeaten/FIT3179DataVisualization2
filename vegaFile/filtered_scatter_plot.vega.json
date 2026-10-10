@@ -6,8 +6,7 @@
   "title": {
     "text": "Salary and employment outcomes by field",
     "subtitle": [
-      "Undergraduate 2020–2025 · drag the year slider to see how each field's position shifts",
-      "Each dot = one field in the selected year"
+      "Undergraduate 2020–2025"
     ]
   },
   "params": [
