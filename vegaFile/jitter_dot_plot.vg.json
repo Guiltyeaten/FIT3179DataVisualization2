@@ -1,10 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Undergraduate salaries are consistent; postgraduate salaries are not",
+    "text": "Postgraduate salaries beats undergraduate salaries",
     "subtitle": [
-      "Median starting salary by university · 2025 · each dot = one university",
-      "Within each row, horizontal position = salary · vertical jitter is for readability only"
+      "Median starting salary by university · 2025"
     ],
     "fontSize": 15,
     "subtitleFontSize": 12,
@@ -58,7 +57,7 @@
         "field": "value",
         "type": "quantitative",
         "title": "Median starting salary (AUD)",
-        "scale": {"domain": [65000, 145000]},
+        "scale": {"domain": [60000, 140000]},
         "axis": {
           "format": "$,.0f",
           "titleFontSize": 12,
