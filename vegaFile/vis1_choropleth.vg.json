@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Median personal income by SA4 region",
+    "subtitle": "AUD per year · ABS 2022–23"
+  },
+  "width": 800,
+  "height": 500,
+  "projection": {"type": "mercator", "center": [134, -28], "scale": 700},
+  "data": {
+    "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/Data/SA4_2026_AUST_GDA2020.json",
+    "format": {"type": "topojson", "feature": "SA4_2026_AUST_GDA2020"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.SA4_CODE26",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/abs_sa4_wide_2023.csv",
+          "format": {"parse": {"code": "string"}}
+        },
+        "key": "code",
+        "fields": ["median"]
+      }
+    }
+  ],
+  "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.3},
+  "encoding": {
+    "color": {
+      "field": "median",
+      "type": "quantitative",
+      "title": "Median income (AUD)",
+      "scale": {"scheme": "viridis"},
+      "legend": {"format": "$,.0f"}
+    },
+    "tooltip": [
+      {"field": "properties.SA4_NAME26", "type": "nominal", "title": "Region"},
+      {"field": "properties.STE_NAME26", "type": "nominal", "title": "State"},
+      {"field": "median", "type": "quantitative", "format": "$,.0f", "title": "Median income"}
+    ]
+  }
+}
