@@ -1,0 +1,96 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 720,
+  "height": 620,
+  "padding": {"right": 5, "left": 5},
+  "title": {
+    "text": "Median starting salary by field and year",
+    "subtitle": "Undergraduate · broad fields · AUD · fields sorted by 2025 salary (highest at top)"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/salary_by_area.csv",
+    "format": {
+      "type": "csv",
+      "parse": {"year": "number", "median_salary": "number"}
+    }
+  },
+  "transform": [
+    {"filter": "datum.course_level == 'UG' && datum.study_area_level == 'broad' && datum.gender == 'Total'"},
+    {
+      "joinaggregate": [
+        {"op": "max", "field": "median_salary", "as": "salary2025"}
+      ],
+      "groupby": ["study_area"]
+    },
+    {
+      "calculate": "datum.salary2025 - indexof(['Agriculture and environmental studies','Architecture and built environment','Business and management','Communications','Computing and information systems','Creative arts','Dentistry','Engineering','Health services and support','Humanities, culture and social sciences','Law and paralegal studies','Medicine','Nursing','Pharmacy','Psychology','Rehabilitation','Science and mathematics','Social work','Teacher education','Tourism, hospitality, personal services, sport and recreation','Veterinary science'], datum.study_area) * 0.1",
+      "as": "rank_key"
+    },
+    {
+      "window": [{"op": "dense_rank", "as": "rk"}],
+      "sort": [{"field": "rank_key", "order": "descending"}]
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "rect", "stroke": "white", "strokeWidth": 1.5},
+      "encoding": {
+        "y": {
+          "field": "study_area",
+          "type": "nominal",
+          "title": null,
+          "sort": {"field": "rk", "order": "ascending"},
+          "axis": {"labelLimit": 260, "labelFontSize": 11.5}
+        },
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "title": "Year",
+          "axis": {"labelAngle": 0, "labelFontSize": 12, "titleFontSize": 12}
+        },
+        "color": {
+          "field": "median_salary",
+          "type": "quantitative",
+          "title": "Salary (AUD)",
+          "scale": {
+            "scheme": "darkred",
+            "domain": [50000, 105000]
+          },
+          "legend": {
+            "format": "$,.0f",
+            "orient": "right",
+            "gradientLength": 260,
+            "titleFontSize": 12,
+            "labelFontSize": 11
+          }
+        },
+        "tooltip": [
+          {"field": "study_area", "type": "nominal", "title": "Field"},
+          {"field": "year", "type": "ordinal", "title": "Year"},
+          {"field": "median_salary", "type": "quantitative", "format": "$,.0f", "title": "Median salary"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 9.5,
+        "fontWeight": 500,
+        "color": "white"
+      },
+      "encoding": {
+        "y": {
+          "field": "study_area",
+          "type": "nominal",
+          "sort": {"field": "rk", "order": "ascending"}
+        },
+        "x": {"field": "year", "type": "ordinal"},
+        "text": {
+          "field": "median_salary",
+          "type": "quantitative",
+          "format": "$.2s"
+        }
+      }
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "padding": {"right": 5, "left": 5},
   "title": {
     "text": "Gender pay gap by field of study",
-    "subtitle": "Undergraduate 2025 · blue = male median · red = female median · sorted by size of gap (largest at top)"
+    "subtitle": "Undergraduate 2025 · sorted by size of gap (largest at top)"
   },
   "data": {
     "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/salary_by_area.csv",
@@ -33,24 +33,7 @@
           "axis": {"labelLimit": 320, "labelFontSize": 11.5}
         },
         "x": {"field": "Female", "type": "quantitative"},
-        "x2": {"field": "Male"}
-      }
-    },
-    {
-      "mark": {"type": "point", "filled": true, "size": 140, "color": "#1e88e5", "opacity": 1},
-      "encoding": {
-        "y": {
-          "field": "study_area",
-          "type": "nominal",
-          "sort": {"field": "gapPct", "order": "descending"}
-        },
-        "x": {
-          "field": "Male",
-          "type": "quantitative",
-          "title": "Median starting salary (AUD)",
-          "scale": {"domain": [55000, 112000]},
-          "axis": {"format": "$,.0f", "titleFontSize": 12, "labelFontSize": 11}
-        },
+        "x2": {"field": "Male"},
         "tooltip": [
           {"field": "study_area", "type": "nominal", "title": "Field"},
           {"field": "Male", "type": "quantitative", "format": "$,.0f", "title": "Male median"},
@@ -61,36 +44,47 @@
       }
     },
     {
-      "mark": {"type": "point", "filled": true, "size": 140, "color": "#e53935", "opacity": 1},
+      "transform": [
+        {"fold": ["Male", "Female"], "as": ["gender", "salary"]}
+      ],
+      "mark": {"type": "point", "filled": true, "size": 140, "opacity": 1, "stroke": "white", "strokeWidth": 0.5},
       "encoding": {
         "y": {
           "field": "study_area",
           "type": "nominal",
           "sort": {"field": "gapPct", "order": "descending"}
         },
-        "x": {"field": "Female", "type": "quantitative"}
-      }
-    },
-    {
-      "mark": {"type": "text", "align": "right", "dx": -6, "fontSize": 10.5, "fontWeight": 600},
-      "encoding": {
-        "y": {
-          "field": "study_area",
-          "type": "nominal",
-          "sort": {"field": "gapPct", "order": "descending"}
+        "x": {
+          "field": "salary",
+          "type": "quantitative",
+          "title": "Median starting salary (AUD)",
+          "scale": {"zero": false, "domain": [55000, 100000]},
+          "axis": {"format": "$,.0f", "titleFontSize": 12, "labelFontSize": 11}
         },
-        "x": {"datum": 111000, "type": "quantitative"},
-        "text": {"field": "gapPct", "type": "quantitative", "format": ".1f"},
-        "color": {"value": "#37474f"}
-      }
-    },
-    {
-      "mark": {"type": "text", "align": "right", "dx": -6, "fontSize": 10, "fontStyle": "italic"},
-      "encoding": {
-        "y": {"datum": -0.7, "type": "nominal"},
-        "x": {"datum": 111000, "type": "quantitative"},
-        "text": {"value": "gap (%)"},
-        "color": {"value": "#78909c"}
+        "color": {
+          "field": "gender",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Male", "Female"],
+            "range": ["#1e88e5", "#e53935"]
+          },
+          "legend": {
+            "title": "Median salary for",
+            "orient": "top",
+            "direction": "horizontal",
+            "titleFontSize": 12,
+            "labelFontSize": 12,
+            "symbolSize": 120,
+            "symbolType": "circle"
+          }
+        },
+        "tooltip": [
+          {"field": "study_area", "type": "nominal", "title": "Field"},
+          {"field": "Male", "type": "quantitative", "format": "$,.0f", "title": "Male median"},
+          {"field": "Female", "type": "quantitative", "format": "$,.0f", "title": "Female median"},
+          {"field": "gapAbs", "type": "quantitative", "format": "$,.0f", "title": "Gap ($)"},
+          {"field": "gapPct", "type": "quantitative", "format": ".1f", "title": "Gap (%)"}
+        ]
       }
     }
   ]
