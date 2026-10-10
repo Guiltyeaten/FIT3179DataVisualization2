@@ -1,0 +1,1497 @@
+code,name,year,metric,value
+101,Capital Region,2022-23,earners,157358.0
+101,Capital Region,2022-23,median_age,45.0
+101,Capital Region,2022-23,sum,10746948179.0
+101,Capital Region,2022-23,median,56436.0
+101,Capital Region,2022-23,mean,68296.0
+101,Capital Region,2022-23,p80_p20,6.14
+101,Capital Region,2022-23,p80_p50,1.88
+101,Capital Region,2022-23,p20_p50,0.31
+101,Capital Region,2022-23,p10_p50,0.09
+101,Capital Region,2022-23,gini,0.484
+101,Capital Region,2022-23,top_1pct_share,7.4
+101,Capital Region,2022-23,top_5pct_share,19.9
+101,Capital Region,2022-23,top_10pct_share,31.2
+101,Capital Region,2022-23,lowest_quartile,25.6
+101,Capital Region,2022-23,second_quartile,25.7
+101,Capital Region,2022-23,third_quartile,25.6
+101,Capital Region,2022-23,highest_quartile,23.0
+102,Central Coast,2022-23,earners,215553.0
+102,Central Coast,2022-23,median_age,43.0
+102,Central Coast,2022-23,sum,14722638173.0
+102,Central Coast,2022-23,median,55037.0
+102,Central Coast,2022-23,mean,68302.0
+102,Central Coast,2022-23,p80_p20,6.08
+102,Central Coast,2022-23,p80_p50,1.89
+102,Central Coast,2022-23,p20_p50,0.31
+102,Central Coast,2022-23,p10_p50,0.1
+102,Central Coast,2022-23,gini,0.481
+102,Central Coast,2022-23,top_1pct_share,8.4
+102,Central Coast,2022-23,top_5pct_share,20.9
+102,Central Coast,2022-23,top_10pct_share,32.0
+102,Central Coast,2022-23,lowest_quartile,26.0
+102,Central Coast,2022-23,second_quartile,26.5
+102,Central Coast,2022-23,third_quartile,25.5
+102,Central Coast,2022-23,highest_quartile,22.0
+103,Central West,2022-23,earners,132086.0
+103,Central West,2022-23,median_age,43.0
+103,Central West,2022-23,sum,8680363760.0
+103,Central West,2022-23,median,54786.0
+103,Central West,2022-23,mean,65718.0
+103,Central West,2022-23,p80_p20,6.62
+103,Central West,2022-23,p80_p50,1.9
+103,Central West,2022-23,p20_p50,0.29
+103,Central West,2022-23,p10_p50,0.08
+103,Central West,2022-23,gini,0.501
+103,Central West,2022-23,top_1pct_share,7.8
+103,Central West,2022-23,top_5pct_share,20.0
+103,Central West,2022-23,top_10pct_share,31.5
+103,Central West,2022-23,lowest_quartile,26.7
+103,Central West,2022-23,second_quartile,26.1
+103,Central West,2022-23,third_quartile,25.1
+103,Central West,2022-23,highest_quartile,22.1
+104,Coffs Harbour - Grafton,2022-23,earners,89713.0
+104,Coffs Harbour - Grafton,2022-23,median_age,45.0
+104,Coffs Harbour - Grafton,2022-23,sum,5049427961.0
+104,Coffs Harbour - Grafton,2022-23,median,46137.0
+104,Coffs Harbour - Grafton,2022-23,mean,56284.0
+104,Coffs Harbour - Grafton,2022-23,p80_p20,7.26
+104,Coffs Harbour - Grafton,2022-23,p80_p50,1.92
+104,Coffs Harbour - Grafton,2022-23,p20_p50,0.26
+104,Coffs Harbour - Grafton,2022-23,p10_p50,0.08
+104,Coffs Harbour - Grafton,2022-23,gini,0.496
+104,Coffs Harbour - Grafton,2022-23,top_1pct_share,7.6
+104,Coffs Harbour - Grafton,2022-23,top_5pct_share,20.2
+104,Coffs Harbour - Grafton,2022-23,top_10pct_share,31.7
+104,Coffs Harbour - Grafton,2022-23,lowest_quartile,31.3
+104,Coffs Harbour - Grafton,2022-23,second_quartile,29.6
+104,Coffs Harbour - Grafton,2022-23,third_quartile,23.4
+104,Coffs Harbour - Grafton,2022-23,highest_quartile,15.8
+105,Far West and Orana,2022-23,earners,70390.0
+105,Far West and Orana,2022-23,median_age,41.0
+105,Far West and Orana,2022-23,sum,4427268348.0
+105,Far West and Orana,2022-23,median,54600.0
+105,Far West and Orana,2022-23,mean,62896.0
+105,Far West and Orana,2022-23,p80_p20,6.9
+105,Far West and Orana,2022-23,p80_p50,1.85
+105,Far West and Orana,2022-23,p20_p50,0.27
+105,Far West and Orana,2022-23,p10_p50,0.07
+105,Far West and Orana,2022-23,gini,0.51
+105,Far West and Orana,2022-23,top_1pct_share,7.4
+105,Far West and Orana,2022-23,top_5pct_share,19.5
+105,Far West and Orana,2022-23,top_10pct_share,30.9
+105,Far West and Orana,2022-23,lowest_quartile,27.6
+105,Far West and Orana,2022-23,second_quartile,25.3
+105,Far West and Orana,2022-23,third_quartile,26.2
+105,Far West and Orana,2022-23,highest_quartile,20.9
+106,Hunter Valley exc Newcastle,2022-23,earners,183828.0
+106,Hunter Valley exc Newcastle,2022-23,median_age,42.0
+106,Hunter Valley exc Newcastle,2022-23,sum,12765659679.0
+106,Hunter Valley exc Newcastle,2022-23,median,56708.0
+106,Hunter Valley exc Newcastle,2022-23,mean,69443.0
+106,Hunter Valley exc Newcastle,2022-23,p80_p20,6.1
+106,Hunter Valley exc Newcastle,2022-23,p80_p50,1.9
+106,Hunter Valley exc Newcastle,2022-23,p20_p50,0.31
+106,Hunter Valley exc Newcastle,2022-23,p10_p50,0.1
+106,Hunter Valley exc Newcastle,2022-23,gini,0.48
+106,Hunter Valley exc Newcastle,2022-23,top_1pct_share,7.9
+106,Hunter Valley exc Newcastle,2022-23,top_5pct_share,19.6
+106,Hunter Valley exc Newcastle,2022-23,top_10pct_share,31.0
+106,Hunter Valley exc Newcastle,2022-23,lowest_quartile,25.3
+106,Hunter Valley exc Newcastle,2022-23,second_quartile,25.9
+106,Hunter Valley exc Newcastle,2022-23,third_quartile,25.4
+106,Hunter Valley exc Newcastle,2022-23,highest_quartile,23.4
+107,Illawarra,2022-23,earners,201261.0
+107,Illawarra,2022-23,median_age,42.0
+107,Illawarra,2022-23,sum,14564244456.0
+107,Illawarra,2022-23,median,58509.0
+107,Illawarra,2022-23,mean,72365.0
+107,Illawarra,2022-23,p80_p20,6.24
+107,Illawarra,2022-23,p80_p50,1.92
+107,Illawarra,2022-23,p20_p50,0.31
+107,Illawarra,2022-23,p10_p50,0.1
+107,Illawarra,2022-23,gini,0.474
+107,Illawarra,2022-23,top_1pct_share,7.4
+107,Illawarra,2022-23,top_5pct_share,19.7
+107,Illawarra,2022-23,top_10pct_share,30.9
+107,Illawarra,2022-23,lowest_quartile,25.0
+107,Illawarra,2022-23,second_quartile,24.8
+107,Illawarra,2022-23,third_quartile,24.3
+107,Illawarra,2022-23,highest_quartile,25.9
+108,Mid North Coast,2022-23,earners,133100.0
+108,Mid North Coast,2022-23,median_age,48.0
+108,Mid North Coast,2022-23,sum,7306973810.0
+108,Mid North Coast,2022-23,median,44807.0
+108,Mid North Coast,2022-23,mean,54898.0
+108,Mid North Coast,2022-23,p80_p20,7.94
+108,Mid North Coast,2022-23,p80_p50,1.93
+108,Mid North Coast,2022-23,p20_p50,0.24
+108,Mid North Coast,2022-23,p10_p50,0.07
+108,Mid North Coast,2022-23,gini,0.508
+108,Mid North Coast,2022-23,top_1pct_share,8.1
+108,Mid North Coast,2022-23,top_5pct_share,20.9
+108,Mid North Coast,2022-23,top_10pct_share,32.5
+108,Mid North Coast,2022-23,lowest_quartile,32.6
+108,Mid North Coast,2022-23,second_quartile,29.4
+108,Mid North Coast,2022-23,third_quartile,23.0
+108,Mid North Coast,2022-23,highest_quartile,15.0
+109,Murray,2022-23,earners,83079.0
+109,Murray,2022-23,median_age,43.0
+109,Murray,2022-23,sum,5005246817.0
+109,Murray,2022-23,median,50994.0
+109,Murray,2022-23,mean,60247.0
+109,Murray,2022-23,p80_p20,6.23
+109,Murray,2022-23,p80_p50,1.82
+109,Murray,2022-23,p20_p50,0.29
+109,Murray,2022-23,p10_p50,0.09
+109,Murray,2022-23,gini,0.49
+109,Murray,2022-23,top_1pct_share,7.5
+109,Murray,2022-23,top_5pct_share,20.0
+109,Murray,2022-23,top_10pct_share,31.1
+109,Murray,2022-23,lowest_quartile,28.0
+109,Murray,2022-23,second_quartile,28.2
+109,Murray,2022-23,third_quartile,26.4
+109,Murray,2022-23,highest_quartile,17.5
+110,New England and North West,2022-23,earners,114709.0
+110,New England and North West,2022-23,median_age,43.0
+110,New England and North West,2022-23,sum,6918450186.0
+110,New England and North West,2022-23,median,51093.0
+110,New England and North West,2022-23,mean,60313.0
+110,New England and North West,2022-23,p80_p20,7.08
+110,New England and North West,2022-23,p80_p50,1.86
+110,New England and North West,2022-23,p20_p50,0.26
+110,New England and North West,2022-23,p10_p50,0.07
+110,New England and North West,2022-23,gini,0.515
+110,New England and North West,2022-23,top_1pct_share,7.8
+110,New England and North West,2022-23,top_5pct_share,20.6
+110,New England and North West,2022-23,top_10pct_share,32.2
+110,New England and North West,2022-23,lowest_quartile,28.9
+110,New England and North West,2022-23,second_quartile,27.4
+110,New England and North West,2022-23,third_quartile,25.5
+110,New England and North West,2022-23,highest_quartile,18.2
+111,Newcastle and Lake Macquarie,2022-23,earners,253354.0
+111,Newcastle and Lake Macquarie,2022-23,median_age,41.0
+111,Newcastle and Lake Macquarie,2022-23,sum,18541147276.0
+111,Newcastle and Lake Macquarie,2022-23,median,59817.0
+111,Newcastle and Lake Macquarie,2022-23,mean,73183.0
+111,Newcastle and Lake Macquarie,2022-23,p80_p20,5.95
+111,Newcastle and Lake Macquarie,2022-23,p80_p50,1.86
+111,Newcastle and Lake Macquarie,2022-23,p20_p50,0.31
+111,Newcastle and Lake Macquarie,2022-23,p10_p50,0.1
+111,Newcastle and Lake Macquarie,2022-23,gini,0.472
+111,Newcastle and Lake Macquarie,2022-23,top_1pct_share,8.2
+111,Newcastle and Lake Macquarie,2022-23,top_5pct_share,20.3
+111,Newcastle and Lake Macquarie,2022-23,top_10pct_share,31.3
+111,Newcastle and Lake Macquarie,2022-23,lowest_quartile,24.4
+111,Newcastle and Lake Macquarie,2022-23,second_quartile,24.4
+111,Newcastle and Lake Macquarie,2022-23,third_quartile,25.9
+111,Newcastle and Lake Macquarie,2022-23,highest_quartile,25.3
+112,Richmond - Tweed,2022-23,earners,165795.0
+112,Richmond - Tweed,2022-23,median_age,45.0
+112,Richmond - Tweed,2022-23,sum,9818692494.0
+112,Richmond - Tweed,2022-23,median,46189.0
+112,Richmond - Tweed,2022-23,mean,59222.0
+112,Richmond - Tweed,2022-23,p80_p20,7.03
+112,Richmond - Tweed,2022-23,p80_p50,1.93
+112,Richmond - Tweed,2022-23,p20_p50,0.27
+112,Richmond - Tweed,2022-23,p10_p50,0.08
+112,Richmond - Tweed,2022-23,gini,0.516
+112,Richmond - Tweed,2022-23,top_1pct_share,9.8
+112,Richmond - Tweed,2022-23,top_5pct_share,23.0
+112,Richmond - Tweed,2022-23,top_10pct_share,34.4
+112,Richmond - Tweed,2022-23,lowest_quartile,30.9
+112,Richmond - Tweed,2022-23,second_quartile,29.6
+112,Richmond - Tweed,2022-23,third_quartile,23.2
+112,Richmond - Tweed,2022-23,highest_quartile,16.3
+113,Riverina,2022-23,earners,106791.0
+113,Riverina,2022-23,median_age,42.0
+113,Riverina,2022-23,sum,6761923393.0
+113,Riverina,2022-23,median,55034.0
+113,Riverina,2022-23,mean,63319.0
+113,Riverina,2022-23,p80_p20,5.6
+113,Riverina,2022-23,p80_p50,1.77
+113,Riverina,2022-23,p20_p50,0.32
+113,Riverina,2022-23,p10_p50,0.1
+113,Riverina,2022-23,gini,0.474
+113,Riverina,2022-23,top_1pct_share,7.4
+113,Riverina,2022-23,top_5pct_share,19.3
+113,Riverina,2022-23,top_10pct_share,30.2
+113,Riverina,2022-23,lowest_quartile,25.5
+113,Riverina,2022-23,second_quartile,27.4
+113,Riverina,2022-23,third_quartile,27.9
+113,Riverina,2022-23,highest_quartile,19.1
+114,Southern Highlands and Shoalhaven,2022-23,earners,98507.0
+114,Southern Highlands and Shoalhaven,2022-23,median_age,47.0
+114,Southern Highlands and Shoalhaven,2022-23,sum,6375448417.0
+114,Southern Highlands and Shoalhaven,2022-23,median,49228.0
+114,Southern Highlands and Shoalhaven,2022-23,mean,64721.0
+114,Southern Highlands and Shoalhaven,2022-23,p80_p20,7.24
+114,Southern Highlands and Shoalhaven,2022-23,p80_p50,2.0
+114,Southern Highlands and Shoalhaven,2022-23,p20_p50,0.28
+114,Southern Highlands and Shoalhaven,2022-23,p10_p50,0.08
+114,Southern Highlands and Shoalhaven,2022-23,gini,0.521
+114,Southern Highlands and Shoalhaven,2022-23,top_1pct_share,10.0
+114,Southern Highlands and Shoalhaven,2022-23,top_5pct_share,23.4
+114,Southern Highlands and Shoalhaven,2022-23,top_10pct_share,34.9
+114,Southern Highlands and Shoalhaven,2022-23,lowest_quartile,29.5
+114,Southern Highlands and Shoalhaven,2022-23,second_quartile,27.7
+114,Southern Highlands and Shoalhaven,2022-23,third_quartile,23.0
+114,Southern Highlands and Shoalhaven,2022-23,highest_quartile,19.8
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,earners,187902.0
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,median_age,44.0
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,sum,16887640448.0
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,median,68287.0
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,mean,89875.0
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,p80_p20,6.71
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,p80_p50,2.01
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,p20_p50,0.3
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,p10_p50,0.1
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,gini,0.503
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,top_1pct_share,9.1
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,top_5pct_share,22.3
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,top_10pct_share,33.7
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,lowest_quartile,23.1
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,second_quartile,21.0
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,third_quartile,21.6
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,highest_quartile,34.2
+116,Sydney - Blacktown,2022-23,earners,263116.0
+116,Sydney - Blacktown,2022-23,median_age,39.0
+116,Sydney - Blacktown,2022-23,sum,18640550427.0
+116,Sydney - Blacktown,2022-23,median,62523.0
+116,Sydney - Blacktown,2022-23,mean,70845.0
+116,Sydney - Blacktown,2022-23,p80_p20,5.06
+116,Sydney - Blacktown,2022-23,p80_p50,1.76
+116,Sydney - Blacktown,2022-23,p20_p50,0.35
+116,Sydney - Blacktown,2022-23,p10_p50,0.13
+116,Sydney - Blacktown,2022-23,gini,0.427
+116,Sydney - Blacktown,2022-23,top_1pct_share,4.9
+116,Sydney - Blacktown,2022-23,top_5pct_share,16.1
+116,Sydney - Blacktown,2022-23,top_10pct_share,27.0
+116,Sydney - Blacktown,2022-23,lowest_quartile,22.2
+116,Sydney - Blacktown,2022-23,second_quartile,24.3
+116,Sydney - Blacktown,2022-23,third_quartile,28.5
+116,Sydney - Blacktown,2022-23,highest_quartile,25.1
+117,Sydney - City and Inner South,2022-23,earners,272125.0
+117,Sydney - City and Inner South,2022-23,median_age,35.0
+117,Sydney - City and Inner South,2022-23,sum,25036133326.0
+117,Sydney - City and Inner South,2022-23,median,66300.0
+117,Sydney - City and Inner South,2022-23,mean,92002.0
+117,Sydney - City and Inner South,2022-23,p80_p20,6.84
+117,Sydney - City and Inner South,2022-23,p80_p50,2.02
+117,Sydney - City and Inner South,2022-23,p20_p50,0.29
+117,Sydney - City and Inner South,2022-23,p10_p50,0.11
+117,Sydney - City and Inner South,2022-23,gini,0.529
+117,Sydney - City and Inner South,2022-23,top_1pct_share,11.8
+117,Sydney - City and Inner South,2022-23,top_5pct_share,25.8
+117,Sydney - City and Inner South,2022-23,top_10pct_share,37.2
+117,Sydney - City and Inner South,2022-23,lowest_quartile,24.0
+117,Sydney - City and Inner South,2022-23,second_quartile,21.0
+117,Sydney - City and Inner South,2022-23,third_quartile,22.6
+117,Sydney - City and Inner South,2022-23,highest_quartile,32.4
+118,Sydney - Eastern Suburbs,2022-23,earners,205273.0
+118,Sydney - Eastern Suburbs,2022-23,median_age,39.0
+118,Sydney - Eastern Suburbs,2022-23,sum,26820618131.0
+118,Sydney - Eastern Suburbs,2022-23,median,74302.0
+118,Sydney - Eastern Suburbs,2022-23,mean,130658.0
+118,Sydney - Eastern Suburbs,2022-23,p80_p20,7.4
+118,Sydney - Eastern Suburbs,2022-23,p80_p50,2.19
+118,Sydney - Eastern Suburbs,2022-23,p20_p50,0.3
+118,Sydney - Eastern Suburbs,2022-23,p10_p50,0.11
+118,Sydney - Eastern Suburbs,2022-23,gini,0.627
+118,Sydney - Eastern Suburbs,2022-23,top_1pct_share,19.9
+118,Sydney - Eastern Suburbs,2022-23,top_5pct_share,37.5
+118,Sydney - Eastern Suburbs,2022-23,top_10pct_share,48.7
+118,Sydney - Eastern Suburbs,2022-23,lowest_quartile,21.8
+118,Sydney - Eastern Suburbs,2022-23,second_quartile,19.7
+118,Sydney - Eastern Suburbs,2022-23,third_quartile,19.8
+118,Sydney - Eastern Suburbs,2022-23,highest_quartile,38.7
+119,Sydney - Inner South West,2022-23,earners,388261.0
+119,Sydney - Inner South West,2022-23,median_age,39.0
+119,Sydney - Inner South West,2022-23,sum,26077255147.0
+119,Sydney - Inner South West,2022-23,median,54206.0
+119,Sydney - Inner South West,2022-23,mean,67164.0
+119,Sydney - Inner South West,2022-23,p80_p20,5.83
+119,Sydney - Inner South West,2022-23,p80_p50,1.9
+119,Sydney - Inner South West,2022-23,p20_p50,0.33
+119,Sydney - Inner South West,2022-23,p10_p50,0.11
+119,Sydney - Inner South West,2022-23,gini,0.478
+119,Sydney - Inner South West,2022-23,top_1pct_share,7.4
+119,Sydney - Inner South West,2022-23,top_5pct_share,20.0
+119,Sydney - Inner South West,2022-23,top_10pct_share,31.5
+119,Sydney - Inner South West,2022-23,lowest_quartile,26.7
+119,Sydney - Inner South West,2022-23,second_quartile,26.3
+119,Sydney - Inner South West,2022-23,third_quartile,25.2
+119,Sydney - Inner South West,2022-23,highest_quartile,21.7
+120,Sydney - Inner West,2022-23,earners,225216.0
+120,Sydney - Inner West,2022-23,median_age,39.0
+120,Sydney - Inner West,2022-23,sum,21134612751.0
+120,Sydney - Inner West,2022-23,median,66738.0
+120,Sydney - Inner West,2022-23,mean,93842.0
+120,Sydney - Inner West,2022-23,p80_p20,6.43
+120,Sydney - Inner West,2022-23,p80_p50,2.02
+120,Sydney - Inner West,2022-23,p20_p50,0.31
+120,Sydney - Inner West,2022-23,p10_p50,0.11
+120,Sydney - Inner West,2022-23,gini,0.527
+120,Sydney - Inner West,2022-23,top_1pct_share,11.0
+120,Sydney - Inner West,2022-23,top_5pct_share,25.8
+120,Sydney - Inner West,2022-23,top_10pct_share,37.4
+120,Sydney - Inner West,2022-23,lowest_quartile,22.8
+120,Sydney - Inner West,2022-23,second_quartile,21.7
+120,Sydney - Inner West,2022-23,third_quartile,22.8
+120,Sydney - Inner West,2022-23,highest_quartile,32.7
+121,Sydney - North Sydney and Hornsby,2022-23,earners,313690.0
+121,Sydney - North Sydney and Hornsby,2022-23,median_age,44.0
+121,Sydney - North Sydney and Hornsby,2022-23,sum,37853808142.0
+121,Sydney - North Sydney and Hornsby,2022-23,median,74981.0
+121,Sydney - North Sydney and Hornsby,2022-23,mean,120673.0
+121,Sydney - North Sydney and Hornsby,2022-23,p80_p20,7.88
+121,Sydney - North Sydney and Hornsby,2022-23,p80_p50,2.19
+121,Sydney - North Sydney and Hornsby,2022-23,p20_p50,0.28
+121,Sydney - North Sydney and Hornsby,2022-23,p10_p50,0.09
+121,Sydney - North Sydney and Hornsby,2022-23,gini,0.585
+121,Sydney - North Sydney and Hornsby,2022-23,top_1pct_share,15.4
+121,Sydney - North Sydney and Hornsby,2022-23,top_5pct_share,32.0
+121,Sydney - North Sydney and Hornsby,2022-23,top_10pct_share,43.6
+121,Sydney - North Sydney and Hornsby,2022-23,lowest_quartile,22.7
+121,Sydney - North Sydney and Hornsby,2022-23,second_quartile,18.8
+121,Sydney - North Sydney and Hornsby,2022-23,third_quartile,19.1
+121,Sydney - North Sydney and Hornsby,2022-23,highest_quartile,39.4
+122,Sydney - Northern Beaches,2022-23,earners,196185.0
+122,Sydney - Northern Beaches,2022-23,median_age,45.0
+122,Sydney - Northern Beaches,2022-23,sum,21262249839.0
+122,Sydney - Northern Beaches,2022-23,median,67898.0
+122,Sydney - Northern Beaches,2022-23,mean,108379.0
+122,Sydney - Northern Beaches,2022-23,p80_p20,7.28
+122,Sydney - Northern Beaches,2022-23,p80_p50,2.19
+122,Sydney - Northern Beaches,2022-23,p20_p50,0.3
+122,Sydney - Northern Beaches,2022-23,p10_p50,0.1
+122,Sydney - Northern Beaches,2022-23,gini,0.572
+122,Sydney - Northern Beaches,2022-23,top_1pct_share,14.4
+122,Sydney - Northern Beaches,2022-23,top_5pct_share,30.7
+122,Sydney - Northern Beaches,2022-23,top_10pct_share,42.5
+122,Sydney - Northern Beaches,2022-23,lowest_quartile,23.1
+122,Sydney - Northern Beaches,2022-23,second_quartile,21.3
+122,Sydney - Northern Beaches,2022-23,third_quartile,20.7
+122,Sydney - Northern Beaches,2022-23,highest_quartile,34.9
+123,Sydney - Outer South West,2022-23,earners,188642.0
+123,Sydney - Outer South West,2022-23,median_age,40.0
+123,Sydney - Outer South West,2022-23,sum,13069424858.0
+123,Sydney - Outer South West,2022-23,median,61031.0
+123,Sydney - Outer South West,2022-23,mean,69282.0
+123,Sydney - Outer South West,2022-23,p80_p20,5.0
+123,Sydney - Outer South West,2022-23,p80_p50,1.75
+123,Sydney - Outer South West,2022-23,p20_p50,0.35
+123,Sydney - Outer South West,2022-23,p10_p50,0.12
+123,Sydney - Outer South West,2022-23,gini,0.43
+123,Sydney - Outer South West,2022-23,top_1pct_share,5.7
+123,Sydney - Outer South West,2022-23,top_5pct_share,16.9
+123,Sydney - Outer South West,2022-23,top_10pct_share,27.6
+123,Sydney - Outer South West,2022-23,lowest_quartile,22.5
+123,Sydney - Outer South West,2022-23,second_quartile,25.1
+123,Sydney - Outer South West,2022-23,third_quartile,28.7
+123,Sydney - Outer South West,2022-23,highest_quartile,23.7
+124,Sydney - Outer West and Blue Mountains,2022-23,earners,213742.0
+124,Sydney - Outer West and Blue Mountains,2022-23,median_age,41.0
+124,Sydney - Outer West and Blue Mountains,2022-23,sum,15276397195.0
+124,Sydney - Outer West and Blue Mountains,2022-23,median,62518.0
+124,Sydney - Outer West and Blue Mountains,2022-23,mean,71471.0
+124,Sydney - Outer West and Blue Mountains,2022-23,p80_p20,5.1
+124,Sydney - Outer West and Blue Mountains,2022-23,p80_p50,1.75
+124,Sydney - Outer West and Blue Mountains,2022-23,p20_p50,0.34
+124,Sydney - Outer West and Blue Mountains,2022-23,p10_p50,0.12
+124,Sydney - Outer West and Blue Mountains,2022-23,gini,0.438
+124,Sydney - Outer West and Blue Mountains,2022-23,top_1pct_share,6.5
+124,Sydney - Outer West and Blue Mountains,2022-23,top_5pct_share,17.7
+124,Sydney - Outer West and Blue Mountains,2022-23,top_10pct_share,28.3
+124,Sydney - Outer West and Blue Mountains,2022-23,lowest_quartile,22.4
+124,Sydney - Outer West and Blue Mountains,2022-23,second_quartile,24.1
+124,Sydney - Outer West and Blue Mountains,2022-23,third_quartile,28.4
+124,Sydney - Outer West and Blue Mountains,2022-23,highest_quartile,25.1
+125,Sydney - Parramatta,2022-23,earners,322403.0
+125,Sydney - Parramatta,2022-23,median_age,37.0
+125,Sydney - Parramatta,2022-23,sum,21410910544.0
+125,Sydney - Parramatta,2022-23,median,55020.0
+125,Sydney - Parramatta,2022-23,mean,66410.0
+125,Sydney - Parramatta,2022-23,p80_p20,5.8
+125,Sydney - Parramatta,2022-23,p80_p50,1.9
+125,Sydney - Parramatta,2022-23,p20_p50,0.33
+125,Sydney - Parramatta,2022-23,p10_p50,0.12
+125,Sydney - Parramatta,2022-23,gini,0.462
+125,Sydney - Parramatta,2022-23,top_1pct_share,6.0
+125,Sydney - Parramatta,2022-23,top_5pct_share,18.2
+125,Sydney - Parramatta,2022-23,top_10pct_share,29.6
+125,Sydney - Parramatta,2022-23,lowest_quartile,26.3
+125,Sydney - Parramatta,2022-23,second_quartile,26.2
+125,Sydney - Parramatta,2022-23,third_quartile,25.3
+125,Sydney - Parramatta,2022-23,highest_quartile,22.3
+126,Sydney - Ryde,2022-23,earners,146723.0
+126,Sydney - Ryde,2022-23,median_age,41.0
+126,Sydney - Ryde,2022-23,sum,13287314601.0
+126,Sydney - Ryde,2022-23,median,64713.0
+126,Sydney - Ryde,2022-23,mean,90561.0
+126,Sydney - Ryde,2022-23,p80_p20,7.21
+126,Sydney - Ryde,2022-23,p80_p50,2.05
+126,Sydney - Ryde,2022-23,p20_p50,0.28
+126,Sydney - Ryde,2022-23,p10_p50,0.09
+126,Sydney - Ryde,2022-23,gini,0.536
+126,Sydney - Ryde,2022-23,top_1pct_share,12.1
+126,Sydney - Ryde,2022-23,top_5pct_share,26.2
+126,Sydney - Ryde,2022-23,top_10pct_share,37.5
+126,Sydney - Ryde,2022-23,lowest_quartile,25.1
+126,Sydney - Ryde,2022-23,second_quartile,21.1
+126,Sydney - Ryde,2022-23,third_quartile,21.9
+126,Sydney - Ryde,2022-23,highest_quartile,31.9
+127,Sydney - South West,2022-23,earners,272395.0
+127,Sydney - South West,2022-23,median_age,39.0
+127,Sydney - South West,2022-23,sum,17487307990.0
+127,Sydney - South West,2022-23,median,55601.0
+127,Sydney - South West,2022-23,mean,64198.0
+127,Sydney - South West,2022-23,p80_p20,5.41
+127,Sydney - South West,2022-23,p80_p50,1.79
+127,Sydney - South West,2022-23,p20_p50,0.33
+127,Sydney - South West,2022-23,p10_p50,0.12
+127,Sydney - South West,2022-23,gini,0.444
+127,Sydney - South West,2022-23,top_1pct_share,6.0
+127,Sydney - South West,2022-23,top_5pct_share,17.5
+127,Sydney - South West,2022-23,top_10pct_share,28.4
+127,Sydney - South West,2022-23,lowest_quartile,25.6
+127,Sydney - South West,2022-23,second_quartile,26.5
+127,Sydney - South West,2022-23,third_quartile,27.5
+127,Sydney - South West,2022-23,highest_quartile,20.3
+128,Sydney - Sutherland,2022-23,earners,160093.0
+128,Sydney - Sutherland,2022-23,median_age,44.0
+128,Sydney - Sutherland,2022-23,sum,14359812873.0
+128,Sydney - Sutherland,2022-23,median,69218.0
+128,Sydney - Sutherland,2022-23,mean,89697.0
+128,Sydney - Sutherland,2022-23,p80_p20,5.98
+128,Sydney - Sutherland,2022-23,p80_p50,1.9
+128,Sydney - Sutherland,2022-23,p20_p50,0.32
+128,Sydney - Sutherland,2022-23,p10_p50,0.11
+128,Sydney - Sutherland,2022-23,gini,0.495
+128,Sydney - Sutherland,2022-23,top_1pct_share,9.9
+128,Sydney - Sutherland,2022-23,top_5pct_share,23.0
+128,Sydney - Sutherland,2022-23,top_10pct_share,34.1
+128,Sydney - Sutherland,2022-23,lowest_quartile,21.9
+128,Sydney - Sutherland,2022-23,second_quartile,21.1
+128,Sydney - Sutherland,2022-23,third_quartile,23.5
+128,Sydney - Sutherland,2022-23,highest_quartile,33.4
+201,Ballarat,2022-23,earners,108830.0
+201,Ballarat,2022-23,median_age,43.0
+201,Ballarat,2022-23,sum,7101116049.0
+201,Ballarat,2022-23,median,53619.0
+201,Ballarat,2022-23,mean,65250.0
+201,Ballarat,2022-23,p80_p20,6.12
+201,Ballarat,2022-23,p80_p50,1.86
+201,Ballarat,2022-23,p20_p50,0.3
+201,Ballarat,2022-23,p10_p50,0.1
+201,Ballarat,2022-23,gini,0.482
+201,Ballarat,2022-23,top_1pct_share,8.1
+201,Ballarat,2022-23,top_5pct_share,20.5
+201,Ballarat,2022-23,top_10pct_share,31.6
+201,Ballarat,2022-23,lowest_quartile,26.7
+201,Ballarat,2022-23,second_quartile,27.2
+201,Ballarat,2022-23,third_quartile,25.8
+201,Ballarat,2022-23,highest_quartile,20.3
+202,Bendigo,2022-23,earners,106692.0
+202,Bendigo,2022-23,median_age,44.0
+202,Bendigo,2022-23,sum,6944631168.0
+202,Bendigo,2022-23,median,54001.0
+202,Bendigo,2022-23,mean,65090.0
+202,Bendigo,2022-23,p80_p20,6.15
+202,Bendigo,2022-23,p80_p50,1.86
+202,Bendigo,2022-23,p20_p50,0.3
+202,Bendigo,2022-23,p10_p50,0.1
+202,Bendigo,2022-23,gini,0.477
+202,Bendigo,2022-23,top_1pct_share,7.3
+202,Bendigo,2022-23,top_5pct_share,19.7
+202,Bendigo,2022-23,top_10pct_share,30.9
+202,Bendigo,2022-23,lowest_quartile,26.5
+202,Bendigo,2022-23,second_quartile,27.1
+202,Bendigo,2022-23,third_quartile,25.9
+202,Bendigo,2022-23,highest_quartile,20.5
+203,Geelong,2022-23,earners,218144.0
+203,Geelong,2022-23,median_age,42.0
+203,Geelong,2022-23,sum,15635472041.0
+203,Geelong,2022-23,median,57549.0
+203,Geelong,2022-23,mean,71675.0
+203,Geelong,2022-23,p80_p20,5.85
+203,Geelong,2022-23,p80_p50,1.88
+203,Geelong,2022-23,p20_p50,0.32
+203,Geelong,2022-23,p10_p50,0.11
+203,Geelong,2022-23,gini,0.479
+203,Geelong,2022-23,top_1pct_share,8.6
+203,Geelong,2022-23,top_5pct_share,21.0
+203,Geelong,2022-23,top_10pct_share,32.1
+203,Geelong,2022-23,lowest_quartile,24.8
+203,Geelong,2022-23,second_quartile,25.7
+203,Geelong,2022-23,third_quartile,25.6
+203,Geelong,2022-23,highest_quartile,23.9
+204,Hume,2022-23,earners,119801.0
+204,Hume,2022-23,median_age,46.0
+204,Hume,2022-23,sum,7258107619.0
+204,Hume,2022-23,median,51800.0
+204,Hume,2022-23,mean,60585.0
+204,Hume,2022-23,p80_p20,6.15
+204,Hume,2022-23,p80_p50,1.82
+204,Hume,2022-23,p20_p50,0.3
+204,Hume,2022-23,p10_p50,0.09
+204,Hume,2022-23,gini,0.474
+204,Hume,2022-23,top_1pct_share,6.8
+204,Hume,2022-23,top_5pct_share,18.9
+204,Hume,2022-23,top_10pct_share,30.0
+204,Hume,2022-23,lowest_quartile,27.7
+204,Hume,2022-23,second_quartile,27.7
+204,Hume,2022-23,third_quartile,26.7
+204,Hume,2022-23,highest_quartile,17.9
+205,Latrobe - Gippsland,2022-23,earners,185609.0
+205,Latrobe - Gippsland,2022-23,median_age,45.0
+205,Latrobe - Gippsland,2022-23,sum,11281838584.0
+205,Latrobe - Gippsland,2022-23,median,49567.0
+205,Latrobe - Gippsland,2022-23,mean,60783.0
+205,Latrobe - Gippsland,2022-23,p80_p20,6.67
+205,Latrobe - Gippsland,2022-23,p80_p50,1.92
+205,Latrobe - Gippsland,2022-23,p20_p50,0.29
+205,Latrobe - Gippsland,2022-23,p10_p50,0.09
+205,Latrobe - Gippsland,2022-23,gini,0.492
+205,Latrobe - Gippsland,2022-23,top_1pct_share,6.9
+205,Latrobe - Gippsland,2022-23,top_5pct_share,19.8
+205,Latrobe - Gippsland,2022-23,top_10pct_share,31.5
+205,Latrobe - Gippsland,2022-23,lowest_quartile,28.8
+205,Latrobe - Gippsland,2022-23,second_quartile,28.4
+205,Latrobe - Gippsland,2022-23,third_quartile,24.3
+205,Latrobe - Gippsland,2022-23,highest_quartile,18.5
+206,Melbourne - Inner,2022-23,earners,509494.0
+206,Melbourne - Inner,2022-23,median_age,35.0
+206,Melbourne - Inner,2022-23,sum,47256655373.0
+206,Melbourne - Inner,2022-23,median,65785.0
+206,Melbourne - Inner,2022-23,mean,92752.0
+206,Melbourne - Inner,2022-23,p80_p20,6.49
+206,Melbourne - Inner,2022-23,p80_p50,1.97
+206,Melbourne - Inner,2022-23,p20_p50,0.3
+206,Melbourne - Inner,2022-23,p10_p50,0.11
+206,Melbourne - Inner,2022-23,gini,0.534
+206,Melbourne - Inner,2022-23,top_1pct_share,13.1
+206,Melbourne - Inner,2022-23,top_5pct_share,27.3
+206,Melbourne - Inner,2022-23,top_10pct_share,38.4
+206,Melbourne - Inner,2022-23,lowest_quartile,23.5
+206,Melbourne - Inner,2022-23,second_quartile,21.6
+206,Melbourne - Inner,2022-23,third_quartile,23.3
+206,Melbourne - Inner,2022-23,highest_quartile,31.6
+207,Melbourne - Inner East,2022-23,earners,271372.0
+207,Melbourne - Inner East,2022-23,median_age,44.0
+207,Melbourne - Inner East,2022-23,sum,25353578571.0
+207,Melbourne - Inner East,2022-23,median,59261.0
+207,Melbourne - Inner East,2022-23,mean,93427.0
+207,Melbourne - Inner East,2022-23,p80_p20,8.12
+207,Melbourne - Inner East,2022-23,p80_p50,2.23
+207,Melbourne - Inner East,2022-23,p20_p50,0.27
+207,Melbourne - Inner East,2022-23,p10_p50,0.09
+207,Melbourne - Inner East,2022-23,gini,0.576
+207,Melbourne - Inner East,2022-23,top_1pct_share,13.9
+207,Melbourne - Inner East,2022-23,top_5pct_share,29.9
+207,Melbourne - Inner East,2022-23,top_10pct_share,41.8
+207,Melbourne - Inner East,2022-23,lowest_quartile,27.2
+207,Melbourne - Inner East,2022-23,second_quartile,22.2
+207,Melbourne - Inner East,2022-23,third_quartile,20.1
+207,Melbourne - Inner East,2022-23,highest_quartile,30.5
+208,Melbourne - Inner South,2022-23,earners,304943.0
+208,Melbourne - Inner South,2022-23,median_age,44.0
+208,Melbourne - Inner South,2022-23,sum,30383875697.0
+208,Melbourne - Inner South,2022-23,median,68110.0
+208,Melbourne - Inner South,2022-23,mean,99638.0
+208,Melbourne - Inner South,2022-23,p80_p20,7.02
+208,Melbourne - Inner South,2022-23,p80_p50,2.08
+208,Melbourne - Inner South,2022-23,p20_p50,0.3
+208,Melbourne - Inner South,2022-23,p10_p50,0.1
+208,Melbourne - Inner South,2022-23,gini,0.545
+208,Melbourne - Inner South,2022-23,top_1pct_share,12.4
+208,Melbourne - Inner South,2022-23,top_5pct_share,27.7
+208,Melbourne - Inner South,2022-23,top_10pct_share,39.2
+208,Melbourne - Inner South,2022-23,lowest_quartile,23.3
+208,Melbourne - Inner South,2022-23,second_quartile,20.9
+208,Melbourne - Inner South,2022-23,third_quartile,21.4
+208,Melbourne - Inner South,2022-23,highest_quartile,34.4
+209,Melbourne - North East,2022-23,earners,360204.0
+209,Melbourne - North East,2022-23,median_age,40.0
+209,Melbourne - North East,2022-23,sum,26565099393.0
+209,Melbourne - North East,2022-23,median,60976.0
+209,Melbourne - North East,2022-23,mean,73750.0
+209,Melbourne - North East,2022-23,p80_p20,5.34
+209,Melbourne - North East,2022-23,p80_p50,1.83
+209,Melbourne - North East,2022-23,p20_p50,0.34
+209,Melbourne - North East,2022-23,p10_p50,0.13
+209,Melbourne - North East,2022-23,gini,0.458
+209,Melbourne - North East,2022-23,top_1pct_share,7.3
+209,Melbourne - North East,2022-23,top_5pct_share,19.3
+209,Melbourne - North East,2022-23,top_10pct_share,30.4
+209,Melbourne - North East,2022-23,lowest_quartile,22.9
+209,Melbourne - North East,2022-23,second_quartile,24.9
+209,Melbourne - North East,2022-23,third_quartile,26.6
+209,Melbourne - North East,2022-23,highest_quartile,25.6
+210,Melbourne - North West,2022-23,earners,267440.0
+210,Melbourne - North West,2022-23,median_age,39.0
+210,Melbourne - North West,2022-23,sum,18451491687.0
+210,Melbourne - North West,2022-23,median,58100.0
+210,Melbourne - North West,2022-23,mean,68993.0
+210,Melbourne - North West,2022-23,p80_p20,5.29
+210,Melbourne - North West,2022-23,p80_p50,1.82
+210,Melbourne - North West,2022-23,p20_p50,0.34
+210,Melbourne - North West,2022-23,p10_p50,0.13
+210,Melbourne - North West,2022-23,gini,0.451
+210,Melbourne - North West,2022-23,top_1pct_share,6.4
+210,Melbourne - North West,2022-23,top_5pct_share,18.3
+210,Melbourne - North West,2022-23,top_10pct_share,29.4
+210,Melbourne - North West,2022-23,lowest_quartile,23.9
+210,Melbourne - North West,2022-23,second_quartile,26.2
+210,Melbourne - North West,2022-23,third_quartile,26.9
+210,Melbourne - North West,2022-23,highest_quartile,23.1
+211,Melbourne - Outer East,2022-23,earners,350242.0
+211,Melbourne - Outer East,2022-23,median_age,43.0
+211,Melbourne - Outer East,2022-23,sum,25318630390.0
+211,Melbourne - Outer East,2022-23,median,59613.0
+211,Melbourne - Outer East,2022-23,mean,72289.0
+211,Melbourne - Outer East,2022-23,p80_p20,5.8
+211,Melbourne - Outer East,2022-23,p80_p50,1.88
+211,Melbourne - Outer East,2022-23,p20_p50,0.32
+211,Melbourne - Outer East,2022-23,p10_p50,0.11
+211,Melbourne - Outer East,2022-23,gini,0.465
+211,Melbourne - Outer East,2022-23,top_1pct_share,7.0
+211,Melbourne - Outer East,2022-23,top_5pct_share,19.1
+211,Melbourne - Outer East,2022-23,top_10pct_share,30.4
+211,Melbourne - Outer East,2022-23,lowest_quartile,24.3
+211,Melbourne - Outer East,2022-23,second_quartile,24.7
+211,Melbourne - Outer East,2022-23,third_quartile,25.8
+211,Melbourne - Outer East,2022-23,highest_quartile,25.3
+212,Melbourne - South East,2022-23,earners,571661.0
+212,Melbourne - South East,2022-23,median_age,39.0
+212,Melbourne - South East,2022-23,sum,37546907335.0
+212,Melbourne - South East,2022-23,median,55238.0
+212,Melbourne - South East,2022-23,mean,65680.0
+212,Melbourne - South East,2022-23,p80_p20,5.19
+212,Melbourne - South East,2022-23,p80_p50,1.8
+212,Melbourne - South East,2022-23,p20_p50,0.35
+212,Melbourne - South East,2022-23,p10_p50,0.13
+212,Melbourne - South East,2022-23,gini,0.455
+212,Melbourne - South East,2022-23,top_1pct_share,7.1
+212,Melbourne - South East,2022-23,top_5pct_share,19.0
+212,Melbourne - South East,2022-23,top_10pct_share,30.0
+212,Melbourne - South East,2022-23,lowest_quartile,24.9
+212,Melbourne - South East,2022-23,second_quartile,27.7
+212,Melbourne - South East,2022-23,third_quartile,27.3
+212,Melbourne - South East,2022-23,highest_quartile,20.1
+213,Melbourne - West,2022-23,earners,572272.0
+213,Melbourne - West,2022-23,median_age,38.0
+213,Melbourne - West,2022-23,sum,39335485546.0
+213,Melbourne - West,2022-23,median,58476.0
+213,Melbourne - West,2022-23,mean,68736.0
+213,Melbourne - West,2022-23,p80_p20,5.11
+213,Melbourne - West,2022-23,p80_p50,1.81
+213,Melbourne - West,2022-23,p20_p50,0.35
+213,Melbourne - West,2022-23,p10_p50,0.13
+213,Melbourne - West,2022-23,gini,0.443
+213,Melbourne - West,2022-23,top_1pct_share,5.9
+213,Melbourne - West,2022-23,top_5pct_share,17.7
+213,Melbourne - West,2022-23,top_10pct_share,28.7
+213,Melbourne - West,2022-23,lowest_quartile,23.4
+213,Melbourne - West,2022-23,second_quartile,26.4
+213,Melbourne - West,2022-23,third_quartile,27.3
+213,Melbourne - West,2022-23,highest_quartile,22.9
+214,Mornington Peninsula,2022-23,earners,198183.0
+214,Mornington Peninsula,2022-23,median_age,45.0
+214,Mornington Peninsula,2022-23,sum,14409506255.0
+214,Mornington Peninsula,2022-23,median,56563.0
+214,Mornington Peninsula,2022-23,mean,72708.0
+214,Mornington Peninsula,2022-23,p80_p20,5.97
+214,Mornington Peninsula,2022-23,p80_p50,1.91
+214,Mornington Peninsula,2022-23,p20_p50,0.32
+214,Mornington Peninsula,2022-23,p10_p50,0.11
+214,Mornington Peninsula,2022-23,gini,0.494
+214,Mornington Peninsula,2022-23,top_1pct_share,9.8
+214,Mornington Peninsula,2022-23,top_5pct_share,22.6
+214,Mornington Peninsula,2022-23,top_10pct_share,33.8
+214,Mornington Peninsula,2022-23,lowest_quartile,25.1
+214,Mornington Peninsula,2022-23,second_quartile,26.1
+214,Mornington Peninsula,2022-23,third_quartile,25.1
+214,Mornington Peninsula,2022-23,highest_quartile,23.6
+215,North West,2022-23,earners,101755.0
+215,North West,2022-23,median_age,43.0
+215,North West,2022-23,sum,5953072491.0
+215,North West,2022-23,median,48852.0
+215,North West,2022-23,mean,58504.0
+215,North West,2022-23,p80_p20,6.47
+215,North West,2022-23,p80_p50,1.84
+215,North West,2022-23,p20_p50,0.28
+215,North West,2022-23,p10_p50,0.1
+215,North West,2022-23,gini,0.492
+215,North West,2022-23,top_1pct_share,7.4
+215,North West,2022-23,top_5pct_share,20.3
+215,North West,2022-23,top_10pct_share,31.6
+215,North West,2022-23,lowest_quartile,29.4
+215,North West,2022-23,second_quartile,29.0
+215,North West,2022-23,third_quartile,25.4
+215,North West,2022-23,highest_quartile,16.3
+216,Shepparton,2022-23,earners,87119.0
+216,Shepparton,2022-23,median_age,43.0
+216,Shepparton,2022-23,sum,5090808040.0
+216,Shepparton,2022-23,median,49805.0
+216,Shepparton,2022-23,mean,58435.0
+216,Shepparton,2022-23,p80_p20,6.16
+216,Shepparton,2022-23,p80_p50,1.81
+216,Shepparton,2022-23,p20_p50,0.29
+216,Shepparton,2022-23,p10_p50,0.1
+216,Shepparton,2022-23,gini,0.476
+216,Shepparton,2022-23,top_1pct_share,7.2
+216,Shepparton,2022-23,top_5pct_share,19.2
+216,Shepparton,2022-23,top_10pct_share,30.3
+216,Shepparton,2022-23,lowest_quartile,28.6
+216,Shepparton,2022-23,second_quartile,28.7
+216,Shepparton,2022-23,third_quartile,26.5
+216,Shepparton,2022-23,highest_quartile,16.2
+217,Warrnambool and South West,2022-23,earners,85415.0
+217,Warrnambool and South West,2022-23,median_age,45.0
+217,Warrnambool and South West,2022-23,sum,5206208145.0
+217,Warrnambool and South West,2022-23,median,51043.0
+217,Warrnambool and South West,2022-23,mean,60952.0
+217,Warrnambool and South West,2022-23,p80_p20,6.27
+217,Warrnambool and South West,2022-23,p80_p50,1.82
+217,Warrnambool and South West,2022-23,p20_p50,0.29
+217,Warrnambool and South West,2022-23,p10_p50,0.1
+217,Warrnambool and South West,2022-23,gini,0.491
+217,Warrnambool and South West,2022-23,top_1pct_share,7.9
+217,Warrnambool and South West,2022-23,top_5pct_share,20.6
+217,Warrnambool and South West,2022-23,top_10pct_share,31.7
+217,Warrnambool and South West,2022-23,lowest_quartile,28.0
+217,Warrnambool and South West,2022-23,second_quartile,28.2
+217,Warrnambool and South West,2022-23,third_quartile,26.3
+217,Warrnambool and South West,2022-23,highest_quartile,17.6
+301,Brisbane - East,2022-23,earners,163028.0
+301,Brisbane - East,2022-23,median_age,44.0
+301,Brisbane - East,2022-23,sum,12380634592.0
+301,Brisbane - East,2022-23,median,62036.0
+301,Brisbane - East,2022-23,mean,75942.0
+301,Brisbane - East,2022-23,p80_p20,5.66
+301,Brisbane - East,2022-23,p80_p50,1.85
+301,Brisbane - East,2022-23,p20_p50,0.33
+301,Brisbane - East,2022-23,p10_p50,0.11
+301,Brisbane - East,2022-23,gini,0.467
+301,Brisbane - East,2022-23,top_1pct_share,7.8
+301,Brisbane - East,2022-23,top_5pct_share,20.0
+301,Brisbane - East,2022-23,top_10pct_share,31.1
+301,Brisbane - East,2022-23,lowest_quartile,23.1
+301,Brisbane - East,2022-23,second_quartile,24.0
+301,Brisbane - East,2022-23,third_quartile,26.0
+301,Brisbane - East,2022-23,highest_quartile,27.0
+302,Brisbane - North,2022-23,earners,159305.0
+302,Brisbane - North,2022-23,median_age,40.0
+302,Brisbane - North,2022-23,sum,12455598366.0
+302,Brisbane - North,2022-23,median,65813.0
+302,Brisbane - North,2022-23,mean,78187.0
+302,Brisbane - North,2022-23,p80_p20,5.14
+302,Brisbane - North,2022-23,p80_p50,1.8
+302,Brisbane - North,2022-23,p20_p50,0.35
+302,Brisbane - North,2022-23,p10_p50,0.12
+302,Brisbane - North,2022-23,gini,0.446
+302,Brisbane - North,2022-23,top_1pct_share,6.6
+302,Brisbane - North,2022-23,top_5pct_share,18.6
+302,Brisbane - North,2022-23,top_10pct_share,29.4
+302,Brisbane - North,2022-23,lowest_quartile,21.2
+302,Brisbane - North,2022-23,second_quartile,22.8
+302,Brisbane - North,2022-23,third_quartile,27.2
+302,Brisbane - North,2022-23,highest_quartile,28.8
+303,Brisbane - South,2022-23,earners,270956.0
+303,Brisbane - South,2022-23,median_age,39.0
+303,Brisbane - South,2022-23,sum,20120126683.0
+303,Brisbane - South,2022-23,median,59038.0
+303,Brisbane - South,2022-23,mean,74256.0
+303,Brisbane - South,2022-23,p80_p20,6.01
+303,Brisbane - South,2022-23,p80_p50,1.92
+303,Brisbane - South,2022-23,p20_p50,0.32
+303,Brisbane - South,2022-23,p10_p50,0.11
+303,Brisbane - South,2022-23,gini,0.48
+303,Brisbane - South,2022-23,top_1pct_share,7.9
+303,Brisbane - South,2022-23,top_5pct_share,20.7
+303,Brisbane - South,2022-23,top_10pct_share,32.0
+303,Brisbane - South,2022-23,lowest_quartile,24.7
+303,Brisbane - South,2022-23,second_quartile,24.6
+303,Brisbane - South,2022-23,third_quartile,24.8
+303,Brisbane - South,2022-23,highest_quartile,25.8
+304,Brisbane - West,2022-23,earners,133514.0
+304,Brisbane - West,2022-23,median_age,43.0
+304,Brisbane - West,2022-23,sum,12113728120.0
+304,Brisbane - West,2022-23,median,66885.0
+304,Brisbane - West,2022-23,mean,90730.0
+304,Brisbane - West,2022-23,p80_p20,7.28
+304,Brisbane - West,2022-23,p80_p50,2.0
+304,Brisbane - West,2022-23,p20_p50,0.28
+304,Brisbane - West,2022-23,p10_p50,0.09
+304,Brisbane - West,2022-23,gini,0.519
+304,Brisbane - West,2022-23,top_1pct_share,10.2
+304,Brisbane - West,2022-23,top_5pct_share,24.3
+304,Brisbane - West,2022-23,top_10pct_share,35.7
+304,Brisbane - West,2022-23,lowest_quartile,24.4
+304,Brisbane - West,2022-23,second_quartile,20.6
+304,Brisbane - West,2022-23,third_quartile,21.2
+304,Brisbane - West,2022-23,highest_quartile,33.8
+305,Brisbane Inner City,2022-23,earners,239644.0
+305,Brisbane Inner City,2022-23,median_age,36.0
+305,Brisbane Inner City,2022-23,sum,23337573069.0
+305,Brisbane Inner City,2022-23,median,66638.0
+305,Brisbane Inner City,2022-23,mean,97384.0
+305,Brisbane Inner City,2022-23,p80_p20,6.51
+305,Brisbane Inner City,2022-23,p80_p50,2.04
+305,Brisbane Inner City,2022-23,p20_p50,0.31
+305,Brisbane Inner City,2022-23,p10_p50,0.11
+305,Brisbane Inner City,2022-23,gini,0.539
+305,Brisbane Inner City,2022-23,top_1pct_share,12.4
+305,Brisbane Inner City,2022-23,top_5pct_share,27.8
+305,Brisbane Inner City,2022-23,top_10pct_share,39.3
+305,Brisbane Inner City,2022-23,lowest_quartile,22.7
+305,Brisbane Inner City,2022-23,second_quartile,21.7
+305,Brisbane Inner City,2022-23,third_quartile,22.8
+305,Brisbane Inner City,2022-23,highest_quartile,32.8
+306,Cairns,2022-23,earners,177365.0
+306,Cairns,2022-23,median_age,42.0
+306,Cairns,2022-23,sum,10831204068.0
+306,Cairns,2022-23,median,50814.0
+306,Cairns,2022-23,mean,61067.0
+306,Cairns,2022-23,p80_p20,6.22
+306,Cairns,2022-23,p80_p50,1.88
+306,Cairns,2022-23,p20_p50,0.3
+306,Cairns,2022-23,p10_p50,0.11
+306,Cairns,2022-23,gini,0.472
+306,Cairns,2022-23,top_1pct_share,6.7
+306,Cairns,2022-23,top_5pct_share,18.9
+306,Cairns,2022-23,top_10pct_share,30.3
+306,Cairns,2022-23,lowest_quartile,27.8
+306,Cairns,2022-23,second_quartile,28.8
+306,Cairns,2022-23,third_quartile,24.9
+306,Cairns,2022-23,highest_quartile,18.5
+307,Darling Downs - Maranoa,2022-23,earners,83964.0
+307,Darling Downs - Maranoa,2022-23,median_age,43.0
+307,Darling Downs - Maranoa,2022-23,sum,4839187613.0
+307,Darling Downs - Maranoa,2022-23,median,48276.0
+307,Darling Downs - Maranoa,2022-23,mean,57634.0
+307,Darling Downs - Maranoa,2022-23,p80_p20,7.34
+307,Darling Downs - Maranoa,2022-23,p80_p50,1.89
+307,Darling Downs - Maranoa,2022-23,p20_p50,0.26
+307,Darling Downs - Maranoa,2022-23,p10_p50,0.07
+307,Darling Downs - Maranoa,2022-23,gini,0.547
+307,Darling Downs - Maranoa,2022-23,top_1pct_share,8.4
+307,Darling Downs - Maranoa,2022-23,top_5pct_share,21.7
+307,Darling Downs - Maranoa,2022-23,top_10pct_share,33.6
+307,Darling Downs - Maranoa,2022-23,lowest_quartile,30.5
+307,Darling Downs - Maranoa,2022-23,second_quartile,27.9
+307,Darling Downs - Maranoa,2022-23,third_quartile,24.6
+307,Darling Downs - Maranoa,2022-23,highest_quartile,17.0
+308,Central Queensland,2022-23,earners,148920.0
+308,Central Queensland,2022-23,median_age,41.0
+308,Central Queensland,2022-23,sum,11058978796.0
+308,Central Queensland,2022-23,median,60577.0
+308,Central Queensland,2022-23,mean,74261.0
+308,Central Queensland,2022-23,p80_p20,6.7
+308,Central Queensland,2022-23,p80_p50,2.01
+308,Central Queensland,2022-23,p20_p50,0.3
+308,Central Queensland,2022-23,p10_p50,0.09
+308,Central Queensland,2022-23,gini,0.48
+308,Central Queensland,2022-23,top_1pct_share,6.0
+308,Central Queensland,2022-23,top_5pct_share,17.9
+308,Central Queensland,2022-23,top_10pct_share,29.5
+308,Central Queensland,2022-23,lowest_quartile,24.6
+308,Central Queensland,2022-23,second_quartile,23.8
+308,Central Queensland,2022-23,third_quartile,22.8
+308,Central Queensland,2022-23,highest_quartile,28.9
+309,Gold Coast,2022-23,earners,462547.0
+309,Gold Coast,2022-23,median_age,41.0
+309,Gold Coast,2022-23,sum,31829205632.0
+309,Gold Coast,2022-23,median,53751.0
+309,Gold Coast,2022-23,mean,68813.0
+309,Gold Coast,2022-23,p80_p20,5.63
+309,Gold Coast,2022-23,p80_p50,1.9
+309,Gold Coast,2022-23,p20_p50,0.34
+309,Gold Coast,2022-23,p10_p50,0.12
+309,Gold Coast,2022-23,gini,0.488
+309,Gold Coast,2022-23,top_1pct_share,9.6
+309,Gold Coast,2022-23,top_5pct_share,22.3
+309,Gold Coast,2022-23,top_10pct_share,33.5
+309,Gold Coast,2022-23,lowest_quartile,25.6
+309,Gold Coast,2022-23,second_quartile,28.3
+309,Gold Coast,2022-23,third_quartile,25.1
+309,Gold Coast,2022-23,highest_quartile,21.0
+310,Ipswich,2022-23,earners,235491.0
+310,Ipswich,2022-23,median_age,39.0
+310,Ipswich,2022-23,sum,14992244353.0
+310,Ipswich,2022-23,median,57302.0
+310,Ipswich,2022-23,mean,63664.0
+310,Ipswich,2022-23,p80_p20,5.05
+310,Ipswich,2022-23,p80_p50,1.72
+310,Ipswich,2022-23,p20_p50,0.34
+310,Ipswich,2022-23,p10_p50,0.12
+310,Ipswich,2022-23,gini,0.427
+310,Ipswich,2022-23,top_1pct_share,5.2
+310,Ipswich,2022-23,top_5pct_share,16.2
+310,Ipswich,2022-23,top_10pct_share,26.9
+310,Ipswich,2022-23,lowest_quartile,24.0
+310,Ipswich,2022-23,second_quartile,26.9
+310,Ipswich,2022-23,third_quartile,29.3
+310,Ipswich,2022-23,highest_quartile,19.8
+311,Logan - Beaudesert,2022-23,earners,233490.0
+311,Logan - Beaudesert,2022-23,median_age,39.0
+311,Logan - Beaudesert,2022-23,sum,14361728053.0
+311,Logan - Beaudesert,2022-23,median,55312.0
+311,Logan - Beaudesert,2022-23,mean,61509.0
+311,Logan - Beaudesert,2022-23,p80_p20,4.81
+311,Logan - Beaudesert,2022-23,p80_p50,1.7
+311,Logan - Beaudesert,2022-23,p20_p50,0.35
+311,Logan - Beaudesert,2022-23,p10_p50,0.12
+311,Logan - Beaudesert,2022-23,gini,0.424
+311,Logan - Beaudesert,2022-23,top_1pct_share,5.3
+311,Logan - Beaudesert,2022-23,top_5pct_share,16.4
+311,Logan - Beaudesert,2022-23,top_10pct_share,27.1
+311,Logan - Beaudesert,2022-23,lowest_quartile,24.2
+311,Logan - Beaudesert,2022-23,second_quartile,28.7
+311,Logan - Beaudesert,2022-23,third_quartile,29.6
+311,Logan - Beaudesert,2022-23,highest_quartile,17.6
+312,Mackay - Isaac - Whitsunday,2022-23,earners,127409.0
+312,Mackay - Isaac - Whitsunday,2022-23,median_age,41.0
+312,Mackay - Isaac - Whitsunday,2022-23,sum,9833514459.0
+312,Mackay - Isaac - Whitsunday,2022-23,median,62476.0
+312,Mackay - Isaac - Whitsunday,2022-23,mean,77181.0
+312,Mackay - Isaac - Whitsunday,2022-23,p80_p20,6.19
+312,Mackay - Isaac - Whitsunday,2022-23,p80_p50,2.03
+312,Mackay - Isaac - Whitsunday,2022-23,p20_p50,0.33
+312,Mackay - Isaac - Whitsunday,2022-23,p10_p50,0.11
+312,Mackay - Isaac - Whitsunday,2022-23,gini,0.464
+312,Mackay - Isaac - Whitsunday,2022-23,top_1pct_share,5.6
+312,Mackay - Isaac - Whitsunday,2022-23,top_5pct_share,17.1
+312,Mackay - Isaac - Whitsunday,2022-23,top_10pct_share,28.7
+312,Mackay - Isaac - Whitsunday,2022-23,lowest_quartile,23.0
+312,Mackay - Isaac - Whitsunday,2022-23,second_quartile,23.9
+312,Mackay - Isaac - Whitsunday,2022-23,third_quartile,22.8
+312,Mackay - Isaac - Whitsunday,2022-23,highest_quartile,30.2
+313,Moreton Bay - North,2022-23,earners,168388.0
+313,Moreton Bay - North,2022-23,median_age,42.0
+313,Moreton Bay - North,2022-23,sum,10388334243.0
+313,Moreton Bay - North,2022-23,median,52979.0
+313,Moreton Bay - North,2022-23,mean,61693.0
+313,Moreton Bay - North,2022-23,p80_p20,5.9
+313,Moreton Bay - North,2022-23,p80_p50,1.81
+313,Moreton Bay - North,2022-23,p20_p50,0.31
+313,Moreton Bay - North,2022-23,p10_p50,0.1
+313,Moreton Bay - North,2022-23,gini,0.456
+313,Moreton Bay - North,2022-23,top_1pct_share,6.1
+313,Moreton Bay - North,2022-23,top_5pct_share,18.0
+313,Moreton Bay - North,2022-23,top_10pct_share,29.2
+313,Moreton Bay - North,2022-23,lowest_quartile,26.7
+313,Moreton Bay - North,2022-23,second_quartile,27.9
+313,Moreton Bay - North,2022-23,third_quartile,26.8
+313,Moreton Bay - North,2022-23,highest_quartile,18.6
+314,Moreton Bay - South,2022-23,earners,149912.0
+314,Moreton Bay - South,2022-23,median_age,41.0
+314,Moreton Bay - South,2022-23,sum,10925921160.0
+314,Moreton Bay - South,2022-23,median,62371.0
+314,Moreton Bay - South,2022-23,mean,72882.0
+314,Moreton Bay - South,2022-23,p80_p20,4.98
+314,Moreton Bay - South,2022-23,p80_p50,1.79
+314,Moreton Bay - South,2022-23,p20_p50,0.36
+314,Moreton Bay - South,2022-23,p10_p50,0.13
+314,Moreton Bay - South,2022-23,gini,0.438
+314,Moreton Bay - South,2022-23,top_1pct_share,6.0
+314,Moreton Bay - South,2022-23,top_5pct_share,17.7
+314,Moreton Bay - South,2022-23,top_10pct_share,28.6
+314,Moreton Bay - South,2022-23,lowest_quartile,21.7
+314,Moreton Bay - South,2022-23,second_quartile,24.9
+314,Moreton Bay - South,2022-23,third_quartile,28.0
+314,Moreton Bay - South,2022-23,highest_quartile,25.5
+315,Queensland - Outback,2022-23,earners,48341.0
+315,Queensland - Outback,2022-23,median_age,39.0
+315,Queensland - Outback,2022-23,sum,3258670377.0
+315,Queensland - Outback,2022-23,median,57041.0
+315,Queensland - Outback,2022-23,mean,67410.0
+315,Queensland - Outback,2022-23,p80_p20,6.85
+315,Queensland - Outback,2022-23,p80_p50,1.95
+315,Queensland - Outback,2022-23,p20_p50,0.28
+315,Queensland - Outback,2022-23,p10_p50,0.09
+315,Queensland - Outback,2022-23,gini,0.503
+315,Queensland - Outback,2022-23,top_1pct_share,6.4
+315,Queensland - Outback,2022-23,top_5pct_share,18.3
+315,Queensland - Outback,2022-23,top_10pct_share,30.0
+315,Queensland - Outback,2022-23,lowest_quartile,26.4
+315,Queensland - Outback,2022-23,second_quartile,24.5
+315,Queensland - Outback,2022-23,third_quartile,24.2
+315,Queensland - Outback,2022-23,highest_quartile,24.9
+316,Sunshine Coast,2022-23,earners,283056.0
+316,Sunshine Coast,2022-23,median_age,44.0
+316,Sunshine Coast,2022-23,sum,19070389827.0
+316,Sunshine Coast,2022-23,median,51606.0
+316,Sunshine Coast,2022-23,mean,67373.0
+316,Sunshine Coast,2022-23,p80_p20,6.46
+316,Sunshine Coast,2022-23,p80_p50,1.97
+316,Sunshine Coast,2022-23,p20_p50,0.3
+316,Sunshine Coast,2022-23,p10_p50,0.1
+316,Sunshine Coast,2022-23,gini,0.503
+316,Sunshine Coast,2022-23,top_1pct_share,9.4
+316,Sunshine Coast,2022-23,top_5pct_share,22.6
+316,Sunshine Coast,2022-23,top_10pct_share,34.1
+316,Sunshine Coast,2022-23,lowest_quartile,27.5
+316,Sunshine Coast,2022-23,second_quartile,28.0
+316,Sunshine Coast,2022-23,third_quartile,23.6
+316,Sunshine Coast,2022-23,highest_quartile,20.9
+317,Toowoomba,2022-23,earners,107424.0
+317,Toowoomba,2022-23,median_age,40.0
+317,Toowoomba,2022-23,sum,7148050294.0
+317,Toowoomba,2022-23,median,55771.0
+317,Toowoomba,2022-23,mean,66541.0
+317,Toowoomba,2022-23,p80_p20,5.92
+317,Toowoomba,2022-23,p80_p50,1.82
+317,Toowoomba,2022-23,p20_p50,0.31
+317,Toowoomba,2022-23,p10_p50,0.1
+317,Toowoomba,2022-23,gini,0.47
+317,Toowoomba,2022-23,top_1pct_share,8.2
+317,Toowoomba,2022-23,top_5pct_share,20.0
+317,Toowoomba,2022-23,top_10pct_share,30.9
+317,Toowoomba,2022-23,lowest_quartile,25.5
+317,Toowoomba,2022-23,second_quartile,26.6
+317,Toowoomba,2022-23,third_quartile,26.9
+317,Toowoomba,2022-23,highest_quartile,21.0
+318,Townsville,2022-23,earners,155448.0
+318,Townsville,2022-23,median_age,41.0
+318,Townsville,2022-23,sum,10857658844.0
+318,Townsville,2022-23,median,60723.0
+318,Townsville,2022-23,mean,69848.0
+318,Townsville,2022-23,p80_p20,5.28
+318,Townsville,2022-23,p80_p50,1.77
+318,Townsville,2022-23,p20_p50,0.33
+318,Townsville,2022-23,p10_p50,0.11
+318,Townsville,2022-23,gini,0.443
+318,Townsville,2022-23,top_1pct_share,6.4
+318,Townsville,2022-23,top_5pct_share,17.7
+318,Townsville,2022-23,top_10pct_share,28.4
+318,Townsville,2022-23,lowest_quartile,23.1
+318,Townsville,2022-23,second_quartile,24.9
+318,Townsville,2022-23,third_quartile,28.1
+318,Townsville,2022-23,highest_quartile,24.0
+319,Wide Bay,2022-23,earners,181756.0
+319,Wide Bay,2022-23,median_age,46.0
+319,Wide Bay,2022-23,sum,9836729707.0
+319,Wide Bay,2022-23,median,44729.0
+319,Wide Bay,2022-23,mean,54121.0
+319,Wide Bay,2022-23,p80_p20,8.02
+319,Wide Bay,2022-23,p80_p50,1.94
+319,Wide Bay,2022-23,p20_p50,0.24
+319,Wide Bay,2022-23,p10_p50,0.07
+319,Wide Bay,2022-23,gini,0.503
+319,Wide Bay,2022-23,top_1pct_share,6.7
+319,Wide Bay,2022-23,top_5pct_share,19.5
+319,Wide Bay,2022-23,top_10pct_share,31.5
+319,Wide Bay,2022-23,lowest_quartile,32.6
+319,Wide Bay,2022-23,second_quartile,29.4
+319,Wide Bay,2022-23,third_quartile,22.7
+319,Wide Bay,2022-23,highest_quartile,15.3
+401,Adelaide - Central and Hills,2022-23,earners,225228.0
+401,Adelaide - Central and Hills,2022-23,median_age,43.0
+401,Adelaide - Central and Hills,2022-23,sum,18435699698.0
+401,Adelaide - Central and Hills,2022-23,median,59773.0
+401,Adelaide - Central and Hills,2022-23,mean,81853.0
+401,Adelaide - Central and Hills,2022-23,p80_p20,6.38
+401,Adelaide - Central and Hills,2022-23,p80_p50,1.97
+401,Adelaide - Central and Hills,2022-23,p20_p50,0.31
+401,Adelaide - Central and Hills,2022-23,p10_p50,0.1
+401,Adelaide - Central and Hills,2022-23,gini,0.522
+401,Adelaide - Central and Hills,2022-23,top_1pct_share,10.9
+401,Adelaide - Central and Hills,2022-23,top_5pct_share,25.5
+401,Adelaide - Central and Hills,2022-23,top_10pct_share,37.0
+401,Adelaide - Central and Hills,2022-23,lowest_quartile,24.9
+401,Adelaide - Central and Hills,2022-23,second_quartile,24.0
+401,Adelaide - Central and Hills,2022-23,third_quartile,24.2
+401,Adelaide - Central and Hills,2022-23,highest_quartile,26.9
+402,Adelaide - North,2022-23,earners,284991.0
+402,Adelaide - North,2022-23,median_age,39.0
+402,Adelaide - North,2022-23,sum,17155408312.0
+402,Adelaide - North,2022-23,median,54960.0
+402,Adelaide - North,2022-23,mean,60196.0
+402,Adelaide - North,2022-23,p80_p20,4.61
+402,Adelaide - North,2022-23,p80_p50,1.67
+402,Adelaide - North,2022-23,p20_p50,0.36
+402,Adelaide - North,2022-23,p10_p50,0.13
+402,Adelaide - North,2022-23,gini,0.413
+402,Adelaide - North,2022-23,top_1pct_share,4.8
+402,Adelaide - North,2022-23,top_5pct_share,15.7
+402,Adelaide - North,2022-23,top_10pct_share,26.3
+402,Adelaide - North,2022-23,lowest_quartile,23.9
+402,Adelaide - North,2022-23,second_quartile,29.4
+402,Adelaide - North,2022-23,third_quartile,30.3
+402,Adelaide - North,2022-23,highest_quartile,16.4
+403,Adelaide - South,2022-23,earners,247624.0
+403,Adelaide - South,2022-23,median_age,43.0
+403,Adelaide - South,2022-23,sum,17062133802.0
+403,Adelaide - South,2022-23,median,57933.0
+403,Adelaide - South,2022-23,mean,68903.0
+403,Adelaide - South,2022-23,p80_p20,5.28
+403,Adelaide - South,2022-23,p80_p50,1.78
+403,Adelaide - South,2022-23,p20_p50,0.34
+403,Adelaide - South,2022-23,p10_p50,0.11
+403,Adelaide - South,2022-23,gini,0.456
+403,Adelaide - South,2022-23,top_1pct_share,7.5
+403,Adelaide - South,2022-23,top_5pct_share,19.5
+403,Adelaide - South,2022-23,top_10pct_share,30.4
+403,Adelaide - South,2022-23,lowest_quartile,23.8
+403,Adelaide - South,2022-23,second_quartile,26.4
+403,Adelaide - South,2022-23,third_quartile,27.7
+403,Adelaide - South,2022-23,highest_quartile,22.1
+404,Adelaide - West,2022-23,earners,165834.0
+404,Adelaide - West,2022-23,median_age,40.0
+404,Adelaide - West,2022-23,sum,11381920482.0
+404,Adelaide - West,2022-23,median,58859.0
+404,Adelaide - West,2022-23,mean,68634.0
+404,Adelaide - West,2022-23,p80_p20,4.93
+404,Adelaide - West,2022-23,p80_p50,1.75
+404,Adelaide - West,2022-23,p20_p50,0.35
+404,Adelaide - West,2022-23,p10_p50,0.13
+404,Adelaide - West,2022-23,gini,0.441
+404,Adelaide - West,2022-23,top_1pct_share,6.8
+404,Adelaide - West,2022-23,top_5pct_share,18.5
+404,Adelaide - West,2022-23,top_10pct_share,29.2
+404,Adelaide - West,2022-23,lowest_quartile,22.9
+404,Adelaide - West,2022-23,second_quartile,26.5
+404,Adelaide - West,2022-23,third_quartile,28.7
+404,Adelaide - West,2022-23,highest_quartile,21.8
+405,Barossa - Yorke - Mid North,2022-23,earners,69582.0
+405,Barossa - Yorke - Mid North,2022-23,median_age,47.0
+405,Barossa - Yorke - Mid North,2022-23,sum,4342439895.0
+405,Barossa - Yorke - Mid North,2022-23,median,50740.0
+405,Barossa - Yorke - Mid North,2022-23,mean,62408.0
+405,Barossa - Yorke - Mid North,2022-23,p80_p20,6.49
+405,Barossa - Yorke - Mid North,2022-23,p80_p50,1.88
+405,Barossa - Yorke - Mid North,2022-23,p20_p50,0.29
+405,Barossa - Yorke - Mid North,2022-23,p10_p50,0.09
+405,Barossa - Yorke - Mid North,2022-23,gini,0.489
+405,Barossa - Yorke - Mid North,2022-23,top_1pct_share,7.6
+405,Barossa - Yorke - Mid North,2022-23,top_5pct_share,20.6
+405,Barossa - Yorke - Mid North,2022-23,top_10pct_share,32.1
+405,Barossa - Yorke - Mid North,2022-23,lowest_quartile,28.0
+405,Barossa - Yorke - Mid North,2022-23,second_quartile,28.1
+405,Barossa - Yorke - Mid North,2022-23,third_quartile,25.4
+405,Barossa - Yorke - Mid North,2022-23,highest_quartile,18.5
+406,South Australia - Outback,2022-23,earners,49507.0
+406,South Australia - Outback,2022-23,median_age,43.0
+406,South Australia - Outback,2022-23,sum,3373585745.0
+406,South Australia - Outback,2022-23,median,55708.0
+406,South Australia - Outback,2022-23,mean,68144.0
+406,South Australia - Outback,2022-23,p80_p20,6.31
+406,South Australia - Outback,2022-23,p80_p50,1.94
+406,South Australia - Outback,2022-23,p20_p50,0.31
+406,South Australia - Outback,2022-23,p10_p50,0.1
+406,South Australia - Outback,2022-23,gini,0.472
+406,South Australia - Outback,2022-23,top_1pct_share,6.4
+406,South Australia - Outback,2022-23,top_5pct_share,18.6
+406,South Australia - Outback,2022-23,top_10pct_share,30.1
+406,South Australia - Outback,2022-23,lowest_quartile,25.7
+406,South Australia - Outback,2022-23,second_quartile,26.2
+406,South Australia - Outback,2022-23,third_quartile,24.3
+406,South Australia - Outback,2022-23,highest_quartile,23.8
+407,South Australia - South East,2022-23,earners,121919.0
+407,South Australia - South East,2022-23,median_age,46.0
+407,South Australia - South East,2022-23,sum,6723670193.0
+407,South Australia - South East,2022-23,median,46988.0
+407,South Australia - South East,2022-23,mean,55149.0
+407,South Australia - South East,2022-23,p80_p20,6.54
+407,South Australia - South East,2022-23,p80_p50,1.81
+407,South Australia - South East,2022-23,p20_p50,0.28
+407,South Australia - South East,2022-23,p10_p50,0.08
+407,South Australia - South East,2022-23,gini,0.487
+407,South Australia - South East,2022-23,top_1pct_share,6.8
+407,South Australia - South East,2022-23,top_5pct_share,19.6
+407,South Australia - South East,2022-23,top_10pct_share,31.0
+407,South Australia - South East,2022-23,lowest_quartile,29.9
+407,South Australia - South East,2022-23,second_quartile,30.5
+407,South Australia - South East,2022-23,third_quartile,25.3
+407,South Australia - South East,2022-23,highest_quartile,14.2
+501,Bunbury,2022-23,earners,133120.0
+501,Bunbury,2022-23,median_age,44.0
+501,Bunbury,2022-23,sum,9301233274.0
+501,Bunbury,2022-23,median,54043.0
+501,Bunbury,2022-23,mean,69871.0
+501,Bunbury,2022-23,p80_p20,7.01
+501,Bunbury,2022-23,p80_p50,2.09
+501,Bunbury,2022-23,p20_p50,0.3
+501,Bunbury,2022-23,p10_p50,0.1
+501,Bunbury,2022-23,gini,0.492
+501,Bunbury,2022-23,top_1pct_share,7.2
+501,Bunbury,2022-23,top_5pct_share,19.6
+501,Bunbury,2022-23,top_10pct_share,31.5
+501,Bunbury,2022-23,lowest_quartile,26.8
+501,Bunbury,2022-23,second_quartile,26.2
+501,Bunbury,2022-23,third_quartile,21.9
+501,Bunbury,2022-23,highest_quartile,25.1
+502,Mandurah,2022-23,earners,69697.0
+502,Mandurah,2022-23,median_age,45.0
+502,Mandurah,2022-23,sum,5184919705.0
+502,Mandurah,2022-23,median,55994.0
+502,Mandurah,2022-23,mean,74392.0
+502,Mandurah,2022-23,p80_p20,8.06
+502,Mandurah,2022-23,p80_p50,2.2
+502,Mandurah,2022-23,p20_p50,0.27
+502,Mandurah,2022-23,p10_p50,0.09
+502,Mandurah,2022-23,gini,0.498
+502,Mandurah,2022-23,top_1pct_share,6.9
+502,Mandurah,2022-23,top_5pct_share,19.4
+502,Mandurah,2022-23,top_10pct_share,31.3
+502,Mandurah,2022-23,lowest_quartile,27.4
+502,Mandurah,2022-23,second_quartile,24.0
+502,Mandurah,2022-23,third_quartile,20.0
+502,Mandurah,2022-23,highest_quartile,28.6
+503,Perth - Inner,2022-23,earners,148183.0
+503,Perth - Inner,2022-23,median_age,40.0
+503,Perth - Inner,2022-23,sum,19716082676.0
+503,Perth - Inner,2022-23,median,69221.0
+503,Perth - Inner,2022-23,mean,133052.0
+503,Perth - Inner,2022-23,p80_p20,8.02
+503,Perth - Inner,2022-23,p80_p50,2.26
+503,Perth - Inner,2022-23,p20_p50,0.28
+503,Perth - Inner,2022-23,p10_p50,0.1
+503,Perth - Inner,2022-23,gini,0.647
+503,Perth - Inner,2022-23,top_1pct_share,27.1
+503,Perth - Inner,2022-23,top_5pct_share,41.9
+503,Perth - Inner,2022-23,top_10pct_share,52.1
+503,Perth - Inner,2022-23,lowest_quartile,23.6
+503,Perth - Inner,2022-23,second_quartile,20.5
+503,Perth - Inner,2022-23,third_quartile,19.1
+503,Perth - Inner,2022-23,highest_quartile,36.7
+504,Perth - North East,2022-23,earners,196257.0
+504,Perth - North East,2022-23,median_age,40.0
+504,Perth - North East,2022-23,sum,14784382338.0
+504,Perth - North East,2022-23,median,63063.0
+504,Perth - North East,2022-23,mean,75332.0
+504,Perth - North East,2022-23,p80_p20,5.33
+504,Perth - North East,2022-23,p80_p50,1.85
+504,Perth - North East,2022-23,p20_p50,0.35
+504,Perth - North East,2022-23,p10_p50,0.13
+504,Perth - North East,2022-23,gini,0.453
+504,Perth - North East,2022-23,top_1pct_share,6.4
+504,Perth - North East,2022-23,top_5pct_share,18.0
+504,Perth - North East,2022-23,top_10pct_share,29.2
+504,Perth - North East,2022-23,lowest_quartile,22.0
+504,Perth - North East,2022-23,second_quartile,24.3
+504,Perth - North East,2022-23,third_quartile,26.0
+504,Perth - North East,2022-23,highest_quartile,27.7
+505,Perth - North West,2022-23,earners,411930.0
+505,Perth - North West,2022-23,median_age,41.0
+505,Perth - North West,2022-23,sum,32996489268.0
+505,Perth - North West,2022-23,median,63451.0
+505,Perth - North West,2022-23,mean,80102.0
+505,Perth - North West,2022-23,p80_p20,5.73
+505,Perth - North West,2022-23,p80_p50,1.92
+505,Perth - North West,2022-23,p20_p50,0.34
+505,Perth - North West,2022-23,p10_p50,0.13
+505,Perth - North West,2022-23,gini,0.472
+505,Perth - North West,2022-23,top_1pct_share,7.5
+505,Perth - North West,2022-23,top_5pct_share,20.1
+505,Perth - North West,2022-23,top_10pct_share,31.4
+505,Perth - North West,2022-23,lowest_quartile,22.5
+505,Perth - North West,2022-23,second_quartile,23.9
+505,Perth - North West,2022-23,third_quartile,24.1
+505,Perth - North West,2022-23,highest_quartile,29.5
+506,Perth - South East,2022-23,earners,376813.0
+506,Perth - South East,2022-23,median_age,39.0
+506,Perth - South East,2022-23,sum,28164600158.0
+506,Perth - South East,2022-23,median,60936.0
+506,Perth - South East,2022-23,mean,74744.0
+506,Perth - South East,2022-23,p80_p20,5.77
+506,Perth - South East,2022-23,p80_p50,1.9
+506,Perth - South East,2022-23,p20_p50,0.33
+506,Perth - South East,2022-23,p10_p50,0.12
+506,Perth - South East,2022-23,gini,0.465
+506,Perth - South East,2022-23,top_1pct_share,7.0
+506,Perth - South East,2022-23,top_5pct_share,19.2
+506,Perth - South East,2022-23,top_10pct_share,30.5
+506,Perth - South East,2022-23,lowest_quartile,23.7
+506,Perth - South East,2022-23,second_quartile,24.3
+506,Perth - South East,2022-23,third_quartile,25.4
+506,Perth - South East,2022-23,highest_quartile,26.7
+507,Perth - South West,2022-23,earners,314821.0
+507,Perth - South West,2022-23,median_age,41.0
+507,Perth - South West,2022-23,sum,26075452585.0
+507,Perth - South West,2022-23,median,65119.0
+507,Perth - South West,2022-23,mean,82826.0
+507,Perth - South West,2022-23,p80_p20,5.99
+507,Perth - South West,2022-23,p80_p50,1.94
+507,Perth - South West,2022-23,p20_p50,0.32
+507,Perth - South West,2022-23,p10_p50,0.12
+507,Perth - South West,2022-23,gini,0.479
+507,Perth - South West,2022-23,top_1pct_share,8.3
+507,Perth - South West,2022-23,top_5pct_share,20.7
+507,Perth - South West,2022-23,top_10pct_share,31.9
+507,Perth - South West,2022-23,lowest_quartile,22.6
+507,Perth - South West,2022-23,second_quartile,22.9
+507,Perth - South West,2022-23,third_quartile,23.4
+507,Perth - South West,2022-23,highest_quartile,31.2
+509,Western Australia - Wheat Belt,2022-23,earners,94068.0
+509,Western Australia - Wheat Belt,2022-23,median_age,46.0
+509,Western Australia - Wheat Belt,2022-23,sum,6430773379.0
+509,Western Australia - Wheat Belt,2022-23,median,53119.0
+509,Western Australia - Wheat Belt,2022-23,mean,68363.0
+509,Western Australia - Wheat Belt,2022-23,p80_p20,7.1
+509,Western Australia - Wheat Belt,2022-23,p80_p50,2.05
+509,Western Australia - Wheat Belt,2022-23,p20_p50,0.29
+509,Western Australia - Wheat Belt,2022-23,p10_p50,0.09
+509,Western Australia - Wheat Belt,2022-23,gini,0.509
+509,Western Australia - Wheat Belt,2022-23,top_1pct_share,7.3
+509,Western Australia - Wheat Belt,2022-23,top_5pct_share,20.8
+509,Western Australia - Wheat Belt,2022-23,top_10pct_share,32.8
+509,Western Australia - Wheat Belt,2022-23,lowest_quartile,27.6
+509,Western Australia - Wheat Belt,2022-23,second_quartile,26.0
+509,Western Australia - Wheat Belt,2022-23,third_quartile,22.9
+509,Western Australia - Wheat Belt,2022-23,highest_quartile,23.5
+510,Western Australia - Outback (North),2022-23,earners,55292.0
+510,Western Australia - Outback (North),2022-23,median_age,38.0
+510,Western Australia - Outback (North),2022-23,sum,4984110111.0
+510,Western Australia - Outback (North),2022-23,median,76808.0
+510,Western Australia - Outback (North),2022-23,mean,90142.0
+510,Western Australia - Outback (North),2022-23,p80_p20,7.04
+510,Western Australia - Outback (North),2022-23,p80_p50,1.92
+510,Western Australia - Outback (North),2022-23,p20_p50,0.27
+510,Western Australia - Outback (North),2022-23,p10_p50,0.09
+510,Western Australia - Outback (North),2022-23,gini,0.457
+510,Western Australia - Outback (North),2022-23,top_1pct_share,5.2
+510,Western Australia - Outback (North),2022-23,top_5pct_share,16.6
+510,Western Australia - Outback (North),2022-23,top_10pct_share,27.8
+510,Western Australia - Outback (North),2022-23,lowest_quartile,22.3
+510,Western Australia - Outback (North),2022-23,second_quartile,17.9
+510,Western Australia - Outback (North),2022-23,third_quartile,20.6
+510,Western Australia - Outback (North),2022-23,highest_quartile,39.2
+511,Western Australia - Outback (South),2022-23,earners,78737.0
+511,Western Australia - Outback (South),2022-23,median_age,42.0
+511,Western Australia - Outback (South),2022-23,sum,6146663507.0
+511,Western Australia - Outback (South),2022-23,median,62710.0
+511,Western Australia - Outback (South),2022-23,mean,78066.0
+511,Western Australia - Outback (South),2022-23,p80_p20,6.42
+511,Western Australia - Outback (South),2022-23,p80_p50,2.0
+511,Western Australia - Outback (South),2022-23,p20_p50,0.31
+511,Western Australia - Outback (South),2022-23,p10_p50,0.1
+511,Western Australia - Outback (South),2022-23,gini,0.474
+511,Western Australia - Outback (South),2022-23,top_1pct_share,6.7
+511,Western Australia - Outback (South),2022-23,top_5pct_share,18.5
+511,Western Australia - Outback (South),2022-23,top_10pct_share,29.9
+511,Western Australia - Outback (South),2022-23,lowest_quartile,23.8
+511,Western Australia - Outback (South),2022-23,second_quartile,23.3
+511,Western Australia - Outback (South),2022-23,third_quartile,22.3
+511,Western Australia - Outback (South),2022-23,highest_quartile,30.6
+601,Hobart,2022-23,earners,163341.0
+601,Hobart,2022-23,median_age,41.0
+601,Hobart,2022-23,sum,10962261853.0
+601,Hobart,2022-23,median,56852.0
+601,Hobart,2022-23,mean,67113.0
+601,Hobart,2022-23,p80_p20,5.03
+601,Hobart,2022-23,p80_p50,1.75
+601,Hobart,2022-23,p20_p50,0.35
+601,Hobart,2022-23,p10_p50,0.12
+601,Hobart,2022-23,gini,0.452
+601,Hobart,2022-23,top_1pct_share,7.7
+601,Hobart,2022-23,top_5pct_share,19.7
+601,Hobart,2022-23,top_10pct_share,30.3
+601,Hobart,2022-23,lowest_quartile,23.7
+601,Hobart,2022-23,second_quartile,27.6
+601,Hobart,2022-23,third_quartile,28.5
+601,Hobart,2022-23,highest_quartile,20.3
+602,Launceston and North East,2022-23,earners,95975.0
+602,Launceston and North East,2022-23,median_age,43.0
+602,Launceston and North East,2022-23,sum,5887680650.0
+602,Launceston and North East,2022-23,median,51598.0
+602,Launceston and North East,2022-23,mean,61346.0
+602,Launceston and North East,2022-23,p80_p20,5.42
+602,Launceston and North East,2022-23,p80_p50,1.79
+602,Launceston and North East,2022-23,p20_p50,0.33
+602,Launceston and North East,2022-23,p10_p50,0.11
+602,Launceston and North East,2022-23,gini,0.466
+602,Launceston and North East,2022-23,top_1pct_share,7.8
+602,Launceston and North East,2022-23,top_5pct_share,20.0
+602,Launceston and North East,2022-23,top_10pct_share,30.8
+602,Launceston and North East,2022-23,lowest_quartile,26.4
+602,Launceston and North East,2022-23,second_quartile,29.8
+602,Launceston and North East,2022-23,third_quartile,26.7
+602,Launceston and North East,2022-23,highest_quartile,17.1
+603,South East,2022-23,earners,25900.0
+603,South East,2022-23,median_age,47.0
+603,South East,2022-23,sum,1391100061.0
+603,South East,2022-23,median,45743.0
+603,South East,2022-23,mean,53710.0
+603,South East,2022-23,p80_p20,6.81
+603,South East,2022-23,p80_p50,1.85
+603,South East,2022-23,p20_p50,0.27
+603,South East,2022-23,p10_p50,0.08
+603,South East,2022-23,gini,0.489
+603,South East,2022-23,top_1pct_share,7.0
+603,South East,2022-23,top_5pct_share,19.4
+603,South East,2022-23,top_10pct_share,30.6
+603,South East,2022-23,lowest_quartile,31.0
+603,South East,2022-23,second_quartile,29.9
+603,South East,2022-23,third_quartile,25.7
+603,South East,2022-23,highest_quartile,13.4
+604,West and North West,2022-23,earners,71612.0
+604,West and North West,2022-23,median_age,43.0
+604,West and North West,2022-23,sum,4251185899.0
+604,West and North West,2022-23,median,50851.0
+604,West and North West,2022-23,mean,59364.0
+604,West and North West,2022-23,p80_p20,6.02
+604,West and North West,2022-23,p80_p50,1.83
+604,West and North West,2022-23,p20_p50,0.3
+604,West and North West,2022-23,p10_p50,0.1
+604,West and North West,2022-23,gini,0.463
+604,West and North West,2022-23,top_1pct_share,6.4
+604,West and North West,2022-23,top_5pct_share,18.2
+604,West and North West,2022-23,top_10pct_share,29.3
+604,West and North West,2022-23,lowest_quartile,27.5
+604,West and North West,2022-23,second_quartile,28.9
+604,West and North West,2022-23,third_quartile,26.2
+604,West and North West,2022-23,highest_quartile,17.4
+701,Darwin,2022-23,earners,104448.0
+701,Darwin,2022-23,median_age,38.0
+701,Darwin,2022-23,sum,8380347388.0
+701,Darwin,2022-23,median,70961.0
+701,Darwin,2022-23,mean,80235.0
+701,Darwin,2022-23,p80_p20,4.31
+701,Darwin,2022-23,p80_p50,1.68
+701,Darwin,2022-23,p20_p50,0.39
+701,Darwin,2022-23,p10_p50,0.15
+701,Darwin,2022-23,gini,0.417
+701,Darwin,2022-23,top_1pct_share,6.5
+701,Darwin,2022-23,top_5pct_share,17.5
+701,Darwin,2022-23,top_10pct_share,27.6
+701,Darwin,2022-23,lowest_quartile,18.6
+701,Darwin,2022-23,second_quartile,21.5
+701,Darwin,2022-23,third_quartile,29.7
+701,Darwin,2022-23,highest_quartile,30.2
+702,Northern Territory - Outback,2022-23,earners,44740.0
+702,Northern Territory - Outback,2022-23,median_age,38.0
+702,Northern Territory - Outback,2022-23,sum,3029458924.0
+702,Northern Territory - Outback,2022-23,median,56199.0
+702,Northern Territory - Outback,2022-23,mean,67713.0
+702,Northern Territory - Outback,2022-23,p80_p20,8.03
+702,Northern Territory - Outback,2022-23,p80_p50,1.89
+702,Northern Territory - Outback,2022-23,p20_p50,0.24
+702,Northern Territory - Outback,2022-23,p10_p50,0.08
+702,Northern Territory - Outback,2022-23,gini,0.488
+702,Northern Territory - Outback,2022-23,top_1pct_share,8.3
+702,Northern Territory - Outback,2022-23,top_5pct_share,19.9
+702,Northern Territory - Outback,2022-23,top_10pct_share,31.0
+702,Northern Territory - Outback,2022-23,lowest_quartile,29.1
+702,Northern Territory - Outback,2022-23,second_quartile,22.4
+702,Northern Territory - Outback,2022-23,third_quartile,25.0
+702,Northern Territory - Outback,2022-23,highest_quartile,23.6
+801,Australian Capital Territory,2022-23,earners,331793.0
+801,Australian Capital Territory,2022-23,median_age,40.0
+801,Australian Capital Territory,2022-23,sum,29184238644.0
+801,Australian Capital Territory,2022-23,median,75643.0
+801,Australian Capital Territory,2022-23,mean,87959.0
+801,Australian Capital Territory,2022-23,p80_p20,4.37
+801,Australian Capital Territory,2022-23,p80_p50,1.68
+801,Australian Capital Territory,2022-23,p20_p50,0.39
+801,Australian Capital Territory,2022-23,p10_p50,0.15
+801,Australian Capital Territory,2022-23,gini,0.433
+801,Australian Capital Territory,2022-23,top_1pct_share,7.0
+801,Australian Capital Territory,2022-23,top_5pct_share,18.9
+801,Australian Capital Territory,2022-23,top_10pct_share,29.4
+801,Australian Capital Territory,2022-23,lowest_quartile,17.8
+801,Australian Capital Territory,2022-23,second_quartile,20.1
+801,Australian Capital Territory,2022-23,third_quartile,27.7
+801,Australian Capital Territory,2022-23,highest_quartile,34.4

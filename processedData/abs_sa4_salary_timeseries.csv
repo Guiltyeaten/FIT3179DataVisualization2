@@ -1,0 +1,2201 @@
+code,name,year,metric,value
+101,Capital Region,2018-19,earners,144619.0
+101,Capital Region,2019-20,earners,146699.0
+101,Capital Region,2020-21,earners,149275.0
+101,Capital Region,2021-22,earners,152957.0
+101,Capital Region,2022-23,earners,157358.0
+101,Capital Region,2018-19,median_age,46.0
+101,Capital Region,2019-20,median_age,46.0
+101,Capital Region,2020-21,median_age,46.0
+101,Capital Region,2021-22,median_age,46.0
+101,Capital Region,2022-23,median_age,45.0
+101,Capital Region,2018-19,sum,8337879823.0
+101,Capital Region,2019-20,sum,8674548051.0
+101,Capital Region,2020-21,sum,9380023461.0
+101,Capital Region,2021-22,sum,10030535935.0
+101,Capital Region,2022-23,sum,10746948179.0
+101,Capital Region,2018-19,median,47619.0
+101,Capital Region,2019-20,median,48763.0
+101,Capital Region,2020-21,median,52113.0
+101,Capital Region,2021-22,median,53266.0
+101,Capital Region,2022-23,median,56436.0
+101,Capital Region,2018-19,mean,57654.0
+101,Capital Region,2019-20,mean,59132.0
+101,Capital Region,2020-21,mean,62837.0
+101,Capital Region,2021-22,mean,65577.0
+101,Capital Region,2022-23,mean,68296.0
+102,Central Coast,2018-19,earners,202986.0
+102,Central Coast,2019-20,earners,204519.0
+102,Central Coast,2020-21,earners,206594.0
+102,Central Coast,2021-22,earners,210360.0
+102,Central Coast,2022-23,earners,215553.0
+102,Central Coast,2018-19,median_age,44.0
+102,Central Coast,2019-20,median_age,44.0
+102,Central Coast,2020-21,median_age,44.0
+102,Central Coast,2021-22,median_age,43.0
+102,Central Coast,2022-23,median_age,43.0
+102,Central Coast,2018-19,sum,11647332123.0
+102,Central Coast,2019-20,sum,12022004984.0
+102,Central Coast,2020-21,sum,12791262873.0
+102,Central Coast,2021-22,sum,13532692341.0
+102,Central Coast,2022-23,sum,14722638173.0
+102,Central Coast,2018-19,median,46863.0
+102,Central Coast,2019-20,median,47948.0
+102,Central Coast,2020-21,median,50445.0
+102,Central Coast,2021-22,median,50652.0
+102,Central Coast,2022-23,median,55037.0
+102,Central Coast,2018-19,mean,57380.0
+102,Central Coast,2019-20,mean,58782.0
+102,Central Coast,2020-21,mean,61915.0
+102,Central Coast,2021-22,mean,64331.0
+102,Central Coast,2022-23,mean,68302.0
+103,Central West,2018-19,earners,122401.0
+103,Central West,2019-20,earners,123003.0
+103,Central West,2020-21,earners,125798.0
+103,Central West,2021-22,earners,128829.0
+103,Central West,2022-23,earners,132086.0
+103,Central West,2018-19,median_age,44.0
+103,Central West,2019-20,median_age,44.0
+103,Central West,2020-21,median_age,44.0
+103,Central West,2021-22,median_age,43.0
+103,Central West,2022-23,median_age,43.0
+103,Central West,2018-19,sum,6686079404.0
+103,Central West,2019-20,sum,6813792708.0
+103,Central West,2020-21,sum,7555572731.0
+103,Central West,2021-22,sum,8211227676.0
+103,Central West,2022-23,sum,8680363760.0
+103,Central West,2018-19,median,45463.0
+103,Central West,2019-20,median,46716.0
+103,Central West,2020-21,median,50382.0
+103,Central West,2021-22,median,52426.0
+103,Central West,2022-23,median,54786.0
+103,Central West,2018-19,mean,54624.0
+103,Central West,2019-20,mean,55395.0
+103,Central West,2020-21,mean,60061.0
+103,Central West,2021-22,mean,63737.0
+103,Central West,2022-23,mean,65718.0
+104,Coffs Harbour - Grafton,2018-19,earners,83298.0
+104,Coffs Harbour - Grafton,2019-20,earners,84039.0
+104,Coffs Harbour - Grafton,2020-21,earners,84903.0
+104,Coffs Harbour - Grafton,2021-22,earners,86878.0
+104,Coffs Harbour - Grafton,2022-23,earners,89713.0
+104,Coffs Harbour - Grafton,2018-19,median_age,46.0
+104,Coffs Harbour - Grafton,2019-20,median_age,46.0
+104,Coffs Harbour - Grafton,2020-21,median_age,46.0
+104,Coffs Harbour - Grafton,2021-22,median_age,46.0
+104,Coffs Harbour - Grafton,2022-23,median_age,45.0
+104,Coffs Harbour - Grafton,2018-19,sum,3981336137.0
+104,Coffs Harbour - Grafton,2019-20,sum,4086889873.0
+104,Coffs Harbour - Grafton,2020-21,sum,4373926989.0
+104,Coffs Harbour - Grafton,2021-22,sum,4660026916.0
+104,Coffs Harbour - Grafton,2022-23,sum,5049427961.0
+104,Coffs Harbour - Grafton,2018-19,median,38834.0
+104,Coffs Harbour - Grafton,2019-20,median,39309.0
+104,Coffs Harbour - Grafton,2020-21,median,42611.0
+104,Coffs Harbour - Grafton,2021-22,median,43537.0
+104,Coffs Harbour - Grafton,2022-23,median,46137.0
+104,Coffs Harbour - Grafton,2018-19,mean,47796.0
+104,Coffs Harbour - Grafton,2019-20,mean,48631.0
+104,Coffs Harbour - Grafton,2020-21,mean,51517.0
+104,Coffs Harbour - Grafton,2021-22,mean,53639.0
+104,Coffs Harbour - Grafton,2022-23,mean,56284.0
+105,Far West and Orana,2018-19,earners,65596.0
+105,Far West and Orana,2019-20,earners,65285.0
+105,Far West and Orana,2020-21,earners,67057.0
+105,Far West and Orana,2021-22,earners,68243.0
+105,Far West and Orana,2022-23,earners,70390.0
+105,Far West and Orana,2018-19,median_age,43.0
+105,Far West and Orana,2019-20,median_age,43.0
+105,Far West and Orana,2020-21,median_age,42.0
+105,Far West and Orana,2021-22,median_age,42.0
+105,Far West and Orana,2022-23,median_age,41.0
+105,Far West and Orana,2018-19,sum,3276971538.0
+105,Far West and Orana,2019-20,sum,3301919587.0
+105,Far West and Orana,2020-21,sum,3864596795.0
+105,Far West and Orana,2021-22,sum,4339047539.0
+105,Far West and Orana,2022-23,sum,4427268348.0
+105,Far West and Orana,2018-19,median,44803.0
+105,Far West and Orana,2019-20,median,46289.0
+105,Far West and Orana,2020-21,median,50311.0
+105,Far West and Orana,2021-22,median,52961.0
+105,Far West and Orana,2022-23,median,54600.0
+105,Far West and Orana,2018-19,mean,49957.0
+105,Far West and Orana,2019-20,mean,50577.0
+105,Far West and Orana,2020-21,mean,57632.0
+105,Far West and Orana,2021-22,mean,63582.0
+105,Far West and Orana,2022-23,mean,62896.0
+106,Hunter Valley exc Newcastle,2018-19,earners,162785.0
+106,Hunter Valley exc Newcastle,2019-20,earners,165651.0
+106,Hunter Valley exc Newcastle,2020-21,earners,170541.0
+106,Hunter Valley exc Newcastle,2021-22,earners,176979.0
+106,Hunter Valley exc Newcastle,2022-23,earners,183828.0
+106,Hunter Valley exc Newcastle,2018-19,median_age,43.0
+106,Hunter Valley exc Newcastle,2019-20,median_age,43.0
+106,Hunter Valley exc Newcastle,2020-21,median_age,42.0
+106,Hunter Valley exc Newcastle,2021-22,median_age,42.0
+106,Hunter Valley exc Newcastle,2022-23,median_age,42.0
+106,Hunter Valley exc Newcastle,2018-19,sum,9761647484.0
+106,Hunter Valley exc Newcastle,2019-20,sum,10174674505.0
+106,Hunter Valley exc Newcastle,2020-21,sum,10726852554.0
+106,Hunter Valley exc Newcastle,2021-22,sum,11527901705.0
+106,Hunter Valley exc Newcastle,2022-23,sum,12765659679.0
+106,Hunter Valley exc Newcastle,2018-19,median,48158.0
+106,Hunter Valley exc Newcastle,2019-20,median,49325.0
+106,Hunter Valley exc Newcastle,2020-21,median,51589.0
+106,Hunter Valley exc Newcastle,2021-22,median,52472.0
+106,Hunter Valley exc Newcastle,2022-23,median,56708.0
+106,Hunter Valley exc Newcastle,2018-19,mean,59967.0
+106,Hunter Valley exc Newcastle,2019-20,mean,61422.0
+106,Hunter Valley exc Newcastle,2020-21,mean,62899.0
+106,Hunter Valley exc Newcastle,2021-22,mean,65137.0
+106,Hunter Valley exc Newcastle,2022-23,mean,69443.0
+107,Illawarra,2018-19,earners,182917.0
+107,Illawarra,2019-20,earners,186007.0
+107,Illawarra,2020-21,earners,188608.0
+107,Illawarra,2021-22,earners,194315.0
+107,Illawarra,2022-23,earners,201261.0
+107,Illawarra,2018-19,median_age,42.0
+107,Illawarra,2019-20,median_age,42.0
+107,Illawarra,2020-21,median_age,42.0
+107,Illawarra,2021-22,median_age,42.0
+107,Illawarra,2022-23,median_age,42.0
+107,Illawarra,2018-19,sum,11274598563.0
+107,Illawarra,2019-20,sum,11677757700.0
+107,Illawarra,2020-21,sum,12393810177.0
+107,Illawarra,2021-22,sum,13445271385.0
+107,Illawarra,2022-23,sum,14564244456.0
+107,Illawarra,2018-19,median,49743.0
+107,Illawarra,2019-20,median,50641.0
+107,Illawarra,2020-21,median,53131.0
+107,Illawarra,2021-22,median,54655.0
+107,Illawarra,2022-23,median,58509.0
+107,Illawarra,2018-19,mean,61638.0
+107,Illawarra,2019-20,mean,62781.0
+107,Illawarra,2020-21,mean,65712.0
+107,Illawarra,2021-22,mean,69193.0
+107,Illawarra,2022-23,mean,72365.0
+108,Mid North Coast,2018-19,earners,119300.0
+108,Mid North Coast,2019-20,earners,120415.0
+108,Mid North Coast,2020-21,earners,123721.0
+108,Mid North Coast,2021-22,earners,128424.0
+108,Mid North Coast,2022-23,earners,133100.0
+108,Mid North Coast,2018-19,median_age,48.0
+108,Mid North Coast,2019-20,median_age,49.0
+108,Mid North Coast,2020-21,median_age,48.0
+108,Mid North Coast,2021-22,median_age,48.0
+108,Mid North Coast,2022-23,median_age,48.0
+108,Mid North Coast,2018-19,sum,5500154622.0
+108,Mid North Coast,2019-20,sum,5664953149.0
+108,Mid North Coast,2020-21,sum,6204894871.0
+108,Mid North Coast,2021-22,sum,6695673259.0
+108,Mid North Coast,2022-23,sum,7306973810.0
+108,Mid North Coast,2018-19,median,37391.0
+108,Mid North Coast,2019-20,median,38296.0
+108,Mid North Coast,2020-21,median,40910.0
+108,Mid North Coast,2021-22,median,42059.0
+108,Mid North Coast,2022-23,median,44807.0
+108,Mid North Coast,2018-19,mean,46104.0
+108,Mid North Coast,2019-20,mean,47045.0
+108,Mid North Coast,2020-21,mean,50152.0
+108,Mid North Coast,2021-22,mean,52137.0
+108,Mid North Coast,2022-23,mean,54898.0
+109,Murray,2018-19,earners,72394.0
+109,Murray,2019-20,earners,74859.0
+109,Murray,2020-21,earners,76218.0
+109,Murray,2021-22,earners,79440.0
+109,Murray,2022-23,earners,83079.0
+109,Murray,2018-19,median_age,45.0
+109,Murray,2019-20,median_age,45.0
+109,Murray,2020-21,median_age,45.0
+109,Murray,2021-22,median_age,44.0
+109,Murray,2022-23,median_age,43.0
+109,Murray,2018-19,sum,3739607633.0
+109,Murray,2019-20,sum,3865035583.0
+109,Murray,2020-21,sum,4192874448.0
+109,Murray,2021-22,sum,4700827697.0
+109,Murray,2022-23,sum,5005246817.0
+109,Murray,2018-19,median,43974.0
+109,Murray,2019-20,median,43921.0
+109,Murray,2020-21,median,47381.0
+109,Murray,2021-22,median,49761.0
+109,Murray,2022-23,median,50994.0
+109,Murray,2018-19,mean,51656.0
+109,Murray,2019-20,mean,51631.0
+109,Murray,2020-21,mean,55012.0
+109,Murray,2021-22,mean,59175.0
+109,Murray,2022-23,mean,60247.0
+110,New England and North West,2018-19,earners,108264.0
+110,New England and North West,2019-20,earners,107067.0
+110,New England and North West,2020-21,earners,107837.0
+110,New England and North West,2021-22,earners,110735.0
+110,New England and North West,2022-23,earners,114709.0
+110,New England and North West,2018-19,median_age,44.0
+110,New England and North West,2019-20,median_age,44.0
+110,New England and North West,2020-21,median_age,44.0
+110,New England and North West,2021-22,median_age,43.0
+110,New England and North West,2022-23,median_age,43.0
+110,New England and North West,2018-19,sum,5253654499.0
+110,New England and North West,2019-20,sum,5070964839.0
+110,New England and North West,2020-21,sum,5846851276.0
+110,New England and North West,2021-22,sum,6522896916.0
+110,New England and North West,2022-23,sum,6918450186.0
+110,New England and North West,2018-19,median,41993.0
+110,New England and North West,2019-20,median,42450.0
+110,New England and North West,2020-21,median,47089.0
+110,New England and North West,2021-22,median,49145.0
+110,New England and North West,2022-23,median,51093.0
+110,New England and North West,2018-19,mean,48526.0
+110,New England and North West,2019-20,mean,47363.0
+110,New England and North West,2020-21,mean,54219.0
+110,New England and North West,2021-22,mean,58905.0
+110,New England and North West,2022-23,mean,60313.0
+111,Newcastle and Lake Macquarie,2018-19,earners,231580.0
+111,Newcastle and Lake Macquarie,2019-20,earners,234549.0
+111,Newcastle and Lake Macquarie,2020-21,earners,238147.0
+111,Newcastle and Lake Macquarie,2021-22,earners,245356.0
+111,Newcastle and Lake Macquarie,2022-23,earners,253354.0
+111,Newcastle and Lake Macquarie,2018-19,median_age,42.0
+111,Newcastle and Lake Macquarie,2019-20,median_age,42.0
+111,Newcastle and Lake Macquarie,2020-21,median_age,42.0
+111,Newcastle and Lake Macquarie,2021-22,median_age,42.0
+111,Newcastle and Lake Macquarie,2022-23,median_age,41.0
+111,Newcastle and Lake Macquarie,2018-19,sum,14370334513.0
+111,Newcastle and Lake Macquarie,2019-20,sum,14923623203.0
+111,Newcastle and Lake Macquarie,2020-21,sum,15943341267.0
+111,Newcastle and Lake Macquarie,2021-22,sum,17037316075.0
+111,Newcastle and Lake Macquarie,2022-23,sum,18541147276.0
+111,Newcastle and Lake Macquarie,2018-19,median,50398.0
+111,Newcastle and Lake Macquarie,2019-20,median,51690.0
+111,Newcastle and Lake Macquarie,2020-21,median,54637.0
+111,Newcastle and Lake Macquarie,2021-22,median,55659.0
+111,Newcastle and Lake Macquarie,2022-23,median,59817.0
+111,Newcastle and Lake Macquarie,2018-19,mean,62053.0
+111,Newcastle and Lake Macquarie,2019-20,mean,63627.0
+111,Newcastle and Lake Macquarie,2020-21,mean,66947.0
+111,Newcastle and Lake Macquarie,2021-22,mean,69439.0
+111,Newcastle and Lake Macquarie,2022-23,mean,73183.0
+112,Richmond - Tweed,2018-19,earners,154408.0
+112,Richmond - Tweed,2019-20,earners,155579.0
+112,Richmond - Tweed,2020-21,earners,157022.0
+112,Richmond - Tweed,2021-22,earners,160449.0
+112,Richmond - Tweed,2022-23,earners,165795.0
+112,Richmond - Tweed,2018-19,median_age,46.0
+112,Richmond - Tweed,2019-20,median_age,46.0
+112,Richmond - Tweed,2020-21,median_age,46.0
+112,Richmond - Tweed,2021-22,median_age,45.0
+112,Richmond - Tweed,2022-23,median_age,45.0
+112,Richmond - Tweed,2018-19,sum,7588891069.0
+112,Richmond - Tweed,2019-20,sum,7807011281.0
+112,Richmond - Tweed,2020-21,sum,8571658555.0
+112,Richmond - Tweed,2021-22,sum,9014546632.0
+112,Richmond - Tweed,2022-23,sum,9818692494.0
+112,Richmond - Tweed,2018-19,median,38850.0
+112,Richmond - Tweed,2019-20,median,39589.0
+112,Richmond - Tweed,2020-21,median,43105.0
+112,Richmond - Tweed,2021-22,median,42881.0
+112,Richmond - Tweed,2022-23,median,46189.0
+112,Richmond - Tweed,2018-19,mean,49148.0
+112,Richmond - Tweed,2019-20,mean,50180.0
+112,Richmond - Tweed,2020-21,mean,54589.0
+112,Richmond - Tweed,2021-22,mean,56183.0
+112,Richmond - Tweed,2022-23,mean,59222.0
+113,Riverina,2018-19,earners,98635.0
+113,Riverina,2019-20,earners,99905.0
+113,Riverina,2020-21,earners,101306.0
+113,Riverina,2021-22,earners,104067.0
+113,Riverina,2022-23,earners,106791.0
+113,Riverina,2018-19,median_age,42.0
+113,Riverina,2019-20,median_age,42.0
+113,Riverina,2020-21,median_age,42.0
+113,Riverina,2021-22,median_age,42.0
+113,Riverina,2022-23,median_age,42.0
+113,Riverina,2018-19,sum,5303893443.0
+113,Riverina,2019-20,sum,5452700483.0
+113,Riverina,2020-21,sum,5904581867.0
+113,Riverina,2021-22,sum,6472110144.0
+113,Riverina,2022-23,sum,6761923393.0
+113,Riverina,2018-19,median,46915.0
+113,Riverina,2019-20,median,47741.0
+113,Riverina,2020-21,median,51142.0
+113,Riverina,2021-22,median,53075.0
+113,Riverina,2022-23,median,55034.0
+113,Riverina,2018-19,mean,53773.0
+113,Riverina,2019-20,mean,54579.0
+113,Riverina,2020-21,mean,58285.0
+113,Riverina,2021-22,mean,62192.0
+113,Riverina,2022-23,mean,63319.0
+114,Southern Highlands and Shoalhaven,2018-19,earners,90276.0
+114,Southern Highlands and Shoalhaven,2019-20,earners,91754.0
+114,Southern Highlands and Shoalhaven,2020-21,earners,93571.0
+114,Southern Highlands and Shoalhaven,2021-22,earners,95774.0
+114,Southern Highlands and Shoalhaven,2022-23,earners,98507.0
+114,Southern Highlands and Shoalhaven,2018-19,median_age,47.0
+114,Southern Highlands and Shoalhaven,2019-20,median_age,48.0
+114,Southern Highlands and Shoalhaven,2020-21,median_age,47.0
+114,Southern Highlands and Shoalhaven,2021-22,median_age,47.0
+114,Southern Highlands and Shoalhaven,2022-23,median_age,47.0
+114,Southern Highlands and Shoalhaven,2018-19,sum,4892156707.0
+114,Southern Highlands and Shoalhaven,2019-20,sum,5075357404.0
+114,Southern Highlands and Shoalhaven,2020-21,sum,5585816228.0
+114,Southern Highlands and Shoalhaven,2021-22,sum,5978251970.0
+114,Southern Highlands and Shoalhaven,2022-23,sum,6375448417.0
+114,Southern Highlands and Shoalhaven,2018-19,median,41263.0
+114,Southern Highlands and Shoalhaven,2019-20,median,42150.0
+114,Southern Highlands and Shoalhaven,2020-21,median,45669.0
+114,Southern Highlands and Shoalhaven,2021-22,median,46401.0
+114,Southern Highlands and Shoalhaven,2022-23,median,49228.0
+114,Southern Highlands and Shoalhaven,2018-19,mean,54191.0
+114,Southern Highlands and Shoalhaven,2019-20,mean,55315.0
+114,Southern Highlands and Shoalhaven,2020-21,mean,59696.0
+114,Southern Highlands and Shoalhaven,2021-22,mean,62420.0
+114,Southern Highlands and Shoalhaven,2022-23,mean,64721.0
+115,Sydney - Baulkham Hills and Hawkesbury,2018-19,earners,168592.0
+115,Sydney - Baulkham Hills and Hawkesbury,2019-20,earners,172320.0
+115,Sydney - Baulkham Hills and Hawkesbury,2020-21,earners,175601.0
+115,Sydney - Baulkham Hills and Hawkesbury,2021-22,earners,180410.0
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,earners,187902.0
+115,Sydney - Baulkham Hills and Hawkesbury,2018-19,median_age,44.0
+115,Sydney - Baulkham Hills and Hawkesbury,2019-20,median_age,44.0
+115,Sydney - Baulkham Hills and Hawkesbury,2020-21,median_age,44.0
+115,Sydney - Baulkham Hills and Hawkesbury,2021-22,median_age,44.0
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,median_age,44.0
+115,Sydney - Baulkham Hills and Hawkesbury,2018-19,sum,12574844984.0
+115,Sydney - Baulkham Hills and Hawkesbury,2019-20,sum,13324917518.0
+115,Sydney - Baulkham Hills and Hawkesbury,2020-21,sum,14362552804.0
+115,Sydney - Baulkham Hills and Hawkesbury,2021-22,sum,15696790115.0
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,sum,16887640448.0
+115,Sydney - Baulkham Hills and Hawkesbury,2018-19,median,55570.0
+115,Sydney - Baulkham Hills and Hawkesbury,2019-20,median,57453.0
+115,Sydney - Baulkham Hills and Hawkesbury,2020-21,median,60888.0
+115,Sydney - Baulkham Hills and Hawkesbury,2021-22,median,63673.0
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,median,68287.0
+115,Sydney - Baulkham Hills and Hawkesbury,2018-19,mean,74587.0
+115,Sydney - Baulkham Hills and Hawkesbury,2019-20,mean,77327.0
+115,Sydney - Baulkham Hills and Hawkesbury,2020-21,mean,81791.0
+115,Sydney - Baulkham Hills and Hawkesbury,2021-22,mean,87006.0
+115,Sydney - Baulkham Hills and Hawkesbury,2022-23,mean,89875.0
+116,Sydney - Blacktown,2018-19,earners,224357.0
+116,Sydney - Blacktown,2019-20,earners,230126.0
+116,Sydney - Blacktown,2020-21,earners,234916.0
+116,Sydney - Blacktown,2021-22,earners,246587.0
+116,Sydney - Blacktown,2022-23,earners,263116.0
+116,Sydney - Blacktown,2018-19,median_age,38.0
+116,Sydney - Blacktown,2019-20,median_age,38.0
+116,Sydney - Blacktown,2020-21,median_age,38.0
+116,Sydney - Blacktown,2021-22,median_age,38.0
+116,Sydney - Blacktown,2022-23,median_age,39.0
+116,Sydney - Blacktown,2018-19,sum,13204128093.0
+116,Sydney - Blacktown,2019-20,sum,14017863010.0
+116,Sydney - Blacktown,2020-21,sum,15088399988.0
+116,Sydney - Blacktown,2021-22,sum,16497113447.0
+116,Sydney - Blacktown,2022-23,sum,18640550427.0
+116,Sydney - Blacktown,2018-19,median,52658.0
+116,Sydney - Blacktown,2019-20,median,54478.0
+116,Sydney - Blacktown,2020-21,median,57390.0
+116,Sydney - Blacktown,2021-22,median,58578.0
+116,Sydney - Blacktown,2022-23,median,62523.0
+116,Sydney - Blacktown,2018-19,mean,58853.0
+116,Sydney - Blacktown,2019-20,mean,60914.0
+116,Sydney - Blacktown,2020-21,mean,64229.0
+116,Sydney - Blacktown,2021-22,mean,66902.0
+116,Sydney - Blacktown,2022-23,mean,70845.0
+117,Sydney - City and Inner South,2018-19,earners,271886.0
+117,Sydney - City and Inner South,2019-20,earners,266623.0
+117,Sydney - City and Inner South,2020-21,earners,246524.0
+117,Sydney - City and Inner South,2021-22,earners,252236.0
+117,Sydney - City and Inner South,2022-23,earners,272125.0
+117,Sydney - City and Inner South,2018-19,median_age,34.0
+117,Sydney - City and Inner South,2019-20,median_age,34.0
+117,Sydney - City and Inner South,2020-21,median_age,36.0
+117,Sydney - City and Inner South,2021-22,median_age,36.0
+117,Sydney - City and Inner South,2022-23,median_age,35.0
+117,Sydney - City and Inner South,2018-19,sum,20191263113.0
+117,Sydney - City and Inner South,2019-20,sum,20558999913.0
+117,Sydney - City and Inner South,2020-21,sum,21401782353.0
+117,Sydney - City and Inner South,2021-22,sum,23399683291.0
+117,Sydney - City and Inner South,2022-23,sum,25036133326.0
+117,Sydney - City and Inner South,2018-19,median,51924.0
+117,Sydney - City and Inner South,2019-20,median,53813.0
+117,Sydney - City and Inner South,2020-21,median,62445.0
+117,Sydney - City and Inner South,2021-22,median,65262.0
+117,Sydney - City and Inner South,2022-23,median,66300.0
+117,Sydney - City and Inner South,2018-19,mean,74264.0
+117,Sydney - City and Inner South,2019-20,mean,77109.0
+117,Sydney - City and Inner South,2020-21,mean,86814.0
+117,Sydney - City and Inner South,2021-22,mean,92769.0
+117,Sydney - City and Inner South,2022-23,mean,92002.0
+118,Sydney - Eastern Suburbs,2018-19,earners,205533.0
+118,Sydney - Eastern Suburbs,2019-20,earners,202705.0
+118,Sydney - Eastern Suburbs,2020-21,earners,190667.0
+118,Sydney - Eastern Suburbs,2021-22,earners,192854.0
+118,Sydney - Eastern Suburbs,2022-23,earners,205273.0
+118,Sydney - Eastern Suburbs,2018-19,median_age,38.0
+118,Sydney - Eastern Suburbs,2019-20,median_age,39.0
+118,Sydney - Eastern Suburbs,2020-21,median_age,40.0
+118,Sydney - Eastern Suburbs,2021-22,median_age,40.0
+118,Sydney - Eastern Suburbs,2022-23,median_age,39.0
+118,Sydney - Eastern Suburbs,2018-19,sum,21991514869.0
+118,Sydney - Eastern Suburbs,2019-20,sum,22249451796.0
+118,Sydney - Eastern Suburbs,2020-21,sum,23262310500.0
+118,Sydney - Eastern Suburbs,2021-22,sum,25673592358.0
+118,Sydney - Eastern Suburbs,2022-23,sum,26820618131.0
+118,Sydney - Eastern Suburbs,2018-19,median,62196.0
+118,Sydney - Eastern Suburbs,2019-20,median,63345.0
+118,Sydney - Eastern Suburbs,2020-21,median,70324.0
+118,Sydney - Eastern Suburbs,2021-22,median,73183.0
+118,Sydney - Eastern Suburbs,2022-23,median,74302.0
+118,Sydney - Eastern Suburbs,2018-19,mean,106997.0
+118,Sydney - Eastern Suburbs,2019-20,mean,109763.0
+118,Sydney - Eastern Suburbs,2020-21,mean,122005.0
+118,Sydney - Eastern Suburbs,2021-22,mean,133125.0
+118,Sydney - Eastern Suburbs,2022-23,mean,130658.0
+119,Sydney - Inner South West,2018-19,earners,371527.0
+119,Sydney - Inner South West,2019-20,earners,372222.0
+119,Sydney - Inner South West,2020-21,earners,362982.0
+119,Sydney - Inner South West,2021-22,earners,368644.0
+119,Sydney - Inner South West,2022-23,earners,388261.0
+119,Sydney - Inner South West,2018-19,median_age,38.0
+119,Sydney - Inner South West,2019-20,median_age,39.0
+119,Sydney - Inner South West,2020-21,median_age,39.0
+119,Sydney - Inner South West,2021-22,median_age,39.0
+119,Sydney - Inner South West,2022-23,median_age,39.0
+119,Sydney - Inner South West,2018-19,sum,20906961974.0
+119,Sydney - Inner South West,2019-20,sum,21343260942.0
+119,Sydney - Inner South West,2020-21,sum,22162986964.0
+119,Sydney - Inner South West,2021-22,sum,23231930727.0
+119,Sydney - Inner South West,2022-23,sum,26077255147.0
+119,Sydney - Inner South West,2018-19,median,44697.0
+119,Sydney - Inner South West,2019-20,median,45284.0
+119,Sydney - Inner South West,2020-21,median,48396.0
+119,Sydney - Inner South West,2021-22,median,48907.0
+119,Sydney - Inner South West,2022-23,median,54206.0
+119,Sydney - Inner South West,2018-19,mean,56273.0
+119,Sydney - Inner South West,2019-20,mean,57340.0
+119,Sydney - Inner South West,2020-21,mean,61058.0
+119,Sydney - Inner South West,2021-22,mean,63020.0
+119,Sydney - Inner South West,2022-23,mean,67164.0
+120,Sydney - Inner West,2018-19,earners,219527.0
+120,Sydney - Inner West,2019-20,earners,219047.0
+120,Sydney - Inner West,2020-21,earners,212414.0
+120,Sydney - Inner West,2021-22,earners,215427.0
+120,Sydney - Inner West,2022-23,earners,225216.0
+120,Sydney - Inner West,2018-19,median_age,39.0
+120,Sydney - Inner West,2019-20,median_age,39.0
+120,Sydney - Inner West,2020-21,median_age,40.0
+120,Sydney - Inner West,2021-22,median_age,40.0
+120,Sydney - Inner West,2022-23,median_age,39.0
+120,Sydney - Inner West,2018-19,sum,17253464727.0
+120,Sydney - Inner West,2019-20,sum,17706379098.0
+120,Sydney - Inner West,2020-21,sum,18432556928.0
+120,Sydney - Inner West,2021-22,sum,19616201189.0
+120,Sydney - Inner West,2022-23,sum,21134612751.0
+120,Sydney - Inner West,2018-19,median,55087.0
+120,Sydney - Inner West,2019-20,median,56496.0
+120,Sydney - Inner West,2020-21,median,60829.0
+120,Sydney - Inner West,2021-22,median,62940.0
+120,Sydney - Inner West,2022-23,median,66738.0
+120,Sydney - Inner West,2018-19,mean,78594.0
+120,Sydney - Inner West,2019-20,mean,80834.0
+120,Sydney - Inner West,2020-21,mean,86777.0
+120,Sydney - Inner West,2021-22,mean,91057.0
+120,Sydney - Inner West,2022-23,mean,93842.0
+121,Sydney - North Sydney and Hornsby,2018-19,earners,308860.0
+121,Sydney - North Sydney and Hornsby,2019-20,earners,308390.0
+121,Sydney - North Sydney and Hornsby,2020-21,earners,301874.0
+121,Sydney - North Sydney and Hornsby,2021-22,earners,304045.0
+121,Sydney - North Sydney and Hornsby,2022-23,earners,313690.0
+121,Sydney - North Sydney and Hornsby,2018-19,median_age,43.0
+121,Sydney - North Sydney and Hornsby,2019-20,median_age,44.0
+121,Sydney - North Sydney and Hornsby,2020-21,median_age,44.0
+121,Sydney - North Sydney and Hornsby,2021-22,median_age,44.0
+121,Sydney - North Sydney and Hornsby,2022-23,median_age,44.0
+121,Sydney - North Sydney and Hornsby,2018-19,sum,32518832684.0
+121,Sydney - North Sydney and Hornsby,2019-20,sum,32615850151.0
+121,Sydney - North Sydney and Hornsby,2020-21,sum,33431851577.0
+121,Sydney - North Sydney and Hornsby,2021-22,sum,36159039975.0
+121,Sydney - North Sydney and Hornsby,2022-23,sum,37853808142.0
+121,Sydney - North Sydney and Hornsby,2018-19,median,64378.0
+121,Sydney - North Sydney and Hornsby,2019-20,median,65168.0
+121,Sydney - North Sydney and Hornsby,2020-21,median,68202.0
+121,Sydney - North Sydney and Hornsby,2021-22,median,71834.0
+121,Sydney - North Sydney and Hornsby,2022-23,median,74981.0
+121,Sydney - North Sydney and Hornsby,2018-19,mean,105287.0
+121,Sydney - North Sydney and Hornsby,2019-20,mean,105762.0
+121,Sydney - North Sydney and Hornsby,2020-21,mean,110748.0
+121,Sydney - North Sydney and Hornsby,2021-22,mean,118927.0
+121,Sydney - North Sydney and Hornsby,2022-23,mean,120673.0
+122,Sydney - Northern Beaches,2018-19,earners,193264.0
+122,Sydney - Northern Beaches,2019-20,earners,193384.0
+122,Sydney - Northern Beaches,2020-21,earners,189387.0
+122,Sydney - Northern Beaches,2021-22,earners,190553.0
+122,Sydney - Northern Beaches,2022-23,earners,196185.0
+122,Sydney - Northern Beaches,2018-19,median_age,44.0
+122,Sydney - Northern Beaches,2019-20,median_age,45.0
+122,Sydney - Northern Beaches,2020-21,median_age,45.0
+122,Sydney - Northern Beaches,2021-22,median_age,45.0
+122,Sydney - Northern Beaches,2022-23,median_age,45.0
+122,Sydney - Northern Beaches,2018-19,sum,17343747990.0
+122,Sydney - Northern Beaches,2019-20,sum,17581303440.0
+122,Sydney - Northern Beaches,2020-21,sum,18407715037.0
+122,Sydney - Northern Beaches,2021-22,sum,20099753916.0
+122,Sydney - Northern Beaches,2022-23,sum,21262249839.0
+122,Sydney - Northern Beaches,2018-19,median,57069.0
+122,Sydney - Northern Beaches,2019-20,median,58258.0
+122,Sydney - Northern Beaches,2020-21,median,61976.0
+122,Sydney - Northern Beaches,2021-22,median,64519.0
+122,Sydney - Northern Beaches,2022-23,median,67898.0
+122,Sydney - Northern Beaches,2018-19,mean,89741.0
+122,Sydney - Northern Beaches,2019-20,mean,90914.0
+122,Sydney - Northern Beaches,2020-21,mean,97196.0
+122,Sydney - Northern Beaches,2021-22,mean,105481.0
+122,Sydney - Northern Beaches,2022-23,mean,108379.0
+123,Sydney - Outer South West,2018-19,earners,170876.0
+123,Sydney - Outer South West,2019-20,earners,173029.0
+123,Sydney - Outer South West,2020-21,earners,175732.0
+123,Sydney - Outer South West,2021-22,earners,181528.0
+123,Sydney - Outer South West,2022-23,earners,188642.0
+123,Sydney - Outer South West,2018-19,median_age,39.0
+123,Sydney - Outer South West,2019-20,median_age,40.0
+123,Sydney - Outer South West,2020-21,median_age,40.0
+123,Sydney - Outer South West,2021-22,median_age,40.0
+123,Sydney - Outer South West,2022-23,median_age,40.0
+123,Sydney - Outer South West,2018-19,sum,10289295973.0
+123,Sydney - Outer South West,2019-20,sum,10649527866.0
+123,Sydney - Outer South West,2020-21,sum,11193083187.0
+123,Sydney - Outer South West,2021-22,sum,11821514446.0
+123,Sydney - Outer South West,2022-23,sum,13069424858.0
+123,Sydney - Outer South West,2018-19,median,52972.0
+123,Sydney - Outer South West,2019-20,median,54115.0
+123,Sydney - Outer South West,2020-21,median,56037.0
+123,Sydney - Outer South West,2021-22,median,56418.0
+123,Sydney - Outer South West,2022-23,median,61031.0
+123,Sydney - Outer South West,2018-19,mean,60215.0
+123,Sydney - Outer South West,2019-20,mean,61548.0
+123,Sydney - Outer South West,2020-21,mean,63694.0
+123,Sydney - Outer South West,2021-22,mean,65122.0
+123,Sydney - Outer South West,2022-23,mean,69282.0
+124,Sydney - Outer West and Blue Mountains,2018-19,earners,201511.0
+124,Sydney - Outer West and Blue Mountains,2019-20,earners,202053.0
+124,Sydney - Outer West and Blue Mountains,2020-21,earners,203085.0
+124,Sydney - Outer West and Blue Mountains,2021-22,earners,207639.0
+124,Sydney - Outer West and Blue Mountains,2022-23,earners,213742.0
+124,Sydney - Outer West and Blue Mountains,2018-19,median_age,41.0
+124,Sydney - Outer West and Blue Mountains,2019-20,median_age,41.0
+124,Sydney - Outer West and Blue Mountains,2020-21,median_age,41.0
+124,Sydney - Outer West and Blue Mountains,2021-22,median_age,41.0
+124,Sydney - Outer West and Blue Mountains,2022-23,median_age,41.0
+124,Sydney - Outer West and Blue Mountains,2018-19,sum,12313938635.0
+124,Sydney - Outer West and Blue Mountains,2019-20,sum,12683647266.0
+124,Sydney - Outer West and Blue Mountains,2020-21,sum,13292822237.0
+124,Sydney - Outer West and Blue Mountains,2021-22,sum,13876484368.0
+124,Sydney - Outer West and Blue Mountains,2022-23,sum,15276397195.0
+124,Sydney - Outer West and Blue Mountains,2018-19,median,53471.0
+124,Sydney - Outer West and Blue Mountains,2019-20,median,55062.0
+124,Sydney - Outer West and Blue Mountains,2020-21,median,57414.0
+124,Sydney - Outer West and Blue Mountains,2021-22,median,58001.0
+124,Sydney - Outer West and Blue Mountains,2022-23,median,62518.0
+124,Sydney - Outer West and Blue Mountains,2018-19,mean,61108.0
+124,Sydney - Outer West and Blue Mountains,2019-20,mean,62774.0
+124,Sydney - Outer West and Blue Mountains,2020-21,mean,65454.0
+124,Sydney - Outer West and Blue Mountains,2021-22,mean,66830.0
+124,Sydney - Outer West and Blue Mountains,2022-23,mean,71471.0
+125,Sydney - Parramatta,2018-19,earners,297118.0
+125,Sydney - Parramatta,2019-20,earners,299910.0
+125,Sydney - Parramatta,2020-21,earners,294775.0
+125,Sydney - Parramatta,2021-22,earners,303669.0
+125,Sydney - Parramatta,2022-23,earners,322403.0
+125,Sydney - Parramatta,2018-19,median_age,36.0
+125,Sydney - Parramatta,2019-20,median_age,37.0
+125,Sydney - Parramatta,2020-21,median_age,37.0
+125,Sydney - Parramatta,2021-22,median_age,37.0
+125,Sydney - Parramatta,2022-23,median_age,37.0
+125,Sydney - Parramatta,2018-19,sum,16483327922.0
+125,Sydney - Parramatta,2019-20,sum,17113184848.0
+125,Sydney - Parramatta,2020-21,sum,17909342488.0
+125,Sydney - Parramatta,2021-22,sum,19025443130.0
+125,Sydney - Parramatta,2022-23,sum,21410910544.0
+125,Sydney - Parramatta,2018-19,median,45029.0
+125,Sydney - Parramatta,2019-20,median,45906.0
+125,Sydney - Parramatta,2020-21,median,49898.0
+125,Sydney - Parramatta,2021-22,median,50297.0
+125,Sydney - Parramatta,2022-23,median,55020.0
+125,Sydney - Parramatta,2018-19,mean,55477.0
+125,Sydney - Parramatta,2019-20,mean,57061.0
+125,Sydney - Parramatta,2020-21,mean,60756.0
+125,Sydney - Parramatta,2021-22,mean,62652.0
+125,Sydney - Parramatta,2022-23,mean,66410.0
+126,Sydney - Ryde,2018-19,earners,135673.0
+126,Sydney - Ryde,2019-20,earners,138114.0
+126,Sydney - Ryde,2020-21,earners,137154.0
+126,Sydney - Ryde,2021-22,earners,140344.0
+126,Sydney - Ryde,2022-23,earners,146723.0
+126,Sydney - Ryde,2018-19,median_age,40.0
+126,Sydney - Ryde,2019-20,median_age,41.0
+126,Sydney - Ryde,2020-21,median_age,41.0
+126,Sydney - Ryde,2021-22,median_age,41.0
+126,Sydney - Ryde,2022-23,median_age,41.0
+126,Sydney - Ryde,2018-19,sum,10250524848.0
+126,Sydney - Ryde,2019-20,sum,10698200094.0
+126,Sydney - Ryde,2020-21,sum,11571755902.0
+126,Sydney - Ryde,2021-22,sum,12279972960.0
+126,Sydney - Ryde,2022-23,sum,13287314601.0
+126,Sydney - Ryde,2018-19,median,53643.0
+126,Sydney - Ryde,2019-20,median,55000.0
+126,Sydney - Ryde,2020-21,median,58429.0
+126,Sydney - Ryde,2021-22,median,61022.0
+126,Sydney - Ryde,2022-23,median,64713.0
+126,Sydney - Ryde,2018-19,mean,75553.0
+126,Sydney - Ryde,2019-20,mean,77459.0
+126,Sydney - Ryde,2020-21,mean,84371.0
+126,Sydney - Ryde,2021-22,mean,87499.0
+126,Sydney - Ryde,2022-23,mean,90561.0
+127,Sydney - South West,2018-19,earners,237491.0
+127,Sydney - South West,2019-20,earners,242883.0
+127,Sydney - South West,2020-21,earners,247473.0
+127,Sydney - South West,2021-22,earners,258873.0
+127,Sydney - South West,2022-23,earners,272395.0
+127,Sydney - South West,2018-19,median_age,39.0
+127,Sydney - South West,2019-20,median_age,39.0
+127,Sydney - South West,2020-21,median_age,39.0
+127,Sydney - South West,2021-22,median_age,39.0
+127,Sydney - South West,2022-23,median_age,39.0
+127,Sydney - South West,2018-19,sum,13065930838.0
+127,Sydney - South West,2019-20,sum,13693848332.0
+127,Sydney - South West,2020-21,sum,14573268114.0
+127,Sydney - South West,2021-22,sum,15463672684.0
+127,Sydney - South West,2022-23,sum,17487307990.0
+127,Sydney - South West,2018-19,median,47978.0
+127,Sydney - South West,2019-20,median,49224.0
+127,Sydney - South West,2020-21,median,51161.0
+127,Sydney - South West,2021-22,median,50523.0
+127,Sydney - South West,2022-23,median,55601.0
+127,Sydney - South West,2018-19,mean,55017.0
+127,Sydney - South West,2019-20,mean,56380.0
+127,Sydney - South West,2020-21,mean,58888.0
+127,Sydney - South West,2021-22,mean,59735.0
+127,Sydney - South West,2022-23,mean,64198.0
+128,Sydney - Sutherland,2018-19,earners,153721.0
+128,Sydney - Sutherland,2019-20,earners,154890.0
+128,Sydney - Sutherland,2020-21,earners,154224.0
+128,Sydney - Sutherland,2021-22,earners,156004.0
+128,Sydney - Sutherland,2022-23,earners,160093.0
+128,Sydney - Sutherland,2018-19,median_age,44.0
+128,Sydney - Sutherland,2019-20,median_age,44.0
+128,Sydney - Sutherland,2020-21,median_age,44.0
+128,Sydney - Sutherland,2021-22,median_age,44.0
+128,Sydney - Sutherland,2022-23,median_age,44.0
+128,Sydney - Sutherland,2018-19,sum,11535978015.0
+128,Sydney - Sutherland,2019-20,sum,11940987215.0
+128,Sydney - Sutherland,2020-21,sum,12455340838.0
+128,Sydney - Sutherland,2021-22,sum,13222514417.0
+128,Sydney - Sutherland,2022-23,sum,14359812873.0
+128,Sydney - Sutherland,2018-19,median,58067.0
+128,Sydney - Sutherland,2019-20,median,59609.0
+128,Sydney - Sutherland,2020-21,median,62515.0
+128,Sydney - Sutherland,2021-22,median,64610.0
+128,Sydney - Sutherland,2022-23,median,69218.0
+128,Sydney - Sutherland,2018-19,mean,75045.0
+128,Sydney - Sutherland,2019-20,mean,77093.0
+128,Sydney - Sutherland,2020-21,mean,80761.0
+128,Sydney - Sutherland,2021-22,mean,84758.0
+128,Sydney - Sutherland,2022-23,mean,89697.0
+201,Ballarat,2018-19,earners,97800.0
+201,Ballarat,2019-20,earners,99681.0
+201,Ballarat,2020-21,earners,101497.0
+201,Ballarat,2021-22,earners,105416.0
+201,Ballarat,2022-23,earners,108830.0
+201,Ballarat,2018-19,median_age,44.0
+201,Ballarat,2019-20,median_age,44.0
+201,Ballarat,2020-21,median_age,44.0
+201,Ballarat,2021-22,median_age,43.0
+201,Ballarat,2022-23,median_age,43.0
+201,Ballarat,2018-19,sum,5373466271.0
+201,Ballarat,2019-20,sum,5659550706.0
+201,Ballarat,2020-21,sum,6069136731.0
+201,Ballarat,2021-22,sum,6597698865.0
+201,Ballarat,2022-23,sum,7101116049.0
+201,Ballarat,2018-19,median,45588.0
+201,Ballarat,2019-20,median,46922.0
+201,Ballarat,2020-21,median,48892.0
+201,Ballarat,2021-22,median,50725.0
+201,Ballarat,2022-23,median,53619.0
+201,Ballarat,2018-19,mean,54943.0
+201,Ballarat,2019-20,mean,56777.0
+201,Ballarat,2020-21,mean,59796.0
+201,Ballarat,2021-22,mean,62587.0
+201,Ballarat,2022-23,mean,65250.0
+202,Bendigo,2018-19,earners,97018.0
+202,Bendigo,2019-20,earners,98397.0
+202,Bendigo,2020-21,earners,100419.0
+202,Bendigo,2021-22,earners,103587.0
+202,Bendigo,2022-23,earners,106692.0
+202,Bendigo,2018-19,median_age,45.0
+202,Bendigo,2019-20,median_age,45.0
+202,Bendigo,2020-21,median_age,45.0
+202,Bendigo,2021-22,median_age,44.0
+202,Bendigo,2022-23,median_age,44.0
+202,Bendigo,2018-19,sum,5349540825.0
+202,Bendigo,2019-20,sum,5423123612.0
+202,Bendigo,2020-21,sum,6013834165.0
+202,Bendigo,2021-22,sum,6467100731.0
+202,Bendigo,2022-23,sum,6944631168.0
+202,Bendigo,2018-19,median,46137.0
+202,Bendigo,2019-20,median,47497.0
+202,Bendigo,2020-21,median,49768.0
+202,Bendigo,2021-22,median,51392.0
+202,Bendigo,2022-23,median,54001.0
+202,Bendigo,2018-19,mean,55140.0
+202,Bendigo,2019-20,mean,55115.0
+202,Bendigo,2020-21,mean,59887.0
+202,Bendigo,2021-22,mean,62432.0
+202,Bendigo,2022-23,mean,65090.0
+203,Geelong,2018-19,earners,190131.0
+203,Geelong,2019-20,earners,196347.0
+203,Geelong,2020-21,earners,201506.0
+203,Geelong,2021-22,earners,210067.0
+203,Geelong,2022-23,earners,218144.0
+203,Geelong,2018-19,median_age,43.0
+203,Geelong,2019-20,median_age,43.0
+203,Geelong,2020-21,median_age,42.0
+203,Geelong,2021-22,median_age,42.0
+203,Geelong,2022-23,median_age,42.0
+203,Geelong,2018-19,sum,11400526051.0
+203,Geelong,2019-20,sum,12028149479.0
+203,Geelong,2020-21,sum,13033869362.0
+203,Geelong,2021-22,sum,14380342842.0
+203,Geelong,2022-23,sum,15635472041.0
+203,Geelong,2018-19,median,48236.0
+203,Geelong,2019-20,median,49345.0
+203,Geelong,2020-21,median,51605.0
+203,Geelong,2021-22,median,54143.0
+203,Geelong,2022-23,median,57549.0
+203,Geelong,2018-19,mean,59961.0
+203,Geelong,2019-20,mean,61260.0
+203,Geelong,2020-21,mean,64682.0
+203,Geelong,2021-22,mean,68456.0
+203,Geelong,2022-23,mean,71675.0
+204,Hume,2018-19,earners,110082.0
+204,Hume,2019-20,earners,110962.0
+204,Hume,2020-21,earners,113635.0
+204,Hume,2021-22,earners,116930.0
+204,Hume,2022-23,earners,119801.0
+204,Hume,2018-19,median_age,46.0
+204,Hume,2019-20,median_age,46.0
+204,Hume,2020-21,median_age,46.0
+204,Hume,2021-22,median_age,46.0
+204,Hume,2022-23,median_age,46.0
+204,Hume,2018-19,sum,5637038875.0
+204,Hume,2019-20,sum,5860221940.0
+204,Hume,2020-21,sum,6340724074.0
+204,Hume,2021-22,sum,6866779319.0
+204,Hume,2022-23,sum,7258107619.0
+204,Hume,2018-19,median,43848.0
+204,Hume,2019-20,median,45266.0
+204,Hume,2020-21,median,47712.0
+204,Hume,2021-22,median,49603.0
+204,Hume,2022-23,median,51800.0
+204,Hume,2018-19,mean,51208.0
+204,Hume,2019-20,mean,52813.0
+204,Hume,2020-21,mean,55799.0
+204,Hume,2021-22,mean,58726.0
+204,Hume,2022-23,mean,60585.0
+205,Latrobe - Gippsland,2018-19,earners,167104.0
+205,Latrobe - Gippsland,2019-20,earners,169839.0
+205,Latrobe - Gippsland,2020-21,earners,174253.0
+205,Latrobe - Gippsland,2021-22,earners,180437.0
+205,Latrobe - Gippsland,2022-23,earners,185609.0
+205,Latrobe - Gippsland,2018-19,median_age,46.0
+205,Latrobe - Gippsland,2019-20,median_age,46.0
+205,Latrobe - Gippsland,2020-21,median_age,46.0
+205,Latrobe - Gippsland,2021-22,median_age,46.0
+205,Latrobe - Gippsland,2022-23,median_age,45.0
+205,Latrobe - Gippsland,2018-19,sum,8701349836.0
+205,Latrobe - Gippsland,2019-20,sum,9143194517.0
+205,Latrobe - Gippsland,2020-21,sum,9721364049.0
+205,Latrobe - Gippsland,2021-22,sum,10506874943.0
+205,Latrobe - Gippsland,2022-23,sum,11281838584.0
+205,Latrobe - Gippsland,2018-19,median,41894.0
+205,Latrobe - Gippsland,2019-20,median,43506.0
+205,Latrobe - Gippsland,2020-21,median,45468.0
+205,Latrobe - Gippsland,2021-22,median,47075.0
+205,Latrobe - Gippsland,2022-23,median,49567.0
+205,Latrobe - Gippsland,2018-19,mean,52071.0
+205,Latrobe - Gippsland,2019-20,mean,53834.0
+205,Latrobe - Gippsland,2020-21,mean,55789.0
+205,Latrobe - Gippsland,2021-22,mean,58230.0
+205,Latrobe - Gippsland,2022-23,mean,60783.0
+206,Melbourne - Inner,2018-19,earners,487013.0
+206,Melbourne - Inner,2019-20,earners,486222.0
+206,Melbourne - Inner,2020-21,earners,455404.0
+206,Melbourne - Inner,2021-22,earners,468460.0
+206,Melbourne - Inner,2022-23,earners,509494.0
+206,Melbourne - Inner,2018-19,median_age,35.0
+206,Melbourne - Inner,2019-20,median_age,35.0
+206,Melbourne - Inner,2020-21,median_age,36.0
+206,Melbourne - Inner,2021-22,median_age,36.0
+206,Melbourne - Inner,2022-23,median_age,35.0
+206,Melbourne - Inner,2018-19,sum,38364249356.0
+206,Melbourne - Inner,2019-20,sum,39141246578.0
+206,Melbourne - Inner,2020-21,sum,39854533306.0
+206,Melbourne - Inner,2021-22,sum,43717342564.0
+206,Melbourne - Inner,2022-23,sum,47256655373.0
+206,Melbourne - Inner,2018-19,median,55468.0
+206,Melbourne - Inner,2019-20,median,56971.0
+206,Melbourne - Inner,2020-21,median,62414.0
+206,Melbourne - Inner,2021-22,median,65472.0
+206,Melbourne - Inner,2022-23,median,65785.0
+206,Melbourne - Inner,2018-19,mean,78775.0
+206,Melbourne - Inner,2019-20,mean,80501.0
+206,Melbourne - Inner,2020-21,mean,87515.0
+206,Melbourne - Inner,2021-22,mean,93321.0
+206,Melbourne - Inner,2022-23,mean,92752.0
+207,Melbourne - Inner East,2018-19,earners,260822.0
+207,Melbourne - Inner East,2019-20,earners,261969.0
+207,Melbourne - Inner East,2020-21,earners,256235.0
+207,Melbourne - Inner East,2021-22,earners,261070.0
+207,Melbourne - Inner East,2022-23,earners,271372.0
+207,Melbourne - Inner East,2018-19,median_age,44.0
+207,Melbourne - Inner East,2019-20,median_age,44.0
+207,Melbourne - Inner East,2020-21,median_age,44.0
+207,Melbourne - Inner East,2021-22,median_age,44.0
+207,Melbourne - Inner East,2022-23,median_age,44.0
+207,Melbourne - Inner East,2018-19,sum,20683225163.0
+207,Melbourne - Inner East,2019-20,sum,21002741789.0
+207,Melbourne - Inner East,2020-21,sum,21718697199.0
+207,Melbourne - Inner East,2021-22,sum,23948492513.0
+207,Melbourne - Inner East,2022-23,sum,25353578571.0
+207,Melbourne - Inner East,2018-19,median,50084.0
+207,Melbourne - Inner East,2019-20,median,50336.0
+207,Melbourne - Inner East,2020-21,median,52717.0
+207,Melbourne - Inner East,2021-22,median,56146.0
+207,Melbourne - Inner East,2022-23,median,59261.0
+207,Melbourne - Inner East,2018-19,mean,79300.0
+207,Melbourne - Inner East,2019-20,mean,80173.0
+207,Melbourne - Inner East,2020-21,mean,84761.0
+207,Melbourne - Inner East,2021-22,mean,91732.0
+207,Melbourne - Inner East,2022-23,mean,93427.0
+208,Melbourne - Inner South,2018-19,earners,292939.0
+208,Melbourne - Inner South,2019-20,earners,294479.0
+208,Melbourne - Inner South,2020-21,earners,290484.0
+208,Melbourne - Inner South,2021-22,earners,295052.0
+208,Melbourne - Inner South,2022-23,earners,304943.0
+208,Melbourne - Inner South,2018-19,median_age,44.0
+208,Melbourne - Inner South,2019-20,median_age,44.0
+208,Melbourne - Inner South,2020-21,median_age,44.0
+208,Melbourne - Inner South,2021-22,median_age,44.0
+208,Melbourne - Inner South,2022-23,median_age,44.0
+208,Melbourne - Inner South,2018-19,sum,24639641675.0
+208,Melbourne - Inner South,2019-20,sum,25242823026.0
+208,Melbourne - Inner South,2020-21,sum,26237542236.0
+208,Melbourne - Inner South,2021-22,sum,28671056011.0
+208,Melbourne - Inner South,2022-23,sum,30383875697.0
+208,Melbourne - Inner South,2018-19,median,56802.0
+208,Melbourne - Inner South,2019-20,median,58318.0
+208,Melbourne - Inner South,2020-21,median,61088.0
+208,Melbourne - Inner South,2021-22,median,64999.0
+208,Melbourne - Inner South,2022-23,median,68110.0
+208,Melbourne - Inner South,2018-19,mean,84112.0
+208,Melbourne - Inner South,2019-20,mean,85720.0
+208,Melbourne - Inner South,2020-21,mean,90324.0
+208,Melbourne - Inner South,2021-22,mean,97173.0
+208,Melbourne - Inner South,2022-23,mean,99638.0
+209,Melbourne - North East,2018-19,earners,331866.0
+209,Melbourne - North East,2019-20,earners,335532.0
+209,Melbourne - North East,2020-21,earners,336000.0
+209,Melbourne - North East,2021-22,earners,345325.0
+209,Melbourne - North East,2022-23,earners,360204.0
+209,Melbourne - North East,2018-19,median_age,40.0
+209,Melbourne - North East,2019-20,median_age,40.0
+209,Melbourne - North East,2020-21,median_age,40.0
+209,Melbourne - North East,2021-22,median_age,40.0
+209,Melbourne - North East,2022-23,median_age,40.0
+209,Melbourne - North East,2018-19,sum,20475962461.0
+209,Melbourne - North East,2019-20,sum,21246294049.0
+209,Melbourne - North East,2020-21,sum,22326441454.0
+209,Melbourne - North East,2021-22,sum,24204118802.0
+209,Melbourne - North East,2022-23,sum,26565099393.0
+209,Melbourne - North East,2018-19,median,50628.0
+209,Melbourne - North East,2019-20,median,51882.0
+209,Melbourne - North East,2020-21,median,54120.0
+209,Melbourne - North East,2021-22,median,56949.0
+209,Melbourne - North East,2022-23,median,60976.0
+209,Melbourne - North East,2018-19,mean,61699.0
+209,Melbourne - North East,2019-20,mean,63321.0
+209,Melbourne - North East,2020-21,mean,66448.0
+209,Melbourne - North East,2021-22,mean,70091.0
+209,Melbourne - North East,2022-23,mean,73750.0
+210,Melbourne - North West,2018-19,earners,236761.0
+210,Melbourne - North West,2019-20,earners,243262.0
+210,Melbourne - North West,2020-21,earners,245016.0
+210,Melbourne - North West,2021-22,earners,254681.0
+210,Melbourne - North West,2022-23,earners,267440.0
+210,Melbourne - North West,2018-19,median_age,39.0
+210,Melbourne - North West,2019-20,median_age,39.0
+210,Melbourne - North West,2020-21,median_age,39.0
+210,Melbourne - North West,2021-22,median_age,39.0
+210,Melbourne - North West,2022-23,median_age,39.0
+210,Melbourne - North West,2018-19,sum,13745913991.0
+210,Melbourne - North West,2019-20,sum,14518412692.0
+210,Melbourne - North West,2020-21,sum,15287931877.0
+210,Melbourne - North West,2021-22,sum,16660169225.0
+210,Melbourne - North West,2022-23,sum,18451491687.0
+210,Melbourne - North West,2018-19,median,49029.0
+210,Melbourne - North West,2019-20,median,49945.0
+210,Melbourne - North West,2020-21,median,51851.0
+210,Melbourne - North West,2021-22,median,54183.0
+210,Melbourne - North West,2022-23,median,58100.0
+210,Melbourne - North West,2018-19,mean,58058.0
+210,Melbourne - North West,2019-20,mean,59682.0
+210,Melbourne - North West,2020-21,mean,62396.0
+210,Melbourne - North West,2021-22,mean,65416.0
+210,Melbourne - North West,2022-23,mean,68993.0
+211,Melbourne - Outer East,2018-19,earners,340446.0
+211,Melbourne - Outer East,2019-20,earners,340566.0
+211,Melbourne - Outer East,2020-21,earners,338537.0
+211,Melbourne - Outer East,2021-22,earners,343217.0
+211,Melbourne - Outer East,2022-23,earners,350242.0
+211,Melbourne - Outer East,2018-19,median_age,43.0
+211,Melbourne - Outer East,2019-20,median_age,43.0
+211,Melbourne - Outer East,2020-21,median_age,43.0
+211,Melbourne - Outer East,2021-22,median_age,43.0
+211,Melbourne - Outer East,2022-23,median_age,43.0
+211,Melbourne - Outer East,2018-19,sum,20674540357.0
+211,Melbourne - Outer East,2019-20,sum,21222288855.0
+211,Melbourne - Outer East,2020-21,sum,22011309650.0
+211,Melbourne - Outer East,2021-22,sum,23508368270.0
+211,Melbourne - Outer East,2022-23,sum,25318630390.0
+211,Melbourne - Outer East,2018-19,median,49930.0
+211,Melbourne - Outer East,2019-20,median,51031.0
+211,Melbourne - Outer East,2020-21,median,52979.0
+211,Melbourne - Outer East,2021-22,median,55405.0
+211,Melbourne - Outer East,2022-23,median,59613.0
+211,Melbourne - Outer East,2018-19,mean,60728.0
+211,Melbourne - Outer East,2019-20,mean,62315.0
+211,Melbourne - Outer East,2020-21,mean,65019.0
+211,Melbourne - Outer East,2021-22,mean,68494.0
+211,Melbourne - Outer East,2022-23,mean,72289.0
+212,Melbourne - South East,2018-19,earners,506225.0
+212,Melbourne - South East,2019-20,earners,518605.0
+212,Melbourne - South East,2020-21,earners,521872.0
+212,Melbourne - South East,2021-22,earners,544680.0
+212,Melbourne - South East,2022-23,earners,571661.0
+212,Melbourne - South East,2018-19,median_age,39.0
+212,Melbourne - South East,2019-20,median_age,39.0
+212,Melbourne - South East,2020-21,median_age,39.0
+212,Melbourne - South East,2021-22,median_age,39.0
+212,Melbourne - South East,2022-23,median_age,39.0
+212,Melbourne - South East,2018-19,sum,27567609672.0
+212,Melbourne - South East,2019-20,sum,28921799238.0
+212,Melbourne - South East,2020-21,sum,30998588577.0
+212,Melbourne - South East,2021-22,sum,34217503659.0
+212,Melbourne - South East,2022-23,sum,37546907335.0
+212,Melbourne - South East,2018-19,median,46005.0
+212,Melbourne - South East,2019-20,median,46821.0
+212,Melbourne - South East,2020-21,median,49204.0
+212,Melbourne - South East,2021-22,median,51587.0
+212,Melbourne - South East,2022-23,median,55238.0
+212,Melbourne - South East,2018-19,mean,54457.0
+212,Melbourne - South East,2019-20,mean,55768.0
+212,Melbourne - South East,2020-21,mean,59399.0
+212,Melbourne - South East,2021-22,mean,62821.0
+212,Melbourne - South East,2022-23,mean,65680.0
+213,Melbourne - West,2018-19,earners,487520.0
+213,Melbourne - West,2019-20,earners,501492.0
+213,Melbourne - West,2020-21,earners,508091.0
+213,Melbourne - West,2021-22,earners,535557.0
+213,Melbourne - West,2022-23,earners,572272.0
+213,Melbourne - West,2018-19,median_age,38.0
+213,Melbourne - West,2019-20,median_age,38.0
+213,Melbourne - West,2020-21,median_age,38.0
+213,Melbourne - West,2021-22,median_age,38.0
+213,Melbourne - West,2022-23,median_age,38.0
+213,Melbourne - West,2018-19,sum,28259915618.0
+213,Melbourne - West,2019-20,sum,29901657720.0
+213,Melbourne - West,2020-21,sum,31580180594.0
+213,Melbourne - West,2021-22,sum,35072177571.0
+213,Melbourne - West,2022-23,sum,39335485546.0
+213,Melbourne - West,2018-19,median,49657.0
+213,Melbourne - West,2019-20,median,50599.0
+213,Melbourne - West,2020-21,median,52485.0
+213,Melbourne - West,2021-22,median,55017.0
+213,Melbourne - West,2022-23,median,58476.0
+213,Melbourne - West,2018-19,mean,57967.0
+213,Melbourne - West,2019-20,mean,59625.0
+213,Melbourne - West,2020-21,mean,62155.0
+213,Melbourne - West,2021-22,mean,65487.0
+213,Melbourne - West,2022-23,mean,68736.0
+214,Mornington Peninsula,2018-19,earners,190638.0
+214,Mornington Peninsula,2019-20,earners,190868.0
+214,Mornington Peninsula,2020-21,earners,191422.0
+214,Mornington Peninsula,2021-22,earners,194672.0
+214,Mornington Peninsula,2022-23,earners,198183.0
+214,Mornington Peninsula,2018-19,median_age,45.0
+214,Mornington Peninsula,2019-20,median_age,45.0
+214,Mornington Peninsula,2020-21,median_age,45.0
+214,Mornington Peninsula,2021-22,median_age,45.0
+214,Mornington Peninsula,2022-23,median_age,45.0
+214,Mornington Peninsula,2018-19,sum,11418814823.0
+214,Mornington Peninsula,2019-20,sum,11748678873.0
+214,Mornington Peninsula,2020-21,sum,12449141980.0
+214,Mornington Peninsula,2021-22,sum,13453488037.0
+214,Mornington Peninsula,2022-23,sum,14409506255.0
+214,Mornington Peninsula,2018-19,median,47895.0
+214,Mornington Peninsula,2019-20,median,48746.0
+214,Mornington Peninsula,2020-21,median,50751.0
+214,Mornington Peninsula,2021-22,median,52448.0
+214,Mornington Peninsula,2022-23,median,56563.0
+214,Mornington Peninsula,2018-19,mean,59898.0
+214,Mornington Peninsula,2019-20,mean,61554.0
+214,Mornington Peninsula,2020-21,mean,65035.0
+214,Mornington Peninsula,2021-22,mean,69108.0
+214,Mornington Peninsula,2022-23,mean,72708.0
+215,North West,2018-19,earners,95267.0
+215,North West,2019-20,earners,96962.0
+215,North West,2020-21,earners,96632.0
+215,North West,2021-22,earners,98135.0
+215,North West,2022-23,earners,101755.0
+215,North West,2018-19,median_age,44.0
+215,North West,2019-20,median_age,44.0
+215,North West,2020-21,median_age,44.0
+215,North West,2021-22,median_age,44.0
+215,North West,2022-23,median_age,43.0
+215,North West,2018-19,sum,4785548922.0
+215,North West,2019-20,sum,4954613205.0
+215,North West,2020-21,sum,5058619569.0
+215,North West,2021-22,sum,5550078410.0
+215,North West,2022-23,sum,5953072491.0
+215,North West,2018-19,median,42217.0
+215,North West,2019-20,median,42692.0
+215,North West,2020-21,median,45196.0
+215,North West,2021-22,median,47364.0
+215,North West,2022-23,median,48852.0
+215,North West,2018-19,mean,50233.0
+215,North West,2019-20,mean,51099.0
+215,North West,2020-21,mean,52349.0
+215,North West,2021-22,mean,56556.0
+215,North West,2022-23,mean,58504.0
+216,Shepparton,2018-19,earners,81689.0
+216,Shepparton,2019-20,earners,82056.0
+216,Shepparton,2020-21,earners,82667.0
+216,Shepparton,2021-22,earners,84847.0
+216,Shepparton,2022-23,earners,87119.0
+216,Shepparton,2018-19,median_age,44.0
+216,Shepparton,2019-20,median_age,44.0
+216,Shepparton,2020-21,median_age,44.0
+216,Shepparton,2021-22,median_age,44.0
+216,Shepparton,2022-23,median_age,43.0
+216,Shepparton,2018-19,sum,3975452682.0
+216,Shepparton,2019-20,sum,4143799247.0
+216,Shepparton,2020-21,sum,4428230953.0
+216,Shepparton,2021-22,sum,4777522837.0
+216,Shepparton,2022-23,sum,5090808040.0
+216,Shepparton,2018-19,median,41947.0
+216,Shepparton,2019-20,median,43063.0
+216,Shepparton,2020-21,median,46293.0
+216,Shepparton,2021-22,median,48016.0
+216,Shepparton,2022-23,median,49805.0
+216,Shepparton,2018-19,mean,48666.0
+216,Shepparton,2019-20,mean,50500.0
+216,Shepparton,2020-21,mean,53567.0
+216,Shepparton,2021-22,mean,56308.0
+216,Shepparton,2022-23,mean,58435.0
+217,Warrnambool and South West,2018-19,earners,81315.0
+217,Warrnambool and South West,2019-20,earners,81596.0
+217,Warrnambool and South West,2020-21,earners,81773.0
+217,Warrnambool and South West,2021-22,earners,83285.0
+217,Warrnambool and South West,2022-23,earners,85415.0
+217,Warrnambool and South West,2018-19,median_age,45.0
+217,Warrnambool and South West,2019-20,median_age,46.0
+217,Warrnambool and South West,2020-21,median_age,46.0
+217,Warrnambool and South West,2021-22,median_age,46.0
+217,Warrnambool and South West,2022-23,median_age,45.0
+217,Warrnambool and South West,2018-19,sum,4187277842.0
+217,Warrnambool and South West,2019-20,sum,4329247875.0
+217,Warrnambool and South West,2020-21,sum,4573769500.0
+217,Warrnambool and South West,2021-22,sum,4983517191.0
+217,Warrnambool and South West,2022-23,sum,5206208145.0
+217,Warrnambool and South West,2018-19,median,43260.0
+217,Warrnambool and South West,2019-20,median,44623.0
+217,Warrnambool and South West,2020-21,median,47395.0
+217,Warrnambool and South West,2021-22,median,49740.0
+217,Warrnambool and South West,2022-23,median,51043.0
+217,Warrnambool and South West,2018-19,mean,51495.0
+217,Warrnambool and South West,2019-20,mean,53057.0
+217,Warrnambool and South West,2020-21,mean,55933.0
+217,Warrnambool and South West,2021-22,mean,59837.0
+217,Warrnambool and South West,2022-23,mean,60952.0
+301,Brisbane - East,2018-19,earners,151453.0
+301,Brisbane - East,2019-20,earners,152122.0
+301,Brisbane - East,2020-21,earners,153736.0
+301,Brisbane - East,2021-22,earners,157958.0
+301,Brisbane - East,2022-23,earners,163028.0
+301,Brisbane - East,2018-19,median_age,44.0
+301,Brisbane - East,2019-20,median_age,44.0
+301,Brisbane - East,2020-21,median_age,44.0
+301,Brisbane - East,2021-22,median_age,44.0
+301,Brisbane - East,2022-23,median_age,44.0
+301,Brisbane - East,2018-19,sum,9734822497.0
+301,Brisbane - East,2019-20,sum,9967951670.0
+301,Brisbane - East,2020-21,sum,10531056959.0
+301,Brisbane - East,2021-22,sum,11370362768.0
+301,Brisbane - East,2022-23,sum,12380634592.0
+301,Brisbane - East,2018-19,median,52498.0
+301,Brisbane - East,2019-20,median,53586.0
+301,Brisbane - East,2020-21,median,55902.0
+301,Brisbane - East,2021-22,median,58671.0
+301,Brisbane - East,2022-23,median,62036.0
+301,Brisbane - East,2018-19,mean,64276.0
+301,Brisbane - East,2019-20,mean,65526.0
+301,Brisbane - East,2020-21,mean,68501.0
+301,Brisbane - East,2021-22,mean,71983.0
+301,Brisbane - East,2022-23,mean,75942.0
+302,Brisbane - North,2018-19,earners,146988.0
+302,Brisbane - North,2019-20,earners,148384.0
+302,Brisbane - North,2020-21,earners,149535.0
+302,Brisbane - North,2021-22,earners,153226.0
+302,Brisbane - North,2022-23,earners,159305.0
+302,Brisbane - North,2018-19,median_age,40.0
+302,Brisbane - North,2019-20,median_age,40.0
+302,Brisbane - North,2020-21,median_age,40.0
+302,Brisbane - North,2021-22,median_age,40.0
+302,Brisbane - North,2022-23,median_age,40.0
+302,Brisbane - North,2018-19,sum,9538913961.0
+302,Brisbane - North,2019-20,sum,9891529668.0
+302,Brisbane - North,2020-21,sum,10435959302.0
+302,Brisbane - North,2021-22,sum,11328858285.0
+302,Brisbane - North,2022-23,sum,12455598366.0
+302,Brisbane - North,2018-19,median,54614.0
+302,Brisbane - North,2019-20,median,55858.0
+302,Brisbane - North,2020-21,median,58542.0
+302,Brisbane - North,2021-22,median,62139.0
+302,Brisbane - North,2022-23,median,65813.0
+302,Brisbane - North,2018-19,mean,64896.0
+302,Brisbane - North,2019-20,mean,66662.0
+302,Brisbane - North,2020-21,mean,69789.0
+302,Brisbane - North,2021-22,mean,73936.0
+302,Brisbane - North,2022-23,mean,78187.0
+303,Brisbane - South,2018-19,earners,245345.0
+303,Brisbane - South,2019-20,earners,247793.0
+303,Brisbane - South,2020-21,earners,247747.0
+303,Brisbane - South,2021-22,earners,255305.0
+303,Brisbane - South,2022-23,earners,270956.0
+303,Brisbane - South,2018-19,median_age,38.0
+303,Brisbane - South,2019-20,median_age,38.0
+303,Brisbane - South,2020-21,median_age,39.0
+303,Brisbane - South,2021-22,median_age,39.0
+303,Brisbane - South,2022-23,median_age,39.0
+303,Brisbane - South,2018-19,sum,15181550181.0
+303,Brisbane - South,2019-20,sum,15793737256.0
+303,Brisbane - South,2020-21,sum,16811138601.0
+303,Brisbane - South,2021-22,sum,18297913608.0
+303,Brisbane - South,2022-23,sum,20120126683.0
+303,Brisbane - South,2018-19,median,48779.0
+303,Brisbane - South,2019-20,median,49993.0
+303,Brisbane - South,2020-21,median,53491.0
+303,Brisbane - South,2021-22,median,56683.0
+303,Brisbane - South,2022-23,median,59038.0
+303,Brisbane - South,2018-19,mean,61878.0
+303,Brisbane - South,2019-20,mean,63738.0
+303,Brisbane - South,2020-21,mean,67856.0
+303,Brisbane - South,2021-22,mean,71671.0
+303,Brisbane - South,2022-23,mean,74256.0
+304,Brisbane - West,2018-19,earners,124543.0
+304,Brisbane - West,2019-20,earners,125335.0
+304,Brisbane - West,2020-21,earners,125533.0
+304,Brisbane - West,2021-22,earners,128653.0
+304,Brisbane - West,2022-23,earners,133514.0
+304,Brisbane - West,2018-19,median_age,43.0
+304,Brisbane - West,2019-20,median_age,43.0
+304,Brisbane - West,2020-21,median_age,43.0
+304,Brisbane - West,2021-22,median_age,43.0
+304,Brisbane - West,2022-23,median_age,43.0
+304,Brisbane - West,2018-19,sum,9691479108.0
+304,Brisbane - West,2019-20,sum,9980357691.0
+304,Brisbane - West,2020-21,sum,10449284159.0
+304,Brisbane - West,2021-22,sum,11348819049.0
+304,Brisbane - West,2022-23,sum,12113728120.0
+304,Brisbane - West,2018-19,median,56169.0
+304,Brisbane - West,2019-20,median,58118.0
+304,Brisbane - West,2020-21,median,60949.0
+304,Brisbane - West,2021-22,median,64085.0
+304,Brisbane - West,2022-23,median,66885.0
+304,Brisbane - West,2018-19,mean,77816.0
+304,Brisbane - West,2019-20,mean,79629.0
+304,Brisbane - West,2020-21,mean,83239.0
+304,Brisbane - West,2021-22,mean,88213.0
+304,Brisbane - West,2022-23,mean,90730.0
+305,Brisbane Inner City,2018-19,earners,214801.0
+305,Brisbane Inner City,2019-20,earners,218241.0
+305,Brisbane Inner City,2020-21,earners,214674.0
+305,Brisbane Inner City,2021-22,earners,222589.0
+305,Brisbane Inner City,2022-23,earners,239644.0
+305,Brisbane Inner City,2018-19,median_age,36.0
+305,Brisbane Inner City,2019-20,median_age,36.0
+305,Brisbane Inner City,2020-21,median_age,37.0
+305,Brisbane Inner City,2021-22,median_age,37.0
+305,Brisbane Inner City,2022-23,median_age,36.0
+305,Brisbane Inner City,2018-19,sum,17643060149.0
+305,Brisbane Inner City,2019-20,sum,18405307953.0
+305,Brisbane Inner City,2020-21,sum,19508680749.0
+305,Brisbane Inner City,2021-22,sum,21520570405.0
+305,Brisbane Inner City,2022-23,sum,23337573069.0
+305,Brisbane Inner City,2018-19,median,55929.0
+305,Brisbane Inner City,2019-20,median,57591.0
+305,Brisbane Inner City,2020-21,median,62656.0
+305,Brisbane Inner City,2021-22,median,66000.0
+305,Brisbane Inner City,2022-23,median,66638.0
+305,Brisbane Inner City,2018-19,mean,82137.0
+305,Brisbane Inner City,2019-20,mean,84335.0
+305,Brisbane Inner City,2020-21,mean,90876.0
+305,Brisbane Inner City,2021-22,mean,96683.0
+305,Brisbane Inner City,2022-23,mean,97384.0
+306,Cairns,2018-19,earners,163093.0
+306,Cairns,2019-20,earners,162411.0
+306,Cairns,2020-21,earners,162962.0
+306,Cairns,2021-22,earners,168232.0
+306,Cairns,2022-23,earners,177365.0
+306,Cairns,2018-19,median_age,42.0
+306,Cairns,2019-20,median_age,43.0
+306,Cairns,2020-21,median_age,43.0
+306,Cairns,2021-22,median_age,43.0
+306,Cairns,2022-23,median_age,42.0
+306,Cairns,2018-19,sum,8544252664.0
+306,Cairns,2019-20,sum,8708118488.0
+306,Cairns,2020-21,sum,9228642217.0
+306,Cairns,2021-22,sum,9911106654.0
+306,Cairns,2022-23,sum,10831204068.0
+306,Cairns,2018-19,median,43089.0
+306,Cairns,2019-20,median,44121.0
+306,Cairns,2020-21,median,47092.0
+306,Cairns,2021-22,median,49187.0
+306,Cairns,2022-23,median,50814.0
+306,Cairns,2018-19,mean,52389.0
+306,Cairns,2019-20,mean,53618.0
+306,Cairns,2020-21,mean,56631.0
+306,Cairns,2021-22,mean,58913.0
+306,Cairns,2022-23,mean,61067.0
+307,Darling Downs - Maranoa,2018-19,earners,77936.0
+307,Darling Downs - Maranoa,2019-20,earners,76928.0
+307,Darling Downs - Maranoa,2020-21,earners,77614.0
+307,Darling Downs - Maranoa,2021-22,earners,80091.0
+307,Darling Downs - Maranoa,2022-23,earners,83964.0
+307,Darling Downs - Maranoa,2018-19,median_age,44.0
+307,Darling Downs - Maranoa,2019-20,median_age,44.0
+307,Darling Downs - Maranoa,2020-21,median_age,44.0
+307,Darling Downs - Maranoa,2021-22,median_age,44.0
+307,Darling Downs - Maranoa,2022-23,median_age,43.0
+307,Darling Downs - Maranoa,2018-19,sum,3624190085.0
+307,Darling Downs - Maranoa,2019-20,sum,3514600335.0
+307,Darling Downs - Maranoa,2020-21,sum,3823070848.0
+307,Darling Downs - Maranoa,2021-22,sum,4480823860.0
+307,Darling Downs - Maranoa,2022-23,sum,4839187613.0
+307,Darling Downs - Maranoa,2018-19,median,39872.0
+307,Darling Downs - Maranoa,2019-20,median,39971.0
+307,Darling Downs - Maranoa,2020-21,median,43438.0
+307,Darling Downs - Maranoa,2021-22,median,46810.0
+307,Darling Downs - Maranoa,2022-23,median,48276.0
+307,Darling Downs - Maranoa,2018-19,mean,46502.0
+307,Darling Downs - Maranoa,2019-20,mean,45687.0
+307,Darling Downs - Maranoa,2020-21,mean,49257.0
+307,Darling Downs - Maranoa,2021-22,mean,55947.0
+307,Darling Downs - Maranoa,2022-23,mean,57634.0
+308,Central Queensland,2018-19,earners,133229.0
+308,Central Queensland,2019-20,earners,135626.0
+308,Central Queensland,2020-21,earners,138264.0
+308,Central Queensland,2021-22,earners,143242.0
+308,Central Queensland,2022-23,earners,148920.0
+308,Central Queensland,2018-19,median_age,42.0
+308,Central Queensland,2019-20,median_age,42.0
+308,Central Queensland,2020-21,median_age,42.0
+308,Central Queensland,2021-22,median_age,41.0
+308,Central Queensland,2022-23,median_age,41.0
+308,Central Queensland,2018-19,sum,8587919554.0
+308,Central Queensland,2019-20,sum,8957207175.0
+308,Central Queensland,2020-21,sum,9425896303.0
+308,Central Queensland,2021-22,sum,10262263854.0
+308,Central Queensland,2022-23,sum,11058978796.0
+308,Central Queensland,2018-19,median,52011.0
+308,Central Queensland,2019-20,median,53617.0
+308,Central Queensland,2020-21,median,55815.0
+308,Central Queensland,2021-22,median,58155.0
+308,Central Queensland,2022-23,median,60577.0
+308,Central Queensland,2018-19,mean,64460.0
+308,Central Queensland,2019-20,mean,66043.0
+308,Central Queensland,2020-21,mean,68173.0
+308,Central Queensland,2021-22,mean,71643.0
+308,Central Queensland,2022-23,mean,74261.0
+309,Gold Coast,2018-19,earners,404083.0
+309,Gold Coast,2019-20,earners,411660.0
+309,Gold Coast,2020-21,earners,419098.0
+309,Gold Coast,2021-22,earners,437837.0
+309,Gold Coast,2022-23,earners,462547.0
+309,Gold Coast,2018-19,median_age,41.0
+309,Gold Coast,2019-20,median_age,42.0
+309,Gold Coast,2020-21,median_age,42.0
+309,Gold Coast,2021-22,median_age,41.0
+309,Gold Coast,2022-23,median_age,41.0
+309,Gold Coast,2018-19,sum,22938323404.0
+309,Gold Coast,2019-20,sum,23794390082.0
+309,Gold Coast,2020-21,sum,25927211515.0
+309,Gold Coast,2021-22,sum,29872881956.0
+309,Gold Coast,2022-23,sum,31829205632.0
+309,Gold Coast,2018-19,median,44570.0
+309,Gold Coast,2019-20,median,44983.0
+309,Gold Coast,2020-21,median,48011.0
+309,Gold Coast,2021-22,median,50843.0
+309,Gold Coast,2022-23,median,53751.0
+309,Gold Coast,2018-19,mean,56766.0
+309,Gold Coast,2019-20,mean,57801.0
+309,Gold Coast,2020-21,mean,61864.0
+309,Gold Coast,2021-22,mean,68228.0
+309,Gold Coast,2022-23,mean,68813.0
+310,Ipswich,2018-19,earners,199023.0
+310,Ipswich,2019-20,earners,203060.0
+310,Ipswich,2020-21,earners,209393.0
+310,Ipswich,2021-22,earners,221880.0
+310,Ipswich,2022-23,earners,235491.0
+310,Ipswich,2018-19,median_age,39.0
+310,Ipswich,2019-20,median_age,39.0
+310,Ipswich,2020-21,median_age,39.0
+310,Ipswich,2021-22,median_age,39.0
+310,Ipswich,2022-23,median_age,39.0
+310,Ipswich,2018-19,sum,10784015133.0
+310,Ipswich,2019-20,sum,11277923841.0
+310,Ipswich,2020-21,sum,12002041189.0
+310,Ipswich,2021-22,sum,13367478996.0
+310,Ipswich,2022-23,sum,14992244353.0
+310,Ipswich,2018-19,median,49095.0
+310,Ipswich,2019-20,median,50298.0
+310,Ipswich,2020-21,median,51644.0
+310,Ipswich,2021-22,median,54095.0
+310,Ipswich,2022-23,median,57302.0
+310,Ipswich,2018-19,mean,54185.0
+310,Ipswich,2019-20,mean,55540.0
+310,Ipswich,2020-21,mean,57318.0
+310,Ipswich,2021-22,mean,60246.0
+310,Ipswich,2022-23,mean,63664.0
+311,Logan - Beaudesert,2018-19,earners,195726.0
+311,Logan - Beaudesert,2019-20,earners,198662.0
+311,Logan - Beaudesert,2020-21,earners,205199.0
+311,Logan - Beaudesert,2021-22,earners,218701.0
+311,Logan - Beaudesert,2022-23,earners,233490.0
+311,Logan - Beaudesert,2018-19,median_age,40.0
+311,Logan - Beaudesert,2019-20,median_age,40.0
+311,Logan - Beaudesert,2020-21,median_age,39.0
+311,Logan - Beaudesert,2021-22,median_age,39.0
+311,Logan - Beaudesert,2022-23,median_age,39.0
+311,Logan - Beaudesert,2018-19,sum,10356377374.0
+311,Logan - Beaudesert,2019-20,sum,10693021897.0
+311,Logan - Beaudesert,2020-21,sum,11414944459.0
+311,Logan - Beaudesert,2021-22,sum,12725492450.0
+311,Logan - Beaudesert,2022-23,sum,14361728053.0
+311,Logan - Beaudesert,2018-19,median,47953.0
+311,Logan - Beaudesert,2019-20,median,48698.0
+311,Logan - Beaudesert,2020-21,median,50140.0
+311,Logan - Beaudesert,2021-22,median,52194.0
+311,Logan - Beaudesert,2022-23,median,55312.0
+311,Logan - Beaudesert,2018-19,mean,52913.0
+311,Logan - Beaudesert,2019-20,mean,53825.0
+311,Logan - Beaudesert,2020-21,mean,55629.0
+311,Logan - Beaudesert,2021-22,mean,58187.0
+311,Logan - Beaudesert,2022-23,mean,61509.0
+312,Mackay - Isaac - Whitsunday,2018-19,earners,113405.0
+312,Mackay - Isaac - Whitsunday,2019-20,earners,115977.0
+312,Mackay - Isaac - Whitsunday,2020-21,earners,117768.0
+312,Mackay - Isaac - Whitsunday,2021-22,earners,121720.0
+312,Mackay - Isaac - Whitsunday,2022-23,earners,127409.0
+312,Mackay - Isaac - Whitsunday,2018-19,median_age,41.0
+312,Mackay - Isaac - Whitsunday,2019-20,median_age,41.0
+312,Mackay - Isaac - Whitsunday,2020-21,median_age,41.0
+312,Mackay - Isaac - Whitsunday,2021-22,median_age,41.0
+312,Mackay - Isaac - Whitsunday,2022-23,median_age,41.0
+312,Mackay - Isaac - Whitsunday,2018-19,sum,7623019781.0
+312,Mackay - Isaac - Whitsunday,2019-20,sum,7988146330.0
+312,Mackay - Isaac - Whitsunday,2020-21,sum,8383185528.0
+312,Mackay - Isaac - Whitsunday,2021-22,sum,9154247762.0
+312,Mackay - Isaac - Whitsunday,2022-23,sum,9833514459.0
+312,Mackay - Isaac - Whitsunday,2018-19,median,53547.0
+312,Mackay - Isaac - Whitsunday,2019-20,median,54741.0
+312,Mackay - Isaac - Whitsunday,2020-21,median,57739.0
+312,Mackay - Isaac - Whitsunday,2021-22,median,60193.0
+312,Mackay - Isaac - Whitsunday,2022-23,median,62476.0
+312,Mackay - Isaac - Whitsunday,2018-19,mean,67219.0
+312,Mackay - Isaac - Whitsunday,2019-20,mean,68877.0
+312,Mackay - Isaac - Whitsunday,2020-21,mean,71184.0
+312,Mackay - Isaac - Whitsunday,2021-22,mean,75207.0
+312,Mackay - Isaac - Whitsunday,2022-23,mean,77181.0
+313,Moreton Bay - North,2018-19,earners,144467.0
+313,Moreton Bay - North,2019-20,earners,147100.0
+313,Moreton Bay - North,2020-21,earners,150916.0
+313,Moreton Bay - North,2021-22,earners,159231.0
+313,Moreton Bay - North,2022-23,earners,168388.0
+313,Moreton Bay - North,2018-19,median_age,43.0
+313,Moreton Bay - North,2019-20,median_age,43.0
+313,Moreton Bay - North,2020-21,median_age,43.0
+313,Moreton Bay - North,2021-22,median_age,43.0
+313,Moreton Bay - North,2022-23,median_age,42.0
+313,Moreton Bay - North,2018-19,sum,7484003462.0
+313,Moreton Bay - North,2019-20,sum,7799882731.0
+313,Moreton Bay - North,2020-21,sum,8391998327.0
+313,Moreton Bay - North,2021-22,sum,9315159205.0
+313,Moreton Bay - North,2022-23,sum,10388334243.0
+313,Moreton Bay - North,2018-19,median,44664.0
+313,Moreton Bay - North,2019-20,median,45725.0
+313,Moreton Bay - North,2020-21,median,48065.0
+313,Moreton Bay - North,2021-22,median,49994.0
+313,Moreton Bay - North,2022-23,median,52979.0
+313,Moreton Bay - North,2018-19,mean,51804.0
+313,Moreton Bay - North,2019-20,mean,53024.0
+313,Moreton Bay - North,2020-21,mean,55607.0
+313,Moreton Bay - North,2021-22,mean,58501.0
+313,Moreton Bay - North,2022-23,mean,61693.0
+314,Moreton Bay - South,2018-19,earners,134479.0
+314,Moreton Bay - South,2019-20,earners,136162.0
+314,Moreton Bay - South,2020-21,earners,138684.0
+314,Moreton Bay - South,2021-22,earners,143852.0
+314,Moreton Bay - South,2022-23,earners,149912.0
+314,Moreton Bay - South,2018-19,median_age,41.0
+314,Moreton Bay - South,2019-20,median_age,41.0
+314,Moreton Bay - South,2020-21,median_age,41.0
+314,Moreton Bay - South,2021-22,median_age,41.0
+314,Moreton Bay - South,2022-23,median_age,41.0
+314,Moreton Bay - South,2018-19,sum,8385346961.0
+314,Moreton Bay - South,2019-20,sum,8666745400.0
+314,Moreton Bay - South,2020-21,sum,9172775774.0
+314,Moreton Bay - South,2021-22,sum,9956951245.0
+314,Moreton Bay - South,2022-23,sum,10925921160.0
+314,Moreton Bay - South,2018-19,median,53002.0
+314,Moreton Bay - South,2019-20,median,54085.0
+314,Moreton Bay - South,2020-21,median,56129.0
+314,Moreton Bay - South,2021-22,median,59021.0
+314,Moreton Bay - South,2022-23,median,62371.0
+314,Moreton Bay - South,2018-19,mean,62354.0
+314,Moreton Bay - South,2019-20,mean,63650.0
+314,Moreton Bay - South,2020-21,mean,66142.0
+314,Moreton Bay - South,2021-22,mean,69217.0
+314,Moreton Bay - South,2022-23,mean,72882.0
+315,Queensland - Outback,2018-19,earners,46188.0
+315,Queensland - Outback,2019-20,earners,46137.0
+315,Queensland - Outback,2020-21,earners,46371.0
+315,Queensland - Outback,2021-22,earners,47075.0
+315,Queensland - Outback,2022-23,earners,48341.0
+315,Queensland - Outback,2018-19,median_age,40.0
+315,Queensland - Outback,2019-20,median_age,40.0
+315,Queensland - Outback,2020-21,median_age,40.0
+315,Queensland - Outback,2021-22,median_age,40.0
+315,Queensland - Outback,2022-23,median_age,39.0
+315,Queensland - Outback,2018-19,sum,2678007922.0
+315,Queensland - Outback,2019-20,sum,2894402164.0
+315,Queensland - Outback,2020-21,sum,2994985759.0
+315,Queensland - Outback,2021-22,sum,3178924154.0
+315,Queensland - Outback,2022-23,sum,3258670377.0
+315,Queensland - Outback,2018-19,median,48152.0
+315,Queensland - Outback,2019-20,median,51525.0
+315,Queensland - Outback,2020-21,median,53952.0
+315,Queensland - Outback,2021-22,median,56558.0
+315,Queensland - Outback,2022-23,median,57041.0
+315,Queensland - Outback,2018-19,mean,57981.0
+315,Queensland - Outback,2019-20,mean,62735.0
+315,Queensland - Outback,2020-21,mean,64587.0
+315,Queensland - Outback,2021-22,mean,67529.0
+315,Queensland - Outback,2022-23,mean,67410.0
+316,Sunshine Coast,2018-19,earners,245021.0
+316,Sunshine Coast,2019-20,earners,251629.0
+316,Sunshine Coast,2020-21,earners,259891.0
+316,Sunshine Coast,2021-22,earners,270981.0
+316,Sunshine Coast,2022-23,earners,283056.0
+316,Sunshine Coast,2018-19,median_age,45.0
+316,Sunshine Coast,2019-20,median_age,45.0
+316,Sunshine Coast,2020-21,median_age,45.0
+316,Sunshine Coast,2021-22,median_age,45.0
+316,Sunshine Coast,2022-23,median_age,44.0
+316,Sunshine Coast,2018-19,sum,13532073229.0
+316,Sunshine Coast,2019-20,sum,14202910357.0
+316,Sunshine Coast,2020-21,sum,15701885306.0
+316,Sunshine Coast,2021-22,sum,17292981618.0
+316,Sunshine Coast,2022-23,sum,19070389827.0
+316,Sunshine Coast,2018-19,median,42653.0
+316,Sunshine Coast,2019-20,median,43484.0
+316,Sunshine Coast,2020-21,median,46560.0
+316,Sunshine Coast,2021-22,median,48779.0
+316,Sunshine Coast,2022-23,median,51606.0
+316,Sunshine Coast,2018-19,mean,55228.0
+316,Sunshine Coast,2019-20,mean,56444.0
+316,Sunshine Coast,2020-21,mean,60417.0
+316,Sunshine Coast,2021-22,mean,63816.0
+316,Sunshine Coast,2022-23,mean,67373.0
+317,Toowoomba,2018-19,earners,97803.0
+317,Toowoomba,2019-20,earners,97917.0
+317,Toowoomba,2020-21,earners,99117.0
+317,Toowoomba,2021-22,earners,102918.0
+317,Toowoomba,2022-23,earners,107424.0
+317,Toowoomba,2018-19,median_age,41.0
+317,Toowoomba,2019-20,median_age,41.0
+317,Toowoomba,2020-21,median_age,41.0
+317,Toowoomba,2021-22,median_age,41.0
+317,Toowoomba,2022-23,median_age,40.0
+317,Toowoomba,2018-19,sum,5497634134.0
+317,Toowoomba,2019-20,sum,5587022276.0
+317,Toowoomba,2020-21,sum,5981342154.0
+317,Toowoomba,2021-22,sum,6482617131.0
+317,Toowoomba,2022-23,sum,7148050294.0
+317,Toowoomba,2018-19,median,47090.0
+317,Toowoomba,2019-20,median,48259.0
+317,Toowoomba,2020-21,median,51263.0
+317,Toowoomba,2021-22,median,53261.0
+317,Toowoomba,2022-23,median,55771.0
+317,Toowoomba,2018-19,mean,56211.0
+317,Toowoomba,2019-20,mean,57059.0
+317,Toowoomba,2020-21,mean,60346.0
+317,Toowoomba,2021-22,mean,62988.0
+317,Toowoomba,2022-23,mean,66541.0
+318,Townsville,2018-19,earners,143767.0
+318,Townsville,2019-20,earners,144857.0
+318,Townsville,2020-21,earners,146391.0
+318,Townsville,2021-22,earners,150476.0
+318,Townsville,2022-23,earners,155448.0
+318,Townsville,2018-19,median_age,41.0
+318,Townsville,2019-20,median_age,41.0
+318,Townsville,2020-21,median_age,41.0
+318,Townsville,2021-22,median_age,41.0
+318,Townsville,2022-23,median_age,41.0
+318,Townsville,2018-19,sum,8642087591.0
+318,Townsville,2019-20,sum,8950085151.0
+318,Townsville,2020-21,sum,9398111644.0
+318,Townsville,2021-22,sum,10120262233.0
+318,Townsville,2022-23,sum,10857658844.0
+318,Townsville,2018-19,median,51832.0
+318,Townsville,2019-20,median,53277.0
+318,Townsville,2020-21,median,55642.0
+318,Townsville,2021-22,median,58031.0
+318,Townsville,2022-23,median,60723.0
+318,Townsville,2018-19,mean,60112.0
+318,Townsville,2019-20,mean,61786.0
+318,Townsville,2020-21,mean,64199.0
+318,Townsville,2021-22,mean,67255.0
+318,Townsville,2022-23,mean,69848.0
+319,Wide Bay,2018-19,earners,159781.0
+319,Wide Bay,2019-20,earners,160750.0
+319,Wide Bay,2020-21,earners,165082.0
+319,Wide Bay,2021-22,earners,172950.0
+319,Wide Bay,2022-23,earners,181756.0
+319,Wide Bay,2018-19,median_age,46.0
+319,Wide Bay,2019-20,median_age,46.0
+319,Wide Bay,2020-21,median_age,46.0
+319,Wide Bay,2021-22,median_age,46.0
+319,Wide Bay,2022-23,median_age,46.0
+319,Wide Bay,2018-19,sum,7343912552.0
+319,Wide Bay,2019-20,sum,7592290828.0
+319,Wide Bay,2020-21,sum,8263117731.0
+319,Wide Bay,2021-22,sum,9028066625.0
+319,Wide Bay,2022-23,sum,9836729707.0
+319,Wide Bay,2018-19,median,37203.0
+319,Wide Bay,2019-20,median,38495.0
+319,Wide Bay,2020-21,median,41408.0
+319,Wide Bay,2021-22,median,43207.0
+319,Wide Bay,2022-23,median,44729.0
+319,Wide Bay,2018-19,mean,45962.0
+319,Wide Bay,2019-20,mean,47230.0
+319,Wide Bay,2020-21,mean,50055.0
+319,Wide Bay,2021-22,mean,52200.0
+319,Wide Bay,2022-23,mean,54121.0
+401,Adelaide - Central and Hills,2018-19,earners,201830.0
+401,Adelaide - Central and Hills,2019-20,earners,205359.0
+401,Adelaide - Central and Hills,2020-21,earners,207993.0
+401,Adelaide - Central and Hills,2021-22,earners,215883.0
+401,Adelaide - Central and Hills,2022-23,earners,225228.0
+401,Adelaide - Central and Hills,2018-19,median_age,45.0
+401,Adelaide - Central and Hills,2019-20,median_age,44.0
+401,Adelaide - Central and Hills,2020-21,median_age,44.0
+401,Adelaide - Central and Hills,2021-22,median_age,44.0
+401,Adelaide - Central and Hills,2022-23,median_age,43.0
+401,Adelaide - Central and Hills,2018-19,sum,14537068919.0
+401,Adelaide - Central and Hills,2019-20,sum,14921774855.0
+401,Adelaide - Central and Hills,2020-21,sum,15913478330.0
+401,Adelaide - Central and Hills,2021-22,sum,17352848395.0
+401,Adelaide - Central and Hills,2022-23,sum,18435699698.0
+401,Adelaide - Central and Hills,2018-19,median,51874.0
+401,Adelaide - Central and Hills,2019-20,median,52169.0
+401,Adelaide - Central and Hills,2020-21,median,54998.0
+401,Adelaide - Central and Hills,2021-22,median,57789.0
+401,Adelaide - Central and Hills,2022-23,median,59773.0
+401,Adelaide - Central and Hills,2018-19,mean,72026.0
+401,Adelaide - Central and Hills,2019-20,mean,72662.0
+401,Adelaide - Central and Hills,2020-21,mean,76510.0
+401,Adelaide - Central and Hills,2021-22,mean,80381.0
+401,Adelaide - Central and Hills,2022-23,mean,81853.0
+402,Adelaide - North,2018-19,earners,249941.0
+402,Adelaide - North,2019-20,earners,253449.0
+402,Adelaide - North,2020-21,earners,259388.0
+402,Adelaide - North,2021-22,earners,272260.0
+402,Adelaide - North,2022-23,earners,284991.0
+402,Adelaide - North,2018-19,median_age,40.0
+402,Adelaide - North,2019-20,median_age,40.0
+402,Adelaide - North,2020-21,median_age,40.0
+402,Adelaide - North,2021-22,median_age,39.0
+402,Adelaide - North,2022-23,median_age,39.0
+402,Adelaide - North,2018-19,sum,12985366288.0
+402,Adelaide - North,2019-20,sum,13489084185.0
+402,Adelaide - North,2020-21,sum,14316924886.0
+402,Adelaide - North,2021-22,sum,15697185606.0
+402,Adelaide - North,2022-23,sum,17155408312.0
+402,Adelaide - North,2018-19,median,47522.0
+402,Adelaide - North,2019-20,median,48447.0
+402,Adelaide - North,2020-21,median,50255.0
+402,Adelaide - North,2021-22,median,52300.0
+402,Adelaide - North,2022-23,median,54960.0
+402,Adelaide - North,2018-19,mean,51954.0
+402,Adelaide - North,2019-20,mean,53222.0
+402,Adelaide - North,2020-21,mean,55195.0
+402,Adelaide - North,2021-22,mean,57655.0
+402,Adelaide - North,2022-23,mean,60196.0
+403,Adelaide - South,2018-19,earners,229675.0
+403,Adelaide - South,2019-20,earners,231623.0
+403,Adelaide - South,2020-21,earners,234410.0
+403,Adelaide - South,2021-22,earners,241380.0
+403,Adelaide - South,2022-23,earners,247624.0
+403,Adelaide - South,2018-19,median_age,44.0
+403,Adelaide - South,2019-20,median_age,44.0
+403,Adelaide - South,2020-21,median_age,44.0
+403,Adelaide - South,2021-22,median_age,43.0
+403,Adelaide - South,2022-23,median_age,43.0
+403,Adelaide - South,2018-19,sum,13438728317.0
+403,Adelaide - South,2019-20,sum,13898945761.0
+403,Adelaide - South,2020-21,sum,14761826846.0
+403,Adelaide - South,2021-22,sum,15948978495.0
+403,Adelaide - South,2022-23,sum,17062133802.0
+403,Adelaide - South,2018-19,median,49462.0
+403,Adelaide - South,2019-20,median,50400.0
+403,Adelaide - South,2020-21,median,52827.0
+403,Adelaide - South,2021-22,median,55167.0
+403,Adelaide - South,2022-23,median,57933.0
+403,Adelaide - South,2018-19,mean,58512.0
+403,Adelaide - South,2019-20,mean,60007.0
+403,Adelaide - South,2020-21,mean,62974.0
+403,Adelaide - South,2021-22,mean,66074.0
+403,Adelaide - South,2022-23,mean,68903.0
+404,Adelaide - West,2018-19,earners,148861.0
+404,Adelaide - West,2019-20,earners,151590.0
+404,Adelaide - West,2020-21,earners,154055.0
+404,Adelaide - West,2021-22,earners,159494.0
+404,Adelaide - West,2022-23,earners,165834.0
+404,Adelaide - West,2018-19,median_age,41.0
+404,Adelaide - West,2019-20,median_age,41.0
+404,Adelaide - West,2020-21,median_age,41.0
+404,Adelaide - West,2021-22,median_age,41.0
+404,Adelaide - West,2022-23,median_age,40.0
+404,Adelaide - West,2018-19,sum,8478381154.0
+404,Adelaide - West,2019-20,sum,8566299769.0
+404,Adelaide - West,2020-21,sum,9596444131.0
+404,Adelaide - West,2021-22,sum,10519229317.0
+404,Adelaide - West,2022-23,sum,11381920482.0
+404,Adelaide - West,2018-19,median,49398.0
+404,Adelaide - West,2019-20,median,50160.0
+404,Adelaide - West,2020-21,median,53211.0
+404,Adelaide - West,2021-22,median,56127.0
+404,Adelaide - West,2022-23,median,58859.0
+404,Adelaide - West,2018-19,mean,56955.0
+404,Adelaide - West,2019-20,mean,56510.0
+404,Adelaide - West,2020-21,mean,62292.0
+404,Adelaide - West,2021-22,mean,65954.0
+404,Adelaide - West,2022-23,mean,68634.0
+405,Barossa - Yorke - Mid North,2018-19,earners,63708.0
+405,Barossa - Yorke - Mid North,2019-20,earners,63927.0
+405,Barossa - Yorke - Mid North,2020-21,earners,65257.0
+405,Barossa - Yorke - Mid North,2021-22,earners,67326.0
+405,Barossa - Yorke - Mid North,2022-23,earners,69582.0
+405,Barossa - Yorke - Mid North,2018-19,median_age,47.0
+405,Barossa - Yorke - Mid North,2019-20,median_age,48.0
+405,Barossa - Yorke - Mid North,2020-21,median_age,48.0
+405,Barossa - Yorke - Mid North,2021-22,median_age,47.0
+405,Barossa - Yorke - Mid North,2022-23,median_age,47.0
+405,Barossa - Yorke - Mid North,2018-19,sum,3227904409.0
+405,Barossa - Yorke - Mid North,2019-20,sum,3236402077.0
+405,Barossa - Yorke - Mid North,2020-21,sum,3489958706.0
+405,Barossa - Yorke - Mid North,2021-22,sum,3947105685.0
+405,Barossa - Yorke - Mid North,2022-23,sum,4342439895.0
+405,Barossa - Yorke - Mid North,2018-19,median,42600.0
+405,Barossa - Yorke - Mid North,2019-20,median,43115.0
+405,Barossa - Yorke - Mid North,2020-21,median,46019.0
+405,Barossa - Yorke - Mid North,2021-22,median,48764.0
+405,Barossa - Yorke - Mid North,2022-23,median,50740.0
+405,Barossa - Yorke - Mid North,2018-19,mean,50667.0
+405,Barossa - Yorke - Mid North,2019-20,mean,50627.0
+405,Barossa - Yorke - Mid North,2020-21,mean,53480.0
+405,Barossa - Yorke - Mid North,2021-22,mean,58627.0
+405,Barossa - Yorke - Mid North,2022-23,mean,62408.0
+406,South Australia - Outback,2018-19,earners,46704.0
+406,South Australia - Outback,2019-20,earners,46515.0
+406,South Australia - Outback,2020-21,earners,47167.0
+406,South Australia - Outback,2021-22,earners,48266.0
+406,South Australia - Outback,2022-23,earners,49507.0
+406,South Australia - Outback,2018-19,median_age,44.0
+406,South Australia - Outback,2019-20,median_age,44.0
+406,South Australia - Outback,2020-21,median_age,44.0
+406,South Australia - Outback,2021-22,median_age,43.0
+406,South Australia - Outback,2022-23,median_age,43.0
+406,South Australia - Outback,2018-19,sum,2723202137.0
+406,South Australia - Outback,2019-20,sum,2692743066.0
+406,South Australia - Outback,2020-21,sum,2786734713.0
+406,South Australia - Outback,2021-22,sum,3080360121.0
+406,South Australia - Outback,2022-23,sum,3373585745.0
+406,South Australia - Outback,2018-19,median,48559.0
+406,South Australia - Outback,2019-20,median,48399.0
+406,South Australia - Outback,2020-21,median,50188.0
+406,South Australia - Outback,2021-22,median,52922.0
+406,South Australia - Outback,2022-23,median,55708.0
+406,South Australia - Outback,2018-19,mean,58308.0
+406,South Australia - Outback,2019-20,mean,57890.0
+406,South Australia - Outback,2020-21,mean,59082.0
+406,South Australia - Outback,2021-22,mean,63820.0
+406,South Australia - Outback,2022-23,mean,68144.0
+407,South Australia - South East,2018-19,earners,112588.0
+407,South Australia - South East,2019-20,earners,113214.0
+407,South Australia - South East,2020-21,earners,114990.0
+407,South Australia - South East,2021-22,earners,118353.0
+407,South Australia - South East,2022-23,earners,121919.0
+407,South Australia - South East,2018-19,median_age,47.0
+407,South Australia - South East,2019-20,median_age,47.0
+407,South Australia - South East,2020-21,median_age,47.0
+407,South Australia - South East,2021-22,median_age,47.0
+407,South Australia - South East,2022-23,median_age,46.0
+407,South Australia - South East,2018-19,sum,5462957051.0
+407,South Australia - South East,2019-20,sum,5610492475.0
+407,South Australia - South East,2020-21,sum,5888971894.0
+407,South Australia - South East,2021-22,sum,6395676185.0
+407,South Australia - South East,2022-23,sum,6723670193.0
+407,South Australia - South East,2018-19,median,40906.0
+407,South Australia - South East,2019-20,median,41529.0
+407,South Australia - South East,2020-21,median,44067.0
+407,South Australia - South East,2021-22,median,45628.0
+407,South Australia - South East,2022-23,median,46988.0
+407,South Australia - South East,2018-19,mean,48522.0
+407,South Australia - South East,2019-20,mean,49557.0
+407,South Australia - South East,2020-21,mean,51213.0
+407,South Australia - South East,2021-22,mean,54039.0
+407,South Australia - South East,2022-23,mean,55149.0
+501,Bunbury,2018-19,earners,117157.0
+501,Bunbury,2019-20,earners,118927.0
+501,Bunbury,2020-21,earners,121706.0
+501,Bunbury,2021-22,earners,127966.0
+501,Bunbury,2022-23,earners,133120.0
+501,Bunbury,2018-19,median_age,44.0
+501,Bunbury,2019-20,median_age,45.0
+501,Bunbury,2020-21,median_age,45.0
+501,Bunbury,2021-22,median_age,45.0
+501,Bunbury,2022-23,median_age,44.0
+501,Bunbury,2018-19,sum,6758802057.0
+501,Bunbury,2019-20,sum,7096010455.0
+501,Bunbury,2020-21,sum,7743370601.0
+501,Bunbury,2021-22,sum,8537017322.0
+501,Bunbury,2022-23,sum,9301233274.0
+501,Bunbury,2018-19,median,44271.0
+501,Bunbury,2019-20,median,45327.0
+501,Bunbury,2020-21,median,49703.0
+501,Bunbury,2021-22,median,51687.0
+501,Bunbury,2022-23,median,54043.0
+501,Bunbury,2018-19,mean,57690.0
+501,Bunbury,2019-20,mean,59667.0
+501,Bunbury,2020-21,mean,63624.0
+501,Bunbury,2021-22,mean,66713.0
+501,Bunbury,2022-23,mean,69871.0
+502,Mandurah,2018-19,earners,59313.0
+502,Mandurah,2019-20,earners,60083.0
+502,Mandurah,2020-21,earners,62527.0
+502,Mandurah,2021-22,earners,66482.0
+502,Mandurah,2022-23,earners,69697.0
+502,Mandurah,2018-19,median_age,45.0
+502,Mandurah,2019-20,median_age,46.0
+502,Mandurah,2020-21,median_age,45.0
+502,Mandurah,2021-22,median_age,45.0
+502,Mandurah,2022-23,median_age,45.0
+502,Mandurah,2018-19,sum,3676551171.0
+502,Mandurah,2019-20,sum,3929532155.0
+502,Mandurah,2020-21,sum,4240056738.0
+502,Mandurah,2021-22,sum,4715040432.0
+502,Mandurah,2022-23,sum,5184919705.0
+502,Mandurah,2018-19,median,46554.0
+502,Mandurah,2019-20,median,47725.0
+502,Mandurah,2020-21,median,50501.0
+502,Mandurah,2021-22,median,52417.0
+502,Mandurah,2022-23,median,55994.0
+502,Mandurah,2018-19,mean,61986.0
+502,Mandurah,2019-20,mean,65402.0
+502,Mandurah,2020-21,mean,67812.0
+502,Mandurah,2021-22,mean,70922.0
+502,Mandurah,2022-23,mean,74392.0
+503,Perth - Inner,2018-19,earners,131249.0
+503,Perth - Inner,2019-20,earners,133432.0
+503,Perth - Inner,2020-21,earners,132562.0
+503,Perth - Inner,2021-22,earners,138369.0
+503,Perth - Inner,2022-23,earners,148183.0
+503,Perth - Inner,2018-19,median_age,41.0
+503,Perth - Inner,2019-20,median_age,41.0
+503,Perth - Inner,2020-21,median_age,41.0
+503,Perth - Inner,2021-22,median_age,41.0
+503,Perth - Inner,2022-23,median_age,40.0
+503,Perth - Inner,2018-19,sum,13930872892.0
+503,Perth - Inner,2019-20,sum,15130165794.0
+503,Perth - Inner,2020-21,sum,15377589791.0
+503,Perth - Inner,2021-22,sum,17028813092.0
+503,Perth - Inner,2022-23,sum,19716082676.0
+503,Perth - Inner,2018-19,median,58917.0
+503,Perth - Inner,2019-20,median,59713.0
+503,Perth - Inner,2020-21,median,65959.0
+503,Perth - Inner,2021-22,median,69194.0
+503,Perth - Inner,2022-23,median,69221.0
+503,Perth - Inner,2018-19,mean,106141.0
+503,Perth - Inner,2019-20,mean,113392.0
+503,Perth - Inner,2020-21,mean,116003.0
+503,Perth - Inner,2021-22,mean,123068.0
+503,Perth - Inner,2022-23,mean,133052.0
+504,Perth - North East,2018-19,earners,168224.0
+504,Perth - North East,2019-20,earners,171429.0
+504,Perth - North East,2020-21,earners,176301.0
+504,Perth - North East,2021-22,earners,185968.0
+504,Perth - North East,2022-23,earners,196257.0
+504,Perth - North East,2018-19,median_age,41.0
+504,Perth - North East,2019-20,median_age,41.0
+504,Perth - North East,2020-21,median_age,41.0
+504,Perth - North East,2021-22,median_age,41.0
+504,Perth - North East,2022-23,median_age,40.0
+504,Perth - North East,2018-19,sum,10551863258.0
+504,Perth - North East,2019-20,sum,11068523324.0
+504,Perth - North East,2020-21,sum,12029308831.0
+504,Perth - North East,2021-22,sum,13369397160.0
+504,Perth - North East,2022-23,sum,14784382338.0
+504,Perth - North East,2018-19,median,52529.0
+504,Perth - North East,2019-20,median,54138.0
+504,Perth - North East,2020-21,median,57280.0
+504,Perth - North East,2021-22,median,60046.0
+504,Perth - North East,2022-23,median,63063.0
+504,Perth - North East,2018-19,mean,62725.0
+504,Perth - North East,2019-20,mean,64566.0
+504,Perth - North East,2020-21,mean,68232.0
+504,Perth - North East,2021-22,mean,71891.0
+504,Perth - North East,2022-23,mean,75332.0
+505,Perth - North West,2018-19,earners,366730.0
+505,Perth - North West,2019-20,earners,371781.0
+505,Perth - North West,2020-21,earners,378781.0
+505,Perth - North West,2021-22,earners,394467.0
+505,Perth - North West,2022-23,earners,411930.0
+505,Perth - North West,2018-19,median_age,41.0
+505,Perth - North West,2019-20,median_age,41.0
+505,Perth - North West,2020-21,median_age,41.0
+505,Perth - North West,2021-22,median_age,41.0
+505,Perth - North West,2022-23,median_age,41.0
+505,Perth - North West,2018-19,sum,24376130397.0
+505,Perth - North West,2019-20,sum,25318171496.0
+505,Perth - North West,2020-21,sum,27440097795.0
+505,Perth - North West,2021-22,sum,30169406949.0
+505,Perth - North West,2022-23,sum,32996489268.0
+505,Perth - North West,2018-19,median,52389.0
+505,Perth - North West,2019-20,median,53674.0
+505,Perth - North West,2020-21,median,57392.0
+505,Perth - North West,2021-22,median,60482.0
+505,Perth - North West,2022-23,median,63451.0
+505,Perth - North West,2018-19,mean,66469.0
+505,Perth - North West,2019-20,mean,68100.0
+505,Perth - North West,2020-21,mean,72443.0
+505,Perth - North West,2021-22,mean,76481.0
+505,Perth - North West,2022-23,mean,80102.0
+506,Perth - South East,2018-19,earners,324315.0
+506,Perth - South East,2019-20,earners,329088.0
+506,Perth - South East,2020-21,earners,337392.0
+506,Perth - South East,2021-22,earners,354972.0
+506,Perth - South East,2022-23,earners,376813.0
+506,Perth - South East,2018-19,median_age,40.0
+506,Perth - South East,2019-20,median_age,40.0
+506,Perth - South East,2020-21,median_age,40.0
+506,Perth - South East,2021-22,median_age,40.0
+506,Perth - South East,2022-23,median_age,39.0
+506,Perth - South East,2018-19,sum,20273059802.0
+506,Perth - South East,2019-20,sum,21078643209.0
+506,Perth - South East,2020-21,sum,22928782055.0
+506,Perth - South East,2021-22,sum,25485119522.0
+506,Perth - South East,2022-23,sum,28164600158.0
+506,Perth - South East,2018-19,median,50830.0
+506,Perth - South East,2019-20,median,51835.0
+506,Perth - South East,2020-21,median,55000.0
+506,Perth - South East,2021-22,median,58166.0
+506,Perth - South East,2022-23,median,60936.0
+506,Perth - South East,2018-19,mean,62510.0
+506,Perth - South East,2019-20,mean,64052.0
+506,Perth - South East,2020-21,mean,67959.0
+506,Perth - South East,2021-22,mean,71795.0
+506,Perth - South East,2022-23,mean,74744.0
+507,Perth - South West,2018-19,earners,273836.0
+507,Perth - South West,2019-20,earners,278769.0
+507,Perth - South West,2020-21,earners,286316.0
+507,Perth - South West,2021-22,earners,300888.0
+507,Perth - South West,2022-23,earners,314821.0
+507,Perth - South West,2018-19,median_age,42.0
+507,Perth - South West,2019-20,median_age,42.0
+507,Perth - South West,2020-21,median_age,42.0
+507,Perth - South West,2021-22,median_age,42.0
+507,Perth - South West,2022-23,median_age,41.0
+507,Perth - South West,2018-19,sum,19094179376.0
+507,Perth - South West,2019-20,sum,19826414571.0
+507,Perth - South West,2020-21,sum,21519579452.0
+507,Perth - South West,2021-22,sum,23800422970.0
+507,Perth - South West,2022-23,sum,26075452585.0
+507,Perth - South West,2018-19,median,54225.0
+507,Perth - South West,2019-20,median,55584.0
+507,Perth - South West,2020-21,median,58782.0
+507,Perth - South West,2021-22,median,61836.0
+507,Perth - South West,2022-23,median,65119.0
+507,Perth - South West,2018-19,mean,69729.0
+507,Perth - South West,2019-20,mean,71121.0
+507,Perth - South West,2020-21,mean,75160.0
+507,Perth - South West,2021-22,mean,79101.0
+507,Perth - South West,2022-23,mean,82826.0
+509,Western Australia - Wheat Belt,2018-19,earners,86324.0
+509,Western Australia - Wheat Belt,2019-20,earners,87261.0
+509,Western Australia - Wheat Belt,2020-21,earners,87928.0
+509,Western Australia - Wheat Belt,2021-22,earners,91558.0
+509,Western Australia - Wheat Belt,2022-23,earners,94068.0
+509,Western Australia - Wheat Belt,2018-19,median_age,47.0
+509,Western Australia - Wheat Belt,2019-20,median_age,47.0
+509,Western Australia - Wheat Belt,2020-21,median_age,47.0
+509,Western Australia - Wheat Belt,2021-22,median_age,47.0
+509,Western Australia - Wheat Belt,2022-23,median_age,46.0
+509,Western Australia - Wheat Belt,2018-19,sum,5148662289.0
+509,Western Australia - Wheat Belt,2019-20,sum,4835415507.0
+509,Western Australia - Wheat Belt,2020-21,sum,5003999290.0
+509,Western Australia - Wheat Belt,2021-22,sum,5867079257.0
+509,Western Australia - Wheat Belt,2022-23,sum,6430773379.0
+509,Western Australia - Wheat Belt,2018-19,median,45582.0
+509,Western Australia - Wheat Belt,2019-20,median,43823.0
+509,Western Australia - Wheat Belt,2020-21,median,46616.0
+509,Western Australia - Wheat Belt,2021-22,median,50353.0
+509,Western Australia - Wheat Belt,2022-23,median,53119.0
+509,Western Australia - Wheat Belt,2018-19,mean,59643.0
+509,Western Australia - Wheat Belt,2019-20,mean,55413.0
+509,Western Australia - Wheat Belt,2020-21,mean,56910.0
+509,Western Australia - Wheat Belt,2021-22,mean,64080.0
+509,Western Australia - Wheat Belt,2022-23,mean,68363.0
+510,Western Australia - Outback (North),2018-19,earners,51835.0
+510,Western Australia - Outback (North),2019-20,earners,52577.0
+510,Western Australia - Outback (North),2020-21,earners,52444.0
+510,Western Australia - Outback (North),2021-22,earners,54473.0
+510,Western Australia - Outback (North),2022-23,earners,55292.0
+510,Western Australia - Outback (North),2018-19,median_age,37.0
+510,Western Australia - Outback (North),2019-20,median_age,38.0
+510,Western Australia - Outback (North),2020-21,median_age,38.0
+510,Western Australia - Outback (North),2021-22,median_age,38.0
+510,Western Australia - Outback (North),2022-23,median_age,38.0
+510,Western Australia - Outback (North),2018-19,sum,3958388929.0
+510,Western Australia - Outback (North),2019-20,sum,4185149231.0
+510,Western Australia - Outback (North),2020-21,sum,4407685875.0
+510,Western Australia - Outback (North),2021-22,sum,4680233924.0
+510,Western Australia - Outback (North),2022-23,sum,4984110111.0
+510,Western Australia - Outback (North),2018-19,median,63312.0
+510,Western Australia - Outback (North),2019-20,median,66511.0
+510,Western Australia - Outback (North),2020-21,median,71599.0
+510,Western Australia - Outback (North),2021-22,median,72649.0
+510,Western Australia - Outback (North),2022-23,median,76808.0
+510,Western Australia - Outback (North),2018-19,mean,76365.0
+510,Western Australia - Outback (North),2019-20,mean,79600.0
+510,Western Australia - Outback (North),2020-21,mean,84046.0
+510,Western Australia - Outback (North),2021-22,mean,85918.0
+510,Western Australia - Outback (North),2022-23,mean,90142.0
+511,Western Australia - Outback (South),2018-19,earners,72276.0
+511,Western Australia - Outback (South),2019-20,earners,72416.0
+511,Western Australia - Outback (South),2020-21,earners,73097.0
+511,Western Australia - Outback (South),2021-22,earners,76315.0
+511,Western Australia - Outback (South),2022-23,earners,78737.0
+511,Western Australia - Outback (South),2018-19,median_age,43.0
+511,Western Australia - Outback (South),2019-20,median_age,43.0
+511,Western Australia - Outback (South),2020-21,median_age,43.0
+511,Western Australia - Outback (South),2021-22,median_age,43.0
+511,Western Australia - Outback (South),2022-23,median_age,42.0
+511,Western Australia - Outback (South),2018-19,sum,4837481796.0
+511,Western Australia - Outback (South),2019-20,sum,4706387180.0
+511,Western Australia - Outback (South),2020-21,sum,5014336697.0
+511,Western Australia - Outback (South),2021-22,sum,5649276279.0
+511,Western Australia - Outback (South),2022-23,sum,6146663507.0
+511,Western Australia - Outback (South),2018-19,median,53175.0
+511,Western Australia - Outback (South),2019-20,median,52853.0
+511,Western Australia - Outback (South),2020-21,median,56671.0
+511,Western Australia - Outback (South),2021-22,median,59816.0
+511,Western Australia - Outback (South),2022-23,median,62710.0
+511,Western Australia - Outback (South),2018-19,mean,66931.0
+511,Western Australia - Outback (South),2019-20,mean,64991.0
+511,Western Australia - Outback (South),2020-21,mean,68598.0
+511,Western Australia - Outback (South),2021-22,mean,74026.0
+511,Western Australia - Outback (South),2022-23,mean,78066.0
+601,Hobart,2018-19,earners,148169.0
+601,Hobart,2019-20,earners,151836.0
+601,Hobart,2020-21,earners,155218.0
+601,Hobart,2021-22,earners,159960.0
+601,Hobart,2022-23,earners,163341.0
+601,Hobart,2018-19,median_age,42.0
+601,Hobart,2019-20,median_age,42.0
+601,Hobart,2020-21,median_age,41.0
+601,Hobart,2021-22,median_age,41.0
+601,Hobart,2022-23,median_age,41.0
+601,Hobart,2018-19,sum,8372424502.0
+601,Hobart,2019-20,sum,8728669552.0
+601,Hobart,2020-21,sum,9395429311.0
+601,Hobart,2021-22,sum,10344525471.0
+601,Hobart,2022-23,sum,10962261853.0
+601,Hobart,2018-19,median,47535.0
+601,Hobart,2019-20,median,47830.0
+601,Hobart,2020-21,median,50313.0
+601,Hobart,2021-22,median,53324.0
+601,Hobart,2022-23,median,56852.0
+601,Hobart,2018-19,mean,56506.0
+601,Hobart,2019-20,mean,57487.0
+601,Hobart,2020-21,mean,60531.0
+601,Hobart,2021-22,mean,64669.0
+601,Hobart,2022-23,mean,67113.0
+602,Launceston and North East,2018-19,earners,85746.0
+602,Launceston and North East,2019-20,earners,87128.0
+602,Launceston and North East,2020-21,earners,89520.0
+602,Launceston and North East,2021-22,earners,93218.0
+602,Launceston and North East,2022-23,earners,95975.0
+602,Launceston and North East,2018-19,median_age,45.0
+602,Launceston and North East,2019-20,median_age,44.0
+602,Launceston and North East,2020-21,median_age,44.0
+602,Launceston and North East,2021-22,median_age,43.0
+602,Launceston and North East,2022-23,median_age,43.0
+602,Launceston and North East,2018-19,sum,4442528301.0
+602,Launceston and North East,2019-20,sum,4633264233.0
+602,Launceston and North East,2020-21,sum,4999956166.0
+602,Launceston and North East,2021-22,sum,5523145590.0
+602,Launceston and North East,2022-23,sum,5887680650.0
+602,Launceston and North East,2018-19,median,43488.0
+602,Launceston and North East,2019-20,median,44631.0
+602,Launceston and North East,2020-21,median,46917.0
+602,Launceston and North East,2021-22,median,49247.0
+602,Launceston and North East,2022-23,median,51598.0
+602,Launceston and North East,2018-19,mean,51810.0
+602,Launceston and North East,2019-20,mean,53178.0
+602,Launceston and North East,2020-21,mean,55853.0
+602,Launceston and North East,2021-22,mean,59250.0
+602,Launceston and North East,2022-23,mean,61346.0
+603,South East,2018-19,earners,23466.0
+603,South East,2019-20,earners,24020.0
+603,South East,2020-21,earners,24310.0
+603,South East,2021-22,earners,25061.0
+603,South East,2022-23,earners,25900.0
+603,South East,2018-19,median_age,47.0
+603,South East,2019-20,median_age,47.0
+603,South East,2020-21,median_age,48.0
+603,South East,2021-22,median_age,47.0
+603,South East,2022-23,median_age,47.0
+603,South East,2018-19,sum,1207479227.0
+603,South East,2019-20,sum,1173645681.0
+603,South East,2020-21,sum,1222920461.0
+603,South East,2021-22,sum,1313870228.0
+603,South East,2022-23,sum,1391100061.0
+603,South East,2018-19,median,40046.0
+603,South East,2019-20,median,40076.0
+603,South East,2020-21,median,42823.0
+603,South East,2021-22,median,44634.0
+603,South East,2022-23,median,45743.0
+603,South East,2018-19,mean,51457.0
+603,South East,2019-20,mean,48861.0
+603,South East,2020-21,mean,50305.0
+603,South East,2021-22,mean,52427.0
+603,South East,2022-23,mean,53710.0
+604,West and North West,2018-19,earners,65306.0
+604,West and North West,2019-20,earners,65849.0
+604,West and North West,2020-21,earners,67357.0
+604,West and North West,2021-22,earners,69342.0
+604,West and North West,2022-23,earners,71612.0
+604,West and North West,2018-19,median_age,45.0
+604,West and North West,2019-20,median_age,45.0
+604,West and North West,2020-21,median_age,44.0
+604,West and North West,2021-22,median_age,44.0
+604,West and North West,2022-23,median_age,43.0
+604,West and North West,2018-19,sum,3328092304.0
+604,West and North West,2019-20,sum,3467514772.0
+604,West and North West,2020-21,sum,3701755621.0
+604,West and North West,2021-22,sum,3962820248.0
+604,West and North West,2022-23,sum,4251185899.0
+604,West and North West,2018-19,median,43369.0
+604,West and North West,2019-20,median,44903.0
+604,West and North West,2020-21,median,47010.0
+604,West and North West,2021-22,median,48888.0
+604,West and North West,2022-23,median,50851.0
+604,West and North West,2018-19,mean,50962.0
+604,West and North West,2019-20,mean,52659.0
+604,West and North West,2020-21,mean,54957.0
+604,West and North West,2021-22,mean,57149.0
+604,West and North West,2022-23,mean,59364.0
+701,Darwin,2018-19,earners,99088.0
+701,Darwin,2019-20,earners,98380.0
+701,Darwin,2020-21,earners,99053.0
+701,Darwin,2021-22,earners,101539.0
+701,Darwin,2022-23,earners,104448.0
+701,Darwin,2018-19,median_age,38.0
+701,Darwin,2019-20,median_age,38.0
+701,Darwin,2020-21,median_age,38.0
+701,Darwin,2021-22,median_age,38.0
+701,Darwin,2022-23,median_age,38.0
+701,Darwin,2018-19,sum,7006501261.0
+701,Darwin,2019-20,sum,6978748280.0
+701,Darwin,2020-21,sum,7367677144.0
+701,Darwin,2021-22,sum,7893177339.0
+701,Darwin,2022-23,sum,8380347388.0
+701,Darwin,2018-19,median,61336.0
+701,Darwin,2019-20,median,61555.0
+701,Darwin,2020-21,median,65736.0
+701,Darwin,2021-22,median,69156.0
+701,Darwin,2022-23,median,70961.0
+701,Darwin,2018-19,mean,70710.0
+701,Darwin,2019-20,mean,70937.0
+701,Darwin,2020-21,mean,74381.0
+701,Darwin,2021-22,mean,77735.0
+701,Darwin,2022-23,mean,80235.0
+702,Northern Territory - Outback,2018-19,earners,43408.0
+702,Northern Territory - Outback,2019-20,earners,43211.0
+702,Northern Territory - Outback,2020-21,earners,41979.0
+702,Northern Territory - Outback,2021-22,earners,42916.0
+702,Northern Territory - Outback,2022-23,earners,44740.0
+702,Northern Territory - Outback,2018-19,median_age,38.0
+702,Northern Territory - Outback,2019-20,median_age,38.0
+702,Northern Territory - Outback,2020-21,median_age,39.0
+702,Northern Territory - Outback,2021-22,median_age,38.0
+702,Northern Territory - Outback,2022-23,median_age,38.0
+702,Northern Territory - Outback,2018-19,sum,2490687247.0
+702,Northern Territory - Outback,2019-20,sum,2565170898.0
+702,Northern Territory - Outback,2020-21,sum,2637508579.0
+702,Northern Territory - Outback,2021-22,sum,2797417513.0
+702,Northern Territory - Outback,2022-23,sum,3029458924.0
+702,Northern Territory - Outback,2018-19,median,49203.0
+702,Northern Territory - Outback,2019-20,median,50980.0
+702,Northern Territory - Outback,2020-21,median,54830.0
+702,Northern Territory - Outback,2021-22,median,56499.0
+702,Northern Territory - Outback,2022-23,median,56199.0
+702,Northern Territory - Outback,2018-19,mean,57379.0
+702,Northern Territory - Outback,2019-20,mean,59364.0
+702,Northern Territory - Outback,2020-21,mean,62829.0
+702,Northern Territory - Outback,2021-22,mean,65184.0
+702,Northern Territory - Outback,2022-23,mean,67713.0
+801,Australian Capital Territory,2018-19,earners,299414.0
+801,Australian Capital Territory,2019-20,earners,306420.0
+801,Australian Capital Territory,2020-21,earners,311609.0
+801,Australian Capital Territory,2021-22,earners,321847.0
+801,Australian Capital Territory,2022-23,earners,331793.0
+801,Australian Capital Territory,2018-19,median_age,40.0
+801,Australian Capital Territory,2019-20,median_age,40.0
+801,Australian Capital Territory,2020-21,median_age,40.0
+801,Australian Capital Territory,2021-22,median_age,40.0
+801,Australian Capital Territory,2022-23,median_age,40.0
+801,Australian Capital Territory,2018-19,sum,22563227334.0
+801,Australian Capital Territory,2019-20,sum,23829308342.0
+801,Australian Capital Territory,2020-21,sum,25341215458.0
+801,Australian Capital Territory,2021-22,sum,27215474183.0
+801,Australian Capital Territory,2022-23,sum,29184238644.0
+801,Australian Capital Territory,2018-19,median,64939.0
+801,Australian Capital Territory,2019-20,median,66706.0
+801,Australian Capital Territory,2020-21,median,69747.0
+801,Australian Capital Territory,2021-22,median,72122.0
+801,Australian Capital Territory,2022-23,median,75643.0
+801,Australian Capital Territory,2018-19,mean,75358.0
+801,Australian Capital Territory,2019-20,mean,77767.0
+801,Australian Capital Territory,2020-21,mean,81324.0
+801,Australian Capital Territory,2021-22,mean,84560.0
+801,Australian Capital Territory,2022-23,mean,87959.0

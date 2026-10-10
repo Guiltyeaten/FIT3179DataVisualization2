@@ -1,0 +1,256 @@
+code,name,year,metric,value
+1GSYD,Greater Sydney,2022-23,earners,3571305.0
+1GSYD,Greater Sydney,2022-23,median_age,40.0
+1GSYD,Greater Sydney,2022-23,sum,303373048727.0
+1GSYD,Greater Sydney,2022-23,median,62180.0
+1GSYD,Greater Sydney,2022-23,mean,84947.0
+1GSYD,Greater Sydney,2022-23,p80_p20,6.15
+1GSYD,Greater Sydney,2022-23,p80_p50,1.95
+1GSYD,Greater Sydney,2022-23,p20_p50,0.32
+1GSYD,Greater Sydney,2022-23,p10_p50,0.11
+1GSYD,Greater Sydney,2022-23,gini,0.521
+1GSYD,Greater Sydney,2022-23,top_1pct_share,12.1
+1GSYD,Greater Sydney,2022-23,top_5pct_share,25.8
+1GSYD,Greater Sydney,2022-23,top_10pct_share,36.9
+1GSYD,Greater Sydney,2022-23,lowest_quartile,24.0
+1GSYD,Greater Sydney,2022-23,second_quartile,23.2
+1GSYD,Greater Sydney,2022-23,third_quartile,24.2
+1GSYD,Greater Sydney,2022-23,highest_quartile,28.6
+1RNSW,Rest of NSW,2022-23,earners,1789983.0
+1RNSW,Rest of NSW,2022-23,median_age,43.0
+1RNSW,Rest of NSW,2022-23,sum,116953193849.0
+1RNSW,Rest of NSW,2022-23,median,53274.0
+1RNSW,Rest of NSW,2022-23,mean,65338.0
+1RNSW,Rest of NSW,2022-23,p80_p20,6.58
+1RNSW,Rest of NSW,2022-23,p80_p50,1.9
+1RNSW,Rest of NSW,2022-23,p20_p50,0.29
+1RNSW,Rest of NSW,2022-23,p10_p50,0.09
+1RNSW,Rest of NSW,2022-23,gini,0.494
+1RNSW,Rest of NSW,2022-23,top_1pct_share,8.1
+1RNSW,Rest of NSW,2022-23,top_5pct_share,20.6
+1RNSW,Rest of NSW,2022-23,top_10pct_share,31.9
+1RNSW,Rest of NSW,2022-23,lowest_quartile,27.3
+1RNSW,Rest of NSW,2022-23,second_quartile,26.7
+1RNSW,Rest of NSW,2022-23,third_quartile,25.0
+1RNSW,Rest of NSW,2022-23,highest_quartile,21.0
+2GMEL,Greater Melbourne,2022-23,earners,3405817.0
+2GMEL,Greater Melbourne,2022-23,median_age,40.0
+2GMEL,Greater Melbourne,2022-23,sum,264615737998.0
+2GMEL,Greater Melbourne,2022-23,median,59784.0
+2GMEL,Greater Melbourne,2022-23,mean,77695.0
+2GMEL,Greater Melbourne,2022-23,p80_p20,5.82
+2GMEL,Greater Melbourne,2022-23,p80_p50,1.91
+2GMEL,Greater Melbourne,2022-23,p20_p50,0.33
+2GMEL,Greater Melbourne,2022-23,p10_p50,0.12
+2GMEL,Greater Melbourne,2022-23,gini,0.496
+2GMEL,Greater Melbourne,2022-23,top_1pct_share,10.2
+2GMEL,Greater Melbourne,2022-23,top_5pct_share,23.2
+2GMEL,Greater Melbourne,2022-23,top_10pct_share,34.3
+2GMEL,Greater Melbourne,2022-23,lowest_quartile,24.1
+2GMEL,Greater Melbourne,2022-23,second_quartile,24.7
+2GMEL,Greater Melbourne,2022-23,third_quartile,25.2
+2GMEL,Greater Melbourne,2022-23,highest_quartile,26.0
+2RVIC,Rest of Vic.,2022-23,earners,1013363.0
+2RVIC,Rest of Vic.,2022-23,median_age,44.0
+2RVIC,Rest of Vic.,2022-23,sum,64472953539.0
+2RVIC,Rest of Vic.,2022-23,median,52409.0
+2RVIC,Rest of Vic.,2022-23,mean,63623.0
+2RVIC,Rest of Vic.,2022-23,p80_p20,6.23
+2RVIC,Rest of Vic.,2022-23,p80_p50,1.87
+2RVIC,Rest of Vic.,2022-23,p20_p50,0.3
+2RVIC,Rest of Vic.,2022-23,p10_p50,0.1
+2RVIC,Rest of Vic.,2022-23,gini,0.484
+2RVIC,Rest of Vic.,2022-23,top_1pct_share,7.7
+2RVIC,Rest of Vic.,2022-23,top_5pct_share,20.2
+2RVIC,Rest of Vic.,2022-23,top_10pct_share,31.5
+2RVIC,Rest of Vic.,2022-23,lowest_quartile,27.3
+2RVIC,Rest of Vic.,2022-23,second_quartile,27.6
+2RVIC,Rest of Vic.,2022-23,third_quartile,25.6
+2RVIC,Rest of Vic.,2022-23,highest_quartile,19.5
+3GBRI,Greater Brisbane,2022-23,earners,1753729.0
+3GBRI,Greater Brisbane,2022-23,median_age,40.0
+3GBRI,Greater Brisbane,2022-23,sum,131070054002.0
+3GBRI,Greater Brisbane,2022-23,median,59968.0
+3GBRI,Greater Brisbane,2022-23,mean,74738.0
+3GBRI,Greater Brisbane,2022-23,p80_p20,5.64
+3GBRI,Greater Brisbane,2022-23,p80_p50,1.86
+3GBRI,Greater Brisbane,2022-23,p20_p50,0.33
+3GBRI,Greater Brisbane,2022-23,p10_p50,0.11
+3GBRI,Greater Brisbane,2022-23,gini,0.477
+3GBRI,Greater Brisbane,2022-23,top_1pct_share,8.7
+3GBRI,Greater Brisbane,2022-23,top_5pct_share,21.3
+3GBRI,Greater Brisbane,2022-23,top_10pct_share,32.4
+3GBRI,Greater Brisbane,2022-23,lowest_quartile,23.7
+3GBRI,Greater Brisbane,2022-23,second_quartile,24.9
+3GBRI,Greater Brisbane,2022-23,third_quartile,26.3
+3GBRI,Greater Brisbane,2022-23,highest_quartile,25.1
+3RQLD,Rest of Qld,2022-23,earners,1776222.0
+3RQLD,Rest of Qld,2022-23,median_age,42.0
+3RQLD,Rest of Qld,2022-23,sum,118571430700.0
+3RQLD,Rest of Qld,2022-23,median,53677.0
+3RQLD,Rest of Qld,2022-23,mean,66755.0
+3RQLD,Rest of Qld,2022-23,p80_p20,6.27
+3RQLD,Rest of Qld,2022-23,p80_p50,1.93
+3RQLD,Rest of Qld,2022-23,p20_p50,0.31
+3RQLD,Rest of Qld,2022-23,p10_p50,0.1
+3RQLD,Rest of Qld,2022-23,gini,0.488
+3RQLD,Rest of Qld,2022-23,top_1pct_share,8.0
+3RQLD,Rest of Qld,2022-23,top_5pct_share,20.4
+3RQLD,Rest of Qld,2022-23,top_10pct_share,31.9
+3RQLD,Rest of Qld,2022-23,lowest_quartile,26.6
+3RQLD,Rest of Qld,2022-23,second_quartile,27.2
+3RQLD,Rest of Qld,2022-23,third_quartile,24.6
+3RQLD,Rest of Qld,2022-23,highest_quartile,21.7
+4GADE,Greater Adelaide,2022-23,earners,923672.0
+4GADE,Greater Adelaide,2022-23,median_age,41.0
+4GADE,Greater Adelaide,2022-23,sum,64035150554.0
+4GADE,Greater Adelaide,2022-23,median,57401.0
+4GADE,Greater Adelaide,2022-23,mean,69327.0
+4GADE,Greater Adelaide,2022-23,p80_p20,5.22
+4GADE,Greater Adelaide,2022-23,p80_p50,1.78
+4GADE,Greater Adelaide,2022-23,p20_p50,0.34
+4GADE,Greater Adelaide,2022-23,p10_p50,0.12
+4GADE,Greater Adelaide,2022-23,gini,0.463
+4GADE,Greater Adelaide,2022-23,top_1pct_share,8.3
+4GADE,Greater Adelaide,2022-23,top_5pct_share,20.6
+4GADE,Greater Adelaide,2022-23,top_10pct_share,31.4
+4GADE,Greater Adelaide,2022-23,lowest_quartile,24.0
+4GADE,Greater Adelaide,2022-23,second_quartile,26.8
+4GADE,Greater Adelaide,2022-23,third_quartile,27.8
+4GADE,Greater Adelaide,2022-23,highest_quartile,21.5
+4RSAU,Rest of SA,2022-23,earners,241009.0
+4RSAU,Rest of SA,2022-23,median_age,46.0
+4RSAU,Rest of SA,2022-23,sum,14439955983.0
+4RSAU,Rest of SA,2022-23,median,49688.0
+4RSAU,Rest of SA,2022-23,mean,59915.0
+4RSAU,Rest of SA,2022-23,p80_p20,6.49
+4RSAU,Rest of SA,2022-23,p80_p50,1.87
+4RSAU,Rest of SA,2022-23,p20_p50,0.29
+4RSAU,Rest of SA,2022-23,p10_p50,0.09
+4RSAU,Rest of SA,2022-23,gini,0.487
+4RSAU,Rest of SA,2022-23,top_1pct_share,7.0
+4RSAU,Rest of SA,2022-23,top_5pct_share,19.8
+4RSAU,Rest of SA,2022-23,top_10pct_share,31.4
+4RSAU,Rest of SA,2022-23,lowest_quartile,28.5
+4RSAU,Rest of SA,2022-23,second_quartile,29.0
+4RSAU,Rest of SA,2022-23,third_quartile,25.1
+4RSAU,Rest of SA,2022-23,highest_quartile,17.4
+5GPER,Greater Perth,2022-23,earners,1517704.0
+5GPER,Greater Perth,2022-23,median_age,40.0
+5GPER,Greater Perth,2022-23,sum,126989772029.0
+5GPER,Greater Perth,2022-23,median,63138.0
+5GPER,Greater Perth,2022-23,mean,83672.0
+5GPER,Greater Perth,2022-23,p80_p20,5.97
+5GPER,Greater Perth,2022-23,p80_p50,1.95
+5GPER,Greater Perth,2022-23,p20_p50,0.33
+5GPER,Greater Perth,2022-23,p10_p50,0.12
+5GPER,Greater Perth,2022-23,gini,0.501
+5GPER,Greater Perth,2022-23,top_1pct_share,11.1
+5GPER,Greater Perth,2022-23,top_5pct_share,23.6
+5GPER,Greater Perth,2022-23,top_10pct_share,34.6
+5GPER,Greater Perth,2022-23,lowest_quartile,23.1
+5GPER,Greater Perth,2022-23,second_quartile,23.5
+5GPER,Greater Perth,2022-23,third_quartile,23.8
+5GPER,Greater Perth,2022-23,highest_quartile,29.6
+5RWAU,Rest of WA,2022-23,earners,361217.0
+5RWAU,Rest of WA,2022-23,median_age,43.0
+5RWAU,Rest of WA,2022-23,sum,26861476104.0
+5RWAU,Rest of WA,2022-23,median,58303.0
+5RWAU,Rest of WA,2022-23,mean,74364.0
+5RWAU,Rest of WA,2022-23,p80_p20,6.98
+5RWAU,Rest of WA,2022-23,p80_p50,2.06
+5RWAU,Rest of WA,2022-23,p20_p50,0.3
+5RWAU,Rest of WA,2022-23,p10_p50,0.1
+5RWAU,Rest of WA,2022-23,gini,0.49
+5RWAU,Rest of WA,2022-23,top_1pct_share,6.8
+5RWAU,Rest of WA,2022-23,top_5pct_share,19.2
+5RWAU,Rest of WA,2022-23,top_10pct_share,31.0
+5RWAU,Rest of WA,2022-23,lowest_quartile,25.7
+5RWAU,Rest of WA,2022-23,second_quartile,24.3
+5RWAU,Rest of WA,2022-23,third_quartile,22.0
+5RWAU,Rest of WA,2022-23,highest_quartile,28.0
+6GHOB,Greater Hobart,2022-23,earners,163341.0
+6GHOB,Greater Hobart,2022-23,median_age,41.0
+6GHOB,Greater Hobart,2022-23,sum,10962261853.0
+6GHOB,Greater Hobart,2022-23,median,56852.0
+6GHOB,Greater Hobart,2022-23,mean,67113.0
+6GHOB,Greater Hobart,2022-23,p80_p20,5.03
+6GHOB,Greater Hobart,2022-23,p80_p50,1.75
+6GHOB,Greater Hobart,2022-23,p20_p50,0.35
+6GHOB,Greater Hobart,2022-23,p10_p50,0.12
+6GHOB,Greater Hobart,2022-23,gini,0.452
+6GHOB,Greater Hobart,2022-23,top_1pct_share,7.7
+6GHOB,Greater Hobart,2022-23,top_5pct_share,19.7
+6GHOB,Greater Hobart,2022-23,top_10pct_share,30.3
+6GHOB,Greater Hobart,2022-23,lowest_quartile,23.7
+6GHOB,Greater Hobart,2022-23,second_quartile,27.6
+6GHOB,Greater Hobart,2022-23,third_quartile,28.5
+6GHOB,Greater Hobart,2022-23,highest_quartile,20.3
+6RTAS,Rest of Tas.,2022-23,earners,193489.0
+6RTAS,Rest of Tas.,2022-23,median_age,44.0
+6RTAS,Rest of Tas.,2022-23,sum,11528097717.0
+6RTAS,Rest of Tas.,2022-23,median,50572.0
+6RTAS,Rest of Tas.,2022-23,mean,59580.0
+6RTAS,Rest of Tas.,2022-23,p80_p20,5.79
+6RTAS,Rest of Tas.,2022-23,p80_p50,1.81
+6RTAS,Rest of Tas.,2022-23,p20_p50,0.31
+6RTAS,Rest of Tas.,2022-23,p10_p50,0.1
+6RTAS,Rest of Tas.,2022-23,gini,0.468
+6RTAS,Rest of Tas.,2022-23,top_1pct_share,7.2
+6RTAS,Rest of Tas.,2022-23,top_5pct_share,19.3
+6RTAS,Rest of Tas.,2022-23,top_10pct_share,30.2
+6RTAS,Rest of Tas.,2022-23,lowest_quartile,27.4
+6RTAS,Rest of Tas.,2022-23,second_quartile,29.5
+6RTAS,Rest of Tas.,2022-23,third_quartile,26.4
+6RTAS,Rest of Tas.,2022-23,highest_quartile,16.7
+7GDAR,Greater Darwin,2022-23,earners,104448.0
+7GDAR,Greater Darwin,2022-23,median_age,38.0
+7GDAR,Greater Darwin,2022-23,sum,8380347388.0
+7GDAR,Greater Darwin,2022-23,median,70961.0
+7GDAR,Greater Darwin,2022-23,mean,80235.0
+7GDAR,Greater Darwin,2022-23,p80_p20,4.31
+7GDAR,Greater Darwin,2022-23,p80_p50,1.68
+7GDAR,Greater Darwin,2022-23,p20_p50,0.39
+7GDAR,Greater Darwin,2022-23,p10_p50,0.15
+7GDAR,Greater Darwin,2022-23,gini,0.417
+7GDAR,Greater Darwin,2022-23,top_1pct_share,6.5
+7GDAR,Greater Darwin,2022-23,top_5pct_share,17.5
+7GDAR,Greater Darwin,2022-23,top_10pct_share,27.6
+7GDAR,Greater Darwin,2022-23,lowest_quartile,18.6
+7GDAR,Greater Darwin,2022-23,second_quartile,21.5
+7GDAR,Greater Darwin,2022-23,third_quartile,29.7
+7GDAR,Greater Darwin,2022-23,highest_quartile,30.2
+7RNTE,Rest of NT,2022-23,earners,44740.0
+7RNTE,Rest of NT,2022-23,median_age,38.0
+7RNTE,Rest of NT,2022-23,sum,3029458924.0
+7RNTE,Rest of NT,2022-23,median,56199.0
+7RNTE,Rest of NT,2022-23,mean,67713.0
+7RNTE,Rest of NT,2022-23,p80_p20,8.03
+7RNTE,Rest of NT,2022-23,p80_p50,1.89
+7RNTE,Rest of NT,2022-23,p20_p50,0.24
+7RNTE,Rest of NT,2022-23,p10_p50,0.08
+7RNTE,Rest of NT,2022-23,gini,0.488
+7RNTE,Rest of NT,2022-23,top_1pct_share,8.3
+7RNTE,Rest of NT,2022-23,top_5pct_share,19.9
+7RNTE,Rest of NT,2022-23,top_10pct_share,31.0
+7RNTE,Rest of NT,2022-23,lowest_quartile,29.1
+7RNTE,Rest of NT,2022-23,second_quartile,22.4
+7RNTE,Rest of NT,2022-23,third_quartile,25.0
+7RNTE,Rest of NT,2022-23,highest_quartile,23.6
+8ACTE,Australian Capital Territory,2022-23,earners,331793.0
+8ACTE,Australian Capital Territory,2022-23,median_age,40.0
+8ACTE,Australian Capital Territory,2022-23,sum,29184238644.0
+8ACTE,Australian Capital Territory,2022-23,median,75643.0
+8ACTE,Australian Capital Territory,2022-23,mean,87959.0
+8ACTE,Australian Capital Territory,2022-23,p80_p20,4.37
+8ACTE,Australian Capital Territory,2022-23,p80_p50,1.68
+8ACTE,Australian Capital Territory,2022-23,p20_p50,0.39
+8ACTE,Australian Capital Territory,2022-23,p10_p50,0.15
+8ACTE,Australian Capital Territory,2022-23,gini,0.433
+8ACTE,Australian Capital Territory,2022-23,top_1pct_share,7.0
+8ACTE,Australian Capital Territory,2022-23,top_5pct_share,18.9
+8ACTE,Australian Capital Territory,2022-23,top_10pct_share,29.4
+8ACTE,Australian Capital Territory,2022-23,lowest_quartile,17.8
+8ACTE,Australian Capital Territory,2022-23,second_quartile,20.1
+8ACTE,Australian Capital Territory,2022-23,third_quartile,27.7
+8ACTE,Australian Capital Territory,2022-23,highest_quartile,34.4

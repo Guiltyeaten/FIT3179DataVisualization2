@@ -1,0 +1,376 @@
+code,name,year,metric,value
+1GSYD,Greater Sydney,2018-19,earners,3362929.0
+1GSYD,Greater Sydney,2019-20,earners,3380217.0
+1GSYD,Greater Sydney,2020-21,earners,3333411.0
+1GSYD,Greater Sydney,2021-22,earners,3409164.0
+1GSYD,Greater Sydney,2022-23,earners,3571305.0
+1GSYD,Greater Sydney,2018-19,median_age,40.0
+1GSYD,Greater Sydney,2019-20,median_age,40.0
+1GSYD,Greater Sydney,2020-21,median_age,40.0
+1GSYD,Greater Sydney,2021-22,median_age,40.0
+1GSYD,Greater Sydney,2022-23,median_age,40.0
+1GSYD,Greater Sydney,2018-19,sum,241582789949.0
+1GSYD,Greater Sydney,2019-20,sum,248194900671.0
+1GSYD,Greater Sydney,2020-21,sum,260331444806.0
+1GSYD,Greater Sydney,2021-22,sum,279595455724.0
+1GSYD,Greater Sydney,2022-23,sum,303373048727.0
+1GSYD,Greater Sydney,2018-19,median,52103.0
+1GSYD,Greater Sydney,2019-20,median,53305.0
+1GSYD,Greater Sydney,2020-21,median,56848.0
+1GSYD,Greater Sydney,2021-22,median,58206.0
+1GSYD,Greater Sydney,2022-23,median,62180.0
+1GSYD,Greater Sydney,2018-19,mean,71837.0
+1GSYD,Greater Sydney,2019-20,mean,73426.0
+1GSYD,Greater Sydney,2020-21,mean,78098.0
+1GSYD,Greater Sydney,2021-22,mean,82013.0
+1GSYD,Greater Sydney,2022-23,mean,84947.0
+1RNSW,Rest of NSW,2018-19,earners,1636484.0
+1RNSW,Rest of NSW,2019-20,earners,1654821.0
+1RNSW,Rest of NSW,2020-21,earners,1684003.0
+1RNSW,Rest of NSW,2021-22,earners,1732437.0
+1RNSW,Rest of NSW,2022-23,earners,1789983.0
+1RNSW,Rest of NSW,2018-19,median_age,44.0
+1RNSW,Rest of NSW,2019-20,median_age,44.0
+1RNSW,Rest of NSW,2020-21,median_age,44.0
+1RNSW,Rest of NSW,2021-22,median_age,44.0
+1RNSW,Rest of NSW,2022-23,median_age,43.0
+1RNSW,Rest of NSW,2018-19,sum,89963164958.0
+1RNSW,Rest of NSW,2019-20,sum,92588037850.0
+1RNSW,Rest of NSW,2020-21,sum,100550173141.0
+1RNSW,Rest of NSW,2021-22,sum,108641462130.0
+1RNSW,Rest of NSW,2022-23,sum,116953193849.0
+1RNSW,Rest of NSW,2018-19,median,44851.0
+1RNSW,Rest of NSW,2019-20,median,45776.0
+1RNSW,Rest of NSW,2020-21,median,48931.0
+1RNSW,Rest of NSW,2021-22,median,50184.0
+1RNSW,Rest of NSW,2022-23,median,53274.0
+1RNSW,Rest of NSW,2018-19,mean,54973.0
+1RNSW,Rest of NSW,2019-20,mean,55950.0
+1RNSW,Rest of NSW,2020-21,mean,59709.0
+1RNSW,Rest of NSW,2021-22,mean,62710.0
+1RNSW,Rest of NSW,2022-23,mean,65338.0
+2GMEL,Greater Melbourne,2018-19,earners,3134224.0
+2GMEL,Greater Melbourne,2019-20,earners,3172999.0
+2GMEL,Greater Melbourne,2020-21,earners,3143065.0
+2GMEL,Greater Melbourne,2021-22,earners,3242708.0
+2GMEL,Greater Melbourne,2022-23,earners,3405817.0
+2GMEL,Greater Melbourne,2018-19,median_age,39.0
+2GMEL,Greater Melbourne,2019-20,median_age,39.0
+2GMEL,Greater Melbourne,2020-21,median_age,40.0
+2GMEL,Greater Melbourne,2021-22,median_age,40.0
+2GMEL,Greater Melbourne,2022-23,median_age,40.0
+2GMEL,Greater Melbourne,2018-19,sum,205818873044.0
+2GMEL,Greater Melbourne,2019-20,sum,212937479252.0
+2GMEL,Greater Melbourne,2020-21,sum,222433485643.0
+2GMEL,Greater Melbourne,2021-22,sum,243464343057.0
+2GMEL,Greater Melbourne,2022-23,sum,264615737998.0
+2GMEL,Greater Melbourne,2018-19,median,50227.0
+2GMEL,Greater Melbourne,2019-20,median,51224.0
+2GMEL,Greater Melbourne,2020-21,median,53725.0
+2GMEL,Greater Melbourne,2021-22,median,56399.0
+2GMEL,Greater Melbourne,2022-23,median,59784.0
+2GMEL,Greater Melbourne,2018-19,mean,65668.0
+2GMEL,Greater Melbourne,2019-20,mean,67109.0
+2GMEL,Greater Melbourne,2020-21,mean,70770.0
+2GMEL,Greater Melbourne,2021-22,mean,75081.0
+2GMEL,Greater Melbourne,2022-23,mean,77695.0
+2RVIC,Rest of Vic.,2018-19,earners,920401.0
+2RVIC,Rest of Vic.,2019-20,earners,935835.0
+2RVIC,Rest of Vic.,2020-21,earners,952373.0
+2RVIC,Rest of Vic.,2021-22,earners,982713.0
+2RVIC,Rest of Vic.,2022-23,earners,1013363.0
+2RVIC,Rest of Vic.,2018-19,median_age,45.0
+2RVIC,Rest of Vic.,2019-20,median_age,44.0
+2RVIC,Rest of Vic.,2020-21,median_age,44.0
+2RVIC,Rest of Vic.,2021-22,median_age,44.0
+2RVIC,Rest of Vic.,2022-23,median_age,44.0
+2RVIC,Rest of Vic.,2018-19,sum,49409725817.0
+2RVIC,Rest of Vic.,2019-20,sum,51535819413.0
+2RVIC,Rest of Vic.,2020-21,sum,55242295538.0
+2RVIC,Rest of Vic.,2021-22,sum,60134133980.0
+2RVIC,Rest of Vic.,2022-23,sum,64472953539.0
+2RVIC,Rest of Vic.,2018-19,median,44363.0
+2RVIC,Rest of Vic.,2019-20,median,45609.0
+2RVIC,Rest of Vic.,2020-21,median,47958.0
+2RVIC,Rest of Vic.,2021-22,median,49976.0
+2RVIC,Rest of Vic.,2022-23,median,52409.0
+2RVIC,Rest of Vic.,2018-19,mean,53683.0
+2RVIC,Rest of Vic.,2019-20,mean,55069.0
+2RVIC,Rest of Vic.,2020-21,mean,58005.0
+2RVIC,Rest of Vic.,2021-22,mean,61192.0
+2RVIC,Rest of Vic.,2022-23,mean,63623.0
+3GBRI,Greater Brisbane,2018-19,earners,1556814.0
+3GBRI,Greater Brisbane,2019-20,earners,1576851.0
+3GBRI,Greater Brisbane,2020-21,earners,1595417.0
+3GBRI,Greater Brisbane,2021-22,earners,1661394.0
+3GBRI,Greater Brisbane,2022-23,earners,1753729.0
+3GBRI,Greater Brisbane,2018-19,median_age,40.0
+3GBRI,Greater Brisbane,2019-20,median_age,40.0
+3GBRI,Greater Brisbane,2020-21,median_age,40.0
+3GBRI,Greater Brisbane,2021-22,median_age,40.0
+3GBRI,Greater Brisbane,2022-23,median_age,40.0
+3GBRI,Greater Brisbane,2018-19,sum,98801484895.0
+3GBRI,Greater Brisbane,2019-20,sum,102480246534.0
+3GBRI,Greater Brisbane,2020-21,sum,108712217272.0
+3GBRI,Greater Brisbane,2021-22,sum,119241665942.0
+3GBRI,Greater Brisbane,2022-23,sum,131070054002.0
+3GBRI,Greater Brisbane,2018-19,median,50797.0
+3GBRI,Greater Brisbane,2019-20,median,51869.0
+3GBRI,Greater Brisbane,2020-21,median,54387.0
+3GBRI,Greater Brisbane,2021-22,median,57106.0
+3GBRI,Greater Brisbane,2022-23,median,59968.0
+3GBRI,Greater Brisbane,2018-19,mean,63464.0
+3GBRI,Greater Brisbane,2019-20,mean,64990.0
+3GBRI,Greater Brisbane,2020-21,mean,68140.0
+3GBRI,Greater Brisbane,2021-22,mean,71772.0
+3GBRI,Greater Brisbane,2022-23,mean,74738.0
+3RQLD,Rest of Qld,2018-19,earners,1584315.0
+3RQLD,Rest of Qld,2019-20,earners,1603882.0
+3RQLD,Rest of Qld,2020-21,earners,1632558.0
+3RQLD,Rest of Qld,2021-22,earners,1695516.0
+3RQLD,Rest of Qld,2022-23,earners,1776222.0
+3RQLD,Rest of Qld,2018-19,median_age,42.0
+3RQLD,Rest of Qld,2019-20,median_age,43.0
+3RQLD,Rest of Qld,2020-21,median_age,43.0
+3RQLD,Rest of Qld,2021-22,median_age,42.0
+3RQLD,Rest of Qld,2022-23,median_age,42.0
+3RQLD,Rest of Qld,2018-19,sum,89011250421.0
+3RQLD,Rest of Qld,2019-20,sum,92187616655.0
+3RQLD,Rest of Qld,2020-21,sum,99128642571.0
+3RQLD,Rest of Qld,2021-22,sum,109817696542.0
+3RQLD,Rest of Qld,2022-23,sum,118571430700.0
+3RQLD,Rest of Qld,2018-19,median,45126.0
+3RQLD,Rest of Qld,2019-20,median,46100.0
+3RQLD,Rest of Qld,2020-21,median,48918.0
+3RQLD,Rest of Qld,2021-22,median,51282.0
+3RQLD,Rest of Qld,2022-23,median,53677.0
+3RQLD,Rest of Qld,2018-19,mean,56183.0
+3RQLD,Rest of Qld,2019-20,mean,57478.0
+3RQLD,Rest of Qld,2020-21,mean,60720.0
+3RQLD,Rest of Qld,2021-22,mean,64769.0
+3RQLD,Rest of Qld,2022-23,mean,66755.0
+4GADE,Greater Adelaide,2018-19,earners,830308.0
+4GADE,Greater Adelaide,2019-20,earners,842033.0
+4GADE,Greater Adelaide,2020-21,earners,855845.0
+4GADE,Greater Adelaide,2021-22,earners,889017.0
+4GADE,Greater Adelaide,2022-23,earners,923672.0
+4GADE,Greater Adelaide,2018-19,median_age,42.0
+4GADE,Greater Adelaide,2019-20,median_age,42.0
+4GADE,Greater Adelaide,2020-21,median_age,42.0
+4GADE,Greater Adelaide,2021-22,median_age,41.0
+4GADE,Greater Adelaide,2022-23,median_age,41.0
+4GADE,Greater Adelaide,2018-19,sum,49440315283.0
+4GADE,Greater Adelaide,2019-20,sum,50870095136.0
+4GADE,Greater Adelaide,2020-21,sum,54591048193.0
+4GADE,Greater Adelaide,2021-22,sum,59519205573.0
+4GADE,Greater Adelaide,2022-23,sum,64035150554.0
+4GADE,Greater Adelaide,2018-19,median,49307.0
+4GADE,Greater Adelaide,2019-20,median,50024.0
+4GADE,Greater Adelaide,2020-21,median,52424.0
+4GADE,Greater Adelaide,2021-22,median,54874.0
+4GADE,Greater Adelaide,2022-23,median,57401.0
+4GADE,Greater Adelaide,2018-19,mean,59545.0
+4GADE,Greater Adelaide,2019-20,mean,60413.0
+4GADE,Greater Adelaide,2020-21,mean,63786.0
+4GADE,Greater Adelaide,2021-22,mean,66949.0
+4GADE,Greater Adelaide,2022-23,mean,69327.0
+4RSAU,Rest of SA,2018-19,earners,222999.0
+4RSAU,Rest of SA,2019-20,earners,223662.0
+4RSAU,Rest of SA,2020-21,earners,227420.0
+4RSAU,Rest of SA,2021-22,earners,233952.0
+4RSAU,Rest of SA,2022-23,earners,241009.0
+4RSAU,Rest of SA,2018-19,median_age,46.0
+4RSAU,Rest of SA,2019-20,median_age,46.0
+4RSAU,Rest of SA,2020-21,median_age,46.0
+4RSAU,Rest of SA,2021-22,median_age,46.0
+4RSAU,Rest of SA,2022-23,median_age,46.0
+4RSAU,Rest of SA,2018-19,sum,11413301885.0
+4RSAU,Rest of SA,2019-20,sum,11541258063.0
+4RSAU,Rest of SA,2020-21,sum,12165845269.0
+4RSAU,Rest of SA,2021-22,sum,13423099151.0
+4RSAU,Rest of SA,2022-23,sum,14439955983.0
+4RSAU,Rest of SA,2018-19,median,42828.0
+4RSAU,Rest of SA,2019-20,median,43284.0
+4RSAU,Rest of SA,2020-21,median,45744.0
+4RSAU,Rest of SA,2021-22,median,47814.0
+4RSAU,Rest of SA,2022-23,median,49688.0
+4RSAU,Rest of SA,2018-19,mean,51181.0
+4RSAU,Rest of SA,2019-20,mean,51601.0
+4RSAU,Rest of SA,2020-21,mean,53495.0
+4RSAU,Rest of SA,2021-22,mean,57375.0
+4RSAU,Rest of SA,2022-23,mean,59915.0
+5GPER,Greater Perth,2018-19,earners,1323666.0
+5GPER,Greater Perth,2019-20,earners,1344587.0
+5GPER,Greater Perth,2020-21,earners,1373879.0
+5GPER,Greater Perth,2021-22,earners,1441152.0
+5GPER,Greater Perth,2022-23,earners,1517704.0
+5GPER,Greater Perth,2018-19,median_age,41.0
+5GPER,Greater Perth,2019-20,median_age,41.0
+5GPER,Greater Perth,2020-21,median_age,41.0
+5GPER,Greater Perth,2021-22,median_age,41.0
+5GPER,Greater Perth,2022-23,median_age,40.0
+5GPER,Greater Perth,2018-19,sum,91910738525.0
+5GPER,Greater Perth,2019-20,sum,96371567776.0
+5GPER,Greater Perth,2020-21,sum,103536312148.0
+5GPER,Greater Perth,2021-22,sum,114572154448.0
+5GPER,Greater Perth,2022-23,sum,126989772029.0
+5GPER,Greater Perth,2018-19,median,52572.0
+5GPER,Greater Perth,2019-20,median,53831.0
+5GPER,Greater Perth,2020-21,median,57300.0
+5GPER,Greater Perth,2021-22,median,60360.0
+5GPER,Greater Perth,2022-23,median,63138.0
+5GPER,Greater Perth,2018-19,mean,69437.0
+5GPER,Greater Perth,2019-20,mean,71674.0
+5GPER,Greater Perth,2020-21,mean,75361.0
+5GPER,Greater Perth,2021-22,mean,79500.0
+5GPER,Greater Perth,2022-23,mean,83672.0
+5RWAU,Rest of WA,2018-19,earners,327586.0
+5RWAU,Rest of WA,2019-20,earners,331186.0
+5RWAU,Rest of WA,2020-21,earners,335170.0
+5RWAU,Rest of WA,2021-22,earners,350299.0
+5RWAU,Rest of WA,2022-23,earners,361217.0
+5RWAU,Rest of WA,2018-19,median_age,43.0
+5RWAU,Rest of WA,2019-20,median_age,43.0
+5RWAU,Rest of WA,2020-21,median_age,44.0
+5RWAU,Rest of WA,2021-22,median_age,44.0
+5RWAU,Rest of WA,2022-23,median_age,43.0
+5RWAU,Rest of WA,2018-19,sum,20703719868.0
+5RWAU,Rest of WA,2019-20,sum,20823719138.0
+5RWAU,Rest of WA,2020-21,sum,22168499575.0
+5RWAU,Rest of WA,2021-22,sum,24732738119.0
+5RWAU,Rest of WA,2022-23,sum,26861476104.0
+5RWAU,Rest of WA,2018-19,median,48940.0
+5RWAU,Rest of WA,2019-20,median,49148.0
+5RWAU,Rest of WA,2020-21,median,52899.0
+5RWAU,Rest of WA,2021-22,median,55480.0
+5RWAU,Rest of WA,2022-23,median,58303.0
+5RWAU,Rest of WA,2018-19,mean,63201.0
+5RWAU,Rest of WA,2019-20,mean,62876.0
+5RWAU,Rest of WA,2020-21,mean,66141.0
+5RWAU,Rest of WA,2021-22,mean,70605.0
+5RWAU,Rest of WA,2022-23,mean,74364.0
+6GHOB,Greater Hobart,2018-19,earners,148169.0
+6GHOB,Greater Hobart,2019-20,earners,151836.0
+6GHOB,Greater Hobart,2020-21,earners,155218.0
+6GHOB,Greater Hobart,2021-22,earners,159960.0
+6GHOB,Greater Hobart,2022-23,earners,163341.0
+6GHOB,Greater Hobart,2018-19,median_age,42.0
+6GHOB,Greater Hobart,2019-20,median_age,42.0
+6GHOB,Greater Hobart,2020-21,median_age,41.0
+6GHOB,Greater Hobart,2021-22,median_age,41.0
+6GHOB,Greater Hobart,2022-23,median_age,41.0
+6GHOB,Greater Hobart,2018-19,sum,8372424502.0
+6GHOB,Greater Hobart,2019-20,sum,8728669552.0
+6GHOB,Greater Hobart,2020-21,sum,9395429311.0
+6GHOB,Greater Hobart,2021-22,sum,10344525471.0
+6GHOB,Greater Hobart,2022-23,sum,10962261853.0
+6GHOB,Greater Hobart,2018-19,median,47535.0
+6GHOB,Greater Hobart,2019-20,median,47830.0
+6GHOB,Greater Hobart,2020-21,median,50313.0
+6GHOB,Greater Hobart,2021-22,median,53324.0
+6GHOB,Greater Hobart,2022-23,median,56852.0
+6GHOB,Greater Hobart,2018-19,mean,56506.0
+6GHOB,Greater Hobart,2019-20,mean,57487.0
+6GHOB,Greater Hobart,2020-21,mean,60531.0
+6GHOB,Greater Hobart,2021-22,mean,64669.0
+6GHOB,Greater Hobart,2022-23,mean,67113.0
+6RTAS,Rest of Tas.,2018-19,earners,174514.0
+6RTAS,Rest of Tas.,2019-20,earners,177000.0
+6RTAS,Rest of Tas.,2020-21,earners,181182.0
+6RTAS,Rest of Tas.,2021-22,earners,187616.0
+6RTAS,Rest of Tas.,2022-23,earners,193489.0
+6RTAS,Rest of Tas.,2018-19,median_age,45.0
+6RTAS,Rest of Tas.,2019-20,median_age,45.0
+6RTAS,Rest of Tas.,2020-21,median_age,45.0
+6RTAS,Rest of Tas.,2021-22,median_age,44.0
+6RTAS,Rest of Tas.,2022-23,median_age,44.0
+6RTAS,Rest of Tas.,2018-19,sum,8976975820.0
+6RTAS,Rest of Tas.,2019-20,sum,9277526805.0
+6RTAS,Rest of Tas.,2020-21,sum,9923491369.0
+6RTAS,Rest of Tas.,2021-22,sum,10799355816.0
+6RTAS,Rest of Tas.,2022-23,sum,11528097717.0
+6RTAS,Rest of Tas.,2018-19,median,42971.0
+6RTAS,Rest of Tas.,2019-20,median,44140.0
+6RTAS,Rest of Tas.,2020-21,median,46433.0
+6RTAS,Rest of Tas.,2021-22,median,48545.0
+6RTAS,Rest of Tas.,2022-23,median,50572.0
+6RTAS,Rest of Tas.,2018-19,mean,51440.0
+6RTAS,Rest of Tas.,2019-20,mean,52415.0
+6RTAS,Rest of Tas.,2020-21,mean,54771.0
+6RTAS,Rest of Tas.,2021-22,mean,57561.0
+6RTAS,Rest of Tas.,2022-23,mean,59580.0
+7GDAR,Greater Darwin,2018-19,earners,99088.0
+7GDAR,Greater Darwin,2019-20,earners,98380.0
+7GDAR,Greater Darwin,2020-21,earners,99053.0
+7GDAR,Greater Darwin,2021-22,earners,101539.0
+7GDAR,Greater Darwin,2022-23,earners,104448.0
+7GDAR,Greater Darwin,2018-19,median_age,38.0
+7GDAR,Greater Darwin,2019-20,median_age,38.0
+7GDAR,Greater Darwin,2020-21,median_age,38.0
+7GDAR,Greater Darwin,2021-22,median_age,38.0
+7GDAR,Greater Darwin,2022-23,median_age,38.0
+7GDAR,Greater Darwin,2018-19,sum,7006501261.0
+7GDAR,Greater Darwin,2019-20,sum,6978748280.0
+7GDAR,Greater Darwin,2020-21,sum,7367677144.0
+7GDAR,Greater Darwin,2021-22,sum,7893177339.0
+7GDAR,Greater Darwin,2022-23,sum,8380347388.0
+7GDAR,Greater Darwin,2018-19,median,61336.0
+7GDAR,Greater Darwin,2019-20,median,61555.0
+7GDAR,Greater Darwin,2020-21,median,65736.0
+7GDAR,Greater Darwin,2021-22,median,69156.0
+7GDAR,Greater Darwin,2022-23,median,70961.0
+7GDAR,Greater Darwin,2018-19,mean,70710.0
+7GDAR,Greater Darwin,2019-20,mean,70937.0
+7GDAR,Greater Darwin,2020-21,mean,74381.0
+7GDAR,Greater Darwin,2021-22,mean,77735.0
+7GDAR,Greater Darwin,2022-23,mean,80235.0
+7RNTE,Rest of NT,2018-19,earners,43408.0
+7RNTE,Rest of NT,2019-20,earners,43211.0
+7RNTE,Rest of NT,2020-21,earners,41979.0
+7RNTE,Rest of NT,2021-22,earners,42916.0
+7RNTE,Rest of NT,2022-23,earners,44740.0
+7RNTE,Rest of NT,2018-19,median_age,38.0
+7RNTE,Rest of NT,2019-20,median_age,38.0
+7RNTE,Rest of NT,2020-21,median_age,39.0
+7RNTE,Rest of NT,2021-22,median_age,38.0
+7RNTE,Rest of NT,2022-23,median_age,38.0
+7RNTE,Rest of NT,2018-19,sum,2490687247.0
+7RNTE,Rest of NT,2019-20,sum,2565170898.0
+7RNTE,Rest of NT,2020-21,sum,2637508579.0
+7RNTE,Rest of NT,2021-22,sum,2797417513.0
+7RNTE,Rest of NT,2022-23,sum,3029458924.0
+7RNTE,Rest of NT,2018-19,median,49203.0
+7RNTE,Rest of NT,2019-20,median,50980.0
+7RNTE,Rest of NT,2020-21,median,54830.0
+7RNTE,Rest of NT,2021-22,median,56499.0
+7RNTE,Rest of NT,2022-23,median,56199.0
+7RNTE,Rest of NT,2018-19,mean,57379.0
+7RNTE,Rest of NT,2019-20,mean,59364.0
+7RNTE,Rest of NT,2020-21,mean,62829.0
+7RNTE,Rest of NT,2021-22,mean,65184.0
+7RNTE,Rest of NT,2022-23,mean,67713.0
+8ACTE,Australian Capital Territory,2018-19,earners,299414.0
+8ACTE,Australian Capital Territory,2019-20,earners,306420.0
+8ACTE,Australian Capital Territory,2020-21,earners,311609.0
+8ACTE,Australian Capital Territory,2021-22,earners,321847.0
+8ACTE,Australian Capital Territory,2022-23,earners,331793.0
+8ACTE,Australian Capital Territory,2018-19,median_age,40.0
+8ACTE,Australian Capital Territory,2019-20,median_age,40.0
+8ACTE,Australian Capital Territory,2020-21,median_age,40.0
+8ACTE,Australian Capital Territory,2021-22,median_age,40.0
+8ACTE,Australian Capital Territory,2022-23,median_age,40.0
+8ACTE,Australian Capital Territory,2018-19,sum,22563227334.0
+8ACTE,Australian Capital Territory,2019-20,sum,23829308342.0
+8ACTE,Australian Capital Territory,2020-21,sum,25341215458.0
+8ACTE,Australian Capital Territory,2021-22,sum,27215474183.0
+8ACTE,Australian Capital Territory,2022-23,sum,29184238644.0
+8ACTE,Australian Capital Territory,2018-19,median,64939.0
+8ACTE,Australian Capital Territory,2019-20,median,66706.0
+8ACTE,Australian Capital Territory,2020-21,median,69747.0
+8ACTE,Australian Capital Territory,2021-22,median,72122.0
+8ACTE,Australian Capital Territory,2022-23,median,75643.0
+8ACTE,Australian Capital Territory,2018-19,mean,75358.0
+8ACTE,Australian Capital Territory,2019-20,mean,77767.0
+8ACTE,Australian Capital Territory,2020-21,mean,81324.0
+8ACTE,Australian Capital Territory,2021-22,mean,84560.0
+8ACTE,Australian Capital Territory,2022-23,mean,87959.0
