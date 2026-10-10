@@ -1,0 +1,87 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 700,
+  "height": 500,
+  "padding": {"right": 5, "left": 5},
+  "title": {
+    "text": "Salary and employment outcomes by field",
+    "subtitle": [
+      "Undergraduate 2020–2025 · drag the year slider to see how each field's position shifts",
+      "Each dot = one field in the selected year"
+    ]
+  },
+  "params": [
+    {
+      "name": "yearSel",
+      "value": 2025,
+      "bind": {
+        "input": "range",
+        "min": 2020,
+        "max": 2025,
+        "step": 1,
+        "name": "Year:  "
+      }
+    }
+  ],
+  "data": {
+    "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/salary_vs_fte_timeseries.csv",
+    "format": {
+      "type": "csv",
+      "parse": {"year": "number", "median_salary": "number", "fte": "number"}
+    }
+  },
+  "transform": [
+    {"filter": "datum.year == yearSel"}
+  ],
+  "mark": {
+    "type": "circle",
+    "filled": true,
+    "size": 160,
+    "opacity": 0.85,
+    "stroke": "white",
+    "strokeWidth": 1.2
+  },
+  "encoding": {
+    "x": {
+      "field": "fte",
+      "type": "quantitative",
+      "title": "Full-time employment rate (%)",
+      "scale": {"zero": false, "domain": [50, 100]},
+      "axis": {"titleFontSize": 12, "labelFontSize": 11}
+    },
+    "y": {
+      "field": "median_salary",
+      "type": "quantitative",
+      "title": "Median starting salary (AUD)",
+      "scale": {"zero": false, "domain": [0, 110000]},
+      "axis": {"format": "$,.0f", "titleFontSize": 12, "labelFontSize": 11, "labelLimit": 80}
+    },
+    "color": {
+      "field": "study_area",
+      "type": "nominal",
+      "scale": {
+        "range": [
+          "#0a2e5c", "#f4a261", "#d00000", "#90caf9", "#fdd835",
+          "#4a148c", "#ff80ab", "#37474f", "#ffb74d", "#1e88e5",
+          "#a0715e", "#e0e0e0", "#7f0000", "#b39ddb", "#f57c00",
+          "#4dd0e1", "#8d6e63", "#fff59d", "#000000", "#f5f5f5",
+          "#8e24aa"
+        ]
+      },
+      "legend": {
+        "title": "Field",
+        "orient": "right",
+        "labelLimit": 240,
+        "titleFontSize": 11,
+        "labelFontSize": 10,
+        "symbolSize": 100
+      }
+    },
+    "tooltip": [
+      {"field": "study_area", "type": "nominal", "title": "Field"},
+      {"field": "year", "type": "ordinal", "title": "Year"},
+      {"field": "fte", "type": "quantitative", "format": ".1f", "title": "FTE (%)"},
+      {"field": "median_salary", "type": "quantitative", "format": "$,.0f", "title": "Median salary"}
+    ]
+  }
+}
