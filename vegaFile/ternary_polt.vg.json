@@ -1,0 +1,150 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 720,
+  "height": 560,
+  "padding": {"right": 10, "left": 10},
+  "title": {
+    "text": "How each field's strengths are balanced across salary, employment, and job-match",
+    "subtitle": [
+      "Undergraduate 2025",
+      "Position near a vertex leans heavily toward that outcome; a dot near the centre is equally weighted on all three"
+    ]
+  },
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {"tx": 0,   "ty": 0,     "ord": 1},
+          {"tx": 1,   "ty": 0,     "ord": 2},
+          {"tx": 0.5, "ty": 0.866, "ord": 3},
+          {"tx": 0,   "ty": 0,     "ord": 4}
+        ]
+      },
+      "mark": {"type": "line", "color": "#d0d4d9", "strokeWidth": 1.5},
+      "encoding": {
+        "x": {"field": "tx", "type": "quantitative", "axis": null, "scale": {"domain": [-0.14, 1.14]}},
+        "y": {"field": "ty", "type": "quantitative", "axis": null, "scale": {"domain": [-0.06, 0.98]}},
+        "order": {"field": "ord", "type": "ordinal"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"tx": 0.5, "ty": 0.2887, "ord": 1},
+          {"tx": 0.62, "ty": 0.2887, "ord": 2},
+          {"tx": 0.62, "ty": 0.40, "ord": 3},
+          {"tx": 0.5, "ty": 0.40, "ord": 4},
+          {"tx": 0.38, "ty": 0.40, "ord": 5},
+          {"tx": 0.38, "ty": 0.2887, "ord": 6},
+          {"tx": 0.38, "ty": 0.18, "ord": 7},
+          {"tx": 0.5, "ty": 0.18, "ord": 8},
+          {"tx": 0.62, "ty": 0.18, "ord": 9},
+          {"tx": 0.62, "ty": 0.2887, "ord": 10}
+        ]
+      },
+      "mark": {"type": "line", "color": "#a0a8b0", "strokeWidth": 1, "strokeDash": [4, 3]},
+      "encoding": {
+        "x": {"field": "tx", "type": "quantitative", "axis": null, "scale": {"domain": [-0.14, 1.14]}},
+        "y": {"field": "ty", "type": "quantitative", "axis": null, "scale": {"domain": [-0.06, 0.98]}},
+        "order": {"field": "ord", "type": "ordinal"}
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/ternary_data.csv",
+        "format": {
+          "type": "csv",
+          "parse": {"Salary": "number", "FTE": "number", "Overqualified": "number",
+                    "sSalary": "number", "sFTE": "number", "sNotOver": "number",
+                    "tx": "number", "ty": "number"}
+        }
+      },
+      "mark": {"type": "circle", "size": 260, "opacity": 0.85, "color": "#1e88e5", "stroke": "white", "strokeWidth": 1.5},
+      "encoding": {
+        "x": {"field": "tx", "type": "quantitative", "axis": null, "scale": {"domain": [-0.14, 1.14]}},
+        "y": {"field": "ty", "type": "quantitative", "axis": null, "scale": {"domain": [-0.06, 0.98]}},
+        "tooltip": [
+          {"field": "study_area", "type": "nominal", "title": "Field"},
+          {"field": "Salary", "type": "quantitative", "format": "$,.0f", "title": "Median salary"},
+          {"field": "FTE", "type": "quantitative", "format": ".1f", "title": "Full-time employment (%)"},
+          {"field": "Overqualified", "type": "quantitative", "format": ".1f", "title": "Overqualified (%)"},
+          {"field": "sSalary", "type": "quantitative", "format": ".0%", "title": "Salary emphasis"},
+          {"field": "sFTE", "type": "quantitative", "format": ".0%", "title": "Employment emphasis"},
+          {"field": "sNotOver", "type": "quantitative", "format": ".0%", "title": "Job-match emphasis"}
+        ]
+      }
+    },
+    {
+      "data": {"values": [{"tx": 0.4892, "ty": 0.0, "label": "Pharmacy"}]},
+      "mark": {"type": "text", "fontSize": 11, "fontWeight": 600, "color": "#1a3a5c", "align": "center", "dy": -14},
+      "encoding": {
+        "x": {"field": "tx", "type": "quantitative", "axis": null, "scale": {"domain": [-0.14, 1.14]}},
+        "y": {"field": "ty", "type": "quantitative", "axis": null, "scale": {"domain": [-0.06, 0.98]}},
+        "text": {"field": "label"}
+      }
+    },
+    {
+      "data": {"values": [{"tx": 0.9182, "ty": 0.1417, "label": "Creative arts"}]},
+      "mark": {"type": "text", "fontSize": 11, "fontWeight": 600, "color": "#1a3a5c", "align": "left", "dx": 14},
+      "encoding": {
+        "x": {"field": "tx", "type": "quantitative", "axis": null, "scale": {"domain": [-0.14, 1.14]}},
+        "y": {"field": "ty", "type": "quantitative", "axis": null, "scale": {"domain": [-0.06, 0.98]}},
+        "text": {"field": "label"}
+      }
+    },
+    {
+      "data": {"values": [{"tx": 0.223, "ty": 0.3863, "label": "Psychology"}]},
+      "mark": {"type": "text", "fontSize": 11, "fontWeight": 600, "color": "#1a3a5c", "align": "right", "dx": -14},
+      "encoding": {
+        "x": {"field": "tx", "type": "quantitative", "axis": null, "scale": {"domain": [-0.14, 1.14]}},
+        "y": {"field": "ty", "type": "quantitative", "axis": null, "scale": {"domain": [-0.06, 0.98]}},
+        "text": {"field": "label"}
+      }
+    },
+    {
+      "data": {"values": [{"tx": 0.5498, "ty": 0.3174, "label": "Dentistry"}]},
+      "mark": {"type": "text", "fontSize": 11, "fontWeight": 600, "color": "#1a3a5c", "align": "left", "dx": 14, "dy": -4},
+      "encoding": {
+        "x": {"field": "tx", "type": "quantitative", "axis": null, "scale": {"domain": [-0.14, 1.14]}},
+        "y": {"field": "ty", "type": "quantitative", "axis": null, "scale": {"domain": [-0.06, 0.98]}},
+        "text": {"field": "label"}
+      }
+    },
+    {
+      "data": {"values": [{"tx": 0.5, "ty": 0.2887, "label": "Balanced zone"}]},
+      "mark": {"type": "text", "fontSize": 10, "fontStyle": "italic", "color": "#6b7280", "align": "center", "dy": -6},
+      "encoding": {
+        "x": {"field": "tx", "type": "quantitative", "axis": null, "scale": {"domain": [-0.14, 1.14]}},
+        "y": {"field": "ty", "type": "quantitative", "axis": null, "scale": {"domain": [-0.06, 0.98]}},
+        "text": {"field": "label"}
+      }
+    },
+    {
+      "data": {"values": [{"tx": 0.5, "ty": 0.92, "label": "↑ Salary-leaning"}]},
+      "mark": {"type": "text", "fontSize": 12, "fontWeight": 600, "color": "#37474f", "align": "center", "baseline": "bottom"},
+      "encoding": {
+        "x": {"field": "tx", "type": "quantitative", "axis": null, "scale": {"domain": [-0.14, 1.14]}},
+        "y": {"field": "ty", "type": "quantitative", "axis": null, "scale": {"domain": [-0.06, 0.98]}},
+        "text": {"field": "label"}
+      }
+    },
+    {
+      "data": {"values": [{"tx": -0.04, "ty": -0.03, "label": "↑ Employment-leaning"}]},
+      "mark": {"type": "text", "fontSize": 12, "fontWeight": 600, "color": "#37474f", "align": "right", "baseline": "top"},
+      "encoding": {
+        "x": {"field": "tx", "type": "quantitative", "axis": null, "scale": {"domain": [-0.14, 1.14]}},
+        "y": {"field": "ty", "type": "quantitative", "axis": null, "scale": {"domain": [-0.06, 0.98]}},
+        "text": {"field": "label"}
+      }
+    },
+    {
+      "data": {"values": [{"tx": 1.04, "ty": -0.03, "label": "↑ Job-match-leaning"}]},
+      "mark": {"type": "text", "fontSize": 12, "fontWeight": 600, "color": "#37474f", "align": "left", "baseline": "top"},
+      "encoding": {
+        "x": {"field": "tx", "type": "quantitative", "axis": null, "scale": {"domain": [-0.14, 1.14]}},
+        "y": {"field": "ty", "type": "quantitative", "axis": null, "scale": {"domain": [-0.06, 0.98]}},
+        "text": {"field": "label"}
+      }
+    }
+  ]
+}
