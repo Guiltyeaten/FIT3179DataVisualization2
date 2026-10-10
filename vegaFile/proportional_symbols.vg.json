@@ -1,0 +1,66 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Full-time employment rate(%) by universities",
+    "subtitle": "Bubble size = full-time employment rate · 2025"
+  },
+  "width": 800,
+  "height": 540,
+  "projection": {"type": "mercator", "center": [134, -28], "scale": 700},
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/Data/SA4_2026_AUST_GDA2020.json",
+        "format": {"type": "topojson", "feature": "SA4_2026_AUST_GDA2020"}
+      },
+      "mark": {"type": "geoshape", "fill": "#f4f6f9", "stroke": "#d4d9e0", "strokeWidth": 0.3}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/institution_outcomes.csv"
+      },
+      "transform": [
+        {"filter": "datum.year == 2025 && datum.course_level == 'UG'"},
+        {"filter": "datum.metric == 'salary' || datum.metric == 'fte'"},
+        {"pivot": "metric", "value": "value", "groupby": ["institution", "year", "course_level"]},
+        {"filter": "isValid(datum.salary) && isValid(datum.fte)"},
+        {
+          "lookup": "institution",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/Data/university_coords.csv"
+            },
+            "key": "institution",
+            "fields": ["lon", "lat", "city", "state"]
+          }
+        },
+        {"filter": "isValid(datum.lon) && isValid(datum.lat)"}
+      ],
+      "mark": {"type": "circle", "opacity": 0.5, "stroke": "#4c99ea", "strokeWidth": 1},
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "size": {
+          "field": "fte",
+          "type": "quantitative",
+          "title": "Full-time employment rate (%)",
+          "scale": {"type": "linear", "domain": [70,90], "range": [30,500]},
+          "legend": {
+            "orient": "bottom-left",
+            "format": ".0f",
+            "values": [70, 80, 90],
+            "title": "Full-time employment rate(%)",
+            "titleFontSize": 12, "labelFontSize": 11
+          }
+        },
+  
+        "tooltip": [
+          {"field": "institution", "type": "nominal", "title": "University"},
+          {"field": "city", "type": "nominal", "title": "City"},
+          {"field": "state", "type": "nominal", "title": "State"},
+          {"field": "fte", "type": "quantitative", "format": ".1f", "title": "FTE rate (%)"}
+        ]
+      }
+    }
+  ]
+}

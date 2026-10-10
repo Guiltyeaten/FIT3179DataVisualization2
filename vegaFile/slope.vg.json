@@ -1,0 +1,138 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 700,
+  "height": 500,
+  "padding": {"right": 5, "left": 5},
+  "title": {
+    "text": "Top 10 fields by starting salary — 2020 vs 2025",
+    "subtitle": "Undergraduate · broad fields · median starting salary (AUD)"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/salary_by_area.csv",
+    "format": {
+      "type": "csv",
+      "parse": {"year": "number", "median_salary": "number"}
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.course_level == 'UG' && datum.study_area_level == 'broad' && datum.gender == 'Total' && (datum.year == 2020 || datum.year == 2025)"
+    },
+    {"calculate": "datum.year == 2020 ? '2020' : '2025'", "as": "Year"},
+    {
+      "joinaggregate": [
+        {"op": "max", "field": "median_salary", "as": "salary2025"}
+      ],
+      "groupby": ["study_area"]
+    },
+    {
+      "calculate": "datum.salary2025 - indexof(['Agriculture and environmental studies','Architecture and built environment','Business and management','Communications','Computing and information systems','Creative arts','Dentistry','Engineering','Health services and support','Humanities, culture and social sciences','Law and paralegal studies','Medicine','Nursing','Pharmacy','Psychology','Rehabilitation','Science and mathematics','Social work','Teacher education','Tourism, hospitality, personal services, sport and recreation','Veterinary science'], datum.study_area) * 0.1",
+      "as": "rank_key"
+    },
+    {
+      "window": [{"op": "dense_rank", "as": "rk"}],
+      "sort": [{"field": "rank_key", "order": "descending"}]
+    },
+    {"filter": "datum.rk <= 10"}
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 3,
+        "point": {"filled": true, "size": 80, "stroke": "white", "strokeWidth": 1}
+      },
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "axis": {"labelAngle": 0, "title": null, "labelFontSize": 14, "labelPadding": 10}
+        },
+        "y": {
+          "field": "median_salary",
+          "type": "quantitative",
+          "title": "Median starting salary (AUD)",
+          "scale": {"zero": false, "domain": [0, 115000]},
+          "axis": {"format": "$,.0f", "titleFontSize": 12, "labelFontSize": 11}
+        },
+        "color": {
+          "field": "study_area",
+          "type": "nominal",
+          "scale": {
+            "range": [
+              "#0a2e5c",
+              "#f4a261",
+              "#d00000",
+              "#90caf9",
+              "#fdd835",
+              "#4a148c",
+              "#ff80ab",
+              "#37474f",
+              "#ffb74d",
+              "#1e88e5"
+            ]
+          },
+          "legend": {
+            "title": "Area of study",
+            "orient": "bottom",
+            "columns": 3,
+            "labelLimit": 260,
+            "titleFontSize": 12,
+            "labelFontSize": 14,
+            "symbolSize": 100
+          }
+        },
+        "detail": {"field": "study_area"},
+        "tooltip": [
+          {"field": "study_area", "type": "nominal", "title": "Field"},
+          {"field": "Year", "type": "ordinal"},
+          {"field": "median_salary", "type": "quantitative", "format": "$,.0f", "title": "Median salary"}
+        ]
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.Year == '2020' && (datum.study_area === 'Dentistry' || datum.study_area === 'Psychology')"},
+        {
+          "calculate": "datum.study_area + '  ·  $' + format(datum.median_salary, ',.0f')",
+          "as": "label"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -12,
+        "fontSize": 11,
+        "fontWeight": 600
+      },
+      "encoding": {
+        "x": {"field": "Year", "type": "ordinal"},
+        "y": {"field": "median_salary", "type": "quantitative"},
+        "text": {"field": "label"},
+        "color": {"field": "study_area", "type": "nominal", "legend": null}
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.Year == '2025' && (datum.study_area === 'Dentistry' || datum.study_area === 'Psychology')"},
+        {
+          "calculate": "datum.study_area + '  ·  $' + format(datum.median_salary, ',.0f')",
+          "as": "label"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 12,
+        "fontSize": 11,
+        "fontWeight": 600
+      },
+      "encoding": {
+        "x": {"field": "Year", "type": "ordinal"},
+        "y": {"field": "median_salary", "type": "quantitative"},
+        "text": {"field": "label"},
+        "color": {"field": "study_area", "type": "nominal", "legend": null}
+      }
+    }
+  ]
+}
