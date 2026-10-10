@@ -1,43 +1,43 @@
-institution,lon,lat,city
-Australian Catholic University,151.2011,-33.8839,Sydney
-Avondale University,151.4519,-33.0784,Cooranbong
-Bond University,153.4132,-28.0707,Gold Coast
-Central Queensland University,150.5100,-23.3757,Rockhampton
-Charles Darwin University,130.8689,-12.3719,Darwin
-Charles Sturt University,147.3532,-35.0600,Wagga Wagga
-Curtin University,115.8947,-32.0054,Perth
-Deakin University,145.1139,-37.8496,Melbourne
-Edith Cowan University,115.7663,-31.7470,Perth
-Federation University Australia,143.8903,-37.6271,Ballarat
-Flinders University,138.5713,-35.0227,Adelaide
-Griffith University,153.0534,-27.5528,Brisbane
-James Cook University,146.7612,-19.3311,Townsville
-La Trobe University,145.0487,-37.7191,Melbourne
-Macquarie University,151.1125,-33.7740,Sydney
-Monash University,145.1360,-37.9105,Melbourne
-Murdoch University,115.8300,-32.0669,Perth
-Queensland University of Technology,153.0280,-27.4764,Brisbane
-RMIT University,144.9632,-37.8083,Melbourne
-Southern Cross University,153.2981,-28.8122,Lismore
-Swinburne University of Technology,145.0375,-37.8222,Melbourne
-The Australian National University,149.1185,-35.2777,Canberra
-The University of Adelaide,138.6045,-34.9190,Adelaide
-The University of Melbourne,144.9614,-37.7963,Melbourne
-The University of Notre Dame Australia,115.7438,-32.0547,Fremantle
-The University of Queensland,153.0137,-27.4975,Brisbane
-The University of South Australia,138.5975,-34.9213,Adelaide
-The University of Sydney,151.1873,-33.8874,Sydney
-The University of Western Australia,115.8172,-31.9780,Perth
-Torrens University,138.6000,-34.9250,Adelaide
-University of Canberra,149.0833,-35.2382,Canberra
-University of Divinity,144.9750,-37.8100,Melbourne
-University of New England,151.6439,-30.4885,Armidale
-University of New South Wales,151.2313,-33.9174,Sydney
-University of Newcastle,151.7041,-32.8919,Newcastle
-University of Southern Queensland,151.9289,-27.6038,Toowoomba
-University of Tasmania,147.3253,-42.9037,Hobart
-University of Technology Sydney,151.2006,-33.8833,Sydney
-University of the Sunshine Coast,153.0677,-26.7154,Sunshine Coast
-University of Wollongong,150.8798,-34.4052,Wollongong
-Victoria University,144.8910,-37.7905,Melbourne
-Western Sydney University,150.8723,-33.7698,Sydney
+institution,lon,lat,city,state
+Australian Catholic University,151.2011,-33.8839,Sydney,NSW
+Avondale University,151.4519,-33.0784,Cooranbong,NSW
+Bond University,153.4132,-28.0707,Gold Coast,QLD
+Central Queensland University,150.5100,-23.3757,Rockhampton,QLD
+Charles Darwin University,130.8689,-12.3719,Darwin,NT
+Charles Sturt University,147.3532,-35.0600,Wagga Wagga,NSW
+Curtin University,115.8947,-32.0054,Perth,WA
+Deakin University,145.1139,-37.8496,Melbourne,VIC
+Edith Cowan University,115.7663,-31.7470,Perth,WA
+Federation University Australia,143.8903,-37.6271,Ballarat,VIC
+Flinders University,138.5713,-35.0227,Adelaide,SA
+Griffith University,153.0534,-27.5528,Brisbane,QLD
+James Cook University,146.7612,-19.3311,Townsville,QLD
+La Trobe University,145.0487,-37.7191,Melbourne,VIC
+Macquarie University,151.1125,-33.7740,Sydney,NSW
+Monash University,145.1360,-37.9105,Melbourne,VIC
+Murdoch University,115.8300,-32.0669,Perth,WA
+Queensland University of Technology,153.0280,-27.4764,Brisbane,QLD
+RMIT University,144.9632,-37.8083,Melbourne,VIC
+Southern Cross University,153.2981,-28.8122,Lismore,NSW
+Swinburne University of Technology,145.0375,-37.8222,Melbourne,VIC
+The Australian National University,149.1185,-35.2777,Canberra,ACT
+The University of Adelaide,138.6045,-34.9190,Adelaide,SA
+The University of Melbourne,144.9614,-37.7963,Melbourne,VIC
+The University of Notre Dame Australia,115.7438,-32.0547,Fremantle,WA
+The University of Queensland,153.0137,-27.4975,Brisbane,QLD
+The University of South Australia,138.5975,-34.9213,Adelaide,SA
+The University of Sydney,151.1873,-33.8874,Sydney,NSW
+The University of Western Australia,115.8172,-31.9780,Perth,WA
+Torrens University,138.6000,-34.9250,Adelaide,SA
+University of Canberra,149.0833,-35.2382,Canberra,ACT
+University of Divinity,144.9750,-37.8100,Melbourne,VIC
+University of New England,151.6439,-30.4885,Armidale,NSW
+University of New South Wales,151.2313,-33.9174,Sydney,NSW
+University of Newcastle,151.7041,-32.8919,Newcastle,NSW
+University of Southern Queensland,151.9289,-27.6038,Toowoomba,QLD
+University of Tasmania,147.3253,-42.9037,Hobart,TAS
+University of Technology Sydney,151.2006,-33.8833,Sydney,NSW
+University of the Sunshine Coast,153.0677,-26.7154,Sunshine Coast,QLD
+University of Wollongong,150.8798,-34.4052,Wollongong,NSW
+Victoria University,144.8910,-37.7905,Melbourne,VIC
+Western Sydney University,150.8723,-33.7698,Sydney,NSW
