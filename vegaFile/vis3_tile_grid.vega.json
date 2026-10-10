@@ -1,0 +1,117 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 400,
+  "title": {
+    "text": "Average personal income by state — tile grid cartogram",
+    "subtitle": "Each tile is a state or territory · colour = weighted mean income, 2022–23 · source: ABS Data by Region"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/abs_sa4_salary_timeseries.csv"
+  },
+  "transform": [
+    {"filter": "datum.year == '2022-23' && datum.metric == 'sum'"},
+    {"calculate": "substring(datum.code, 0, 1)", "as": "state_code"},
+    {"aggregate": [
+      {"op": "sum", "field": "value", "as": "total_income"}
+    ], "groupby": ["state_code"]},
+    {"lookup": "state_code",
+     "from": {
+       "data": {
+         "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/abs_sa4_salary_timeseries.csv"
+       },
+       "transform": [
+         {"filter": "datum.year == '2022-23' && datum.metric == 'earners'"},
+         {"calculate": "substring(datum.code, 0, 1)", "as": "state_code"},
+         {"aggregate": [
+           {"op": "sum", "field": "value", "as": "total_earners"}
+         ], "groupby": ["state_code"]}
+       ],
+       "key": "state_code",
+       "fields": ["total_earners"]
+     }},
+    {"calculate": "datum.total_income / datum.total_earners", "as": "mean_salary"},
+    {"calculate": "['NSW','VIC','QLD','SA','WA','TAS','NT','ACT'][toNumber(datum.state_code) - 1]", "as": "state"},
+    {"lookup": "state",
+     "from": {
+       "data": {
+         "values": [
+           {"state":"WA","col":0,"row":3},
+           {"state":"NT","col":1,"row":1},
+           {"state":"SA","col":1,"row":3},
+           {"state":"QLD","col":2,"row":2},
+           {"state":"NSW","col":2,"row":3},
+           {"state":"ACT","col":2,"row":4},
+           {"state":"VIC","col":3,"row":4},
+           {"state":"TAS","col":3,"row":5}
+         ]
+       },
+       "key": "state",
+       "fields": ["col", "row"]
+     }}
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "white",
+        "strokeWidth": 3,
+        "cornerRadius": 8
+      },
+      "encoding": {
+        "x": {
+          "field": "col",
+          "type": "ordinal",
+          "axis": null,
+          "scale": {"paddingInner": 0.15}
+        },
+        "y": {
+          "field": "row",
+          "type": "ordinal",
+          "axis": null,
+          "sort": "descending",
+          "scale": {"paddingInner": 0.15}
+        },
+        "color": {
+          "field": "mean_salary",
+          "type": "quantitative",
+          "title": "Mean income (AUD)",
+          "scale": {"scheme": "blues"},
+          "legend": {"format": "$,.0f"}
+        },
+        "tooltip": [
+          {"field": "state", "type": "nominal", "title": "State"},
+          {"field": "mean_salary", "type": "quantitative", "format": "$,.0f", "title": "Mean income"},
+          {"field": "total_earners", "type": "quantitative", "format": ",.0f", "title": "Earners"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "color": "white",
+        "dy": -6
+      },
+      "encoding": {
+        "x": {"field": "col", "type": "ordinal"},
+        "y": {"field": "row", "type": "ordinal", "sort": "descending"},
+        "text": {"field": "state"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "color": "white",
+        "dy": 14
+      },
+      "encoding": {
+        "x": {"field": "col", "type": "ordinal"},
+        "y": {"field": "row", "type": "ordinal", "sort": "descending"},
+        "text": {"field": "mean_salary", "type": "quantitative", "format": "$,.0f"}
+      }
+    }
+  ]
+}

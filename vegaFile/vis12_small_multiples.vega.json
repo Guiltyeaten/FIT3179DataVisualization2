@@ -1,0 +1,22 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 170, "height": 120,
+  "title": {"text": "Salary trends by field", "subtitle": "Undergraduate 2020–2025 · one panel per field"},
+  "data": {"url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/refs/heads/main/processedData/salary_by_area.csv"},
+   "transform": [
+    {"filter": "datum.course_level=='UG' && datum.study_area_level=='broad' && datum.gender=='Total'"},
+    {"calculate": "indexof(['Medicine','Dentistry','Engineering','Law and paralegal studies','Nursing','Creative arts'], datum.study_area)", "as": "keep"},
+    {"filter": "datum.keep >= 0"}
+  ],
+  "mark": {"type": "line", "strokeWidth": 2, "color": "#0b6e99", "point": true},
+  "encoding": {
+    "x": {"field": "year", "type": "ordinal", "title": "Year"},
+    "y": {"field": "median_salary", "type": "quantitative",
+          "title": "Median salary (AUD)", "scale": {"zero": false},
+          "axis": {"format": "$,.0f"}},
+    "column": {"field": "study_area", "type": "nominal", "title": null,
+               "header": {"labelAngle": 0, "labelFontSize": 11}},
+    "tooltip": [{"field": "study_area"}, {"field": "year"}, {"field": "median_salary", "format": "$,.0f"}]
+  },
+  "resolve": {"scale": {"y": "independent"}}
+}

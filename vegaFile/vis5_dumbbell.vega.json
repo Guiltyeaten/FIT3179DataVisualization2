@@ -19,7 +19,7 @@
      "encoding": {
        "y": {"field": "study_area", "type": "nominal", "sort": "-Male"},
        "x": {"field": "Male", "type": "quantitative",
-             "title": "Median starting salary (AUD)", "scale": {"domain": [55000, 110000]}, "axis": {"format": "$,.0f"}},
+             "title": "Median starting salary (AUD)", "scale": {"domain": [50000, 115000]}, "axis": {"format": "$,.0f"}},
        "tooltip": [{"field": "study_area"}, {"field": "Male", "type": "quantitative", "format": "$,.0f", "title": "Male"}]
      }},
     {"mark": {"type": "point", "filled": true, "size": 130, "color": "#e45756"},

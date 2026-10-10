@@ -1,35 +1,46 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container", "height": 480,
-  "title": {"text": "Universities sized by graduate starting salary", "subtitle": "Bubble area = median salary, undergraduate 2025"},
+  "title": {
+    "text": "Where the earners are — and how unequal",
+    "subtitle": "Bubble size = number of earners · colour = Gini coefficient (2022–23)"
+  },
   "layer": [
     {
-      "data": {"url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/refs/heads/main/Data/SA4_2026_AUST_GDA2020.json",
-               "format": {"type": "topojson", "feature": "SA4_2026_AUST_GDA2020"}},
+      "data": {
+        "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/Data/SA4_2026_AUST_GDA2020.json",
+        "format": {"type": "topojson", "feature": "SA4_2026_AUST_GDA2020"}
+      },
       "projection": {"type": "mercator", "center": [134, -28], "scale": 700},
-      "mark": {"type": "geoshape", "fill": "#eef1f5", "stroke": "#c8cdd6", "strokeWidth": 0.4}
+      "mark": {"type": "geoshape", "fill": "#f6f7f9", "stroke": "#c8cdd6", "strokeWidth": 0.3}
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/refs/heads/main/processedData/institution_outcomes.csv",
-        "format": {"parse": {"year": "number", "value": "number"}}
+        "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/abs_sa4_wide_2023.csv"
       },
       "transform": [
-        {"filter": "datum.year == 2025 && datum.course_level == 'UG' && datum.metric == 'salary'"},
-        {"lookup": "institution",
-         "from": {"data": {"url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/refs/heads/main/Data/university_coords.csv"}, "key": "institution",
-                  "fields": ["lat", "lon"]}}
+        {"lookup": "code",
+         "from": {
+           "data": {"url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/Data/SA4_2026_AUST_GDA2020.json",
+                    "format": {"type": "topojson", "feature": "SA4_2026_AUST_GDA2020"}},
+           "key": "properties.SA4_CODE26"
+         },
+         "as": "geo"}
       ],
       "projection": {"type": "mercator", "center": [134, -28], "scale": 700},
-      "mark": {"type": "circle", "opacity": 0.75, "color": "#0b6e99", "stroke": "white", "strokeWidth": 1},
+      "mark": {"type": "circle", "opacity": 0.7, "stroke": "white", "strokeWidth": 1},
       "encoding": {
-        "longitude": {"field": "lon", "type": "quantitative"},
-        "latitude": {"field": "lat", "type": "quantitative"},
-        "size": {"field": "value", "type": "quantitative",
-                 "scale": {"range": [30, 1400]}, "legend": {"format": "$,.0f", "title": "Median salary"}},
+        "longitude": {"field": "geo.properties.lon", "type": "quantitative"},
+        "latitude":  {"field": "geo.properties.lat", "type": "quantitative"},
+        "size": {"field": "earners", "type": "quantitative",
+                 "scale": {"range": [30, 1200]}, "legend": {"title": "Earners"}},
+        "color": {"field": "gini", "type": "quantitative",
+                  "scale": {"scheme": "redblue", "domain": [0.40, 0.65]},
+                  "legend": {"title": "Gini"}},
         "tooltip": [
-          {"field": "institution", "type": "nominal"},
-          {"field": "value", "type": "quantitative", "format": "$,.0f", "title": "Salary"}
+          {"field": "name", "type": "nominal"},
+          {"field": "earners", "type": "quantitative", "format": ",.0f"},
+          {"field": "gini", "type": "quantitative", "format": ".3f"}
         ]
       }
     }

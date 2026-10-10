@@ -1,15 +1,26 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container", "height": 480,
-  "title": {"text": "Median personal income by SA4 region", "subtitle": "AUD per year · ABS Data by Region"},
+  "title": {
+    "text": "Median personal income by SA4 region",
+    "subtitle": "AUD per year · ABS Data by Region 2022–23"
+  },
   "data": {
-    "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/refs/heads/main/Data/SA4_2026_AUST_GDA2020.json",
+    "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/Data/SA4_2026_AUST_GDA2020.json",
     "format": {"type": "topojson", "feature": "SA4_2026_AUST_GDA2020"}
   },
   "transform": [
     {"lookup": "properties.SA4_CODE26",
-     "from": {"data": {"url": "Data/abs_income_by_sa4.csv"},
-              "key": "SA4_CODE", "fields": ["median_income"]}}
+     "from": {
+       "data": {
+         "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/abs_sa4_inequality_2023.csv"
+       },
+       "key": "code",
+       "fields": ["value"]
+     },
+     "as": "joined"},
+    {"filter": "datum.joined && datum.joined.metric == 'median'"},
+    {"calculate": "datum.joined.value", "as": "median_income"}
   ],
   "projection": {"type": "mercator", "center": [134, -28], "scale": 700},
   "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.4},
