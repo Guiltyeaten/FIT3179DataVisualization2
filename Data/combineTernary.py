@@ -97,9 +97,10 @@ df["nNotOver"] = norm(df["NotOver"])
 # ---------------------------------------------------------------
 # Renormalise so the three components sum to 1
 # ---------------------------------------------------------------
-df["sSalary"]  = df["nSalary"]
-df["sFTE"]     = df["nFTE"] 
-df["sNotOver"] = df["nNotOver"]
+df["total"]    = df["nSalary"] + df["nFTE"] + df["nNotOver"]
+df["sSalary"]  = df["nSalary"]  / df["total"]
+df["sFTE"]     = df["nFTE"]     / df["total"]
+df["sNotOver"] = df["nNotOver"] / df["total"]
 
 # ---------------------------------------------------------------
 # Ternary coordinates
