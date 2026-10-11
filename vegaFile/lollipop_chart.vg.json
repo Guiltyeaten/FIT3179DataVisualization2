@@ -1,0 +1,129 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 720,
+  "height": 340,
+  "padding": {"right": 60, "left": 5, "top": 10, "bottom": 20},
+  "title": {
+    "text": "What each year of study is worth — on average",
+    "subtitle": [
+      "Average median starting salary by highest qualification · 2025 · AUD",
+      "Grey band = range across the 21 fields of study · stems run from $0 to the average"
+    ],
+    "fontSize": 15,
+    "subtitleFontSize": 12,
+    "subtitleColor": "#546e7a",
+    "anchor": "start",
+    "offset": 12
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/salary_by_area.csv",
+    "format": {"type": "csv", "parse": {"year": "number", "median_salary": "number"}}
+  },
+  "transform": [
+    {"filter": "datum.year == 2025 && datum.study_area_level == 'broad' && datum.gender == 'Total'"},
+    {"filter": "datum.course_level == 'UG' || datum.course_level == 'PGC' || datum.course_level == 'PGR'"},
+    {"filter": "isValid(datum.median_salary)"},
+    {
+      "aggregate": [
+        {"op": "mean", "field": "median_salary", "as": "avg_salary"},
+        {"op": "min", "field": "median_salary", "as": "min_salary"},
+        {"op": "max", "field": "median_salary", "as": "max_salary"}
+      ],
+      "groupby": ["course_level"]
+    },
+    {
+      "calculate": "datum.course_level === 'UG' ? 1 : datum.course_level === 'PGC' ? 2 : 3",
+      "as": "levelOrder"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "rule", "color": "#546e7a", "strokeWidth": 2},
+      "encoding": {
+        "x": {
+          "field": "avg_salary",
+          "type": "quantitative",
+          "scale": {"domain": [0, 145000]},
+          "axis": {
+            "format": "$,.0f",
+            "titleFontSize": 12,
+            "titleFontWeight": "normal",
+            "titlePadding": 10,
+            "labelFontSize": 11,
+            "grid": true,
+            "gridColor": "#f0f0f0"
+          }
+        },
+        "x2": {"datum": 0},
+        "y": {
+          "field": "levelOrder",
+          "type": "ordinal",
+          "sort": "descending",
+          "scale": {"domain": [3, 2, 1]}
+        }
+      }
+    },
+    {
+      "mark": {"type": "rule", "strokeWidth": 12, "color": "#b0bec5", "opacity": 0.4},
+      "encoding": {
+        "x": {"field": "min_salary", "type": "quantitative", "scale": {"domain": [0, 145000]}},
+        "x2": {"field": "max_salary"},
+        "y": {
+          "field": "levelOrder",
+          "type": "ordinal",
+          "sort": "descending",
+          "scale": {"domain": [3, 2, 1]}
+        }
+      }
+    },
+    {
+      "mark": {"type": "circle", "filled": true, "size": 280, "stroke": "white", "strokeWidth": 2},
+      "encoding": {
+        "x": {"field": "avg_salary", "type": "quantitative", "scale": {"domain": [0, 145000]}},
+        "y": {
+          "field": "levelOrder",
+          "type": "ordinal",
+          "title": null,
+          "sort": "descending",
+          "scale": {"domain": [3, 2, 1]},
+          "axis": {
+            "labelFontSize": 12,
+            "labelFontWeight": 500,
+            "labelPadding": 12,
+            "tickSize": 0,
+            "domain": false,
+            "labelExpr": "datum.value === 1 ? 'Undergraduate degree' : datum.value === 2 ? 'Postgraduate coursework' : 'Postgraduate research'"
+          }
+        },
+        "color": {
+          "field": "levelOrder",
+          "type": "ordinal",
+          "scale": {
+            "domain": [1, 2, 3],
+            "range": ["#1e88e5", "#f57c00", "#4a148c"]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {"field": "course_level", "type": "nominal", "title": "Level"},
+          {"field": "avg_salary", "type": "quantitative", "format": "$,.0f", "title": "Average salary"},
+          {"field": "min_salary", "type": "quantitative", "format": "$,.0f", "title": "Lowest field"},
+          {"field": "max_salary", "type": "quantitative", "format": "$,.0f", "title": "Highest field"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "left", "dx": 18, "fontSize": 11, "fontWeight": 600, "color": "#37474f"},
+      "encoding": {
+        "x": {"field": "avg_salary", "type": "quantitative", "scale": {"domain": [0, 145000]}},
+        "y": {
+          "field": "levelOrder",
+          "type": "ordinal",
+          "sort": "descending",
+          "scale": {"domain": [3, 2, 1]}
+        },
+        "text": {"field": "avg_salary", "type": "quantitative", "format": "$,.0f"}
+      }
+    }
+  ]
+}
