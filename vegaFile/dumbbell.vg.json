@@ -1,90 +1,109 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 780,
-  "height": 560,
-  "padding": {"right": 5, "left": 5},
+  "height": 620,
+  "padding": {"right": 20, "left": 5},
   "title": {
     "text": "Gender pay gap by field of study",
-    "subtitle": "Undergraduate 2025 · sorted by size of gap (largest at top)"
+    "subtitle": [
+      "Undergraduate 2025 · sorted by size of gap · fields with insufficient data marked n/a"
+    ]
   },
   "data": {
     "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/salary_by_area.csv",
-    "format": {
-      "type": "csv",
-      "parse": {"year": "number", "median_salary": "number"}
-    }
+    "format": {"type": "csv", "parse": {"year": "number", "median_salary": "number"}}
   },
   "transform": [
     {"filter": "datum.year == 2025 && datum.course_level == 'UG' && datum.study_area_level == 'broad' && (datum.gender == 'Male' || datum.gender == 'Female')"},
     {"pivot": "gender", "value": "median_salary", "groupby": ["study_area"]},
-    {"filter": "isValid(datum.Male) && isValid(datum.Female)"},
-    {"calculate": "datum.Male - datum.Female", "as": "gapAbs"},
-    {"calculate": "(datum.Male - datum.Female) / datum.Male * 100", "as": "gapPct"}
+    {"calculate": "isValid(datum.Male) && datum.Male > 0 && isValid(datum.Female) && datum.Female > 0", "as": "hasBoth"},
+    {"calculate": "isValid(datum.Male) && datum.Male > 0", "as": "hasMale"},
+    {"calculate": "isValid(datum.Female) && datum.Female > 0", "as": "hasFemale"},
+    {"calculate": "datum.hasBoth ? (datum.Male - datum.Female) : null", "as": "gapAbs"},
+    {"calculate": "datum.hasBoth ? (datum.Male - datum.Female) / datum.Male * 100 : null", "as": "gapPct"},
+    {"calculate": "datum.hasBoth ? datum.gapPct : -999", "as": "sortKey"},
+    {"calculate": "datum.hasMale ? '$' + format(datum.Male, ',.0f') : 'n/a'", "as": "maleDisplay"},
+    {"calculate": "datum.hasFemale ? '$' + format(datum.Female, ',.0f') : 'n/a'", "as": "femaleDisplay"},
+    {"calculate": "datum.hasBoth ? format(datum.gapPct, '.1f') + '%' : 'n/a'", "as": "gapDisplay"}
   ],
   "layer": [
     {
+      "transform": [{"filter": "datum.hasBoth"}],
       "mark": {"type": "rule", "strokeWidth": 2.5, "color": "#b0b5bd"},
       "encoding": {
         "y": {
           "field": "study_area",
           "type": "nominal",
-          "sort": {"field": "gapPct", "order": "descending"},
+          "sort": {"field": "sortKey", "order": "descending"},
           "title": null,
           "axis": {"labelLimit": 320, "labelFontSize": 11.5}
         },
-        "x": {"field": "Female", "type": "quantitative"},
+        "x": {"field": "Female", "type": "quantitative", "scale": {"domain": [55000, 105000]}},
         "x2": {"field": "Male"},
         "tooltip": [
           {"field": "study_area", "type": "nominal", "title": "Field"},
-          {"field": "Male", "type": "quantitative", "format": "$,.0f", "title": "Male median"},
-          {"field": "Female", "type": "quantitative", "format": "$,.0f", "title": "Female median"},
-          {"field": "gapAbs", "type": "quantitative", "format": "$,.0f", "title": "Gap ($)"},
-          {"field": "gapPct", "type": "quantitative", "format": ".1f", "title": "Gap (%)"}
+          {"field": "maleDisplay", "type": "nominal", "title": "Male median"},
+          {"field": "femaleDisplay", "type": "nominal", "title": "Female median"},
+          {"field": "gapDisplay", "type": "nominal", "title": "Gap (%)"}
         ]
       }
     },
     {
-      "transform": [
-        {"fold": ["Male", "Female"], "as": ["gender", "salary"]}
-      ],
+      "transform": [{"filter": "datum.hasBoth"}],
       "mark": {"type": "point", "filled": true, "size": 140, "opacity": 1, "stroke": "white", "strokeWidth": 0.5},
       "encoding": {
         "y": {
           "field": "study_area",
           "type": "nominal",
-          "sort": {"field": "gapPct", "order": "descending"}
+          "sort": {"field": "sortKey", "order": "descending"}
         },
         "x": {
-          "field": "salary",
+          "field": "Female",
           "type": "quantitative",
           "title": "Median starting salary (AUD)",
-          "scale": {"zero": false, "domain": [55000, 100000]},
+          "scale": {"domain": [55000, 105000]},
           "axis": {"format": "$,.0f", "titleFontSize": 12, "labelFontSize": 11}
         },
-        "color": {
-          "field": "gender",
+        "color": {"value": "#e53935"}
+      }
+    },
+    {
+      "transform": [{"filter": "datum.hasBoth"}],
+      "mark": {"type": "point", "filled": true, "size": 140, "opacity": 1, "stroke": "white", "strokeWidth": 0.5},
+      "encoding": {
+        "y": {
+          "field": "study_area",
           "type": "nominal",
-          "scale": {
-            "domain": ["Male", "Female"],
-            "range": ["#1e88e5", "#e53935"]
-          },
-          "legend": {
-            "title": "Median salary for",
-            "orient": "top",
-            "direction": "horizontal",
-            "titleFontSize": 12,
-            "labelFontSize": 12,
-            "symbolSize": 120,
-            "symbolType": "circle"
-          }
+          "sort": {"field": "sortKey", "order": "descending"}
         },
-        "tooltip": [
-          {"field": "study_area", "type": "nominal", "title": "Field"},
-          {"field": "Male", "type": "quantitative", "format": "$,.0f", "title": "Male median"},
-          {"field": "Female", "type": "quantitative", "format": "$,.0f", "title": "Female median"},
-          {"field": "gapAbs", "type": "quantitative", "format": "$,.0f", "title": "Gap ($)"},
-          {"field": "gapPct", "type": "quantitative", "format": ".1f", "title": "Gap (%)"}
-        ]
+        "x": {"field": "Male", "type": "quantitative"},
+        "color": {"value": "#1e88e5"}
+      }
+    },
+    {
+      "transform": [{"filter": "datum.hasBoth"}],
+      "mark": {"type": "point", "filled": true, "size": 140, "opacity": 1, "stroke": "white", "strokeWidth": 0.5},
+      "encoding": {
+        "y": {
+          "field": "study_area",
+          "type": "nominal",
+          "sort": {"field": "sortKey", "order": "descending"}
+        },
+        "x": {"field": "Female", "type": "quantitative"},
+        "color": {"value": "#e53935"}
+      }
+    },
+    {
+      "transform": [{"filter": "!datum.hasBoth"}],
+      "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 8, "fontSize": 11, "fontStyle": "italic", "color": "#8b949e"},
+      "encoding": {
+        "y": {
+          "field": "study_area",
+          "type": "nominal",
+          "sort": {"field": "sortKey", "order": "descending"}
+        },
+        "x": {"datum": 56000, "type": "quantitative"},
+        "text": {"value": "no completed data available"}
       }
     }
   ]

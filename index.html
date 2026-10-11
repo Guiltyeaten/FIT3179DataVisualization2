@@ -3,787 +3,301 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Graduate Starting Salaries in Australia — A Data Story</title>
-<meta name="description" content="An interactive data visualisation exploring graduate starting salaries across Australian fields of study, universities, and regions.">
+<title>Graduate Starting Salaries in Australia</title>
 
-<!-- Pure.css -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
-
-<!-- Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-
-<!-- Vega-Embed -->
-<script src="https://cdn.jsdelivr.net/npm/vega@5.24.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.16.3"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.24.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite"></script>
 
 <style>
   :root {
-    --ink:        #1a2027;
-    --ink-muted:  #546e7a;
-    --ink-faint:  #90a4ae;
-    --paper:      #ffffff;
-    --paper-soft: #f7f8fa;
-    --paper-warm: #fdfaf4;
-    --rule:       #e4e7eb;
-    --accent:     #1e88e5;
-    --accent-2:   #f57c00;
-    --accent-3:   #0a2e5c;
-    --max:        1180px;
-    --text-max:   68ch;
-    --gutter:     clamp(20px, 4vw, 56px);
+    --ink:       #1f2328;
+    --ink-soft:  #57606a;
+    --ink-faint: #8b949e;
+    --rule:      #e6e8eb;
+    --bg:        #ffffff;
+    --page-max:  900px;
+    --gutter:    24px;
   }
 
   * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
   body {
     margin: 0;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 17px;
-    line-height: 1.65;
+    background: var(--bg);
     color: var(--ink);
-    background: var(--paper);
-    font-feature-settings: 'ss01','cv11','cv02';
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
     -webkit-font-smoothing: antialiased;
   }
 
-  /* ---------- Typography scale ---------- */
-  h1, h2, h3, h4 { font-family: 'Fraunces', Georgia, serif; font-weight: 500; letter-spacing: -0.015em; line-height: 1.12; margin: 0; }
-  h1 { font-size: clamp(38px, 6vw, 76px); font-weight: 500; letter-spacing: -0.03em; }
-  h2 { font-size: clamp(28px, 4vw, 46px); }
-  h3 { font-size: clamp(22px, 2.4vw, 30px); }
-  h4 { font-size: 19px; font-weight: 600; letter-spacing: -0.005em; font-family: 'Inter', sans-serif; }
-  p  { margin: 0 0 1em; max-width: var(--text-max); }
-  a  { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
-  a:hover { color: var(--accent-3); }
+  main {
+    max-width: var(--page-max);
+    margin: 0 auto;
+    padding: 60px var(--gutter) 80px;
+  }
 
-  .kicker {
-    font-family: 'Inter', sans-serif;
-    font-size: 12px;
+  /* ---- Typography: one family, three sizes ---- */
+  h1 {
+    font-size: 30px;
     font-weight: 700;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--accent-2);
-    margin-bottom: 16px;
-    display: block;
-  }
-
-  .lede { font-size: clamp(19px, 1.6vw, 22px); line-height: 1.55; color: #2d3748; }
-
-  .caption {
-    font-size: 13.5px;
-    line-height: 1.55;
-    color: var(--ink-muted);
-    max-width: var(--text-max);
-  }
-  .caption strong { color: var(--ink); font-weight: 600; }
-
-  code, .mono {
-    font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
-    font-size: 0.92em;
-    background: var(--paper-soft);
-    padding: 1px 5px;
-    border-radius: 3px;
-  }
-
-  /* ---------- Layout primitives ---------- */
-  .wrap {
-    max-width: var(--max);
-    margin: 0 auto;
-    padding: 0 var(--gutter);
-  }
-
-  section { padding: clamp(56px, 8vw, 120px) 0; border-bottom: 1px solid var(--rule); }
-  section:last-of-type { border-bottom: none; }
-
-  .grid-2 {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr);
-    gap: clamp(28px, 4vw, 64px);
-    align-items: start;
-  }
-  .grid-2.rev { grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); }
-
-  .grid-3 {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: clamp(20px, 2.5vw, 40px);
-  }
-
-  @media (max-width: 860px) {
-    .grid-2, .grid-2.rev, .grid-3 { grid-template-columns: 1fr; gap: 28px; }
-  }
-
-  /* ---------- Nav ---------- */
-  .sitenav {
-    position: sticky;
-    top: 0;
-    z-index: 50;
-    background: rgba(255,255,255,0.92);
-    backdrop-filter: saturate(180%) blur(12px);
-    -webkit-backdrop-filter: saturate(180%) blur(12px);
-    border-bottom: 1px solid var(--rule);
-  }
-  .sitenav-inner {
-    max-width: var(--max);
-    margin: 0 auto;
-    padding: 12px var(--gutter);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-  }
-  .brand {
-    font-family: 'Fraunces', serif;
-    font-weight: 600;
-    font-size: 17px;
+    line-height: 1.25;
+    margin: 0 0 12px;
     letter-spacing: -0.01em;
+  }
+  h2 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 0 0 10px;
+    letter-spacing: -0.005em;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--ink-soft);
+    margin: 0 0 16px;
+    max-width: 70ch;
+  }
+  p.lede {
+    font-size: 17px;
     color: var(--ink);
-    text-decoration: none;
   }
-  .navlinks {
-    display: flex;
-    gap: 22px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    font-size: 13.5px;
-    font-weight: 500;
+  p.caption {
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--ink-faint);
+    margin-top: 10px;
   }
-  .navlinks a { color: var(--ink-muted); text-decoration: none; }
-  .navlinks a:hover { color: var(--ink); }
-  @media (max-width: 780px) { .navlinks { display: none; } }
+  a { color: var(--ink); text-decoration: underline; }
+  a:hover { color: #000; }
 
-  /* ---------- Hero ---------- */
-  .hero {
-    padding: clamp(72px, 12vw, 160px) 0 clamp(56px, 8vw, 100px);
-    background:
-      radial-gradient(1200px 500px at 15% -10%, #e8f1fb 0%, transparent 55%),
-      radial-gradient(900px 400px at 95% 15%, #fbeedc 0%, transparent 60%),
-      var(--paper);
-    border-bottom: 1px solid var(--rule);
-  }
-  .hero .kicker { color: var(--accent-3); }
-  .hero-sub {
-    font-size: clamp(18px, 1.8vw, 24px);
-    line-height: 1.45;
-    color: #2d3748;
-    max-width: 720px;
-    margin: 24px 0 0;
-    font-family: 'Fraunces', serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  .hero-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-    margin-top: 48px;
-    padding-top: 28px;
+  /* ---- Sections ---- */
+  section {
+    padding: 48px 0;
     border-top: 1px solid var(--rule);
-    font-size: 13px;
-    color: var(--ink-muted);
   }
-  .hero-meta div strong { display: block; color: var(--ink); font-weight: 600; font-size: 14px; margin-bottom: 2px; }
+  section:first-of-type { border-top: none; padding-top: 0; }
 
-  /* ---------- Figures / charts ---------- */
-  figure {
-    margin: 0;
-    padding: 0;
-  }
-  .chart-frame {
-    background: var(--paper);
-    border: 1px solid var(--rule);
-    border-radius: 10px;
-    padding: clamp(12px, 1.5vw, 22px);
+  /* ---- Chart containers ---- */
+  .chart {
+    margin: 20px 0 0;
     overflow-x: auto;
   }
-  .chart-frame.wide { padding: clamp(16px, 2vw, 28px); }
-  figcaption {
-    margin-top: 14px;
-    font-size: 13px;
-    line-height: 1.55;
-    color: var(--ink-muted);
-  }
-  figcaption .figlabel {
-    font-weight: 600;
-    color: var(--accent-3);
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 11.5px;
-    letter-spacing: 0.04em;
-    margin-right: 6px;
-  }
 
-  /* ---------- Callouts ---------- */
-  .callout {
-    background: var(--paper-warm);
-    border-left: 4px solid var(--accent-2);
-    padding: 20px 24px;
-    border-radius: 0 8px 8px 0;
-    margin: 24px 0;
-    max-width: var(--text-max);
+  /* ---- Note blocks ---- */
+  .note {
+    background: #f6f8fa;
+    border-left: 3px solid #cfd8dc;
+    padding: 14px 18px;
+    margin: 20px 0;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    max-width: 70ch;
   }
-  .callout p { margin: 0; font-size: 16px; line-height: 1.55; }
-  .callout .stat {
-    font-family: 'Fraunces', serif;
-    font-weight: 600;
-    font-size: 1.15em;
-    color: var(--accent-3);
-  }
-
-  .stat-row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin: 32px 0;
-    padding: 24px 0;
-    border-top: 1px solid var(--rule);
-    border-bottom: 1px solid var(--rule);
-  }
-  .stat-row .item .num {
-    font-family: 'Fraunces', serif;
-    font-size: clamp(30px, 3vw, 42px);
-    font-weight: 500;
-    letter-spacing: -0.02em;
-    line-height: 1;
-    color: var(--accent-3);
-  }
-  .stat-row .item .lbl {
-    display: block;
-    font-size: 12.5px;
-    color: var(--ink-muted);
-    margin-top: 8px;
-    line-height: 1.4;
-  }
-  @media (max-width: 640px) { .stat-row { grid-template-columns: 1fr; gap: 20px; } }
-
-  /* ---------- Section header ---------- */
-  .sec-head {
-    max-width: 780px;
-    margin-bottom: clamp(36px, 5vw, 64px);
-  }
-  .sec-head p { margin-top: 18px; color: #2d3748; font-size: 18px; line-height: 1.6; }
-
-  /* ---------- Footer / metadata ---------- */
-  footer {
-    background: #0f1720;
-    color: #cbd5e0;
-    padding: clamp(56px, 7vw, 96px) 0 clamp(40px, 5vw, 64px);
-    font-size: 14px;
-    line-height: 1.65;
-  }
-  footer h3 {
-    color: #fff;
-    font-family: 'Inter', sans-serif;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    margin-bottom: 14px;
-  }
-  footer a { color: #90cdf4; text-decoration: none; }
-  footer a:hover { text-decoration: underline; }
-  footer .cols {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 40px;
-  }
-  @media (max-width: 780px) { footer .cols { grid-template-columns: 1fr; gap: 32px; } }
-  footer ul { list-style: none; margin: 0; padding: 0; }
-  footer li { margin-bottom: 8px; }
-  footer .final {
-    margin-top: 56px;
-    padding-top: 24px;
-    border-top: 1px solid #24303e;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 12px;
-    font-size: 12.5px;
-    color: #718096;
-  }
-
-  /* ---------- Divider ornament ---------- */
-  .ornament {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    color: var(--ink-faint);
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    margin-bottom: 24px;
-  }
-  .ornament::after {
-    content: "";
-    height: 1px;
-    background: var(--rule);
-    flex: 1;
-  }
+  .note strong { color: var(--ink); }
 </style>
 </head>
 
 <body>
+<main>
 
-<!-- ============ NAV ============ -->
-<nav class="sitenav">
-  <div class="sitenav-inner">
-    <a href="#top" class="brand">Graduate Salaries · AU</a>
-    <ul class="navlinks">
-      <li><a href="#why">Why</a></li>
-      <li><a href="#geography">Geography</a></li>
-      <li><a href="#universities">Universities</a></li>
-      <li><a href="#fields">Fields</a></li>
-      <li><a href="#beyond">Beyond salary</a></li>
-      <li><a href="#profiles">Profiles</a></li>
-    </ul>
-  </div>
-</nav>
+  <!-- ===== Title ===== -->
+  <h1>What is an Australian degree worth?</h1>
+  <p class="lede">
+    An exploration of graduate starting salaries across Australian fields of study,
+    universities, and regions — built from two public datasets: the ABS regional income
+    tables and the QILT Graduate Outcomes Survey.
+  </p>
 
-<!-- ============ HERO ============ -->
-<header class="hero" id="top">
-  <div class="wrap">
-    <span class="kicker">A data story · FIT3179 · 2026</span>
-    <h1>What is an Australian degree worth?</h1>
-    <p class="hero-sub">
-      Eleven charts on graduate starting salaries — where the money is, which fields lead,
-      and what a student trades away when they choose a discipline.
+  <!-- ===== Section 1 ===== -->
+  <section>
+    <h2>Choosing a degree is the biggest financial decision most Australians make in their twenties</h2>
+    <p>
+      Tuition, three to five years out of the workforce, and the opportunity cost of not
+      earning while studying all add up. But the payoff isn't uniform: a Pharmacy graduate
+      starts on roughly $62,600, while a Dentistry graduate starts on $103,100 — a 65% gap
+      between two fields that both demand five years of study.
     </p>
-    <div class="hero-meta">
-      <div><strong>Domain</strong>Higher education &amp; labour market outcomes</div>
-      <div><strong>Audience</strong>Prospective and current Australian university students</div>
-      <div><strong>Data</strong>ABS · QILT Graduate Outcomes Survey 2016–2025</div>
+    <p>
+      Every chart that follows uses <em>median</em> starting salaries — the middle graduate
+      in each group, not an average distorted by a handful of extreme earners. That gives
+      a more realistic picture of what a typical student can expect.
+    </p>
+
+    <div class="chart" id="chart-lollipop"></div>
+    <p class="caption">
+      Average starting salary by highest qualification. The grey band shows the range
+      across the 21 fields of study.
+    </p>
+  </section>
+
+  <!-- ===== Section 2 ===== -->
+  <section>
+    <h2>The income landscape graduates enter isn't spread evenly</h2>
+    <p>
+      Before looking at graduates specifically, it helps to see the wider geography.
+      Australia's highest earners cluster in a handful of inner-city regions; the lowest
+      cluster in remote and regional areas. The two maps below show regional income
+      and the level of inequality within each region.
+    </p>
+
+    <div class="chart" id="chart-choropleth"></div>
+    <p class="caption">
+      Median personal income by SA4 region, 2022–23 (ABS). The darkest areas sit more than
+      double the median income of parts of regional Tasmania and northern NSW.
+    </p>
+
+    <div class="chart" id="chart-colourpoint"></div>
+    <p class="caption">
+      Bubble size = number of earners. Colour = Gini coefficient (a measure of inequality).
+      Sydney's Eastern Suburbs has the highest inequality in the country.
+    </p>
+  </section>
+
+  <!-- ===== Section 3 ===== -->
+  <section>
+    <h2>Universities in regional Australia often out-earn the Group of Eight</h2>
+    <p>
+      The common assumption is that prestigious, big-city universities produce the
+      highest-paid graduates. The data suggests otherwise. Regional universities like
+      the University of New England, Charles Darwin, and Charles Sturt consistently
+      sit near the top of undergraduate salary rankings.
+    </p>
+
+    <div class="chart" id="chart-proportional"></div>
+    <p class="caption">
+      Each bubble is a university at its real geographic location. Size = full-time
+      employment rate of its 2025 undergraduates.
+    </p>
+
+    <div class="chart" id="chart-jitter"></div>
+    <p class="caption">
+      Each dot is a university. Horizontal position = median starting salary.
+      Vertical jitter is for readability only.
+    </p>
+  </section>
+
+  <!-- ===== Section 4 ===== -->
+  <section>
+    <h2>The field you choose matters more than anything else in this dataset</h2>
+    <p>
+      Salaries have risen roughly 30% across every field since 2020, and the ranking of
+      those fields has barely moved. If you want the highest starting salary in Australia,
+      the answer is stable and blunt: study Dentistry. If you want the lowest, the answer
+      is equally stable: Pharmacy, Communications, or Creative Arts.
+    </p>
+
+    <div class="chart" id="chart-slope"></div>
+    <p class="caption">
+      The ten highest-paying undergraduate fields in 2025, traced back to their 2020
+      starting salaries.
+    </p>
+
+    <div class="chart" id="chart-heatmap"></div>
+    <p class="caption">
+      Median undergraduate salary for all 21 broad fields, 2020–2025. Darker cells =
+      higher salaries. The horizontal bands show the ranking is remarkably stable.
+    </p>
+  </section>
+
+  <!-- ===== Section 5 ===== -->
+  <section>
+    <h2>Two things complicate the story: gender and level of study</h2>
+    <p>
+      Measuring salaries as if all graduates in a field were identical hides two
+      important variations. Gender changes the picture, and so does how far you take
+      your education.
+    </p>
+
+    <div class="chart" id="chart-dumbbell"></div>
+    <p class="caption">
+      Male vs female median starting salary by broad field, undergraduate 2025.
+      Sorted by the size of the gap.
+    </p>
+
+    <div class="note">
+      <strong>A gender pay gap appears in almost every field</strong> — even at the
+      point of first employment. It is widest in Architecture and Communications (around
+      8–10%) and smallest in Nursing and Pharmacy.
     </div>
-  </div>
-</header>
+  </section>
 
-<!-- ============ SECTION 1 — WHY ============ -->
-<section id="why">
-  <div class="wrap">
-    <div class="sec-head">
-      <span class="kicker">Section 01 — Why this matters</span>
-      <h2>Choosing a degree is the biggest financial decision most Australians make in their twenties.</h2>
-      <p>
-        Tuition, three to five years out of the workforce, and the opportunity cost of not
-        earning while studying all add up. But the payoff isn't uniform: a Pharmacy graduate
-        starts on roughly <span class="mono">$62,600</span>; a Dentistry graduate starts
-        on <span class="mono">$103,100</span>. That's a <strong>65% gap</strong> between two
-        fields that both demand five years of study.
-      </p>
-      <p>
-        This visualisation brings together two public datasets — the Australian Bureau of
-        Statistics' regional income tables and the federal government's Graduate Outcomes
-        Survey — to answer three questions a prospective student actually asks: <em>which
-        fields pay best, does the university matter, and what do I give up by choosing one
-        path over another?</em>
-      </p>
-    </div>
+  <!-- ===== Section 6 ===== -->
+  <section>
+    <h2>No field wins on salary, employment, and job-match at the same time</h2>
+    <p>
+      The final charts step back from single numbers. They ask: if we could measure a
+      field's profile across three outcomes at once, which fields look balanced, and
+      which look lopsided?
+    </p>
 
-    <div class="stat-row">
-      <div class="item"><span class="num">$76,719</span><span class="lbl">Average undergraduate starting salary across all 21 broad fields (2025)</span></div>
-      <div class="item"><span class="num">$100,975</span><span class="lbl">Average postgraduate coursework starting salary</span></div>
-      <div class="item"><span class="num">+$40k</span><span class="lbl">Spread between the highest- and lowest-paying undergraduate fields</span></div>
-    </div>
+    <div class="chart" id="chart-ternary"></div>
+    <p class="caption">
+      Each dot is one field. Position shows where its profile leans — towards salary,
+      employment, or job-match. A dot near the centre is equally strong on all three.
+    </p>
 
-    <div class="callout">
-      <p>
-        <strong>A note on scope.</strong> Every chart that follows is built from
-        <em>median</em> starting salaries — the middle graduate in each group, not the
-        average of extreme earners. Medians are less distorted by a handful of very high
-        incomes, and better represent what a typical student should expect.
-      </p>
-    </div>
-  </div>
-</section>
+    <div class="chart" id="chart-scatter"></div>
+    <p class="caption">
+      Undergraduate median starting salary vs full-time employment rate, 2020–2025.
+      Drag the slider to see positions shift over time.
+    </p>
 
-<!-- ============ SECTION 2 — GEOGRAPHY ============ -->
-<section id="geography">
-  <div class="wrap">
-    <div class="sec-head">
-      <span class="kicker">Section 02 — The geography of income</span>
-      <h2>Income isn't spread evenly — and neither is the opportunity to earn it.</h2>
-      <p>
-        Before we look at graduates, it helps to see the wider income landscape they enter.
-        Australia's highest earners cluster in a handful of inner-city regions; the lowest
-        cluster in remote and regional areas. Two maps establish that context.
-      </p>
-    </div>
+    <div class="chart" id="chart-multiline"></div>
+    <p class="caption">
+      Undergraduate median starting salary by citizenship status, 2016–2024. The gap
+      widened through 2022 and has narrowed since.
+    </p>
+  </section>
 
-    <figure>
-      <div class="chart-frame wide" id="vis-choropleth"></div>
-      <figcaption>
-        <span class="figlabel">FIG. 01</span>
-        <strong>Choropleth map of regional income.</strong> Median personal income by SA4 region, 2022–23 (ABS). The darkest areas — Sydney's North Shore and Eastern Suburbs, Melbourne's Inner East — sit more than double the median income of parts of regional Tasmania and northern NSW.
-      </figcaption>
-    </figure>
+  <!-- ===== Sources ===== -->
+  <section>
+    <h2>Sources and notes</h2>
+    <p style="font-size:14px;">
+      <strong>Data sources.</strong>
+      <a href="https://www.abs.gov.au/statistics/labour/earnings-and-working-conditions/personal-income-australia/latest-release">ABS Personal Income in Australia 2022–23</a>;
+      <a href="https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)">QILT Graduate Outcomes Survey 2016–2025</a>;
+      <a href="https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026">ABS ASGS 2021</a>.
+    </p>
+    <p style="font-size:14px;">
+      <strong>Author.</strong> &lt;Your full name&gt;, &lt;Student ID&gt;.
+      FIT3179, Semester 2, 2026. Submitted 25 October 2026.
+    </p>
+    <p style="font-size:14px;">
+      <strong>Acknowledgement.</strong> Charts built in Vega-Lite v5 and rendered with
+      vega-embed. Generative AI (Anthropic Claude) was used to assist with Vega-Lite
+      specification syntax and grammar-checking of narrative text. All analytical choices
+      and interpretive claims are my own.
+    </p>
+  </section>
 
-    <div class="grid-2" style="margin-top: 64px;">
-      <div>
-        <h3>Where the earners are — and where inequality is worst.</h3>
-        <p>
-          Plotting <em>both</em> the number of earners and the Gini coefficient of each
-          region reveals a second layer to the story. The biggest bubbles are in the
-          capital cities — no surprise — but the <em>darkest</em> ones sit in the wealthiest
-          suburbs of Sydney and Melbourne.
-        </p>
-        <p>
-          Sydney's Eastern Suburbs has a Gini of <span class="mono">0.63</span> — well above the national average of <span class="mono">0.48</span>. That's a region where the top 1% of earners take home nearly a fifth of all income. Meanwhile Western Sydney — with a similar population of earners — sits in the palest band.
-        </p>
-        <div class="callout">
-          <p>
-            <span class="stat">Where you study and work shapes how much you earn.</span>
-            But the effect is small compared to the effect of <em>what you studied</em> — a finding we return to in Section 04.
-          </p>
-        </div>
-      </div>
-      <figure>
-        <div class="chart-frame" id="vis-colourpoint"></div>
-        <figcaption>
-          <span class="figlabel">FIG. 02</span>
-          <strong>Multivariate bubble map.</strong> Bubble size = number of earners. Colour = Gini coefficient (measure of inequality). ABS 2022–23.
-        </figcaption>
-      </figure>
-    </div>
-  </div>
-</section>
+</main>
 
-<!-- ============ SECTION 3 — UNIVERSITIES ============ -->
-<section id="universities">
-  <div class="wrap">
-    <div class="sec-head">
-      <span class="kicker">Section 03 — Does the university matter?</span>
-      <h2>Universities in regional Australia often out-earn the sandstone Group of Eight.</h2>
-      <p>
-        The common assumption is that the prestigious, big-city universities produce the
-        highest-paid graduates. The data suggests otherwise. Two charts explore what
-        graduates from each Australian university actually earn, and how likely they are
-        to land full-time work.
-      </p>
-    </div>
-
-    <figure>
-      <div class="chart-frame wide" id="vis-proportional"></div>
-      <figcaption>
-        <span class="figlabel">FIG. 03</span>
-        <strong>Proportional symbol map.</strong> Each bubble is a university, positioned at its real geographic location. Size = full-time employment rate of its 2025 undergraduates. QILT Graduate Outcomes Survey.
-      </figcaption>
-    </figure>
-
-    <div class="grid-2" style="margin-top: 64px;">
-      <div>
-        <h3>Every university pays postgraduates more — but by how much varies sharply.</h3>
-        <p>
-          Undergraduate salaries cluster tightly between <span class="mono">$67k</span> and
-          <span class="mono">$87k</span> across every Australian university. Postgraduate
-          coursework salaries, at the same institutions, span <span class="mono">$90k</span>
-          to <span class="mono">$135k</span> — nearly <strong>twice the spread</strong>.
-        </p>
-        <p>
-          The University of New England, a regional campus in Armidale, has the highest
-          undergraduate median in the country. The University of New South Wales tops the
-          postgraduate list. Neither is a mistake: the split reflects what graduates
-          actually do — regional nursing, teaching, and health graduates move quickly into
-          paid roles, while metropolitan graduates are more likely to pursue further study
-          or casual work first.
-        </p>
-      </div>
-      <figure>
-        <div class="chart-frame" id="vis-jitter"></div>
-        <figcaption>
-          <span class="figlabel">FIG. 04</span>
-          <strong>Jitter dot plot.</strong> Each dot is a university. Horizontal position = its median undergraduate or postgraduate starting salary. Vertical jitter is for readability only.
-        </figcaption>
-      </figure>
-    </div>
-  </div>
-</section>
-
-<!-- ============ SECTION 4 — FIELDS ============ -->
-<section id="fields">
-  <div class="wrap">
-    <div class="sec-head">
-      <span class="kicker">Section 04 — Which fields pay best?</span>
-      <h2>The field you choose matters more than the university you attend or the year you graduate.</h2>
-      <p>
-        Salaries have risen roughly 30% across every field since 2020, and the ranking of
-        those fields has barely moved. If you want the highest starting salary in
-        Australia, the answer is stable and blunt: study Dentistry. If you want the lowest,
-        the answer is equally stable: Pharmacy, Communications, or Creative Arts.
-      </p>
-    </div>
-
-    <figure>
-      <div class="chart-frame wide" id="vis-slope"></div>
-      <figcaption>
-        <span class="figlabel">FIG. 05</span>
-        <strong>Slope chart.</strong> The ten highest-paying undergraduate fields in 2025, traced back to their 2020 starting salaries. Every field gained, but the ordering held.
-      </figcaption>
-    </figure>
-
-    <figure style="margin-top: 64px;">
-      <div class="chart-frame wide" id="vis-heatmap"></div>
-      <figcaption>
-        <span class="figlabel">FIG. 06</span>
-        <strong>Heatmap of field × year.</strong> Median undergraduate salary for all 21 broad fields, 2020–2025. Darker cells = higher salaries. The horizontal bands show the ranking is remarkably stable.
-      </figcaption>
-    </figure>
-
-    <div class="callout" style="margin-top: 40px;">
-      <p>
-        <strong>The stability is the finding.</strong> Over six years — including a
-        pandemic, a cost-of-living crisis, and a tight graduate labour market — not a
-        single field has moved more than three places in the ranking. Field choice
-        <em>locks in</em> your starting salary more than any other factor in this dataset.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- ============ SECTION 5 — BEYOND SALARY ============ -->
-<section id="beyond">
-  <div class="wrap">
-    <div class="sec-head">
-      <span class="kicker">Section 05 — Beyond the headline number</span>
-      <h2>Two charts complicate the story: pay gaps and diminishing returns.</h2>
-      <p>
-        The previous sections measured salaries as if all graduates in a field were
-        identical. They aren't. Gender changes the picture, and so does the level of
-        qualification you stop at.
-      </p>
-    </div>
-
-    <div class="grid-2">
-      <figure>
-        <div class="chart-frame" id="vis-dumbbell"></div>
-        <figcaption>
-          <span class="figlabel">FIG. 07</span>
-          <strong>Dumbbell chart.</strong> Male vs female median starting salary, by broad field, undergraduate 2025. Sorted by the size of the gap. Blue = male, red = female.
-        </figcaption>
-      </figure>
-      <div>
-        <h3>A gender pay gap in every field — but not the same one.</h3>
-        <p>
-          Female graduates earn less than male graduates in nearly every field, even at
-          the point of first employment. The gap is widest in Architecture and Communications
-          (around <span class="mono">8–10%</span>), and smallest in Nursing and Pharmacy,
-          where the workforce is highly feminised and award wages dominate.
-        </p>
-        <p>
-          The story isn't one of universal disparity — it's that the gap <em>depends on
-          the field</em>. This matters for students trying to interpret the "typical salary"
-          for their discipline.
-        </p>
-      </div>
-    </div>
-
-    <figure style="margin-top: 72px;">
-      <div class="chart-frame wide" id="vis-lollipop"></div>
-      <figcaption>
-        <span class="figlabel">FIG. 08</span>
-        <strong>Lollipop with range bars.</strong> Average starting salary by highest qualification, 2025. Stem length = the value. Grey band = the range across the 21 fields of study.
-      </figcaption>
-    </figure>
-
-    <div class="callout" style="margin-top: 40px;">
-      <p>
-        <span class="stat">Each rung of the education ladder adds less than the one before it.</span>
-        A bachelor's degree adds roughly <span class="mono">$19k</span> over the general
-        workforce median. A master's adds <span class="mono">$24k</span> more. A PhD adds
-        only <span class="mono">$11k</span> on top of that — despite, typically, three
-        to four additional years of study.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- ============ SECTION 6 — PROFILES & TRADE-OFFS ============ -->
-<section id="profiles">
-  <div class="wrap">
-    <div class="sec-head">
-      <span class="kicker">Section 06 — No field wins on everything</span>
-      <h2>Salary, employment, and job-match form a triangle — and every field leans toward one corner.</h2>
-      <p>
-        The final three charts step back from single numbers. They ask: if we could measure
-        a field's profile across <em>three</em> outcomes at once, which fields look balanced,
-        and which look lopsided?
-      </p>
-    </div>
-
-    <figure>
-      <div class="chart-frame wide" id="vis-ternary"></div>
-      <figcaption>
-        <span class="figlabel">FIG. 09</span>
-        <strong>Ternary balance plot.</strong> Each dot is one field. Position shows where the field's profile leans — towards salary strength, employment strength, or job-match strength. A dot near the centre is equally strong (or weak) on all three.
-      </figcaption>
-    </figure>
-
-    <div class="grid-2" style="margin-top: 64px;">
-      <div>
-        <h3>Salary and employment don't move together — you trade one for the other.</h3>
-        <p>
-          Drag the slider to see how the relationship between salary and full-time
-          employment has shifted year by year. Very little has changed: Pharmacy and
-          Rehabilitation sit at the top of the employment axis but bottom of the salary
-          axis; Dentistry sits at the top of salary but mid-pack on employment.
-        </p>
-        <p>
-          This is one of the most useful findings in the dataset. If a student cares most
-          about <em>getting a job</em>, the safest fields are the health-adjacent ones. If
-          they care most about <em>earning power</em>, they should choose the high-salary
-          fields and accept a slightly lower employment rate.
-        </p>
-      </div>
-      <figure>
-        <div class="chart-frame" id="vis-scatter"></div>
-        <figcaption>
-          <span class="figlabel">FIG. 10</span>
-          <strong>Animated scatter with year slider.</strong> Undergraduate median starting salary vs full-time employment rate, 2020–2025. Each dot is one field. Drag the slider to see positions shift over time.
-        </figcaption>
-      </figure>
-    </div>
-
-    <figure style="margin-top: 72px;">
-      <div class="chart-frame wide" id="vis-multiline"></div>
-      <figcaption>
-        <span class="figlabel">FIG. 11</span>
-        <strong>International vs domestic salary trend.</strong> Undergraduate median starting salary by citizenship status, 2016–2024. The gap widened through 2022 and has narrowed since — a change likely reflecting shifts in the international student mix.
-      </figcaption>
-    </figure>
-
-    <div class="callout" style="margin-top: 40px;">
-      <p>
-        <span class="stat">The average international graduate earns less than the average domestic graduate at the same university.</span>
-        In 2024 the gap was <span class="mono">$7,000</span> — down from a peak of
-        <span class="mono">$12,000</span> in 2022. Both groups' salaries grew steadily;
-        the recent narrowing likely reflects a change in the fields international students
-        are choosing.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- ============ CLOSING ============ -->
-<section id="conclusion" style="background: var(--paper-soft);">
-  <div class="wrap">
-    <div class="sec-head">
-      <span class="kicker">Conclusion</span>
-      <h2>Three things a student can take from this data.</h2>
-    </div>
-    <div class="grid-3">
-      <div>
-        <h4>1. Field first.</h4>
-        <p class="caption">
-          Field of study moves starting salaries by <span class="mono">$40k</span>.
-          University choice moves them by <span class="mono">$20k</span>. Geography moves
-          them by less. If you can only optimise for one thing, optimise for the field.
-        </p>
-      </div>
-      <div>
-        <h4>2. Employment isn't automatic.</h4>
-        <p class="caption">
-          Even in the most employable fields, <span class="mono">5–10%</span> of graduates
-          are still looking for full-time work four months after finishing. In
-          less-employable fields the figure is closer to <span class="mono">20%</span>.
-        </p>
-      </div>
-      <div>
-        <h4>3. Postgraduate study has a sweet spot.</h4>
-        <p class="caption">
-          A coursework master's adds the biggest premium. A PhD adds the smallest.
-          For most students, the return on a research degree is not financial.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ FOOTER ============ -->
-<footer>
-  <div class="wrap">
-    <div class="cols">
-      <div>
-        <h3>Author</h3>
-        <p>
-          <strong style="color:#fff;">&lt;Junjie Huang&gt;</strong><br>
-          Student ID: &lt;33048266&gt;<br>
-          FIT3179 · Semester 2, 2026<br>
-          Monash University
-        </p>
-        <p style="font-size:12.5px;color:#718096;">
-          Submitted 25 October 2026.
-        </p>
-      </div>
-      <div>
-        <h3>Data sources</h3>
-        <ul>
-          <li><a href="https://www.abs.gov.au/statistics/labour/earnings-and-working-conditions/personal-income-australia/latest-release">ABS · Personal Income in Australia, 2022–23</a></li>
-          <li><a href="https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)">QILT · Graduate Outcomes Survey, 2016–2025</a></li>
-          <li><a href="https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026">ABS · Australian Statistical Geography Standard (ASGS) 2021</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3>Notes &amp; acknowledgements</h3>
-        <p style="font-size:13.5px;">
-          Charts built in <a href="https://vega.github.io/vega-lite/">Vega-Lite v5</a>
-          and rendered with <a href="https://github.com/vega/vega-embed">vega-embed</a>.
-          Layout uses <a href="https://purecss.io/">Pure.css</a>.
-          Typeset in <em>Fraunces</em> and <em>Inter</em>.
-        </p>
-        <p style="font-size:13.5px;">
-          Generative AI (Anthropic Claude) was used to assist with Vega-Lite specification syntax,
-          CSS layout scaffolding, and grammar-checking of narrative text. All analytical
-          choices, chart designs, data processing, and interpretive claims are my own.
-        </p>
-      </div>
-    </div>
-    <div class="final">
-      <span>&copy; 2026 &lt;Your full name&gt; · Released under <a href="https://creativecommons.org/licenses/by/4.0/" style="color:#90cdf4;">CC BY 4.0</a></span>
-      <span>Last updated: 25 October 2026</span>
-    </div>
-  </div>
-</footer>
-
-<!-- ============ CHART EMBED SCRIPT ============ -->
 <script>
-  // Common embed options
-  const OPTS = {
-    actions: false,      // hide "⋯" menu for cleaner look
-    renderer: 'svg',     // sharper typography
-    theme: null,
-    config: {
-      background: 'transparent'
-    }
-  };
+  const OPTS = { actions: false, renderer: 'svg' };
 
-  // List of (DOM id, path to spec)
   const charts = [
-    ['vis-choropleth',   'vegaFile/choropleth_map.vg.json'],
-    ['vis-colourpoint',  'vegaFile/colour_point_map.vg.json'],
-    ['vis-proportional', 'vegaFile/proportional_symbols.vg.json'],
-    ['vis-jitter',       'vegaFile/jitter_dot_plot.vg.json'],
-    ['vis-slope',        'vegaFile/slope.vg.json'],
-    ['vis-heatmap',      'vegaFile/heatmap.vg.json'],
-    ['vis-dumbbell',     'vegaFile/dumbbell.vg.json'],
-    ['vis-lollipop',     'vegaFile/lollipop_chart.vg.json'],
-    ['vis-ternary',      'vegaFile/ternary_polt.vg.json'],
-    ['vis-scatter',      'vegaFile/filtered_scatter_plot.vega.json'],
-    ['vis-multiline',    'vegaFile/multi_line_chart.vg.json']
+    ['chart-lollipop',     'vegaFile/lollipop_chart.vg.json'],
+    ['chart-choropleth',   'vegaFile/choropleth_map.vg.json'],
+    ['chart-colourpoint',  'vegaFile/colour_point_map.vg.json'],
+    ['chart-proportional', 'vegaFile/proportional_symbols.vg.json'],
+    ['chart-jitter',       'vegaFile/jitter_dot_plot.vg.json'],
+    ['chart-slope',        'vegaFile/slope.vg.json'],
+    ['chart-heatmap',      'vegaFile/heatmap.vg.json'],
+    ['chart-dumbbell',     'vegaFile/dumbbell.vg.json'],
+    ['chart-ternary',      'vegaFile/ternary_polt.vg.json'],
+    ['chart-scatter',      'vegaFile/filtered_scatter_plot.vega.json'],
+    ['chart-multiline',    'vegaFile/multi_line_chart.vg.json']
   ];
 
-  // Render each chart. Errors are logged but don't break the page.
-  Promise.all(charts.map(([id, spec]) =>
-    vegaEmbed('#' + id, spec, OPTS)
-      .catch(err => {
-        console.error('Failed to render ' + spec, err);
-        document.getElementById(id).innerHTML =
-          '<p style="color:#c33;font-size:13px;padding:16px;">' +
-          'Chart could not be loaded: ' + spec + '</p>';
-      })
-  )).then(() => console.log('All charts rendered.'));
+  charts.forEach(([id, spec]) => {
+    vegaEmbed('#' + id, spec, OPTS).catch(err => {
+      console.error('Failed: ' + spec, err);
+      document.getElementById(id).innerHTML =
+        '<p style="color:#c33;font-size:13px;">Could not load ' + spec + '</p>';
+    });
+  });
 </script>
 
 </body>
