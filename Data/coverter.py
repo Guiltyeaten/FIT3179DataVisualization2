@@ -122,7 +122,7 @@ def convert_salary_area(path, course_level, level, header_row=1, area_col=0):
         if not isinstance(area, str):
             continue
         area = area.strip()
-        if area.lower() in ("total", "standard deviation", "nan", ""):
+        if area.lower() in ("total", "all", "standard deviation", "nan", ""):
             continue
         for i, gender, year in col_specs:
             value, _, _ = clean_number(row[f"c{i}"])
@@ -161,7 +161,7 @@ def convert_employment(path, course_level, header_row=1, area_col=0):
         if not isinstance(area, str):
             continue
         area = area.strip()
-        if area.lower() in ("total", "standard deviation", "nan", ""):
+        if area.lower() in ("total", "all", "standard deviation", "nan", ""):
             continue
         for i, measure, year in col_specs:
             value, _, _ = clean_number(row[f"c{i}"])
