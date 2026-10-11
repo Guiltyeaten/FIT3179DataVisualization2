@@ -1,0 +1,152 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 720,
+  "height": 400,
+  "padding": {"right": 10, "left": 10, "bottom": 20},
+  "title": {
+    "text": "International student always starts at lower salary, but the gap is smaller recently",
+    "subtitle": [
+      "Undergraduate median starting salary by citizenship"
+    ],
+    "fontSize": 15,
+    "subtitleFontSize": 12,
+    "subtitleColor": "#546e7a",
+    "anchor": "start",
+    "offset": 12
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/international_trend.csv",
+    "format": {"type": "csv", "parse": {"year": "number", "median_salary": "number"}}
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/international_trend.csv",
+        "format": {"type": "csv", "parse": {"year": "number", "median_salary": "number"}}
+      },
+      "transform": [
+        {"filter": "datum.course_level == 'UG'"},
+        {"pivot": "citizenship", "value": "median_salary", "groupby": ["year"]},
+        {"filter": "isValid(datum.Domestic) && isValid(datum.International)"}
+      ],
+      "mark": {
+        "type": "area",
+        "opacity": 0.18,
+        "color": "#78909c",
+        "interpolate": "monotone"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "title": null,
+          "axis": {"labelAngle": 0, "labelFontSize": 11, "titleFontSize": 12}
+        },
+        "y": {"field": "International", "type": "quantitative"},
+        "y2": {"field": "Domestic"}
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.course_level == 'UG'"}
+      ],
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2.5,
+        "interpolate": "monotone",
+        "point": {"filled": true, "size": 80, "stroke": "white", "strokeWidth": 1}
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "title": null,
+          "axis": {"labelAngle": 0, "labelFontSize": 11, "titleFontSize": 12}
+        },
+        "y": {
+          "field": "median_salary",
+          "type": "quantitative",
+          "title": "Median starting salary (AUD)",
+          "scale": {"zero": false, "domain": [45000, 80000]},
+          "axis": {
+            "format": "$,.0f",
+            "titleFontSize": 12,
+            "labelFontSize": 11,
+            "titlePadding": 10,
+            "grid": true,
+            "gridColor": "#f0f0f0"
+          }
+        },
+        "color": {
+          "field": "citizenship",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Domestic", "International"],
+            "range": ["#1e88e5", "#f57c00"]
+          },
+          "legend": {
+            "title": "Citizenship",
+            "orient": "top",
+            "direction": "horizontal",
+            "titleFontSize": 11,
+            "labelFontSize": 11,
+            "symbolSize": 120,
+            "symbolType": "stroke"
+          }
+        },
+        "detail": {"field": "citizenship"},
+        "tooltip": [
+          {"field": "year", "type": "ordinal", "title": "Year"},
+          {"field": "citizenship", "type": "nominal", "title": "Citizenship"},
+          {"field": "median_salary", "type": "quantitative", "format": "$,.0f", "title": "Median salary"}
+        ]
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.course_level == 'UG'"},
+        {"pivot": "citizenship", "value": "median_salary", "groupby": ["year"]},
+        {"filter": "datum.year == 2024"},
+        {
+          "calculate": "'gap: $' + format(datum.Domestic - datum.International, ',.0f')",
+          "as": "gapLabel"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "dy":40,
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#546e7a"
+      },
+      "encoding": {
+        "x": {"field": "year", "type": "ordinal"},
+        "y": {"field": "Domestic", "type": "quantitative"},
+        "text": {"field": "gapLabel", "type": "nominal"}
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.course_level == 'UG'"},
+        {"pivot": "citizenship", "value": "median_salary", "groupby": ["year"]},
+        {"filter": "datum.year == 2020"},
+        {"calculate": "'peak gap: $' + format(datum.Domestic - datum.International, ',.0f')", "as": "gapLabel"}
+      ],
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "dy": -20,
+        "fontSize": 10,
+        "fontStyle": "italic",
+        "color": "#78909c"
+      },
+      "encoding": {
+        "x": {"field": "year", "type": "ordinal"},
+        "y": {"field": "Domestic", "type": "quantitative"},
+        "text": {"field": "gapLabel", "type": "nominal"}
+      }
+    }
+  ]
+}
