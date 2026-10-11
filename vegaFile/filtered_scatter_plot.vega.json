@@ -45,7 +45,7 @@
       "field": "fte",
       "type": "quantitative",
       "title": "Full-time employment rate (%)",
-      "scale": {"zero": false, "domain": [50, 100]},
+      "scale": {"zero": false, "domain": [40, 100]},
       "axis": {"titleFontSize": 12, "labelFontSize": 11}
     },
     "y": {
