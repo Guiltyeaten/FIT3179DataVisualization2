@@ -11,7 +11,7 @@ import traceback
 import pandas as pd
 
 INPUT_DIR = "Data"
-OUTPUT_DIR = "output"
+OUTPUT_DIR = "processedData"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 

@@ -2115,152 +2115,227 @@ year,course_level,study_area,study_area_level,gender,median_salary
 2022,PGC,Veterinary science,detail45,Total,70000.0
 2021,PGC,Veterinary science,detail45,Total,62300.0
 2020,PGC,Veterinary science,detail45,Total,59500.0
+2025,PGR,Agriculture and environmental studies,broad,Male,100000.0
 2023,PGR,Agriculture and environmental studies,broad,Male,103000.0
 2021,PGR,Agriculture and environmental studies,broad,Male,91800.0
+2025,PGR,Agriculture and environmental studies,broad,Female,97000.0
+2024,PGR,Agriculture and environmental studies,broad,Female,94400.0
 2023,PGR,Agriculture and environmental studies,broad,Female,91700.0
 2022,PGR,Agriculture and environmental studies,broad,Female,89600.0
 2021,PGR,Agriculture and environmental studies,broad,Female,86500.0
 2020,PGR,Agriculture and environmental studies,broad,Female,84900.0
+2025,PGR,Agriculture and environmental studies,broad,Total,98700.0
+2024,PGR,Agriculture and environmental studies,broad,Total,95800.0
 2023,PGR,Agriculture and environmental studies,broad,Total,96600.0
 2022,PGR,Agriculture and environmental studies,broad,Total,91400.0
 2021,PGR,Agriculture and environmental studies,broad,Total,88300.0
 2020,PGR,Agriculture and environmental studies,broad,Total,85500.0
 2022,PGR,Architecture and built environment,broad,Total,103000.0
 2021,PGR,Architecture and built environment,broad,Total,100000.0
+2025,PGR,Business and management,broad,Male,115500.0
+2024,PGR,Business and management,broad,Male,126500.0
 2023,PGR,Business and management,broad,Male,125000.0
 2022,PGR,Business and management,broad,Male,119400.0
 2021,PGR,Business and management,broad,Male,105000.0
 2020,PGR,Business and management,broad,Male,105000.0
+2025,PGR,Business and management,broad,Female,108500.0
+2024,PGR,Business and management,broad,Female,108500.0
 2023,PGR,Business and management,broad,Female,105000.0
 2022,PGR,Business and management,broad,Female,96000.0
 2021,PGR,Business and management,broad,Female,109100.0
 2020,PGR,Business and management,broad,Female,97600.0
+2025,PGR,Business and management,broad,Total,110100.0
+2024,PGR,Business and management,broad,Total,123500.0
 2023,PGR,Business and management,broad,Total,114000.0
 2022,PGR,Business and management,broad,Total,107000.0
 2021,PGR,Business and management,broad,Total,105600.0
 2020,PGR,Business and management,broad,Total,100000.0
+2025,PGR,Computing and Information Systems,broad,Male,117200.0
+2024,PGR,Computing and Information Systems,broad,Male,115000.0
 2023,PGR,Computing and Information Systems,broad,Male,102000.0
 2022,PGR,Computing and Information Systems,broad,Male,93000.0
 2021,PGR,Computing and Information Systems,broad,Male,99000.0
 2020,PGR,Computing and Information Systems,broad,Male,92000.0
+2025,PGR,Computing and Information Systems,broad,Total,109000.0
+2024,PGR,Computing and Information Systems,broad,Total,108500.0
 2023,PGR,Computing and Information Systems,broad,Total,102000.0
 2022,PGR,Computing and Information Systems,broad,Total,94000.0
 2021,PGR,Computing and Information Systems,broad,Total,97500.0
 2020,PGR,Computing and Information Systems,broad,Total,92000.0
+2025,PGR,Creative arts,broad,Male,99000.0
 2023,PGR,Creative arts,broad,Male,92000.0
 2022,PGR,Creative arts,broad,Male,90500.0
 2021,PGR,Creative arts,broad,Male,96000.0
 2020,PGR,Creative arts,broad,Male,93000.0
+2025,PGR,Creative arts,broad,Female,104400.0
+2024,PGR,Creative arts,broad,Female,75000.0
 2023,PGR,Creative arts,broad,Female,85000.0
 2022,PGR,Creative arts,broad,Female,99100.0
 2021,PGR,Creative arts,broad,Female,83500.0
 2020,PGR,Creative arts,broad,Female,70000.0
+2025,PGR,Creative arts,broad,Total,103000.0
+2024,PGR,Creative arts,broad,Total,89500.0
 2023,PGR,Creative arts,broad,Total,87500.0
 2022,PGR,Creative arts,broad,Total,98500.0
 2021,PGR,Creative arts,broad,Total,86000.0
 2020,PGR,Creative arts,broad,Total,78300.0
+2025,PGR,Engineering,broad,Male,112000.0
+2024,PGR,Engineering,broad,Male,106300.0
 2023,PGR,Engineering,broad,Male,100000.0
 2022,PGR,Engineering,broad,Male,91600.0
 2021,PGR,Engineering,broad,Male,89600.0
 2020,PGR,Engineering,broad,Male,93900.0
+2025,PGR,Engineering,broad,Female,104500.0
+2024,PGR,Engineering,broad,Female,97000.0
 2023,PGR,Engineering,broad,Female,92300.0
 2022,PGR,Engineering,broad,Female,95000.0
 2021,PGR,Engineering,broad,Female,90000.0
 2020,PGR,Engineering,broad,Female,90800.0
+2025,PGR,Engineering,broad,Total,110000.0
+2024,PGR,Engineering,broad,Total,105300.0
 2023,PGR,Engineering,broad,Total,98700.0
 2022,PGR,Engineering,broad,Total,92000.0
 2021,PGR,Engineering,broad,Total,90000.0
 2020,PGR,Engineering,broad,Total,92900.0
+2025,PGR,Health services and support,broad,Male,120000.0
+2024,PGR,Health services and support,broad,Male,114800.0
 2023,PGR,Health services and support,broad,Male,104100.0
 2022,PGR,Health services and support,broad,Male,103700.0
 2021,PGR,Health services and support,broad,Male,103000.0
 2020,PGR,Health services and support,broad,Male,98600.0
+2025,PGR,Health services and support,broad,Female,112900.0
+2024,PGR,Health services and support,broad,Female,114300.0
 2023,PGR,Health services and support,broad,Female,108000.0
 2022,PGR,Health services and support,broad,Female,101800.0
 2021,PGR,Health services and support,broad,Female,106000.0
 2020,PGR,Health services and support,broad,Female,93500.0
+2025,PGR,Health services and support,broad,Total,115500.0
+2024,PGR,Health services and support,broad,Total,114700.0
 2023,PGR,Health services and support,broad,Total,107000.0
 2022,PGR,Health services and support,broad,Total,102000.0
 2021,PGR,Health services and support,broad,Total,106000.0
 2020,PGR,Health services and support,broad,Total,95000.0
+2025,PGR,"Humanities, culture and social sciences",broad,Male,115000.0
+2024,PGR,"Humanities, culture and social sciences",broad,Male,90800.0
 2023,PGR,"Humanities, culture and social sciences",broad,Male,98400.0
 2022,PGR,"Humanities, culture and social sciences",broad,Male,100000.0
 2021,PGR,"Humanities, culture and social sciences",broad,Male,95000.0
 2020,PGR,"Humanities, culture and social sciences",broad,Male,90000.0
+2025,PGR,"Humanities, culture and social sciences",broad,Female,100000.0
+2024,PGR,"Humanities, culture and social sciences",broad,Female,96600.0
 2023,PGR,"Humanities, culture and social sciences",broad,Female,98000.0
 2022,PGR,"Humanities, culture and social sciences",broad,Female,99000.0
 2021,PGR,"Humanities, culture and social sciences",broad,Female,91700.0
 2020,PGR,"Humanities, culture and social sciences",broad,Female,90000.0
+2025,PGR,"Humanities, culture and social sciences",broad,Total,108000.0
+2024,PGR,"Humanities, culture and social sciences",broad,Total,93600.0
 2023,PGR,"Humanities, culture and social sciences",broad,Total,98300.0
 2022,PGR,"Humanities, culture and social sciences",broad,Total,100000.0
 2021,PGR,"Humanities, culture and social sciences",broad,Total,93000.0
 2020,PGR,"Humanities, culture and social sciences",broad,Total,90000.0
+2025,PGR,Law and paralegal studies,broad,Total,125500.0
+2024,PGR,Law and paralegal studies,broad,Total,115000.0
 2023,PGR,Law and paralegal studies,broad,Total,109300.0
 2022,PGR,Law and paralegal studies,broad,Total,130000.0
 2021,PGR,Law and paralegal studies,broad,Total,102300.0
+2025,PGR,Medicine,broad,Male,146000.0
+2024,PGR,Medicine,broad,Male,143500.0
 2023,PGR,Medicine,broad,Male,119500.0
 2022,PGR,Medicine,broad,Male,120000.0
 2021,PGR,Medicine,broad,Male,106000.0
 2020,PGR,Medicine,broad,Male,122500.0
+2025,PGR,Medicine,broad,Female,110000.0
+2024,PGR,Medicine,broad,Female,110000.0
 2023,PGR,Medicine,broad,Female,102100.0
 2022,PGR,Medicine,broad,Female,100000.0
 2021,PGR,Medicine,broad,Female,95500.0
 2020,PGR,Medicine,broad,Female,96300.0
+2025,PGR,Medicine,broad,Total,116000.0
+2024,PGR,Medicine,broad,Total,115000.0
 2023,PGR,Medicine,broad,Total,106100.0
 2022,PGR,Medicine,broad,Total,104400.0
 2021,PGR,Medicine,broad,Total,99900.0
 2020,PGR,Medicine,broad,Total,100000.0
+2025,PGR,Nursing,broad,Female,130600.0
+2024,PGR,Nursing,broad,Female,120900.0
 2023,PGR,Nursing,broad,Female,116500.0
 2022,PGR,Nursing,broad,Female,118500.0
 2021,PGR,Nursing,broad,Female,117500.0
 2020,PGR,Nursing,broad,Female,109000.0
+2025,PGR,Nursing,broad,Total,132000.0
+2024,PGR,Nursing,broad,Total,123000.0
 2023,PGR,Nursing,broad,Total,119000.0
 2022,PGR,Nursing,broad,Total,119500.0
 2021,PGR,Nursing,broad,Total,114000.0
 2020,PGR,Nursing,broad,Total,106000.0
+2024,PGR,Pharmacy,broad,Total,93000.0
+2025,PGR,Psychology,broad,Male,110000.0
+2024,PGR,Psychology,broad,Male,110000.0
 2023,PGR,Psychology,broad,Male,95500.0
 2022,PGR,Psychology,broad,Male,100000.0
 2020,PGR,Psychology,broad,Male,99300.0
+2025,PGR,Psychology,broad,Female,106000.0
+2024,PGR,Psychology,broad,Female,108000.0
 2023,PGR,Psychology,broad,Female,94000.0
 2022,PGR,Psychology,broad,Female,94500.0
 2021,PGR,Psychology,broad,Female,93800.0
 2020,PGR,Psychology,broad,Female,94000.0
+2025,PGR,Psychology,broad,Total,107500.0
+2024,PGR,Psychology,broad,Total,108000.0
 2023,PGR,Psychology,broad,Total,95000.0
 2022,PGR,Psychology,broad,Total,95400.0
 2021,PGR,Psychology,broad,Total,93900.0
 2020,PGR,Psychology,broad,Total,95000.0
+2025,PGR,Science and mathematics,broad,Male,104600.0
+2024,PGR,Science and mathematics,broad,Male,97400.0
 2023,PGR,Science and mathematics,broad,Male,95000.0
 2022,PGR,Science and mathematics,broad,Male,91100.0
 2021,PGR,Science and mathematics,broad,Male,92700.0
 2020,PGR,Science and mathematics,broad,Male,87700.0
+2025,PGR,Science and mathematics,broad,Female,100000.0
+2024,PGR,Science and mathematics,broad,Female,97500.0
 2023,PGR,Science and mathematics,broad,Female,92000.0
 2022,PGR,Science and mathematics,broad,Female,91000.0
 2021,PGR,Science and mathematics,broad,Female,87000.0
 2020,PGR,Science and mathematics,broad,Female,85200.0
+2025,PGR,Science and mathematics,broad,Total,102000.0
+2024,PGR,Science and mathematics,broad,Total,97500.0
 2023,PGR,Science and mathematics,broad,Total,93500.0
 2022,PGR,Science and mathematics,broad,Total,91000.0
 2021,PGR,Science and mathematics,broad,Total,89800.0
 2020,PGR,Science and mathematics,broad,Total,86300.0
+2025,PGR,Teacher education,broad,Male,126600.0
+2024,PGR,Teacher education,broad,Male,122500.0
 2023,PGR,Teacher education,broad,Male,111000.0
 2022,PGR,Teacher education,broad,Male,115500.0
 2021,PGR,Teacher education,broad,Male,130000.0
 2020,PGR,Teacher education,broad,Male,120000.0
+2025,PGR,Teacher education,broad,Female,123000.0
+2024,PGR,Teacher education,broad,Female,120000.0
 2023,PGR,Teacher education,broad,Female,110200.0
 2022,PGR,Teacher education,broad,Female,110000.0
 2021,PGR,Teacher education,broad,Female,106000.0
 2020,PGR,Teacher education,broad,Female,110000.0
+2025,PGR,Teacher education,broad,Total,124500.0
+2024,PGR,Teacher education,broad,Total,120000.0
 2023,PGR,Teacher education,broad,Total,110200.0
 2022,PGR,Teacher education,broad,Total,110000.0
 2021,PGR,Teacher education,broad,Total,117000.0
 2020,PGR,Teacher education,broad,Total,112500.0
+2025,PGR,All,broad,Male,112000.0
+2024,PGR,All,broad,Male,106200.0
 2023,PGR,All,broad,Male,100000.0
 2022,PGR,All,broad,Male,97000.0
 2021,PGR,All,broad,Male,96000.0
 2020,PGR,All,broad,Male,95000.0
+2025,PGR,All,broad,Female,107100.0
+2024,PGR,All,broad,Female,102000.0
 2023,PGR,All,broad,Female,98000.0
 2022,PGR,All,broad,Female,96000.0
 2021,PGR,All,broad,Female,93900.0
 2020,PGR,All,broad,Female,91900.0
+2025,PGR,All,broad,Total,109100.0
+2024,PGR,All,broad,Total,104400.0
 2023,PGR,All,broad,Total,100000.0
 2022,PGR,All,broad,Total,96000.0
 2021,PGR,All,broad,Total,95000.0
