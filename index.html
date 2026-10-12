@@ -242,20 +242,50 @@
       </p>
     </div>
 
-    <div class="row">
+    <!-- Row 1 — choropleth -->
+    <div class="row chart-lead">
+      <div class="chart" id="chart-choropleth"></div>
       <div>
-        <div class="chart" id="chart-choropleth"></div>
+        <h3>Regional income, mapped</h3>
+        <p>
+          The darkest regions on this map sit more than <strong>double</strong> the
+          median income of parts of regional Tasmania and northern NSW. But the story
+          isn't just "rich coast, poor inland" — the most striking split is between
+          a handful of inner-city SA4s and everything else.
+        </p>
+        <p>
+          Sydney's North Shore and Eastern Suburbs sit at the top of the country,
+          alongside Melbourne's Inner East. Meanwhile the whole of the Northern
+          Territory, regional South Australia, and western Tasmania anchor the bottom
+          of the distribution.
+        </p>
         <p class="caption">
-          <strong>Fig 02.</strong> Median personal income by SA4 region, 2022–23 (ABS).
-          The darkest regions sit more than double the median income of parts of
-          regional Tasmania and northern NSW.
+          <strong>Fig 02.</strong> Median personal income by SA4 region, 2022–23
+          (ABS Personal Income in Australia).
         </p>
       </div>
+    </div>
+
+    <!-- Row 2 — colour point map -->
+    <div class="row chart-lead">
+      <div class="chart" id="chart-colourpoint"></div>
       <div>
-        <div class="chart" id="chart-colourpoint"></div>
+        <h3>Where inequality is worst</h3>
+        <p>
+          Two regions can have the same number of earners and completely different
+          income distributions. This map colours each region by its <strong>Gini
+          coefficient</strong> — a standard measure of inequality, where 0 means
+          everyone earns the same and 1 means one person takes everything.
+        </p>
+        <p>
+          Sydney's Eastern Suburbs tops the country at <strong>0.63</strong> — the
+          top 1% of earners there take home nearly a fifth of all income. By contrast,
+          Western Sydney — with a similar number of earners — sits in the palest band,
+          close to the national median of 0.48.
+        </p>
         <p class="caption">
           <strong>Fig 03.</strong> Bubble size = number of earners. Colour = Gini
-          coefficient. Sydney's Eastern Suburbs has the highest inequality in the country.
+          coefficient (inequality). ABS 2022–23.
         </p>
       </div>
     </div>
