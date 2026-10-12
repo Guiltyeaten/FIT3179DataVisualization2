@@ -7,7 +7,12 @@
     "text": "Salary and employment outcomes by field",
     "subtitle": [
       "Undergraduate 2020–2025"
-    ]
+    ],
+    "fontSize": 15,
+    "subtitleFontSize": 12,
+    "subtitleColor": "#546e7a",
+    "anchor": "start",
+    "offset": 12
   },
   "params": [
     {

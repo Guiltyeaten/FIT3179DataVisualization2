@@ -38,7 +38,12 @@
           "title": null,
           "axis": {"labelLimit": 320, "labelFontSize": 11.5}
         },
-        "x": {"field": "Female", "type": "quantitative", "scale": {"domain": [55000, 105000]}},
+        "x": {
+          "field": "Female",
+          "type": "quantitative",
+          "scale": {"domain": [55000, 105000]},
+          "axis": {"format": "$,.0f", "titleFontSize": 12, "labelFontSize": 11}
+        },
         "x2": {"field": "Male"},
         "tooltip": [
           {"field": "study_area", "type": "nominal", "title": "Field"},
@@ -49,8 +54,18 @@
       }
     },
     {
-      "transform": [{"filter": "datum.hasBoth"}],
-      "mark": {"type": "point", "filled": true, "size": 140, "opacity": 1, "stroke": "white", "strokeWidth": 0.5},
+      "transform": [
+        {"filter": "datum.hasBoth"},
+        {"fold": ["Male", "Female"], "as": ["gender", "salary"]}
+      ],
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 140,
+        "opacity": 1,
+        "stroke": "white",
+        "strokeWidth": 0.8
+      },
       "encoding": {
         "y": {
           "field": "study_area",
@@ -58,44 +73,51 @@
           "sort": {"field": "sortKey", "order": "descending"}
         },
         "x": {
-          "field": "Female",
+          "field": "salary",
           "type": "quantitative",
           "title": "Median starting salary (AUD)",
           "scale": {"domain": [55000, 105000]},
           "axis": {"format": "$,.0f", "titleFontSize": 12, "labelFontSize": 11}
         },
-        "color": {"value": "#e53935"}
-      }
-    },
-    {
-      "transform": [{"filter": "datum.hasBoth"}],
-      "mark": {"type": "point", "filled": true, "size": 140, "opacity": 1, "stroke": "white", "strokeWidth": 0.5},
-      "encoding": {
-        "y": {
-          "field": "study_area",
+        "color": {
+          "field": "gender",
           "type": "nominal",
-          "sort": {"field": "sortKey", "order": "descending"}
+          "scale": {
+            "domain": ["Male", "Female"],
+            "range": ["skyblue", "orange"]
+          },
+          "legend": {
+            "title": "Median starting salary for",
+            "orient": "top",
+            "direction": "horizontal",
+            "titleFontSize": 11,
+            "labelFontSize": 11,
+            "symbolSize": 120,
+            "symbolType": "circle",
+            "labelFontWeight": 500
+          }
         },
-        "x": {"field": "Male", "type": "quantitative"},
-        "color": {"value": "#1e88e5"}
-      }
-    },
-    {
-      "transform": [{"filter": "datum.hasBoth"}],
-      "mark": {"type": "point", "filled": true, "size": 140, "opacity": 1, "stroke": "white", "strokeWidth": 0.5},
-      "encoding": {
-        "y": {
-          "field": "study_area",
-          "type": "nominal",
-          "sort": {"field": "sortKey", "order": "descending"}
-        },
-        "x": {"field": "Female", "type": "quantitative"},
-        "color": {"value": "#e53935"}
+        "tooltip": [
+          {"field": "study_area", "type": "nominal", "title": "Field"},
+          {"field": "gender", "type": "nominal", "title": "Gender"},
+          {"field": "salary", "type": "quantitative", "format": "$,.0f", "title": "Median salary"},
+          {"field": "maleDisplay", "type": "nominal", "title": "Male median"},
+          {"field": "femaleDisplay", "type": "nominal", "title": "Female median"},
+          {"field": "gapDisplay", "type": "nominal", "title": "Gap (%)"}
+        ]
       }
     },
     {
       "transform": [{"filter": "!datum.hasBoth"}],
-      "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 8, "fontSize": 11, "fontStyle": "italic", "color": "#8b949e"},
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 8,
+        "fontSize": 11,
+        "fontStyle": "italic",
+        "color": "#8b949e"
+      },
       "encoding": {
         "y": {
           "field": "study_area",
