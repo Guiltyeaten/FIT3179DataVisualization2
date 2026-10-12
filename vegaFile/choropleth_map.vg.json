@@ -4,7 +4,7 @@
     "text": "Median personal income by SA4 region",
     "subtitle": "AUD per year · ABS 2022–23"
   },
-  "width": 800,
+  "width": 500,
   "height": 500,
   "projection": {"type": "mercator", "center": [134, -28], "scale": 700},
   "data": {

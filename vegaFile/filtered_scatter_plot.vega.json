@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 700,
+  "width": 600,
   "height": 500,
   "padding": {"right": 5, "left": 5},
   "title": {
@@ -69,8 +69,9 @@
       },
       "legend": {
         "title": "Field",
-        "orient": "right",
-        "labelLimit": 240,
+        "orient": "bottom",
+        "columns":3,
+        "labelLimit": 300,
         "titleFontSize": 11,
         "labelFontSize": 10,
         "symbolSize": 100

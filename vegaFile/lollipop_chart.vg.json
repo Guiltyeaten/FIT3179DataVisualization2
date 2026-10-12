@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 720,
-  "height": 340,
+  "width": 500,
+  "height": 400,
   "padding": {"right": 60, "left": 5, "top": 10, "bottom": 20},
   "title": {
     "text": "What each year of study is worth — on average",

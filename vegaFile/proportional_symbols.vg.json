@@ -4,8 +4,8 @@
     "text": "Full-time employment rate(%) by universities",
     "subtitle": "Bubble size = full-time employment rate · 2025"
   },
-  "width": 800,
-  "height": 540,
+  "width": 500,
+  "height": 550,
   "projection": {"type": "mercator", "center": [134, -28], "scale": 700},
   "layer": [
     {

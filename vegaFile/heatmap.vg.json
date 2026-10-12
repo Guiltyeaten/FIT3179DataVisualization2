@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 720,
-  "height": 620,
+  "width": 550,
+  "height": 650,
   "padding": {"right": 5, "left": 5},
   "title": {
     "text": "Median starting salary by field and year",
@@ -40,7 +40,7 @@
           "type": "nominal",
           "title": null,
           "sort": {"field": "rk", "order": "ascending"},
-          "axis": {"labelLimit": 260, "labelFontSize": 11.5}
+          "axis": {"labelLimit": 400, "labelFontSize": 11.5}
         },
         "x": {
           "field": "year",
