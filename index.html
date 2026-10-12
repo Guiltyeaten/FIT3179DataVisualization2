@@ -15,8 +15,9 @@
     --ink-soft:  #57606a;
     --ink-faint: #8b949e;
     --rule:      #e6e8eb;
-    --bg:        #ffffff;
-    --soft-bg:   #f6f8fa;
+    --bg:        #f7f5f2;   /* warm off-white page background */
+    --card:      #ffffff;   /* card surface for charts */
+    --soft-bg:   #efece8;
     --page-max:  1180px;
     --gutter:    32px;
     --gap:       40px;
@@ -129,6 +130,11 @@
 
   /* ---------- Chart wrapper ---------- */
   .chart {
+    background: #ffffff;
+    border: 1px solid #e6e8eb;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
     overflow-x: auto;
     min-width: 0;
     width: 100%;
@@ -148,6 +154,7 @@
     line-height: 1.6;
     color: var(--ink-soft);
     max-width: 72ch;
+    border-radius: 0 6px 6px 0;
   }
   .note strong { color: var(--ink); }
 
