@@ -40,7 +40,7 @@
     padding: 56px var(--gutter) 72px;
   }
 
-  /* ---------- Typography: one family, four sizes ---------- */
+  /* ---------- Typography ---------- */
   h1 {
     font-size: 34px;
     font-weight: 700;
@@ -55,6 +55,12 @@
     letter-spacing: -0.005em;
     margin: 0 0 14px;
   }
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin: 0 0 10px;
+  }
   p {
     font-size: 16px;
     line-height: 1.65;
@@ -65,56 +71,67 @@
     font-size: 19px;
     line-height: 1.55;
     color: var(--ink);
-    max-width: 62ch;
+    max-width: 68ch;
     margin-bottom: 8px;
   }
   p.caption {
-    font-size: 14px;
+    font-size: 13.5px;
     line-height: 1.55;
     color: var(--ink-faint);
-    margin: 12px 0 0;
+    margin: 10px 0 0;
   }
   a { color: var(--ink); }
   a:hover { color: #000; }
+  strong { color: var(--ink); }
 
   /* ---------- Sections ---------- */
   section {
     padding: 56px 0;
     border-top: 1px solid var(--rule);
   }
-  section:first-of-type { border-top: none; padding-top: 0; }
+  section:first-of-type {
+    border-top: none;
+    padding-top: 0;
+  }
 
   .sec-head {
     max-width: 780px;
     margin-bottom: 36px;
   }
 
-  /* ---------- Grid ---------- */
+  /* ---------- Grid rows ---------- */
   .row {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     gap: var(--gap);
     align-items: start;
     margin-bottom: var(--gap);
   }
   .row:last-child { margin-bottom: 0; }
 
-  /* text column narrower, chart wider */
-  .row.asym { grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); }
-  /* chart column narrower */
-  .row.asym-rev { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); }
+  /* chart gets 2/3, text gets 1/3 */
+  .row.chart-lead {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  }
 
-  /* any element that needs the full page width */
+  /* text gets 2/3, chart gets 1/3 */
+  .row.text-lead {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  }
+
+  /* three equal columns */
+  .row.cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  /* full-width inside a grid */
   .span-2 { grid-column: 1 / -1; }
-
-  /* three column layout for stat cards */
-  .row.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 
   /* ---------- Chart wrapper ---------- */
   .chart {
-  overflow-x: auto;
-  min-width: 0;
-  width: 100%;
+    overflow-x: auto;
+    min-width: 0;
+    width: 100%;
   }
   .chart svg,
   .chart canvas {
@@ -130,6 +147,7 @@
     font-size: 15px;
     line-height: 1.6;
     color: var(--ink-soft);
+    max-width: 72ch;
   }
   .note strong { color: var(--ink); }
 
@@ -156,8 +174,8 @@
   /* ---------- Responsive ---------- */
   @media (max-width: 900px) {
     .row,
-    .row.asym,
-    .row.asym-rev,
+    .row.chart-lead,
+    .row.text-lead,
     .row.cols-3 {
       grid-template-columns: 1fr;
       gap: 28px;
@@ -181,18 +199,18 @@
       </p>
     </div>
 
-    <div class="row asym-rev">
+    <div class="row chart-lead">
       <div class="chart" id="chart-lollipop"></div>
       <div>
-        <h2>The value of each extra year of study</h2>
+        <h3>The value of each extra year of study</h3>
         <p>
           A bachelor's degree adds roughly $19k over the general workforce median.
           A master's adds $24k more. A PhD adds only $11k on top — despite, typically,
           three to four additional years of study.
         </p>
         <p class="caption">
-          Average starting salary by highest qualification. Grey band = range across
-          the 21 fields of study. Stems run from $0 to the average.
+          <strong>Fig 01.</strong> Average starting salary by highest qualification.
+          Grey band = range across the 21 fields of study.
         </p>
       </div>
     </div>
@@ -213,7 +231,7 @@
     </div>
   </section>
 
-  <!-- ================= SECTION 1: GEOGRAPHY ================= -->
+  <!-- ================= SECTION 1 · GEOGRAPHY ================= -->
   <section>
     <div class="sec-head">
       <h2>1 · The income landscape graduates enter isn't spread evenly</h2>
@@ -225,25 +243,25 @@
     </div>
 
     <div class="row">
-      <figure style="margin: 0;">
+      <div>
         <div class="chart" id="chart-choropleth"></div>
         <p class="caption">
-          <strong>Fig 01.</strong> Median personal income by SA4 region, 2022–23 (ABS).
+          <strong>Fig 02.</strong> Median personal income by SA4 region, 2022–23 (ABS).
           The darkest regions sit more than double the median income of parts of
           regional Tasmania and northern NSW.
         </p>
-      </figure>
-      <figure style="margin: 0;">
+      </div>
+      <div>
         <div class="chart" id="chart-colourpoint"></div>
         <p class="caption">
-          <strong>Fig 02.</strong> Bubble size = number of earners. Colour = Gini
+          <strong>Fig 03.</strong> Bubble size = number of earners. Colour = Gini
           coefficient. Sydney's Eastern Suburbs has the highest inequality in the country.
         </p>
-      </figure>
+      </div>
     </div>
   </section>
 
-  <!-- ================= SECTION 2: UNIVERSITIES ================= -->
+  <!-- ================= SECTION 2 · UNIVERSITIES ================= -->
   <section>
     <div class="sec-head">
       <h2>2 · Universities in regional Australia often out-earn the Group of Eight</h2>
@@ -255,40 +273,39 @@
       </p>
     </div>
 
-    <div class="row asym">
+    <div class="row chart-lead">
+      <div class="chart" id="chart-proportional"></div>
       <div>
-        <h3 style="font-size: 18px; font-weight: 600; margin: 0 0 10px;">Geography of graduate outcomes</h3>
+        <h3>Geography of graduate outcomes</h3>
         <p>
           Each bubble is a university. Size = the proportion of its 2025 undergraduates
-          who found full-time work within four months of finishing. The dark cluster
-          is the Group of Eight — but they are not the highest.
+          who found full-time work within four months of finishing. The Group of Eight
+          are the biggest names — but they are not the best performers.
         </p>
         <p class="caption">
-          <strong>Fig 03.</strong> Proportional symbol map of full-time employment
+          <strong>Fig 04.</strong> Proportional symbol map of full-time employment
           rates by university. QILT GOS 2025.
         </p>
       </div>
-      <div class="chart" id="chart-proportional"></div>
     </div>
 
-    <div class="row asym-rev">
-      <div class="chart" id="chart-jitter"></div>
-      <div>
-        <h3 style="font-size: 18px; font-weight: 600; margin: 0 0 10px;">Postgraduate salaries vary twice as much</h3>
-        <p>
-          Undergraduate salaries cluster tightly between <strong>$67k and $87k</strong>
-          across every Australian university. Postgraduate coursework salaries span
-          <strong>$90k to $135k</strong> — nearly twice the spread.
-        </p>
-        <p class="caption">
-          <strong>Fig 04.</strong> Jitter dot plot. Each dot is a university.
-          Horizontal position = median starting salary.
-        </p>
-      </div>
+    <div>
+      <h3 style="margin-bottom: 12px;">Postgraduate salaries vary twice as much as undergraduate salaries</h3>
+      <p style="max-width: 72ch;">
+        Undergraduate salaries cluster tightly between <strong>$67k and $87k</strong>
+        across every Australian university. Postgraduate coursework salaries span
+        <strong>$90k to $135k</strong> — nearly twice the spread. The choice of
+        university matters more at postgraduate level than at undergraduate level.
+      </p>
+      <div class="chart span-2" id="chart-jitter"></div>
+      <p class="caption">
+        <strong>Fig 05.</strong> Jitter dot plot. Each dot is a university.
+        Horizontal position = median starting salary. Vertical jitter is for readability only.
+      </p>
     </div>
   </section>
 
-  <!-- ================= SECTION 3: FIELDS ================= -->
+  <!-- ================= SECTION 3 · FIELDS ================= -->
   <section>
     <div class="sec-head">
       <h2>3 · The field you choose matters more than the university you attend</h2>
@@ -298,9 +315,35 @@
       </p>
     </div>
 
-    <div class="row">
+    <div class="row text-lead">
+      <div>
+        <h3>Salary growth 2020–2025</h3>
+        <p>
+          Every one of the ten highest-paying fields gained over the period. Dentistry
+          pulled furthest ahead — its 2025 median is 27% higher than the second-place
+          field.
+        </p>
+        <p class="caption">
+          <strong>Fig 06.</strong> Slope chart. The ten highest-paying undergraduate
+          fields in 2025, traced back to their 2020 starting salaries.
+        </p>
+      </div>
       <div class="chart" id="chart-slope"></div>
+    </div>
+
+    <div class="row chart-lead">
       <div class="chart" id="chart-heatmap"></div>
+      <div>
+        <h3>Field × year stability</h3>
+        <p>
+          Darker cells = higher salaries. The horizontal bands barely shift across
+          six years — the ranking of fields is remarkably stable.
+        </p>
+        <p class="caption">
+          <strong>Fig 07.</strong> Heatmap of median undergraduate salary by field
+          and year, 2020–2025. Fields sorted by 2025 salary.
+        </p>
+      </div>
     </div>
 
     <div class="note" style="margin-top: 32px;">
@@ -311,7 +354,7 @@
     </div>
   </section>
 
-  <!-- ================= SECTION 4: BEYOND SALARY ================= -->
+  <!-- ================= SECTION 4 · BEYOND SALARY ================= -->
   <section>
     <div class="sec-head">
       <h2>4 · Beyond the headline number: gender and qualification level</h2>
@@ -321,10 +364,10 @@
       </p>
     </div>
 
-    <div class="row">
+    <div class="row chart-lead">
       <div class="chart" id="chart-dumbbell"></div>
       <div>
-        <h3 style="font-size: 18px; font-weight: 600; margin: 0 0 10px;">A pay gap in almost every field</h3>
+        <h3>A pay gap in almost every field</h3>
         <p>
           Female graduates earn less than male graduates in nearly every field, even
           at the point of first employment. The gap is widest in Architecture and
@@ -337,26 +380,27 @@
           their discipline.
         </p>
         <p class="caption">
-          <strong>Fig 07.</strong> Male vs female median starting salary, by broad
+          <strong>Fig 08.</strong> Male vs female median starting salary, by broad
           field. Undergraduate 2025. Sorted by the size of the gap.
         </p>
       </div>
     </div>
   </section>
 
-  <!-- ================= SECTION 5: PROFILES & TRADEOFFS ================= -->
+  <!-- ================= SECTION 5 · PROFILES & TRADEOFFS ================= -->
   <section>
     <div class="sec-head">
       <h2>5 · No field wins on everything at once</h2>
       <p>
-        The final three charts step back from single numbers. They ask: which fields
-        look balanced across multiple outcomes, and which fields require a tradeoff?
+        The final charts step back from single numbers. They ask: which fields look
+        balanced across multiple outcomes, and which fields require a tradeoff?
       </p>
     </div>
 
-    <div class="row asym">
+    <div class="row chart-lead">
+      <div class="chart" id="chart-ternary"></div>
       <div>
-        <h3 style="font-size: 18px; font-weight: 600; margin: 0 0 10px;">The salary–employment–job-match triangle</h3>
+        <h3>The salary–employment–job-match triangle</h3>
         <p>
           Each dot is a field. Position shows where its profile leans — toward salary
           strength, employment strength, or job-match strength. A dot near the centre
@@ -368,10 +412,9 @@
           of salary and employment strength.
         </p>
         <p class="caption">
-          <strong>Fig 08.</strong> Ternary balance plot. Undergraduate 2025.
+          <strong>Fig 09.</strong> Ternary balance plot. Undergraduate 2025.
         </p>
       </div>
-      <div class="chart" id="chart-ternary"></div>
     </div>
 
     <div class="row">
@@ -381,26 +424,26 @@
 
     <div class="row" style="margin-top: var(--gap);">
       <div>
-        <h3 style="font-size: 18px; font-weight: 600; margin: 0 0 10px;">Salary and employment don't move together</h3>
+        <h3>Salary and employment don't move together</h3>
         <p>
           Drag the slider to see how the relationship has shifted year by year. Very
           little has changed: Pharmacy and Rehabilitation sit at the top of the
           employment axis but the bottom of the salary axis.
         </p>
         <p class="caption">
-          <strong>Fig 09.</strong> Animated scatter of salary vs full-time employment,
+          <strong>Fig 10.</strong> Animated scatter of salary vs full-time employment,
           2020–2025.
         </p>
       </div>
       <div>
-        <h3 style="font-size: 18px; font-weight: 600; margin: 0 0 10px;">International graduates earn less — but the gap is narrowing</h3>
+        <h3>International graduates earn less — but the gap is narrowing</h3>
         <p>
           The international–domestic salary gap widened through 2022 and has narrowed
           since. Both groups' salaries grew steadily; the recent narrowing likely
           reflects a shift in the fields international students are choosing.
         </p>
         <p class="caption">
-          <strong>Fig 10.</strong> Median starting salary by citizenship, 2016–2024.
+          <strong>Fig 11.</strong> Median starting salary by citizenship, 2016–2024.
         </p>
       </div>
     </div>
@@ -414,14 +457,14 @@
 
     <div class="row cols-3">
       <div>
-        <h3 style="font-size: 17px; font-weight: 600; margin: 0 0 8px;">1 · Field first</h3>
+        <h3>1 · Field first</h3>
         <p style="font-size: 15px;">
           Field of study moves starting salaries by $40k. University choice moves them
           by $20k. Geography moves them by less. Optimise for the field.
         </p>
       </div>
       <div>
-        <h3 style="font-size: 17px; font-weight: 600; margin: 0 0 8px;">2 · Employment isn't automatic</h3>
+        <h3>2 · Employment isn't automatic</h3>
         <p style="font-size: 15px;">
           Even in the most employable fields, 5–10% of graduates are still looking for
           full-time work four months after finishing. In less-employable fields the
@@ -429,7 +472,7 @@
         </p>
       </div>
       <div>
-        <h3 style="font-size: 17px; font-weight: 600; margin: 0 0 8px;">3 · The master's is the sweet spot</h3>
+        <h3>3 · The master's is the sweet spot</h3>
         <p style="font-size: 15px;">
           A coursework master's adds the biggest premium. A PhD adds the smallest.
           For most students, the return on a research degree is not financial.
@@ -483,7 +526,7 @@
     ['chart-heatmap',      'vegaFile/heatmap.vg.json'],
     ['chart-dumbbell',     'vegaFile/dumbbell_chart.vg.json'],
     ['chart-ternary',      'vegaFile/ternary_plot.vg.json'],
-    ['chart-scatter',      'vegaFile/filtered_scatter_plot.vg.json'],
+    ['chart-scatter',      'vegaFile/filtered_scatter_plot.vega.json'],
     ['chart-multiline',    'vegaFile/multi_line_chart.vg.json']
   ];
 

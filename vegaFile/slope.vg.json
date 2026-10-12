@@ -75,11 +75,14 @@
           "legend": {
             "title": "Area of study",
             "orient": "bottom",
-            "columns": 3,
-            "labelLimit": 260,
-            "titleFontSize": 12,
-            "labelFontSize": 14,
-            "symbolSize": 100
+            "columns": 4,
+            "labelLimit": 180,
+            "titleFontSize": 11,
+            "labelFontSize": 11,
+            "symbolSize": 80,
+            "rowPadding": 4,
+            "columnPadding": 8,
+            "labelFontWeight": 500
           }
         },
         "detail": {"field": "study_area"},
