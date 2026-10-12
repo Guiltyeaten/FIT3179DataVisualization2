@@ -95,12 +95,32 @@
     padding-top: 0;
   }
 
-  .sec-head {
-    max-width: 780px;
-    margin-bottom: 36px;
+  .hero {
+    max-width: none;         /* override the .sec-head cap */
+    margin: 0 0 48px;
+    padding: 24px 0 8px;
   }
 
-  /* ---------- Grid rows ---------- */
+  .hero h1 {
+    font-family: 'Fraunces', Georgia, 'Times New Roman', serif;
+    font-size: clamp(44px, 6.4vw, 88px);
+    font-weight: 500;
+    line-height: 1.05;
+    letter-spacing: -0.025em;
+    color: #111418;
+    margin: 0 0 20px;
+    max-width: 22ch;         /* forces line break for readability */
+  }
+
+  .hero p.lede {
+    font-size: clamp(18px, 1.6vw, 22px);
+    line-height: 1.5;
+    color: #4a5260;
+    max-width: 62ch;
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  
   .row {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
@@ -198,7 +218,8 @@
 
   <!-- ================= TITLE ================= -->
   <section>
-    <div class="sec-head">
+    <div class="hero">
+      <span class="kicker">FIT3179 · Data Story · 2026</span>
       <h1>What is an Australian degree worth?</h1>
       <p class="lede">
         Graduate starting salaries across fields of study, universities, and regions —
