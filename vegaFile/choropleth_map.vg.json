@@ -27,12 +27,21 @@
   "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.3},
   "encoding": {
     "color": {
-      "field": "median",
-      "type": "quantitative",
-      "title": "Median income (AUD)",
-      "scale": {"scheme": "viridis"},
-      "legend": {"format": "$,.0f"}
-    },
+        "field": "median",
+        "type": "quantitative",
+        "title": "Median income (AUD)",
+        "scale": {
+          "scheme": "blues",
+          "domain": [45000, 78000]
+        },
+        "legend": {
+          "format": "$,.0f",
+          "orient": "right",
+          "gradientLength": 260,
+          "titleFontSize": 12,
+          "labelFontSize": 11
+        }
+      },
     "tooltip": [
       {"field": "properties.SA4_NAME26", "type": "nominal", "title": "Region"},
       {"field": "properties.STE_NAME26", "type": "nominal", "title": "State"},
