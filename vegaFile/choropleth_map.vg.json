@@ -4,8 +4,8 @@
     "text": "Median personal income by SA4 region",
     "subtitle": "AUD per year · ABS 2022–23"
   },
-  "width": 500,
-  "height": 500,
+  "width": "container",
+  "height": 550,
   "projection": {"type": "mercator", "center": [134, -28], "scale": 700},
   "data": {
     "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/Data/SA4_2026_AUST_GDA2020.json",

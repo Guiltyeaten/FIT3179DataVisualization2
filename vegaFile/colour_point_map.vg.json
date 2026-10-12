@@ -4,8 +4,8 @@
     "text": "Graduate starting salaries across Australian universities",
     "subtitle": "Undergraduate · 2025 · colour = median starting salary · source: QILT GOS"
   },
-  "width": 500,
-  "height": 550,
+  "width": "container",
+  "height": "550",
   "projection": {"type": "mercator", "center": [134, -28], "scale": 700},
   "layer": [
     {
