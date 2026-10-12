@@ -274,7 +274,17 @@
   const OPTS = { actions: false, renderer: 'svg' };
 
   const charts = [
-    
+    ['chart-lollipop',     'vegaFile/lollipop_chart.vg.json'],
+    ['chart-choropleth',   'vegaFile/choropleth_map.vg.json'],
+    ['chart-colourpoint',  'vegaFile/colour_point_map.vg.json'],
+    ['chart-proportional', 'vegaFile/proportional_symbols.vg.json'],
+    ['chart-jitter',       'vegaFile/jitter_dot_plot.vg.json'],
+    ['chart-slope',        'vegaFile/slope.vg.json'],
+    ['chart-heatmap',      'vegaFile/heatmap.vg.json'],
+    ['chart-dumbbell',     'vegaFile/dumbbell_chart.vg.json'],
+    ['chart-ternary',      'vegaFile/ternary_plot.vg.json'],
+    ['chart-scatter',      'vegaFile/filtered_scatter_plot.vega.json'],
+    ['chart-multiline',    'vegaFile/multi_line_chart.vg.json']
   ];
 
   charts.forEach(([id, spec]) => {
