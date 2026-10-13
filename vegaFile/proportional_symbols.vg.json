@@ -1,12 +1,41 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Full-time employment rate(%) by universities",
-    "subtitle": "Bubble size = full-time employment rate · 2025"
+    "text": "Full-time employment rate by university",
+    "subtitle": "Undergraduate · 2025 · bubble size = full-time employment rate"
   },
   "width": "container",
   "height": 550,
-  "projection": {"type": "mercator", "center": [134, -28], "scale": 700},
+  "params": [
+    {
+      "name": "cityView",
+      "value": "Australia",
+      "bind": {
+        "input": "select",
+        "name": "Zoom to: ",
+        "options": [
+          "Australia",
+          "Sydney",
+          "Melbourne",
+          "Brisbane",
+          "Perth",
+          "Adelaide",
+          "Canberra",
+          "Hobart",
+          "Darwin"
+        ]
+      }
+    }
+  ],
+  "projection": {
+    "type": "mercator",
+    "center": {
+      "expr": "cityView === 'Sydney'   ? [151.20, -33.90] :\n           cityView === 'Melbourne'? [144.96, -37.81] :\n           cityView === 'Brisbane' ? [153.02, -27.47] :\n           cityView === 'Perth'    ? [115.86, -31.95] :\n           cityView === 'Adelaide' ? [138.60, -34.93] :\n           cityView === 'Canberra' ? [149.13, -35.28] :\n           cityView === 'Hobart'   ? [147.33, -42.88] :\n           cityView === 'Darwin'   ? [130.84, -12.46] :\n                                    [134.00, -28.00]"
+    },
+    "scale": {
+      "expr": "cityView === 'Australia' ? 700 :\n           cityView === 'Canberra' ? 40000:\n    cityView === 'Sydney' ? 80000   :\n    cityView === 'Adelaide' ? 80000 :\n           cityView === 'Hobart'   ? 40000 :\n           cityView === 'Darwin'   ? 35000 :\n                                    25000"
+    }
+  },
   "layer": [
     {
       "data": {
@@ -34,9 +63,18 @@
             "fields": ["lon", "lat", "city", "state"]
           }
         },
-        {"filter": "isValid(datum.lon) && isValid(datum.lat)"}
+        {"filter": "isValid(datum.lon) && isValid(datum.lat)"},
+        {
+          "calculate": "cityView === 'Australia' ? 1 : 0.55",
+          "as": "zoomFactor"
+        }
       ],
-      "mark": {"type": "circle", "opacity": 0.5, "stroke": "#4c99ea", "strokeWidth": 1},
+      "mark": {
+        "type": "circle",
+        "opacity": 0.55,
+        "stroke": "#4c99ea",
+        "strokeWidth": 1
+      },
       "encoding": {
         "longitude": {"field": "lon", "type": "quantitative"},
         "latitude": {"field": "lat", "type": "quantitative"},
@@ -44,21 +82,22 @@
           "field": "fte",
           "type": "quantitative",
           "title": "Full-time employment rate (%)",
-          "scale": {"type": "linear", "domain": [70,90], "range": [30,500]},
+          "scale": {"type": "linear", "domain": [70, 90], "range": [30, 500]},
           "legend": {
             "orient": "bottom-left",
             "format": ".0f",
             "values": [70, 80, 90],
-            "title": "Full-time employment rate(%)",
-            "titleFontSize": 12, "labelFontSize": 11
+            "title": "Full-time employment rate (%)",
+            "titleFontSize": 12,
+            "labelFontSize": 11
           }
         },
-  
         "tooltip": [
           {"field": "institution", "type": "nominal", "title": "University"},
           {"field": "city", "type": "nominal", "title": "City"},
           {"field": "state", "type": "nominal", "title": "State"},
-          {"field": "fte", "type": "quantitative", "format": ".1f", "title": "FTE rate (%)"}
+          {"field": "fte", "type": "quantitative", "format": ".1f", "title": "FTE rate (%)"},
+          {"field": "salary", "type": "quantitative", "format": "$,.0f", "title": "Median salary"}
         ]
       }
     }
