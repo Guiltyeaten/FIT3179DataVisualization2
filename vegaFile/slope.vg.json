@@ -5,7 +5,12 @@
   "padding": {"right": 5, "left": 5},
   "title": {
     "text": "Top 10 fields by starting salary — 2020 vs 2025",
-    "subtitle": "Undergraduate · broad fields · median starting salary (AUD)"
+    "subtitle": ["Undergraduate · broad fields · median starting salary (AUD)"],
+    "fontSize": 15,
+    "subtitleFontSize": 12,
+    "subtitleColor": "#546e7a",
+    "anchor": "start",
+    "offset": 12
   },
   "data": {
     "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/salary_by_area.csv",

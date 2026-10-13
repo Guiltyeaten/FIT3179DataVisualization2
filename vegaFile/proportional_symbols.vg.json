@@ -2,7 +2,12 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Full-time employment rate by university",
-    "subtitle": "Undergraduate · 2025 · bubble size = full-time employment rate"
+    "subtitle": ["Undergraduate · 2025 · bubble size = full-time employment rate"],
+    "fontSize": 15,
+    "subtitleFontSize": 12,
+    "subtitleColor": "#546e7a",
+    "anchor": "start",
+    "offset": 12
   },
   "width": "container",
   "height": 550,

@@ -5,7 +5,12 @@
   "padding": {"right": 5, "left": 5},
   "title": {
     "text": "Median starting salary by field and year",
-    "subtitle": "Undergraduate · broad fields · AUD · fields sorted by 2025 salary (highest at top)"
+    "subtitle": ["Undergraduate · broad fields · AUD · fields sorted by 2025 salary (highest at top)"],
+    "fontSize": 15,
+    "subtitleFontSize": 12,
+    "subtitleColor": "#546e7a",
+    "anchor": "start",
+    "offset": 12
   },
   "data": {
     "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/salary_by_area.csv",

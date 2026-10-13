@@ -8,7 +8,12 @@
     "subtitle": [
       "Undergraduate 2025",
       "Position near a vertex leans heavily toward that outcome; a dot near the centre is equally weighted on all three"
-    ]
+    ],
+    "fontSize": 15,
+    "subtitleFontSize": 12,
+    "subtitleColor": "#546e7a",
+    "anchor": "start",
+    "offset": 12
   },
   "layer": [
     {

@@ -7,7 +7,12 @@
     "text": "Gender pay gap by field of study",
     "subtitle": [
       "Undergraduate 2025 · sorted by size of gap from male to female"
-    ]
+    ],
+    "fontSize": 15,
+    "subtitleFontSize": 12,
+    "subtitleColor": "#546e7a",
+    "anchor": "start",
+    "offset": 12
   },
   "data": {
     "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/salary_by_area.csv",
