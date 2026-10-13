@@ -13,27 +13,17 @@
       "bind": {
         "input": "select",
         "name": "Zoom to: ",
-        "options": [
-          "Australia",
-          "Sydney",
-          "Melbourne",
-          "Brisbane",
-          "Perth",
-          "Adelaide",
-          "Canberra",
-          "Hobart",
-          "Darwin"
-        ]
+        "options": ["Australia", "Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Canberra", "Hobart", "Darwin"]
       }
     }
   ],
   "projection": {
     "type": "mercator",
     "center": {
-      "expr": "cityView === 'Sydney'   ? [151.20, -33.90] :\n           cityView === 'Melbourne'? [144.96, -37.81] :\n           cityView === 'Brisbane' ? [153.02, -27.47] :\n           cityView === 'Perth'    ? [115.86, -31.95] :\n           cityView === 'Adelaide' ? [138.60, -34.93] :\n           cityView === 'Canberra' ? [149.13, -35.28] :\n           cityView === 'Hobart'   ? [147.33, -42.88] :\n           cityView === 'Darwin'   ? [130.84, -12.46] :\n                                    [134.00, -28.00]"
+      "expr": "cityView === 'Sydney' ? [151.20, -33.90] : cityView === 'Melbourne' ? [144.96, -37.81] : cityView === 'Brisbane' ? [153.02, -27.47] : cityView === 'Perth' ? [115.86, -31.95] : cityView === 'Adelaide' ? [138.60, -34.93] : cityView === 'Canberra' ? [149.13, -35.28] : cityView === 'Hobart' ? [147.33, -42.88] : cityView === 'Darwin' ? [130.84, -12.46] : [134.00, -28.00]"
     },
     "scale": {
-      "expr": "cityView === 'Australia' ? 700 :\n           cityView === 'Canberra' ? 40000:\n    cityView === 'Sydney' ? 80000   :\n    cityView === 'Adelaide' ? 80000 :\n           cityView === 'Hobart'   ? 40000 :\n           cityView === 'Darwin'   ? 35000 :\n                                    25000"
+      "expr": "cityView === 'Australia' ? 700 : cityView === 'Canberra' ? 40000 : cityView === 'Sydney' ? 80000 : cityView === 'Adelaide' ? 80000 : cityView === 'Hobart' ? 40000 : cityView === 'Darwin' ? 35000 : 25000"
     }
   },
   "layer": [
@@ -63,11 +53,7 @@
             "fields": ["lon", "lat", "city", "state"]
           }
         },
-        {"filter": "isValid(datum.lon) && isValid(datum.lat)"},
-        {
-          "calculate": "cityView === 'Australia' ? 1 : 0.55",
-          "as": "zoomFactor"
-        }
+        {"filter": "isValid(datum.lon) && isValid(datum.lat)"}
       ],
       "mark": {
         "type": "circle",
