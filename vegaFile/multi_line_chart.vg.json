@@ -67,7 +67,7 @@
           "field": "median_salary",
           "type": "quantitative",
           "title": "Median starting salary (AUD)",
-          "scale": {"zero": false, "domain": [0, 80000]},
+          "scale": {"zero": true, "domain": [0, 80000]},
           "axis": {
             "format": "$,.0f",
             "titleFontSize": 12,
