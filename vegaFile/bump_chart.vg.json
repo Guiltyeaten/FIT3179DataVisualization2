@@ -1,0 +1,85 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 480,
+  "title": {
+    "text": "The trade-off between salary and employment",
+    "subtitle": "Rank of each field across three outcomes · 1 is best · 2025"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/ternary_data.csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {"fold": ["sSalary", "sFTE", "sNotOver"], "as": ["metric", "score"]},
+    {
+      "calculate": "datum.metric === 'sSalary' ? 'Salary' : datum.metric === 'sFTE' ? 'Employment' : 'Job Match'",
+      "as": "Metric"
+    },
+    {
+      "window": [{"op": "dense_rank", "as": "rank"}],
+      "sort": [{"field": "score", "order": "descending"}],
+      "groupby": ["Metric"]
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "line", "strokeWidth": 2, "opacity": 0.25, "color": "#b0b5bd"},
+      "encoding": {
+        "x": {
+          "field": "Metric", "type": "ordinal", "sort": ["Salary", "Employment", "Job Match"], "title": null,
+          "axis": {"labelAngle": 0, "labelFontSize": 13, "labelFontWeight": 600}
+        },
+        "y": {
+          "field": "rank", "type": "quantitative", "scale": {"reverse": true, "domain": [0.5, 21.5]},
+          "axis": {"title": "Rank (1 = best)", "values": [1, 5, 10, 15, 20], "grid": true, "gridColor": "#f0f0f0"}
+        },
+        "detail": {"field": "study_area"},
+        "order": {"field": "metric", "sort": "ascending"}
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.study_area === 'Dentistry' || datum.study_area === 'Pharmacy' || datum.study_area === 'Creative arts' || datum.study_area === 'Medicine'"}
+      ],
+      "mark": {"type": "line", "strokeWidth": 3.5, "opacity": 1},
+      "encoding": {
+        "x": {"field": "Metric", "type": "ordinal", "sort": ["Salary", "Employment", "Job Match"]},
+        "y": {"field": "rank", "type": "quantitative"},
+        "detail": {"field": "study_area"},
+        "order": {"field": "metric", "sort": "ascending"},
+        "color": {
+          "field": "study_area", "type": "nominal",
+          "scale": {
+            "domain": ["Dentistry", "Pharmacy", "Creative arts", "Medicine"],
+            "range": ["#d00000", "#1e88e5", "#f57c00", "#0a2e5c"]
+          }
+        },
+        "tooltip": [
+          {"field": "study_area", "type": "nominal", "title": "Field"},
+          {"field": "Metric", "type": "nominal", "title": "Metric"},
+          {"field": "rank", "type": "quantitative", "title": "Rank (1=best)"}
+        ]
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.Metric === 'Job Match'"},
+        {"filter": "datum.study_area === 'Dentistry' || datum.study_area === 'Pharmacy' || datum.study_area === 'Creative arts' || datum.study_area === 'Medicine'"}
+      ],
+      "mark": {"type": "text", "align": "left", "dx": 8, "fontSize": 12, "fontWeight": 600},
+      "encoding": {
+        "x": {"field": "Metric", "type": "ordinal"},
+        "y": {"field": "rank", "type": "quantitative"},
+        "text": {"field": "study_area"},
+        "color": {
+          "field": "study_area", "type": "nominal", "legend": null,
+          "scale": {
+            "domain": ["Dentistry", "Pharmacy", "Creative arts", "Medicine"],
+            "range": ["#d00000", "#1e88e5", "#f57c00", "#0a2e5c"]
+          }
+        }
+      }
+    }
+  ]
+}
