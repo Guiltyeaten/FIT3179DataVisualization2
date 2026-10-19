@@ -64,6 +64,29 @@
           "field": "study_area",
           "type": "nominal",
           "scale": {
+            "domain": [
+              "Agriculture and environmental studies",
+              "Architecture and built environment",
+              "Business and management",
+              "Communications",
+              "Computing and information systems",
+              "Creative arts",
+              "Dentistry",
+              "Engineering",
+              "Health services and support",
+              "Humanities, culture and social sciences",
+              "Law and paralegal studies",
+              "Medicine",
+              "Nursing",
+              "Pharmacy",
+              "Psychology",
+              "Rehabilitation",
+              "Science and mathematics",
+              "Social work",
+              "Teacher education",
+              "Tourism, hospitality, personal services, sport and recreation",
+              "Veterinary science"
+              ],
             "range": [
               "#0a2e5c",
               "#f4a261",
@@ -74,8 +97,19 @@
               "#ff80ab",
               "#37474f",
               "#ffb74d",
-              "#1e88e5"
-            ]
+              "#1e88e5",
+              "#a0715e",
+              "#e0e0e0",
+              "#7f0000",
+              "#b39ddb",
+              "#f57c00",
+              "#4dd0e1",
+              "#8d6e63",
+              "#ffeb3b",
+              "#000000",
+              "#a1887f",
+              "#8e24aa"
+              ]
           },
           "legend": {
             "title": "Area of study",
