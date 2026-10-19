@@ -58,7 +58,7 @@
           "type": "quantitative",
           "title": "Salary (AUD)",
           "scale": {
-            "scheme": "darkred",
+            "scheme": "reds",
             "domain": [50000, 105000]
           },
           "legend": {
