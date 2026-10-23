@@ -156,7 +156,7 @@
         "columns": 3,
         "labelLimit": 300,
         "titleFontSize": 12,
-        "labelFontSize": 11,
+        "labelFontSize": 10,
         "symbolSize": 80,
         "symbolStrokeWidth": 3
       }

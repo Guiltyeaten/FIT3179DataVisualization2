@@ -473,6 +473,7 @@
       </p>
     </div>
 
+    <!-- 1. Ternary Chart -->
     <div class="row text-lead">
       <div>
         <h3>The salary–employment–job-match triangle</h3>
@@ -493,7 +494,33 @@
       <div class="chart" id="chart-ternary"></div>
     </div>
 
-    <div class="row">
+    <!-- 2. Bump Chart (NEW) -->
+    <div class="row chart-lead" style="margin-top: var(--gap);">
+      <div>
+        <div class="chart" id="chart-bump"></div>
+        <p class="caption">
+          <strong>Fig 10.</strong> Rank position of each field across salary, full-time employment, and job-match (low overqualification), 2025. Coloured lines highlight extreme trade-offs.
+        </p>
+      </div>
+      <div>
+        <h3>The illusion of "balance"</h3>
+        <p>
+          The ternary plot above shows the <em>shape</em> of a field's profile. A dot near the centre might look "balanced," but it can also mean a field is simply average at everything.
+        </p>
+        <p>
+          To see the real stakes, we have to look at the <strong>ranks</strong>. This bump chart reveals the brutal trade-offs hiding behind the profiles.
+        </p>
+        <p>
+          <strong>Pharmacy (blue)</strong> sits mid-pack in the triangle, but here you can see it is actually <strong>Rank 1 for employment</strong> and <strong>Rank 21 for salary</strong>. Conversely, <strong>Dentistry (red)</strong> is Rank 1 for salary but mid-tier for employment.
+        </p>
+        <div class="note" style="margin-top: 24px;">
+          You cannot have it all. The rank on each axis tells the real story of what you are trading away when you choose a field.
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Scatter and Multiline -->
+    <div class="row" style="margin-top: var(--gap);">
       <div class="chart" id="chart-scatter"></div>
       <div class="chart" id="chart-multiline"></div>
     </div>
@@ -507,7 +534,7 @@
           employment axis but the bottom of the salary axis.
         </p>
         <p class="caption">
-          <strong>Fig 10.</strong> Animated scatter of salary vs full-time employment,
+          <strong>Fig 11.</strong> Animated scatter of salary vs full-time employment,
           2020–2025.
         </p>
       </div>
@@ -519,7 +546,7 @@
           reflects a shift in the fields international students are choosing.
         </p>
         <p class="caption">
-          <strong>Fig 11.</strong> Median starting salary by citizenship, 2016–2024.
+          <strong>Fig 12.</strong> Median starting salary by citizenship, 2016–2024.
         </p>
       </div>
     </div>
@@ -594,6 +621,7 @@
     ['chart-heatmap',      'vegaFile/heatmap.vg.json'],
     ['chart-dumbbell',     'vegaFile/dumbbell_chart.vg.json'],
     ['chart-ternary',      'vegaFile/ternary_plot.vg.json'],
+    ['chart-bump',         'vegaFile/bump_chart.vg.json'], 
     ['chart-scatter',      'vegaFile/filtered_scatter_plot.vg.json'],
     ['chart-multiline',    'vegaFile/multi_line_chart.vg.json']
   ];

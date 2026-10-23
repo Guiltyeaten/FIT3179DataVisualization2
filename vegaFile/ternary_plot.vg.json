@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
   "height": 500,
-  "padding": {"right": 10, "left": 10},
+  "padding": {"right": 10, "left": 10, "bottom": 60},
   "title": {
     "text": "How each field's balanced across salary, employment, and job-match",
     "subtitle": [
@@ -35,10 +35,10 @@
     {
       "data": {
         "values": [
-          {"tx": 0.38, "ty": 0.18, "ord": 1},
-          {"tx": 0.5, "ty": 0.40, "ord": 2},
-          {"tx": 0.62, "ty": 0.18, "ord": 3},
-          {"tx": 0.38, "ty": 0.18, "ord": 4}
+          {"tx": 0.30, "ty": 0.15, "ord": 1},
+          {"tx": 0.5, "ty": 0.55, "ord": 2},
+          {"tx": 0.70, "ty": 0.15, "ord": 3},
+          {"tx": 0.30, "ty": 0.15, "ord": 4}
         ]
       },
       "mark": {"type": "line", "color": "#a0a8b0", "strokeWidth": 1, "strokeDash": [4, 3]},
@@ -58,10 +58,75 @@
                     "tx": "number", "ty": "number"}
         }
       },
-      "mark": {"type": "circle", "size": 260, "opacity": 0.85, "color": "#1e88e5", "stroke": "white", "strokeWidth": 1.5},
+      "transform": [
+        {"calculate": "trim(replace(datum.study_area, /\\u00a0/g, ' '))", "as": "study_area_clean"}
+      ],
+      "mark": {"type": "circle", "size": 100, "opacity": 0.85, "stroke": "white", "strokeWidth": 1.5},
       "encoding": {
         "x": {"field": "tx", "type": "quantitative", "axis": null, "scale": {"domain": [-0.14, 1.14]}},
         "y": {"field": "ty", "type": "quantitative", "axis": null, "scale": {"domain": [-0.06, 0.98]}},
+        "color": {
+          "field": "study_area_clean",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Agriculture and environmental studies",
+              "Architecture and built environment",
+              "Business and management",
+              "Communications",
+              "Computing and information systems",
+              "Creative arts",
+              "Dentistry",
+              "Engineering",
+              "Health services and support",
+              "Humanities, culture and social sciences",
+              "Law and paralegal studies",
+              "Medicine",
+              "Nursing",
+              "Pharmacy",
+              "Psychology",
+              "Rehabilitation",
+              "Science and mathematics",
+              "Social work",
+              "Teacher education",
+              "Tourism, hospitality, personal services, sport and recreation",
+              "Veterinary science"
+            ],
+            "range": [
+              "#00204d", 
+              "#1f78b4", 
+              "#a6cee3", 
+              "#4a148c", 
+              "#7b3294", 
+              "#c2a5cf", 
+              "#9c27b0", 
+              "#f7b6d2", 
+              "#b2182b", 
+              "#d6604d", 
+              "#f4a582", 
+              "#fddbc7", 
+              "#ff7f00", 
+              "#ffbb78", 
+              "#e3b505", 
+              "#ffeb3b", 
+              "#4dd0e1", 
+              "#000000", 
+              "#7f7f7f", 
+              "#bdbdbd", 
+              "#8c564b"
+            ]
+          },
+          "legend": {
+            "title": "Area of study",
+            "orient": "bottom",
+            "columns": 3,
+            "labelLimit": 300,
+            "titleFontSize": 12,
+            "labelFontSize": 10,
+            "symbolSize": 80,
+            "symbolStrokeWidth": 3
+          }
+        },
         "tooltip": [
           {"field": "study_area", "type": "nominal", "title": "Field"},
           {"field": "Salary", "type": "quantitative", "format": "$,.0f", "title": "Median salary"},
