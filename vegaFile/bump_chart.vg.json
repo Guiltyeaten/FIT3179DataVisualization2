@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 800,
+  "width": "container",
   "height": 700,
   "padding": {
     "right": 5,
@@ -153,8 +153,8 @@
       "legend": {
         "title": "Area of study",
         "orient": "bottom",
-        "columns": 4,
-        "labelLimit": 250,
+        "columns": 3,
+        "labelLimit": 300,
         "titleFontSize": 12,
         "labelFontSize": 11,
         "symbolSize": 80,
