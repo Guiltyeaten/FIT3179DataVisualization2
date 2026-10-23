@@ -18,7 +18,7 @@ Rehabilitation,Salary,75300.0,0.3135802469135803
 Science and mathematics,Salary,73100.0,0.25925925925925924
 Social work,Salary,85300.0,0.5604938271604938
 Teacher education,Salary,82100.0,0.48148148148148145
-"Tourism, hospitality, personal services, sport and recreation",Salary,70000.0,0.18271604938271604
+Tourism, hospitality, personal services, sport and recreation,Salary,70000.0,0.18271604938271604
 Veterinary science,Salary,75000.0,0.30617283950617286
 Agriculture and environmental studies,FTE,80.3,0.629032258064516
 Architecture and built environment,FTE,72.7,0.4539170506912443
@@ -39,7 +39,7 @@ Rehabilitation,FTE,94.0,0.944700460829493
 Science and mathematics,FTE,65.4,0.2857142857142858
 Social work,FTE,79.6,0.6129032258064514
 Teacher education,FTE,86.2,0.7649769585253456
-"Tourism, hospitality, personal services, sport and recreation",FTE,78.6,0.5898617511520735
+Tourism, hospitality, personal services, sport and recreation,FTE,78.6,0.5898617511520735
 Veterinary science,FTE,85.6,0.7511520737327186
 Agriculture and environmental studies,FurtherStudy,11.7,0.24374999999999997
 Architecture and built environment,FurtherStudy,18.5,0.45625
@@ -60,7 +60,7 @@ Rehabilitation,FurtherStudy,3.9,0.0
 Science and mathematics,FurtherStudy,35.9,1.0
 Social work,FurtherStudy,8.7,0.14999999999999997
 Teacher education,FurtherStudy,13.2,0.29062499999999997
-"Tourism, hospitality, personal services, sport and recreation",FurtherStudy,20.4,0.515625
+Tourism, hospitality, personal services, sport and recreation,FurtherStudy,20.4,0.515625
 Veterinary science,FurtherStudy,18.9,0.46874999999999994
 Agriculture and environmental studies,Overqualified,44.6,0.6531690140845071
 Architecture and built environment,Overqualified,40.2,0.5757042253521127
@@ -81,5 +81,5 @@ Rehabilitation,Overqualified,9.1,0.028169014084507036
 Science and mathematics,Overqualified,61.5,0.9507042253521127
 Social work,Overqualified,29.7,0.39084507042253525
 Teacher education,Overqualified,17.5,0.17605633802816903
-"Tourism, hospitality, personal services, sport and recreation",Overqualified,42.5,0.6161971830985916
+Tourism, hospitality, personal services, sport and recreation,Overqualified,42.5,0.6161971830985916
 Veterinary science,Overqualified,31.4,0.42077464788732394
