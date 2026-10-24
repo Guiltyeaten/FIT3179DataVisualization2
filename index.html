@@ -17,6 +17,7 @@
     --rule:      #e6e8eb;
     --bg:        #f7f5f2;   /* warm off-white page background */
     --card:      #ffffff;   /* card surface for charts */
+    --text-bg:   #ebe8e3;   /* slightly darker warm grey for text blocks */
     --soft-bg:   #efece8;
     --page-max:  1180px;
     --gutter:    32px;
@@ -165,9 +166,18 @@
     height: auto;
   }
 
+  /* ---------- Text Panels ---------- */
+  .row > div:not(:has(.chart)):not(.stat) {
+    background: var(--text-bg);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #dfdbd4;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+  }
+
   /* ---------- Note block ---------- */
   .note {
-    background: var(--soft-bg);
+    background: #ffffff;
     border-left: 3px solid #cfd8dc;
     padding: 16px 20px;
     font-size: 15px;
@@ -175,13 +185,18 @@
     color: var(--ink-soft);
     max-width: 72ch;
     border-radius: 0 6px 6px 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
   }
   .note strong { color: var(--ink); }
 
   /* ---------- Stat cards ---------- */
   .stat {
+    background: var(--text-bg);
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid #dfdbd4;
     border-top: 2px solid var(--ink);
-    padding-top: 14px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
   }
   .stat .num {
     display: block;
@@ -209,6 +224,11 @@
     }
     h1 { font-size: 28px; }
     h2 { font-size: 20px; }
+    
+    /* On mobile, remove side padding from text blocks to save space */
+    .row > div:not(:has(.chart)):not(.stat) {
+      padding: 20px;
+    }
   }
 </style>
 </head>
@@ -237,6 +257,9 @@
         <p class="caption">
           <strong>Fig 01.</strong> Average starting salary by highest qualification, 2025. Stems run from $0. Grey bands show the range from the lowest- to highest-paying fields.
         </p>
+        <div class="note" style="margin-top: 24px;">
+          <strong>Look at the grey bands.</strong> They show the massive range of salaries <em>within</em> each qualification. The field you choose creates a $40k swing—proving that <em>what</em> you study matters just as much as <em>how long</em> you study.
+        </div>
       </div>
       
       <div>
@@ -254,9 +277,7 @@
           However, pushing further to a <strong>Postgraduate research</strong> degree (like a PhD) adds only <strong>$11,000</strong> to that median. When you factor in the three to four extra years of study and the opportunity cost of not working, the financial return on a PhD is significantly lower than a Master's.
         </p>
 
-        <div class="note" style="margin-top: 24px;">
-          <strong>Look at the grey bands.</strong> They show the massive range of salaries <em>within</em> each qualification. The field you choose creates a $40k swing—proving that <em>what</em> you study matters just as much as <em>how long</em> you study.
-        </div>
+        
 
       </div>
     </div>
@@ -312,7 +333,7 @@
       <div>
         <h3>Where are the highest earners located?</h3>
         <p>
-          Before looking at graduates, we need to establish the economic baseline they are entering. This map shows the median personal income across Australia. The darkest regions—Sydney's North Shore, the WA Outback North, and the ACT—are the highest earners in the country. Conversely, regions like Wide Bay in Queensland, South-East Tasmania, and the Mid North Coast in NSW represent the lowest income levels.
+          Before looking at graduates, we need to establish the economic baseline they are entering. The darkest regions—Sydney's North Shore, the WA Outback North, and the ACT—are the highest earners in the country. Conversely, regions like Wide Bay in Queensland, South-East Tasmania, and the Mid North Coast in NSW represent the lowest income levels.
         </p>
         <p>
           This chart shows the average income level for everyone in a region, not just graduate students. But it establishes the economic context for the job market that graduates are entering.
@@ -360,7 +381,12 @@
     </div>
 
     <div class="row chart-lead">
-      <div class="chart" id="chart-proportional"></div>
+      <div>
+        <div class="chart" id="chart-proportional"></div>
+        <p class="caption">
+          <strong>Fig 04.</strong> Proportional symbol map of full-time employment rates by university. QILT GOS 2025.
+        </p>
+      </div>
       <div>
         <h3>Do the most prestigious universities offer better employment outcomes?</h3>
         <p>
@@ -372,9 +398,7 @@
         <p>
           Why do regional universities perform so well here? These institutions often have incredibly strong ties to local health, education, and agriculture employers, creating a direct pipeline from graduation to a full-time job. Prestige doesn't always equal employability. 
         </p>
-        <p class="caption">
-          <strong>Fig 04.</strong> Proportional symbol map of full-time employment rates by university. QILT GOS 2025.
-        </p>
+        
       </div>
     </div>
   </section>
@@ -403,11 +427,15 @@
         <p>
           The spread between the highest and lowest earning fields is a massive <strong>$40,000</strong>, and that gap has not narrowed in five years. Your choice of field locks in your baseline salary. 
         </p>
+        
+      </div>
+      <div>
+        <div class="chart" id="chart-slope"></div>
         <p class="caption">
           <strong>Fig 06.</strong> Slope chart. Median starting salary for all 21 undergraduate fields in 2020 vs 2025. 
         </p>
-      </div>
-      <div class="chart" id="chart-slope"></div>
+      </div> 
+      
     </div>
 
     <div class="row chart-lead">
@@ -467,16 +495,21 @@
         <p>
           But this chart only shows the <em>shape</em> of the profile; it doesn't tell us how extreme the differences are. To see the magnitude of these trade-offs, we have to look at the ranks.
         </p>
+        
+      </div>
+      <div>
+        <div class="chart" id="chart-ternary"></div>
         <p class="caption">
           <strong>Fig 08.</strong> Ternary balance plot. Undergraduate 2025.
         </p>
       </div>
-      <div class="chart" id="chart-ternary"></div>
     </div>
 
     <!-- 2. Bump Chart-->
     <div class="row chart-lead" style="margin-top: var(--gap);">
-      <div class="chart" id="chart-bump"></div>
+      <div>
+        <div class="chart" id="chart-bump"></div>
+      </div>
       
       <div>
         <h3>Does a "balanced" profile mean a field is actually a winner?</h3>
@@ -497,30 +530,33 @@
         </p>
       </div>
     </div>
+    
     <!-- 3. Scatter and Multiline -->
     <div class="row" style="margin-top: var(--gap);">
-      <div class="chart" id="chart-scatter"></div>
-      <div class="chart" id="chart-multiline"></div>
-    </div>
-
-    <div class="row" style="margin-top: var(--gap);">
       <div>
-        <h3>Do higher salaries come with better employment?</h3>
-        <p>
-          Rarely. Drag the slider to watch the years tick by. The dots move, but the relationship stays the same: fields like <span style="color: #ffbb78; font-weight: 700; text-shadow: 0 0 1px rgba(0,0,0,0.5);">Pharmacy</span> and <span style="color: #ffeb3b; font-weight: 700; text-shadow: 0 0 1px rgba(0,0,0,0.5);">Rehabilitation</span> sit at the top of the employment axis but the bottom of the salary axis. High pay and high employment are often a trade-off, not a package deal.
-        </p>
-        <p class="caption">
-          <strong>Fig 10.</strong> Animated scatter of salary vs full-time employment, 2020–2025.
-        </p>
+        <div class="chart" id="chart-scatter"></div>
+        <div style="margin-top: 20px;">
+          <h3>Do higher salaries come with better employment?</h3>
+          <p>
+            Rarely. Drag the slider to watch the years tick by. The dots move, but the relationship stays the same: fields like <span style="color: #ffbb78; font-weight: 700; text-shadow: 0 0 1px rgba(0,0,0,0.5);">Pharmacy</span> and <span style="color: #ffeb3b; font-weight: 700; text-shadow: 0 0 1px rgba(0,0,0,0.5);">Rehabilitation</span> sit at the top of the employment axis but the bottom of the salary axis. High pay and high employment are often a trade-off, not a package deal.
+          </p>
+          <p class="caption">
+            <strong>Fig 10.</strong> Animated scatter of salary vs full-time employment, 2020–2025.
+          </p>
+        </div>
       </div>
+
       <div>
-        <h3>Does citizenship status affect your starting salary?</h3>
-        <p>
-          Yes, but the gap is narrowing. The international–domestic salary gap widened sharply through 2022, but has been closing since. Both groups' salaries grew steadily, but the recent narrowing likely reflects a shift in the fields international students are choosing, rather than a sudden change in pay equity.
-        </p>
-        <p class="caption">
-          <strong>Fig 11.</strong> Median starting salary by citizenship, 2016–2024.
-        </p>
+        <div class="chart" id="chart-multiline"></div>
+        <div style="margin-top: 20px;">
+          <h3>Does citizenship status affect your starting salary?</h3>
+          <p>
+            Yes, but the gap is narrowing. The international–domestic salary gap widened sharply through 2022, but has been closing since. Both groups' salaries grew steadily, but the recent narrowing likely reflects a shift in the fields international students are choosing, rather than a sudden change in pay equity.
+          </p>
+          <p class="caption">
+            <strong>Fig 11.</strong> Median starting salary by citizenship, 2016–2024.
+          </p>
+        </div>
       </div>
     </div>
   </section>
@@ -535,7 +571,13 @@
     </div>
 
     <div class="row chart-lead">
-      <div class="chart" id="chart-dumbbell"></div>
+      <div>
+        <div class="chart" id="chart-dumbbell"></div>
+        <p class="caption">
+          <strong>Fig 12.</strong> Male vs female median starting salary, by broad field. Undergraduate 2025. Sorted by the size of the gap.
+        </p>
+      </div>
+      
       <div>
         <h3>Is the gender pay gap universal across all fields?</h3>
         <p>
@@ -547,9 +589,7 @@
         <p>
           The story isn't one of universal disparity—it's that the gap is highly context-dependent. This is crucial for students interpreting the "typical salary" for their chosen discipline. The median salary advertised for a field might hide a significant divergence between what men and women are actually offered.
         </p>
-        <p class="caption">
-          <strong>Fig 12.</strong> Male vs female median starting salary, by broad field. Undergraduate 2025. Sorted by the size of the gap.
-        </p>
+
       </div>
     </div>
   </section>
