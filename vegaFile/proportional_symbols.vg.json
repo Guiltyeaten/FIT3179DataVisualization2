@@ -28,7 +28,7 @@
       "expr": "cityView === 'Sydney' ? [151.20, -33.90] : cityView === 'Melbourne' ? [144.96, -37.81] : cityView === 'Brisbane' ? [153.02, -27.47] : cityView === 'Perth' ? [115.86, -31.95] : cityView === 'Adelaide' ? [138.60, -34.93] : cityView === 'Canberra' ? [149.13, -35.28] : cityView === 'Hobart' ? [147.33, -42.88] : cityView === 'Darwin' ? [130.84, -12.46] : [134.00, -28.00]"
     },
     "scale": {
-      "expr": "cityView === 'Australia' ? 700 : cityView === 'Canberra' ? 40000 : cityView === 'Sydney' ? 80000 : cityView === 'Adelaide' ? 80000 : cityView === 'Hobart' ? 40000 : cityView === 'Darwin' ? 35000 : 25000"
+      "expr": "cityView === 'Australia' ? 700 : cityView === 'Melbourne' ? 80000 : cityView === 'Canberra' ? 40000 : cityView === 'Sydney' ? 90000 : cityView === 'Adelaide' ? 80000 : cityView === 'Hobart' ? 40000 : cityView === 'Darwin' ? 35000 : 25000"
     }
   },
   "layer": [
@@ -73,11 +73,11 @@
           "field": "fte",
           "type": "quantitative",
           "title": "Full-time employment rate (%)",
-          "scale": {"type": "linear", "domain": [70, 90], "range": [30, 500]},
+          "scale": {"type": "linear", "domain": [50, 90], "range": [30, 500]},
           "legend": {
             "orient": "bottom-left",
             "format": ".0f",
-            "values": [70, 80, 90],
+            "values": [50, 75, 90],
             "title": "Full-time employment rate (%)",
             "titleFontSize": 12,
             "labelFontSize": 11
@@ -90,6 +90,49 @@
           {"field": "fte", "type": "quantitative", "format": ".1f", "title": "FTE rate (%)"},
           {"field": "salary", "type": "quantitative", "format": "$,.0f", "title": "Median salary"}
         ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/processedData/institution_outcomes.csv"
+      },
+      "transform": [
+        {"filter": "datum.year == 2025 && datum.course_level == 'UG'"},
+        {"filter": "datum.metric == 'salary' || datum.metric == 'fte'"},
+        {"pivot": "metric", "value": "value", "groupby": ["institution", "year", "course_level"]},
+        {"filter": "isValid(datum.salary) && isValid(datum.fte)"},
+        {
+          "lookup": "institution",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/Guiltyeaten/FIT3179DataVisualization2/main/Data/university_coords.csv"
+            },
+            "key": "institution",
+            "fields": ["lon", "lat", "city", "state"]
+          }
+        },
+        {"filter": "isValid(datum.lon) && isValid(datum.lat)"},
+        {
+          "joinaggregate": [
+            {"op": "max", "field": "fte", "as": "max_fte"},
+            {"op": "min", "field": "fte", "as": "min_fte"}
+          ]
+        },
+        {"filter": "datum.fte == datum.max_fte || datum.fte == datum.min_fte"},
+        {"calculate": "datum.institution + ' (' + format(datum.fte, '.1f') + '%)'", "as": "label_text"}
+      ],
+      "mark": {
+        "type": "text",
+        "dy": -18,
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "color": "#1a3a5c",
+        "align": "center"
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "text": {"field": "fte", "type": "nominal"}
       }
     }
   ]

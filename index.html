@@ -282,41 +282,50 @@
     </div>
 
     <div class="row chart-lead">
-      <div class="chart" id="chart-choropleth"></div>
       <div>
-        <h3>Where are the highest earners located?</h3>
-        <p>
-          This map shows the median personal income across Australia. The darkest regions on this map—Sydney's North Shore, the Eastern Suburbs, and Melbourne's Inner East—earn more than <strong>double</strong> the income of parts of regional Tasmania and northern NSW.
-        </p>
-        <p>
-          But the story isn't just "rich coast, poor inland." The starkest divide is between a handful of inner-city postcodes and the rest of the country. Sydney's North Shore and Eastern Suburbs sit at the very top of the country, alongside Melbourne's Inner East. Meanwhile, the entire Northern Territory, regional South Australia, and western Tasmania anchor the bottom of the distribution.
-        </p>
-        <p>
-          A graduate entering the workforce in Sydney's CBD is stepping into a completely different economic ecosystem than one starting in regional South Australia. The geographic location of their first job will heavily influence their starting salary and lifetime earnings.
-        </p>
+        <div class="chart" id="chart-choropleth"></div>
         <p class="caption">
           <strong>Fig 02.</strong> Median personal income by SA4 region, 2022–23 (ABS). Darker blue represents higher income.
         </p>
+      </div>
+      <div>
+        <h3>Where are the highest earners located?</h3>
+        <p>
+          Before looking at graduates, we need to establish the economic baseline they are entering. This map shows the median personal income across Australia. The darkest regions—Sydney's North Shore, the WA Outback North, and the ACT—are the highest earners in the country. Conversely, regions like Wide Bay in Queensland, South-East Tasmania, and the Mid North Coast in NSW represent the lowest income levels.
+        </p>
+        <p>
+          This charts shows the average income level for everyone in a region, not just graduate students. But it establishes the economic context for the job market that graduates are entering.
+        </p>
+        <p>
+          Average income only tells half the story. For a university student, the question is: <strong>How much <em>they</em> can get for their starting salary?</strong> Do graduates follow this exact same geographic divide, or does the specific university they attend matter more? 
+        </p>
+        <p>
+          The next chart explores the median starting salaries of graduates from different universities across Australia.
+        </p>
+        
       </div>
     </div>
 
     <div class="row text-lead">
       <div>
-        <h3>Is a high income the same as high equality?</h3>
+        <h3>Does the Melbourne and Sydney always pay the most?</h3>
         <p>
-          Not necessarily. Two regions can have the same number of earners and a similar average income, but completely different distributions of wealth. 
+          This map plots the Australian university recorded on QLIS at its real geographic location. The colour of each dot represents the median starting salary for its 2025 undergraduate cohort, from the palest pink (lowest salaries) to the darkest red (highest salaries).
         </p>
         <p>
-          This map colours each region by its <strong>Gini coefficient</strong> — a standard measure of inequality where 0 means everyone earns exactly the same, and 1 means one person takes home everything. Sydney's Eastern Suburbs tops the country at <strong>0.63</strong>; the top 1% of earners there capture nearly a fifth of all income.
+          The common assumption is that studying in a major city—like Sydney or Melbourne—guarantees the highest starting salary. But the data bust that myth. The highest-paying university in the country (the darkest red dot at <strong>$87,100</strong>) is the University of Southern Queensland, located in the regional town of Toowoomba. Meanwhile, some universities in major metro areas (like the lightest dot in Adelaide at <strong>$67,800</strong>) sit at the bottom of the pack.
         </p>
         <p>
-          By contrast, Western Sydney—with a similar number of earners—sits in the palest band, much closer to the national median of 0.48. This tells us that a high-paying region isn't necessarily a region where the average person is better off; sometimes, it just means the rich are <em>much</em> richer.
+          But salary is only one half of the equation. A high-paying job is useless if you can't get one. The next map asks: if we look at <em>employment rates</em> instead of salaries, do these same universities still come out on top?
         </p>
+        
+      </div>
+      <div>
+        <div class="chart" id="chart-colourpoint"></div>
         <p class="caption">
-          <strong>Fig 03.</strong> Bubble size = number of earners. Colour = Gini coefficient (inequality). ABS 2022–23.
+          <strong>Fig 03.</strong> Median starting salary by university, 2025 (QILT GOS). Darker red indicates a higher median starting salary. Use the dropdown to zoom into metropolitan clusters.
         </p>
       </div>
-      <div class="chart" id="chart-colourpoint"></div>
     </div>
   </section>
 

@@ -98,7 +98,7 @@
       },
       "transform": [
         {"filter": "datum.year == 2025 && datum.course_level == 'UG' && datum.metric == 'salary'"},
-        {"filter": "datum.institution === 'University of New England' || datum.institution === 'Torrens University'"},
+        {"filter": "datum.institution === 'University of Southern Queensland' || datum.institution === 'Torrens University'"},
         {
           "lookup": "institution",
           "from": {
