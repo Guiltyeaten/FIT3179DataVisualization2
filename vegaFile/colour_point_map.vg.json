@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Graduate starting salaries across Australian universities",
-    "subtitle": ["Undergraduate · 2025 · colour = median starting salary · source: QILT GOS"],
+    "subtitle": ["Undergraduate 2025, colour = median starting salary, source: QILT GOS"],
     "fontSize": 15,
     "subtitleFontSize": 12,
     "subtitleColor": "#546e7a",

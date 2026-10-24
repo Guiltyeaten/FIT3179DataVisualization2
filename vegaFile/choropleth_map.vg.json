@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Median personal income by SA4 region",
-    "subtitle": ["AUD per year · ABS 2022–23"],
+    "subtitle": ["AUD per year, source: ABS 2022–23"],
     "fontSize": 15,
     "subtitleFontSize": 12,
     "subtitleColor": "#546e7a",

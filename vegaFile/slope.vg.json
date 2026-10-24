@@ -4,8 +4,8 @@
   "height": 500,
   "padding": {"right": 5, "left": 5},
   "title": {
-    "text": "Top 10 fields by starting salary — 2020 vs 2025",
-    "subtitle": ["Undergraduate · broad fields · median starting salary (AUD)"],
+    "text": "Starting salary on different fields — 2020 vs 2025",
+    "subtitle": ["Undergraduate, median starting salary (AUD), source: QILT GOS"],
     "fontSize": 15,
     "subtitleFontSize": 12,
     "subtitleColor": "#546e7a",
@@ -37,9 +37,7 @@
     {
       "window": [{"op": "dense_rank", "as": "rk"}],
       "sort": [{"field": "rank_key", "order": "descending"}]
-    },
-    {"filter": "datum.rk <= 10"}
-  ],
+    }  ],
   "layer": [
     {
       "mark": {
@@ -134,7 +132,7 @@
     },
     {
       "transform": [
-        {"filter": "datum.Year == '2020' && (datum.study_area === 'Dentistry' || datum.study_area === 'Psychology')"},
+        {"filter": "datum.Year == '2020' && (datum.study_area === 'Dentistry' || datum.study_area === 'Pharmacy')"},
         {
           "calculate": "datum.study_area + '  ·  $' + format(datum.median_salary, ',.0f')",
           "as": "label"
@@ -156,7 +154,7 @@
     },
     {
       "transform": [
-        {"filter": "datum.Year == '2025' && (datum.study_area === 'Dentistry' || datum.study_area === 'Psychology')"},
+        {"filter": "datum.Year == '2025' && (datum.study_area === 'Dentistry' || datum.study_area === 'Pharmacy')"},
         {
           "calculate": "datum.study_area + '  ·  $' + format(datum.median_salary, ',.0f')",
           "as": "label"
