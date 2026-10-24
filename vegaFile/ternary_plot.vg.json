@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
-  "height": 500,
+  "height": 600,
   "padding": {"right": 10, "left": 10, "bottom": 60},
   "title": {
     "text": "How each field's balanced across salary, employment, and job-match",
