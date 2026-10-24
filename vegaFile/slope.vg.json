@@ -114,8 +114,8 @@
           "legend": {
             "title": "Area of study",
             "orient": "bottom",
-            "columns": 4,
-            "labelLimit": 180,
+            "columns": 3,
+            "labelLimit": 300,
             "titleFontSize": 11,
             "labelFontSize": 11,
             "symbolSize": 80,
