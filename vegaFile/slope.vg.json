@@ -117,9 +117,9 @@
             "columns": 3,
             "labelLimit": 300,
             "titleFontSize": 11,
-            "labelFontSize": 11,
+            "labelFontSize": 10,
             "symbolSize": 80,
-            "rowPadding": 4,
+            "rowPadding": 3,
             "columnPadding": 8,
             "labelFontWeight": 500
           }

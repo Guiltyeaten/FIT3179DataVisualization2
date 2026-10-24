@@ -238,19 +238,19 @@
         <h3>What level of education offers the best return on investment?</h3>
         
         <p>
-          Every additional year of study costs time, tuition, and lost wages. So when it comes to starting salaries, how much does each level of education add?
+          Every additional year of study costs time, tuition, and lost wages. So when it comes to starting salaries, how much does each level of education add? The answer is not a straight line.
         </p>
         
         <p>
-          The biggest leap in earning power happens at the <strong>Postgraduate coursework</strong>. Moving from an undergraduate degree ($76k) to a postgraduate coursework degree ($101k) adds roughly <strong>$24,000</strong> to median starting salary.
+          The biggest leap in earning power happens at the <strong>Postgraduate coursework</strong> level. Moving from an undergraduate degree ($76k) to a postgraduate coursework degree ($101k) adds roughly <strong>$24,000</strong> to median starting salary. For many students, this represents the "sweet spot" of higher education.
         </p>
         
         <p>
-          However, pushing further to a <strong>Postgraduate research</strong> adds only <strong>$11,000</strong> to that median and is not necessarily worth it as it cost resources and time.
+          However, pushing further to a <strong>Postgraduate research</strong> degree (like a PhD) adds only <strong>$11,000</strong> to that median. When you factor in the three to four extra years of study and the opportunity cost of not working, the financial return on a PhD is significantly lower than a Master's.
         </p>
 
         <div class="note" style="margin-top: 24px;">
-          <strong>Grey bands</strong> shows range of salaries <em>within</em> each qualification. The field you choose creates a $40k swing—meaning <em>what</em> you study matters.
+          <strong>Look at the grey bands.</strong> They show the massive range of salaries <em>within</em> each qualification. The field you choose creates a $40k swing—proving that <em>what</em> you study matters just as much as <em>how long</em> you study.
         </div>
 
       </div>
@@ -277,56 +277,43 @@
     <div class="sec-head">
       <h2>1 · The income landscape graduates enter isn't spread evenly</h2>
       <p>
-        Australia's highest earners cluster in a handful of inner-city regions; the
-        lowest cluster in remote and regional areas. Two maps establish the context
-        for everything that follows.
+        Australia's highest earners cluster in a handful of inner-city regions; the lowest cluster in remote and regional areas. Two maps establish the economic context for everything that follows.
       </p>
     </div>
 
-    <!-- Row 1 — choropleth -->
     <div class="row chart-lead">
       <div class="chart" id="chart-choropleth"></div>
       <div>
-        <h3>Regional income, mapped</h3>
+        <h3>Where are the highest earners located?</h3>
         <p>
-          The darkest regions on this map sit more than <strong>double</strong> the
-          median income of parts of regional Tasmania and northern NSW. But the story
-          isn't just "rich coast, poor inland" — the most striking split is between
-          a handful of inner-city SA4s and everything else.
+          This map shows the median personal income across Australia. The darkest regions on this map—Sydney's North Shore, the Eastern Suburbs, and Melbourne's Inner East—earn more than <strong>double</strong> the income of parts of regional Tasmania and northern NSW.
         </p>
         <p>
-          Sydney's North Shore and Eastern Suburbs sit at the top of the country,
-          alongside Melbourne's Inner East. Meanwhile the whole of the Northern
-          Territory, regional South Australia, and western Tasmania anchor the bottom
-          of the distribution.
+          But the story isn't just "rich coast, poor inland." The starkest divide is between a handful of inner-city postcodes and the rest of the country. Sydney's North Shore and Eastern Suburbs sit at the very top of the country, alongside Melbourne's Inner East. Meanwhile, the entire Northern Territory, regional South Australia, and western Tasmania anchor the bottom of the distribution.
+        </p>
+        <p>
+          A graduate entering the workforce in Sydney's CBD is stepping into a completely different economic ecosystem than one starting in regional South Australia. The geographic location of their first job will heavily influence their starting salary and lifetime earnings.
         </p>
         <p class="caption">
-          <strong>Fig 02.</strong> Median personal income by SA4 region, 2022–23
-          (ABS Personal Income in Australia).
+          <strong>Fig 02.</strong> Median personal income by SA4 region, 2022–23 (ABS). Darker blue represents higher income.
         </p>
       </div>
     </div>
 
-    <!-- Row 2 — colour point map -->
     <div class="row text-lead">
-      
       <div>
-        <h3>Where inequality is worst</h3>
+        <h3>Is a high income the same as high equality?</h3>
         <p>
-          Two regions can have the same number of earners and completely different
-          income distributions. This map colours each region by its <strong>Gini
-          coefficient</strong> — a standard measure of inequality, where 0 means
-          everyone earns the same and 1 means one person takes everything.
+          Not necessarily. Two regions can have the same number of earners and a similar average income, but completely different distributions of wealth. 
         </p>
         <p>
-          Sydney's Eastern Suburbs tops the country at <strong>0.63</strong> — the
-          top 1% of earners there take home nearly a fifth of all income. By contrast,
-          Western Sydney — with a similar number of earners — sits in the palest band,
-          close to the national median of 0.48.
+          This map colours each region by its <strong>Gini coefficient</strong> — a standard measure of inequality where 0 means everyone earns exactly the same, and 1 means one person takes home everything. Sydney's Eastern Suburbs tops the country at <strong>0.63</strong>; the top 1% of earners there capture nearly a fifth of all income.
+        </p>
+        <p>
+          By contrast, Western Sydney—with a similar number of earners—sits in the palest band, much closer to the national median of 0.48. This tells us that a high-paying region isn't necessarily a region where the average person is better off; sometimes, it just means the rich are <em>much</em> richer.
         </p>
         <p class="caption">
-          <strong>Fig 03.</strong> Bubble size = number of earners. Colour = Gini
-          coefficient (inequality). ABS 2022–23.
+          <strong>Fig 03.</strong> Bubble size = number of earners. Colour = Gini coefficient (inequality). ABS 2022–23.
         </p>
       </div>
       <div class="chart" id="chart-colourpoint"></div>
@@ -338,46 +325,43 @@
     <div class="sec-head">
       <h2>2 · Universities in regional Australia often out-earn the Group of Eight</h2>
       <p>
-        The common assumption is that prestigious, big-city universities produce the
-        highest-paid graduates. The data suggests otherwise — the University of New
-        England, a regional campus in Armidale, has the highest undergraduate median
-        in the country.
+        The common assumption is that prestigious, big-city universities produce the highest-paid graduates. The data suggests otherwise.
       </p>
     </div>
 
     <div class="row chart-lead">
       <div class="chart" id="chart-proportional"></div>
       <div>
-        <h3>Geography of graduate outcomes</h3>
+        <h3>Do the most prestigious universities guarantee the best jobs?</h3>
         <p>
-          Each bubble is a university. Size = the proportion of its 2025 undergraduates
-          who found full-time work within four months of finishing. The Group of Eight
-          are the biggest names — but they are not the best performers.
+          This map plots every Australian university at its geographic location. The size of each bubble represents its full-time employment rate—the percentage of 2025 undergraduates who found a full-time job within four months of finishing.
+        </p>
+        <p>
+          While the Group of Eight (in Sydney, Melbourne, and Brisbane) are the biggest names, several smaller, regional universities actually have <strong>larger bubbles</strong>. The University of New England, a regional campus in Armidale, has the highest undergraduate median in the country. 
+        </p>
+        <p>
+          Universities in regional areas often have strong ties to local health, education, and engineering employers, leading to higher immediate employment. Prestige doesn't always equal employability.
         </p>
         <p class="caption">
-          <strong>Fig 04.</strong> Proportional symbol map of full-time employment
-          rates by university. QILT GOS 2025.
+          <strong>Fig 04.</strong> Proportional symbol map of full-time employment rates by university. QILT GOS 2025.
         </p>
       </div>
     </div>
 
     <div class="row text-lead">
       <div>
-        <h3 style="margin-bottom: 12px;">Postgraduate salaries vary twice as much as undergraduate salaries</h3>
+        <h3>Does university choice matter more for undergrads or postgrads?</h3>
         <p style="max-width: 72ch;">
-          Undergraduate salaries cluster tightly between <strong>$67k and $87k</strong>
-          across every Australian university. Postgraduate coursework salaries span
-          <strong>$90k to $135k</strong> — nearly twice the spread. The choice of
-          university matters more at postgraduate level than at undergraduate level.
+          The answer is postgraduate. Undergraduate salaries cluster tightly between <strong>$67k and $87k</strong> across almost every Australian university. It doesn't matter much which one you attend for your bachelor's degree; the field you study is the dominant factor.
         </p>
-        
+        <p>
+          But at the postgraduate level, the spread is nearly twice as wide (<strong>$90k to $135k</strong>). A postgraduate degree from a top-tier institution—or one with strong industry connections—can push your starting salary far above the national average. If you are going to pay for a Master's, the university you choose matters significantly more.
+        </p>
         <p class="caption">
-          <strong>Fig 05.</strong> Jitter dot plot. Each dot is a university.
-          Horizontal position = median starting salary. Vertical jitter is for readability only.
+          <strong>Fig 05.</strong> Jitter dot plot. Each dot is a university. Horizontal position = median starting salary. Vertical jitter is for readability only.
         </p>
       </div>
       <div class="chart" id="chart-jitter"></div>
-      
     </div>
   </section>
 
@@ -386,22 +370,21 @@
     <div class="sec-head">
       <h2>3 · The field you choose matters more than the university you attend</h2>
       <p>
-        Salaries have risen roughly 30% across every field since 2020, and the ranking
-        of those fields has barely moved. Dentistry leads. Pharmacy trails.
+        Salaries have risen roughly 30% across every field since 2020, and the ranking of those fields has barely moved. Dentistry leads. Pharmacy trails.
       </p>
     </div>
 
     <div class="row text-lead">
       <div>
-        <h3>Salary growth 2020–2025</h3>
+        <h3>How has the salary landscape shifted over five years?</h3>
         <p>
-          Every one of the ten highest-paying fields gained over the period. Dentistry
-          pulled furthest ahead — its 2025 median is 27% higher than the second-place
-          field.
+          Every one of the ten highest-paying fields gained ground between 2020 and 2025. Dentistry pulled furthest ahead—its 2025 median is 27% higher than the second-place field (Medicine).
+        </p>
+        <p>
+          Notice how the lines run almost perfectly parallel. This is a crucial insight: while the whole economy is inflating and salaries are rising, the relative hierarchy of these fields is remarkably stable. A field that was at the top in 2020 is almost certainly still at the top today.
         </p>
         <p class="caption">
-          <strong>Fig 06.</strong> Slope chart. The ten highest-paying undergraduate
-          fields in 2025, traced back to their 2020 starting salaries.
+          <strong>Fig 06.</strong> Slope chart. The ten highest-paying undergraduate fields in 2025, traced back to their 2020 starting salaries.
         </p>
       </div>
       <div class="chart" id="chart-slope"></div>
@@ -410,25 +393,21 @@
     <div class="row chart-lead">
       <div class="chart" id="chart-heatmap"></div>
       <div>
-        <h3>Field × year stability</h3>
+        <h3>Is the ranking of fields stable over time?</h3>
         <p>
-          Darker cells = higher salaries. The horizontal bands barely shift across
-          six years — the ranking of fields is remarkably stable.
+          Yes. This heatmap shows every field across six years. Darker cells represent higher salaries, and the fields are sorted from highest-paying to lowest. 
+        </p>
+        <p>
+          If the rankings were volatile, you would see the dark bands zig-zagging up and down. Instead, the horizontal bands barely shift. Even through a global pandemic and a severe cost-of-living crisis, no field moved more than three places in the salary ranking. 
+        </p>
+        <p>
+          This tells us that field choice locks in your starting salary more than any other factor in this dataset. The job market for graduates is highly segmented, and crossing from one band to another is difficult.
         </p>
         <p class="caption">
-          <strong>Fig 07.</strong> Heatmap of median undergraduate salary by field
-          and year, 2020–2025. Fields sorted by 2025 salary.
+          <strong>Fig 07.</strong> Heatmap of median undergraduate salary by field and year, 2020–2025. Fields sorted by 2025 salary.
         </p>
-        <div class="note" style="margin-top: 32px;">
-          <strong>The stability is the finding.</strong> Over six years — including a
-          pandemic and a cost-of-living crisis — no field has moved more than three places
-          in the salary ranking. Field choice locks in starting salary more than any other
-          factor in this dataset.
-        </div>
       </div>
     </div>
-
-    
   </section>
 
   <!-- ================= SECTION 4 · BEYOND SALARY ================= -->
@@ -436,29 +415,25 @@
     <div class="sec-head">
       <h2>4 · Beyond the headline number: gender and qualification level</h2>
       <p>
-        Treating all graduates in a field as identical hides two important variations.
-        Gender changes the picture, and so does how far you take your education.
+        Treating all graduates in a field as identical hides two important variations. Gender changes the picture, and so does how far you take your education.
       </p>
     </div>
 
     <div class="row chart-lead">
       <div class="chart" id="chart-dumbbell"></div>
       <div>
-        <h3>A pay gap in almost every field</h3>
+        <h3>Is the gender pay gap universal across all fields?</h3>
         <p>
-          Female graduates earn less than male graduates in nearly every field, even
-          at the point of first employment. The gap is widest in Architecture and
-          Communications (around <strong>8–10%</strong>), and smallest in Nursing and
-          Pharmacy, where the workforce is highly feminised and award wages dominate.
+          Female graduates earn less than male graduates in almost every single field, even at the very first step of their careers. But the size of the gap depends heavily on the discipline. 
         </p>
         <p>
-          The story isn't universal disparity — it's that the gap <em>depends on the
-          field</em>. This matters for students interpreting the "typical salary" for
-          their discipline.
+          The gap is widest in <strong>Architecture and Communications</strong> (around 8–10%), and smallest in <strong>Nursing and Pharmacy</strong>, where the workforce is highly feminised and award wages dominate. 
+        </p>
+        <p>
+          The story isn't one of universal disparity—it's that the gap is highly context-dependent. This is crucial for students interpreting the "typical salary" for their chosen discipline. The median salary advertised for a field might hide a significant divergence between what men and women are actually offered.
         </p>
         <p class="caption">
-          <strong>Fig 08.</strong> Male vs female median starting salary, by broad
-          field. Undergraduate 2025. Sorted by the size of the gap.
+          <strong>Fig 08.</strong> Male vs female median starting salary, by broad field. Undergraduate 2025. Sorted by the size of the gap.
         </p>
       </div>
     </div>
@@ -478,14 +453,13 @@
       <div>
         <h3>The salary–employment–job-match triangle</h3>
         <p>
-          Each dot is a field. Position shows where its profile leans — toward salary
-          strength, employment strength, or job-match strength. A dot near the centre
-          is equally strong (or weak) on all three.
+          Each dot is a field. Position shows where its profile leans—toward salary strength, employment strength, or job-match strength. A dot near the centre is equally strong (or weak) on all three.
         </p>
         <p>
-          Pharmacy sits on the bottom edge: strongest employment profile, weakest salary.
-          Creative Arts leans hard toward the job-match corner, reflecting the absence
-          of salary and employment strength.
+          Pharmacy sits on the bottom edge: strongest employment profile, weakest salary. Creative Arts leans hard toward the job-match corner, reflecting the absence of both salary and employment strength. 
+        </p>
+        <p>
+          A field like Medicine sits more towards the top: strong salary and strong job-match. But this chart only shows the <em>shape</em> of the profile; it doesn't tell us how extreme the differences are.
         </p>
         <p class="caption">
           <strong>Fig 09.</strong> Ternary balance plot. Undergraduate 2025.
@@ -505,16 +479,16 @@
       <div>
         <h3>The illusion of "balance"</h3>
         <p>
-          The ternary plot above shows the <em>shape</em> of a field's profile. A dot near the centre might look "balanced," but it can also mean a field is simply average at everything.
+          The ternary plot above shows the <em>shape</em> of a field's profile. A dot near the centre might look "balanced," but it can also mean a field is simply average at everything. To see the real stakes, we have to look at the <strong>ranks</strong>.
         </p>
         <p>
-          To see the real stakes, we have to look at the <strong>ranks</strong>. This bump chart reveals the brutal trade-offs hiding behind the profiles.
+          This bump chart reveals the brutal trade-offs hiding behind the profiles. <strong>Pharmacy (blue)</strong> sits mid-pack in the triangle, but here you can see it is actually <strong>Rank 1 for employment</strong> and <strong>Rank 21 for salary</strong>. Conversely, <strong>Dentistry (red)</strong> is Rank 1 for salary but only mid-tier for employment.
         </p>
         <p>
-          <strong>Pharmacy (blue)</strong> sits mid-pack in the triangle, but here you can see it is actually <strong>Rank 1 for employment</strong> and <strong>Rank 21 for salary</strong>. Conversely, <strong>Dentistry (red)</strong> is Rank 1 for salary but mid-tier for employment.
+          The rank on each axis tells the real story of what you are trading away when you choose a field. The centre of the triangle is a trap: it hides the fact that you might be sacrificing top-tier earnings for top-tier employability.
         </p>
         <div class="note" style="margin-top: 24px;">
-          You cannot have it all. The rank on each axis tells the real story of what you are trading away when you choose a field.
+          You cannot have it all. The field that gets you the highest salary is rarely the same field that gets you the highest employment rate.
         </div>
       </div>
     </div>
@@ -527,23 +501,18 @@
 
     <div class="row" style="margin-top: var(--gap);">
       <div>
-        <h3>Salary and employment don't move together</h3>
+        <h3>Do higher salaries come with better employment?</h3>
         <p>
-          Drag the slider to see how the relationship has shifted year by year. Very
-          little has changed: Pharmacy and Rehabilitation sit at the top of the
-          employment axis but the bottom of the salary axis.
+          Rarely. Drag the slider to watch the years tick by. The dots move, but the relationship stays the same: fields like Pharmacy and Rehabilitation sit at the top of the employment axis but the bottom of the salary axis. High pay and high employment are often a trade-off, not a package deal.
         </p>
         <p class="caption">
-          <strong>Fig 11.</strong> Animated scatter of salary vs full-time employment,
-          2020–2025.
+          <strong>Fig 11.</strong> Animated scatter of salary vs full-time employment, 2020–2025.
         </p>
       </div>
       <div>
-        <h3>International graduates earn less — but the gap is narrowing</h3>
+        <h3>Do international graduates earn the same as domestic graduates?</h3>
         <p>
-          The international–domestic salary gap widened through 2022 and has narrowed
-          since. Both groups' salaries grew steadily; the recent narrowing likely
-          reflects a shift in the fields international students are choosing.
+          No, but the gap is narrowing. The international–domestic salary gap widened sharply through 2022, but has been closing since. Both groups' salaries grew steadily, but the recent narrowing likely reflects a shift in the fields international students are choosing, rather than a sudden change in pay equity.
         </p>
         <p class="caption">
           <strong>Fig 12.</strong> Median starting salary by citizenship, 2016–2024.
@@ -562,14 +531,16 @@
       <div>
         <h3>1 · Interest first</h3>
         <p style="font-size: 15px;">
-          There is no perfect field to study, fields that are strong on every outcome. 
-          Students should prioritise interest and aptitude first, and treat salary and employment as secondary considerations.
+          There is no perfect field to study, fields that are strong on some outcome and weak on others. There is always a trade-off.
+          The difficulty of the field is not shown in this study, fields like Dentistry with higher rank on every outcome comes with a much higher workload and longer study time.
+          Students should prioritise interest first, and treat salary and employment as secondary considerations.
         </p>
       </div>
       <div>
         <h3>2 · Selection of University is important</h3>
         <p style="font-size: 15px;">
           The choice of university matters in employment and salary outcomes, especially at postgraduate level. 
+          Some universities have strong ties to local employers which have more employment opportunities, while some universities have higher starting salaries.
           Students should consider the university's location, reputation, and graduate outcomes when making their decision.
         </p>
       </div>
