@@ -47,7 +47,7 @@
         {"filter": "datum.year == 2025 && datum.course_level == 'UG'"},
         {"filter": "datum.metric == 'salary' || datum.metric == 'fte'"},
         {"pivot": "metric", "value": "value", "groupby": ["institution", "year", "course_level"]},
-        {"filter": "isValid(datum.salary) && isValid(datum.fte)"},
+        {"filter": "isValid(datum.fte)"},
         {
           "lookup": "institution",
           "from": {
@@ -58,7 +58,11 @@
             "fields": ["lon", "lat", "city", "state"]
           }
         },
-        {"filter": "isValid(datum.lon) && isValid(datum.lat)"}
+        {"filter": "isValid(datum.lon) && isValid(datum.lat)"},
+        {
+          "calculate": "isValid(datum.salary) && datum.salary > 0 ? '$' + format(datum.salary, ',.0f') : 'N/A'",
+          "as": "salary_display"
+        }
       ],
       "mark": {
         "type": "circle",
@@ -88,7 +92,7 @@
           {"field": "city", "type": "nominal", "title": "City"},
           {"field": "state", "type": "nominal", "title": "State"},
           {"field": "fte", "type": "quantitative", "format": ".1f", "title": "FTE rate (%)"},
-          {"field": "salary", "type": "quantitative", "format": "$,.0f", "title": "Median salary"}
+          {"field": "salary_display", "type": "nominal", "title": "Median salary"}
         ]
       }
     },
@@ -100,7 +104,7 @@
         {"filter": "datum.year == 2025 && datum.course_level == 'UG'"},
         {"filter": "datum.metric == 'salary' || datum.metric == 'fte'"},
         {"pivot": "metric", "value": "value", "groupby": ["institution", "year", "course_level"]},
-        {"filter": "isValid(datum.salary) && isValid(datum.fte)"},
+        {"filter": "isValid(datum.fte)"},
         {
           "lookup": "institution",
           "from": {
@@ -132,7 +136,7 @@
       "encoding": {
         "longitude": {"field": "lon", "type": "quantitative"},
         "latitude": {"field": "lat", "type": "quantitative"},
-        "text": {"field": "fte", "type": "nominal"}
+        "text": {"field": "label_text", "type": "nominal"}
       }
     }
   ]
